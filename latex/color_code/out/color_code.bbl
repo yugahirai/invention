@@ -1,0 +1,222 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global/global}
+    \entry{gidney2024}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=0101a428978c8ddc038880b7a77afd98}{%
+           family={Gidney},
+           familyi={G\bibinitperiod},
+           given={Craig},
+           giveni={C\bibinitperiod}}}%
+        {{hash=6e2584612f4d66917760f430afd52633}{%
+           family={Shutty},
+           familyi={S\bibinitperiod},
+           given={Noah},
+           giveni={N\bibinitperiod}}}%
+        {{hash=1b35a228282adeaed69e72f6fc3a4fcb}{%
+           family={Jones},
+           familyi={J\bibinitperiod},
+           given={Cody},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{c678532385fc78c31cf4f4c368419363}
+      \strng{fullhash}{c678532385fc78c31cf4f4c368419363}
+      \strng{fullhashraw}{c678532385fc78c31cf4f4c368419363}
+      \strng{bibnamehash}{c678532385fc78c31cf4f4c368419363}
+      \strng{authorbibnamehash}{c678532385fc78c31cf4f4c368419363}
+      \strng{authornamehash}{c678532385fc78c31cf4f4c368419363}
+      \strng{authorfullhash}{c678532385fc78c31cf4f4c368419363}
+      \strng{authorfullhashraw}{c678532385fc78c31cf4f4c368419363}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint}
+      \field{title}{Magic state cultivation: growing T states as cheap as CNOT gates}
+      \field{year}{2024}
+      \verb{eprint}
+      \verb 2409.17595
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2409.17595
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2409.17595
+      \endverb
+    \endentry
+    \entry{kesselring2024}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=5eabd83013c689564fca69e7dfdf2432}{%
+           family={Kesselring},
+           familyi={K\bibinitperiod},
+           given={Markus\bibnamedelima S.},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=e43a094530238b2d8787d8a98e6c9925}{%
+           family={Fuente},
+           familyi={F\bibinitperiod},
+           given={Julio\bibnamedelimb C.\bibnamedelimi Magdalena},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim M\bibinitperiod},
+           prefix={de\bibnamedelima la},
+           prefixi={d\bibinitperiod\bibinitdelim l\bibinitperiod}}}%
+        {{hash=c0c5b32815bb5d7c83465d7dadc3b953}{%
+           family={Thomsen},
+           familyi={T\bibinitperiod},
+           given={Felix},
+           giveni={F\bibinitperiod}}}%
+        {{hash=878172bfd75f93a96d3646d7b66c3e48}{%
+           family={Eisert},
+           familyi={E\bibinitperiod},
+           given={Jens},
+           giveni={J\bibinitperiod}}}%
+        {{hash=e3a83db257511112d5a9beb937511c0b}{%
+           family={Bartlett},
+           familyi={B\bibinitperiod},
+           given={Stephen\bibnamedelima D.},
+           giveni={S\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=ad47c8fd3568ab76ce3cc1d3d068c8da}{%
+           family={Brown},
+           familyi={B\bibinitperiod},
+           given={Benjamin\bibnamedelima J.},
+           giveni={B\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{2146bf0ff42122c82bd0008fb230db62}
+      \strng{fullhash}{2146bf0ff42122c82bd0008fb230db62}
+      \strng{fullhashraw}{2146bf0ff42122c82bd0008fb230db62}
+      \strng{bibnamehash}{2146bf0ff42122c82bd0008fb230db62}
+      \strng{authorbibnamehash}{2146bf0ff42122c82bd0008fb230db62}
+      \strng{authornamehash}{2146bf0ff42122c82bd0008fb230db62}
+      \strng{authorfullhash}{2146bf0ff42122c82bd0008fb230db62}
+      \strng{authorfullhashraw}{2146bf0ff42122c82bd0008fb230db62}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{PRX Quantum}
+      \field{title}{Anyon Condensation and the Color Code}
+      \field{volume}{5}
+      \field{year}{2024}
+      \field{pages}{010342}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PRXQuantum.5.010342
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1103/PRXQuantum.5.010342
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1103/PRXQuantum.5.010342
+      \endverb
+    \endentry
+    \entry{kesselring2018}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=5eabd83013c689564fca69e7dfdf2432}{%
+           family={Kesselring},
+           familyi={K\bibinitperiod},
+           given={Markus\bibnamedelima S.},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=7acf4e5b78266bc33305a8ad55a50e55}{%
+           family={Pastawski},
+           familyi={P\bibinitperiod},
+           given={Fernando},
+           giveni={F\bibinitperiod}}}%
+        {{hash=878172bfd75f93a96d3646d7b66c3e48}{%
+           family={Eisert},
+           familyi={E\bibinitperiod},
+           given={Jens},
+           giveni={J\bibinitperiod}}}%
+        {{hash=ad47c8fd3568ab76ce3cc1d3d068c8da}{%
+           family={Brown},
+           familyi={B\bibinitperiod},
+           given={Benjamin\bibnamedelima J.},
+           giveni={B\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{2994a8db4756d89deec9eacb11ba044a}
+      \strng{fullhash}{2994a8db4756d89deec9eacb11ba044a}
+      \strng{fullhashraw}{2994a8db4756d89deec9eacb11ba044a}
+      \strng{bibnamehash}{2994a8db4756d89deec9eacb11ba044a}
+      \strng{authorbibnamehash}{2994a8db4756d89deec9eacb11ba044a}
+      \strng{authornamehash}{2994a8db4756d89deec9eacb11ba044a}
+      \strng{authorfullhash}{2994a8db4756d89deec9eacb11ba044a}
+      \strng{authorfullhashraw}{2994a8db4756d89deec9eacb11ba044a}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Quantum}
+      \field{title}{The boundaries and twist defects of the color code and their applications to topological quantum computation}
+      \field{volume}{3}
+      \field{year}{2018}
+      \field{pages}{128}
+      \range{pages}{1}
+      \verb{urlraw}
+      \verb https://quantum-journal.org/papers/q-2018-10-19-101/
+      \endverb
+      \verb{url}
+      \verb https://quantum-journal.org/papers/q-2018-10-19-101/
+      \endverb
+    \endentry
+    \entry{kubica2015}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=0fe1ec3b788b9fa1e44077bb69c896e5}{%
+           family={Kubica},
+           familyi={K\bibinitperiod},
+           given={Aleksander},
+           giveni={A\bibinitperiod}}}%
+        {{hash=6eac8956638a63351e178a22c773e188}{%
+           family={Yoshida},
+           familyi={Y\bibinitperiod},
+           given={Beni},
+           giveni={B\bibinitperiod}}}%
+        {{hash=7acf4e5b78266bc33305a8ad55a50e55}{%
+           family={Pastawski},
+           familyi={P\bibinitperiod},
+           given={Fernando},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{a6844df0fabf366bb650af3aea5f016c}
+      \strng{fullhash}{a6844df0fabf366bb650af3aea5f016c}
+      \strng{fullhashraw}{a6844df0fabf366bb650af3aea5f016c}
+      \strng{bibnamehash}{a6844df0fabf366bb650af3aea5f016c}
+      \strng{authorbibnamehash}{a6844df0fabf366bb650af3aea5f016c}
+      \strng{authornamehash}{a6844df0fabf366bb650af3aea5f016c}
+      \strng{authorfullhash}{a6844df0fabf366bb650af3aea5f016c}
+      \strng{authorfullhashraw}{a6844df0fabf366bb650af3aea5f016c}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint}
+      \field{title}{Unfolding the color code}
+      \field{year}{2015}
+      \verb{eprint}
+      \verb 1503.02065
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/1503.02065
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/1503.02065
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

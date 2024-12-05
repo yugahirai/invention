@@ -1,0 +1,77 @@
+\usepackage{graphicx}
+\usepackage{luatexja-fontspec}
+\usepackage{caption}
+\usepackage{amsmath,amssymb,bm,braket}
+\usepackage[english]{babel}
+\usepackage{multicol}
+\usepackage{titlesec}
+%\usepackage{gnuplot-lua-tikz}
+\usepackage[top=20truemm,bottom=20truemm,left=20truemm,right=20truemm]{geometry}
+\usepackage{array}
+\usepackage{upgreek}
+\usepackage{fancyhdr}
+\renewcommand{\refname}{}
+\usepackage{listings,jvlisting}
+\usepackage{tikz}
+\usepackage[version=3]{mhchem}
+\usetikzlibrary{external}
+\tikzexternalize
+\lstset{
+  basicstyle={\ttfamily},
+  identifierstyle={\small},
+  commentstyle={\smallitshape},
+  keywordstyle={\small\bfseries},
+  ndkeywordstyle={\small},
+  stringstyle={\small\ttfamily},
+  frame={tb},
+  breaklines=true,
+  columns=[l]{fullflexible},
+  numbers=left,
+  xrightmargin=0pt,
+  xleftmargin=3pt,
+  numberstyle={\scriptsize},
+  stepnumber=1,
+  numbersep=1pt,
+  lineskip=-0.5ex
+}
+\captionsetup[figure]{format=plain, labelformat=simple, labelsep=quad,labelfont=bf,name={Fig.}}
+\captionsetup[table]{format=plain, labelformat=simple, labelsep=quad,labelfont=bf,name={Tab.}}
+\parindent = 0pt
+%[BoldFont=HGSMinchoE]{MSMincho}[BoldFont=HiraMinProN-W6]{HiraMinPro-W3}
+\titleformat{\section}{\normalfont\fontsize{9}{10}\bfseries\fontspec{Times New Roman}}{\thesection.}{1em}{}
+\usepackage[backend=biber,style=numeric,maxnames=99,minnames=1]{biblatex}
+\setmainjfont[BoldFont=HGSMinchoE]{MSMincho}
+%[BoldFont=HGSMinchoE]{MSMincho}[BoldFont=HiraMinProN-W6]{HiraMinPro-W3}
+\addbibresource{utility/REFERENCES.bib}
+\defbibheading{bibliography}[\refname]{\section*{REFERENCES}}
+\renewbibmacro{in:}{}
+\renewbibmacro*{journal+issuetitle}{%
+  \addcomma\space% カンマとスペースを追加
+  \usebibmacro{journal}%
+  \setunit*{\addspace}%
+  \usebibmacro{volume+number+eid}%
+  \setunit{\addspace}%
+  \printfield{note}%
+  \newunit
+}
+\renewbibmacro*{volume+number+eid}{
+  \printfield{volume}%
+  \setunit*{\addnbspace}%
+  \printfield{number}%
+  \setunit{\addcomma\space}%
+  \printfield{eid}
+}
+\DeclareFieldFormat[article]{volume}{\textbf{#1}}
+\DeclareFieldFormat[article]{pages}{#1}
+\DeclareFieldFormat{journaltitle}{#1}
+\usepackage{hyperref}
+\renewenvironment{abstract}{\par\noindent}{\par}
+\newcommand\sm {\langle S \rangle \cap \langle M \rangle}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{claim}{Claim}
+\newtheorem{algorithm}{Algorithm}

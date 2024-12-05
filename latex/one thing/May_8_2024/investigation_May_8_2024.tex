@@ -1,0 +1,64 @@
+\documentclass[a4paper,10.5pt]{ltjsarticle}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{luatexja-fontspec}
+\usepackage[top=10truemm,bottom=15truemm,left=10truemm,right=10truemm]{geometry}
+\usepackage{array}
+\usepackage{upgreek}
+\usepackage{braket}
+\usepackage{fancyhdr}
+\renewcommand{\refname}{}
+\captionsetup[figure]{format=plain, labelformat=simple, labelsep=quad, font=bf}
+\captionsetup[table]{format=plain, labelformat=simple, labelsep=quad, font=bf}
+\parindent = 0pt
+\setmainjfont[BoldFont=HiraMinProN-W6]{HiraMinPro-W3}
+%[BoldFont=HGSMinchoE]{MSMincho}[BoldFont=HiraMinProN-W6]{HiraMinPro-W3}
+\begin{document}
+
+\centerline
+{\huge \bfseries　調査}
+\rightline
+{May/08/2024}
+\leftline
+{}
+\leftline{\large \bfseries 動向}\\
+・ドップラー冷却の限界温度はレーザー冷却の手法から予測できると思われていたが、1990年初頭にアルカリ金属は予測された温度よりも低い温度まで冷却できることが発見された。\\
+\\
+\leftline{\large \bfseries わかっていること}\\
+・slowly varying envelope approximation(SVEA)は、2次のオーダーに依存する波動方程式を1次で近似するRef\cite{1}。\\
+・For a plane wave, there is no transverse spatial variation Ref\cite{1}.\\
+・SVEA has no restriction on the number of harmonics included.\\
+・for far off-resonance beam, the atoms remain in the ground state, but they can reduce their potential energy by moving to a region where the AC Stark shift lowers the ground state energy.\\
+・dipole force can be tailored to attract or repel atoms as needed.\\
+・dipole trap has been used to manipulate and study cold atoms and Bose Einstein condensates→中性原子につながる！？\\
+・By combining optical molassed with a magnetic field gradient, it is possible to simultaneously cool and trap the atoms→Magneto-optifcal trap(MOT) Ref\cite{1}\\
+・ブラウン運動のモデルは、レーザー冷却による冷却限界の原子のモデルに似ているRef\cite{1}。\\
+\\
+\leftline{\large \bfseries 思考}\\
+・dark stateを操作する技術は何に使えるのか。\\
+・optical latticeはおそらく中性原子量子コンピューターのstate preparationにつながる。\\
+\clearpage
+{\Large \bfseries REFERENCES}
+\begin{thebibliography}{1}
+\vspace{-1.5cm}
+  \bibitem{1} M.D. Lukin, Modern Atomic and Optical Physics II
+\end{thebibliography}
+\vspace{50pt}
+\leftline{\bfseries  要調査}
+・超伝導やシリコンスピンで取り除かなければならない異質とは何か\\
+・中性原子のparasitic chargeとは\\
+・中性原子の配列をグラフ理論の点に対応させることで問題を解ける\\
+・中性原子の量子ビット再配列方法\\
+・analog simulationの可能性\\
+・nFT state preparation\\
+・feedforwardとmid-circuit measurementの違い\\
+・Instataneous Quantum Polynomial\\
+・braidingでd以上動かすとどうなるのか\\
+・easy intializationとdifficult intializationはどっちがいいのか\\
+・toric code in magnetic field(ising model)\\
+・bacon-shor code\\
+・neutral adn traped ion approaches rely on light scattering for entropy removal\\
+・中性原子のmeasurement freeなprotocol\\　
+・Sisyphus cooling\\
+\\
+\end{document}

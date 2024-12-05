@@ -1,0 +1,73 @@
+\documentclass[a4paper,10.5pt]{ltjsarticle}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{luatexja-fontspec}
+\usepackage[top=10truemm,bottom=15truemm,left=10truemm,right=10truemm]{geometry}
+\usepackage{array}
+\usepackage{upgreek}
+\usepackage{braket}
+\usepackage{fancyhdr}
+\renewcommand{\refname}{}
+\captionsetup[figure]{format=plain, labelformat=simple, labelsep=quad, font=bf}
+\captionsetup[table]{format=plain, labelformat=simple, labelsep=quad, font=bf}
+\parindent = 0pt
+\setmainjfont[BoldFont=HGSMinchoE]{MSMincho}
+%[BoldFont=HGSMinchoE]{MSMincho}[BoldFont=HiraMinProN-W6]{HiraMinPro-W3}
+\begin{document}
+
+\centerline
+{\huge \bfseries　調査}
+\rightline
+{May/11/2024}
+\leftline
+{}
+\leftline{\large \bfseries 動向}
+・Ref\cite{1}では、様々な原子がそのアドバンテージを生かして、中性原子量子コンピューターに用いられると期待している。\\
+・1つのphysical qubitを複数の原子ので表す方式があるが、欠点が多くてあまり使われていないRef\cite{1}。\\
+・A route to much longer lifetimes is possible using qubits formed by two circular Rydberg states with large principal quantum numbers and maximal azimuthal and magnetic quantum numbers in cryogenic environments Ref\cite{1}.\\
+・A 2-electron neutral atom has demonstrated the erasure conversion protocol for leaked states of radiative decay and blackbody radiation error.\\
+\\
+\leftline{\large \bfseries わかっていること}\\
+・中性原子のqubitのenergy splittingsは$\omega_q/2\pi\geq500$ MHzで、thermal motionの$k_BT/h\leq 1$ MHzよりかなり大きい。そのため、コヒーレント時間が長い。\\
+・Rydberg qubitsを操作するときは、laser fields or combined laser and microwave fieldsを用い、これらはcrosstalkを起こしにくいRef\cite{1}。\\
+・In neutral-atom optical traps, the connectivity of the QPU can be reprogrammed at every single run.\\
+・Conventional work has revealed that leakage error is convertible to erasure error.　A remaining problem is that such (converted) erasure errors continuously happen and accumulate Ref\cite{2}.\\
+\\
+\leftline{\large \bfseries 問題}\\
+・Rydberg stateはコヒーレント時間が短い($100\ \upmu\mathrm{s}$)。\\
+・specific tools and frameworks have also put more focus on the pulse-level
+description of quantum controls, and their optimization to mitigate the impact of noise on the coherence of the intended protocols.\\
+・A big barrier to overcome is non-Pauli errors, erasure errors and
+leakage errors Ref\cite{2}.\\
+\clearpage
+{\Large \bfseries REFERENCES}
+\begin{thebibliography}{1}
+\vspace{-1.5cm}
+  \bibitem{1} M. Morgado and S. Whitlock, Quantum simulation and computing with Rydberg-interacting qubits, arXiv:2011.03031v2
+  \bibitem{2} Fumiyoshi Kobayashi, Erasure-tolerance scheme for the surface codes on Rydberg atomic quantum
+computers, arXiv:2404.12656v2
+\end{thebibliography}
+\vspace{50pt}
+\leftline{\bfseries  要調査}
+・超伝導やシリコンスピンで取り除かなければならない異質とは何か\\
+・中性原子のparasitic chargeとは\\
+・中性原子の配列をグラフ理論の点に対応させることで問題を解ける\\
+・中性原子の量子ビット再配列方法\\
+・analog simulationの可能性\\
+・nFT state preparation\\
+・feedforwardとmid-circuit measurementの違い\\
+・Instataneous Quantum Polynomial\\
+・braidingでd以上動かすとどうなるのか\\
+・easy intializationとdifficult intializationはどっちがいいのか\\
+・toric code in magnetic field(ising model)\\
+・bacon-shor code\\
+・neutral adn traped ion approaches rely on light scattering for entropy removal\\
+・中性原子のmeasurement freeなprotocol\\
+・Sisyphus cooling\\
+・magic intensity, magic-wavelenghth tweezers\\
+・spin echo pulse, magic trapping\\
+\\
+\leftline{\bfseries  解決}
+・cryostats←極低温\\
+\\
+\end{document}

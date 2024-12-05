@@ -1,0 +1,62 @@
+\documentclass[a4paper,10.5pt]{ltjsarticle}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{luatexja-fontspec}
+\usepackage[top=10truemm,bottom=15truemm,left=10truemm,right=10truemm]{geometry}
+\usepackage{array}
+\usepackage{upgreek}
+\usepackage{braket}
+\usepackage{fancyhdr}
+\renewcommand{\refname}{}
+\captionsetup[figure]{format=plain, labelformat=simple, labelsep=quad, font=bf}
+\captionsetup[table]{format=plain, labelformat=simple, labelsep=quad, font=bf}
+\parindent = 0pt
+\setmainjfont[BoldFont=HGSMinchoE]{MSMincho}
+%[BoldFont=HGSMinchoE]{MSMincho}[BoldFont=HiraMinProN-W6]{HiraMinPro-W3}
+\begin{document}
+
+\centerline
+{\huge \bfseries　調査}
+\rightline
+{May/13/2024}
+\leftline
+{}
+\leftline{\large \bfseries わかっていること}
+・LDPC codeでは、あんまり冗長性がありすぎてもいけない(要調査)\\
+・超伝導量子コンピューターはqubitを動かせない→LDPCを適用しずらい。\\
+・LDPC codesは3次元以上で実現できると効率の良いcodeになる。\\
+・LDPCはsurface codeより必要なphysical qubit数が少ない。\\
+・GottesmanによってqLDPCが一定のspace overheadで実現できるとdemonstrateされているが、回路レベルでそのprotocolを実行した人はいない。\\
+・LDPCのdecodingはNP-complete\\
+\\
+\leftline{\large \bfseries 問題}\\
+・qLDPC codesはlong-range connectivityを必要とする。\\
+\\
+{\Large \bfseries REFERENCES}
+\begin{thebibliography}{1}
+\vspace{-1.5cm}
+  \bibitem{1} M. Morgado and S. Whitlock, Quantum simulation and computing with Rydberg-interacting qubits, arXiv:2011.03031v2
+\end{thebibliography}
+\vspace{50pt}
+\leftline{\bfseries  要調査}
+・超伝導やシリコンスピンで取り除かなければならない異質とは何か\\
+・中性原子のparasitic chargeとは\\
+・中性原子の配列をグラフ理論の点に対応させることで問題を解ける\\
+・中性原子の量子ビット再配列方法\\
+・analog simulationの可能性\\
+・nFT state preparation\\
+・feedforwardとmid-circuit measurementの違い\\
+・Instataneous Quantum Polynomial\\
+・braidingでd以上動かすとどうなるのか\\
+・easy intializationとdifficult intializationはどっちがいいのか\\
+・toric code in magnetic field(ising model)\\
+・bacon-shor code\\
+・neutral adn traped ion approaches rely on light scattering for entropy removal\\
+・中性原子のmeasurement freeなprotocol\\
+・Sisyphus cooling\\
+・magic intensity, magic-wavelenghth tweezers\\
+・spin echo pulse, magic trapping\\
+・code distanceの求め方\\
+・LDPC codeでは、あんまり冗長性がありすぎてもいけない\\
+\\
+\end{document}

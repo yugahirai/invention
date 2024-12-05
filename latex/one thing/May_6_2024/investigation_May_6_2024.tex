@@ -1,0 +1,64 @@
+\documentclass[a4paper,10.5pt]{ltjsarticle}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{luatexja-fontspec}
+\usepackage[top=10truemm,bottom=15truemm,left=10truemm,right=10truemm]{geometry}
+\usepackage{array}
+\usepackage{upgreek}
+\usepackage{braket}
+\usepackage{fancyhdr}
+\renewcommand{\refname}{}
+\captionsetup[figure]{format=plain, labelformat=simple, labelsep=quad, font=bf}
+\captionsetup[table]{format=plain, labelformat=simple, labelsep=quad, font=bf}
+\parindent = 0pt
+\setmainjfont[BoldFont=HiraMinProN-W6]{HiraMinPro-W3}
+%[BoldFont=HGSMinchoE]{MSMincho}[BoldFont=HiraMinProN-W6]{HiraMinPro-W3}
+\begin{document}
+
+\centerline
+{\huge \bfseries　調査}
+\rightline
+{May/06/2024}
+\leftline
+{}
+\\
+\leftline{\large \bfseries わかっていること}\\
+・Bacon-Shor codeは他のstabilizer codeより冗長性があるためerrorに強い。\\
+・In Neutral-stom arrays, multi-controlled gates—such as the CCZ, necessary for the correction step—are natively supported on the hardware.\\
+・アルカリ金属の原子について、principal quantum numberがめちゃくちゃ大きい時の状態をRydberg stateという。\\
+・Relativistic effects break the degeneracy of each principal level $n$ such that different $J$ values have different energies Red\cite{2}.\\
+・中性子、陽子はともにスピンの大きさが$1/2$で、中性子と陽子のスピンはそれぞれ打ち消しあうが、ナトリウムでは中性子が陽子よりも一つだけ多いから、核スピンは$1/2$となる。\\
+・Neutral atoms alone have no net charge and no permanent electric dipole moment, but do develop an electric dipole moment $\mathbf{d}$ which can then interact with the electric field with an interaction energy $U(=-\mathbf{d \cdot E})$.\\
+・物理系で連続性が取り入れられると、その系の状態は時間によって拡散され、非可逆的な変化となる。逆に物理系が離散的であれば可逆的な変化が可能となる。←妄想\\
+\\
+\leftline{\large \bfseries 問題}\\
+・(i) determining the most adsequate form of redundancy in the syndrome extraction, (ii) possibly placing flag operations in stabilizers extrac tions, and (iii) designing a correction circuit benefiting from the redundancy→これらを任意のstabilizer  codeに広げるRef\cite{1}\\
+・the noise model for Rydberg atoms is undoubtedly overly simplistic, as it neglects other sources of errors, such as atom loss or leakage outside of the computational subspace.\\
+\\
+\leftline{\large \bfseries 思考}\\
+・flagがいるときといらないときの違いがわからないRef\cite{1}\\
+\clearpage
+{\Large \bfseries REFERENCES}
+\begin{thebibliography}{1}
+\vspace{-1.5cm}
+  \bibitem{1} Stefano Veroni, Markus Müller, and Giacomo Giudice, Optimized measurement-free and fault-tolerant quantum error correction for neutral atoms, arXiv:2404.11663v1.
+  \bibitem{2} M.D. Lukin, Modern Atomic and Optical Physics II
+\end{thebibliography}
+\vspace{50pt}
+\leftline{\bfseries  要調査}
+・超伝導やシリコンスピンで取り除かなければならない異質とは何か\\
+・中性原子のparasitic chargeとは\\
+・中性原子の配列をグラフ理論の点に対応させることで問題を解ける\\
+・中性原子の量子ビット再配列方法\\
+・analog simulationの可能性\\
+・nFT state preparation\\
+・feedforwardとmid-circuit measurementの違い\\
+・Instataneous Quantum Polynomial\\
+・braidingでd以上動かすとどうなるのか\\
+・easy intializationとdifficult intializationはどっちがいいのか\\
+・toric code in magnetic field(ising model)\\
+・bacon-shor code\\
+・neutral adn traped ion approaches rely on light scattering for entropy removal\\
+・中性原子のmeasurement freeなprotocol\\　
+\\
+\end{document}

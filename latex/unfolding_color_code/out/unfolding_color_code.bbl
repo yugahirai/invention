@@ -1,0 +1,144 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global/global}
+    \entry{fowler2019}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=963708fd18e82e5d31c988cc8f3f7758}{%
+           family={Fowler},
+           familyi={F\bibinitperiod},
+           given={Austin\bibnamedelima G.},
+           giveni={A\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=0101a428978c8ddc038880b7a77afd98}{%
+           family={Gidney},
+           familyi={G\bibinitperiod},
+           given={Craig},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{a13763417f9252d4835d33455568824f}
+      \strng{fullhash}{a13763417f9252d4835d33455568824f}
+      \strng{fullhashraw}{a13763417f9252d4835d33455568824f}
+      \strng{bibnamehash}{a13763417f9252d4835d33455568824f}
+      \strng{authorbibnamehash}{a13763417f9252d4835d33455568824f}
+      \strng{authornamehash}{a13763417f9252d4835d33455568824f}
+      \strng{authorfullhash}{a13763417f9252d4835d33455568824f}
+      \strng{authorfullhashraw}{a13763417f9252d4835d33455568824f}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint}
+      \field{title}{Low overhead quantum computation using lattice surgery}
+      \field{year}{2019}
+      \verb{eprint}
+      \verb 1908.06709
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/1908.06709
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/1908.06709
+      \endverb
+    \endentry
+    \entry{fu2024}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=55156092e6bf4ebc5ca5926d3926d5a5}{%
+           family={Fu},
+           familyi={F\bibinitperiod},
+           given={Xiaozhen},
+           giveni={X\bibinitperiod}}}%
+        {{hash=7547b3f3d9b6b3aebccf1577d598b7de}{%
+           family={Gottesman},
+           familyi={G\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{b340fd23f74d6fa44524ea333f61c631}
+      \strng{fullhash}{b340fd23f74d6fa44524ea333f61c631}
+      \strng{fullhashraw}{b340fd23f74d6fa44524ea333f61c631}
+      \strng{bibnamehash}{b340fd23f74d6fa44524ea333f61c631}
+      \strng{authorbibnamehash}{b340fd23f74d6fa44524ea333f61c631}
+      \strng{authornamehash}{b340fd23f74d6fa44524ea333f61c631}
+      \strng{authorfullhash}{b340fd23f74d6fa44524ea333f61c631}
+      \strng{authorfullhashraw}{b340fd23f74d6fa44524ea333f61c631}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint}
+      \field{title}{Error Correction in Dynamical Codes}
+      \field{year}{2024}
+      \verb{eprint}
+      \verb 2403.04163
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2403.04163
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2403.04163
+      \endverb
+    \endentry
+    \entry{gidney2024}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=0101a428978c8ddc038880b7a77afd98}{%
+           family={Gidney},
+           familyi={G\bibinitperiod},
+           given={Craig},
+           giveni={C\bibinitperiod}}}%
+        {{hash=6e2584612f4d66917760f430afd52633}{%
+           family={Shutty},
+           familyi={S\bibinitperiod},
+           given={Noah},
+           giveni={N\bibinitperiod}}}%
+        {{hash=1b35a228282adeaed69e72f6fc3a4fcb}{%
+           family={Jones},
+           familyi={J\bibinitperiod},
+           given={Cody},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{c678532385fc78c31cf4f4c368419363}
+      \strng{fullhash}{c678532385fc78c31cf4f4c368419363}
+      \strng{fullhashraw}{c678532385fc78c31cf4f4c368419363}
+      \strng{bibnamehash}{c678532385fc78c31cf4f4c368419363}
+      \strng{authorbibnamehash}{c678532385fc78c31cf4f4c368419363}
+      \strng{authornamehash}{c678532385fc78c31cf4f4c368419363}
+      \strng{authorfullhash}{c678532385fc78c31cf4f4c368419363}
+      \strng{authorfullhashraw}{c678532385fc78c31cf4f4c368419363}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint}
+      \field{title}{Magic state cultivation: growing T states as cheap as CNOT gates}
+      \field{year}{2024}
+      \verb{eprint}
+      \verb 2409.17595
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2409.17595
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2409.17595
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

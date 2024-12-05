@@ -1,0 +1,11 @@
+# Fdb version 4
+["lualatex"] 1729074490.22195 "c:/Users/Yuga Hirai/Desktop/latex/color_code/color_code.tex" "out/color_code.pdf" "color_code" 1729074490.73182 2
+  "c:/Users/Yuga Hirai/Desktop/latex/color_code/color_code.tex" 1729074484 9210 eed7824b09aa55c71e6285b123f9e558 ""
+  "c:/texlive/2024/texmf-var/web2c/luahbtex/lualatex.fmt" 1715403061 12259471 b0d15979625b6a7c5f5f5e1ed568f46b ""
+  "color_code.tex" 1729074484 9210 eed7824b09aa55c71e6285b123f9e558 ""
+  "out/color_code.aux" 1729074488 3194 80e6f5c87636588d82730137579b4c8d "lualatex"
+  (generated)
+  "out/color_code.aux"
+  "out/color_code.log"
+  "out/color_code.pdf"
+  (rewritten before read)

@@ -1,0 +1,56 @@
+\documentclass[a4paper,10.5pt]{ltjsarticle}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{luatexja-fontspec}
+\usepackage[top=10truemm,bottom=15truemm,left=10truemm,right=10truemm]{geometry}
+\usepackage{array}
+\usepackage{upgreek}
+\usepackage{braket}
+\usepackage{fancyhdr}
+\renewcommand{\refname}{}
+\captionsetup[figure]{format=plain, labelformat=simple, labelsep=quad, font=bf}
+\captionsetup[table]{format=plain, labelformat=simple, labelsep=quad, font=bf}
+\parindent = 0pt
+\setmainjfont[BoldFont=HiraMinProN-W6]{HiraMinPro-W3}
+%[BoldFont=HGSMinchoE]{MSMincho}[BoldFont=HiraMinProN-W6]{HiraMinPro-W3}
+\begin{document}
+
+\centerline
+{\huge \bfseries　調査}
+\rightline
+{May/03/2024}
+\leftline
+{}
+　Surface codeのlattice surgeryについて。\\
+\\
+\leftline{\large \bfseries わかっていること}\\
+・physiacal qubitのerror率がある閾値を越えないとlogical qubitの冗長性は意味ない。\\
+・the requirement for transversal two-qubit gates has previously made a planar encoding unfeasible for many systems where the physical qubits are confined in 2D and subject only to NN interaction Ref\cite{1}←To solve this problem, we can use lattice surgery\\
+・lattice surgeryはCNOTを実装するのに53 physical qubitsしか必要なく、defect-based CNOTより少ないRef\cite{1}。\\
+・surface codeはsyndrome measurementがあるから3倍のphysical qubitが必要\\
+\\
+\leftline{\large \bfseries 問題}\\
+・surface codingでどのようにlogical qubitを配列させるか\\
+\\
+\leftline{\large \bfseries 思考}\\
+・surface codeでは辺と辺を繋ぐchainをlogical operatorだと思うため、それと同じようなerror chainが起きた時はlogical operatorなのか、errorなのかわからないため、code distanceはsurface codeの辺と辺の距離に一致する→これより、エラー訂正には大体d回の操作が入る。\\
+\\
+{\Large \bfseries REFERENCE}
+\begin{thebibliography}{1}
+\vspace{-1.5cm}
+  \bibitem{1} Dominic Horsman, Austin G. Fowler, Surface code quantum computing by lattice surgery, arXiv:1111.4022v3
+\end{thebibliography}
+\leftline{\bfseries  要調査}
+・超伝導やシリコンスピンで取り除かなければならない異質とは何か\\
+・中性原子のparasitic chargeとは\\
+・中性原子の配列をグラフ理論の点に対応させることで問題を解ける\\
+・中性原子の量子ビット再配列方法\\
+・analog simulationの可能性\\
+・nFT state preparation\\
+・feedforwardとmid-circuit measurementの違い\\
+・Instataneous Quantum Polynomial\\
+・braidingでd以上動かすとどうなるのか\\
+・easy intializationとdifficult intializationはどっちがいいのか\\
+・toric code in magnetic field(ising model)\\
+\\
+\end{document}

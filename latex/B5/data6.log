@@ -1,0 +1,966 @@
+This is LuaHBTeX, Version 1.16.0 (TeX Live 2023)  (format=lualatex 2023.10.26)  11 DEC 2023 23:09
+ system commands enabled.
+ file:line:error style messages enabled.
+**data6.tex
+(./data6.tex
+LaTeX2e <2022-11-01> patch level 1
+Lua module: luaotfload 2022-10-03 3.23 Lua based OpenType font support
+Lua module: lualibs 2022-10-04 2.75 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2022-10-04 2.75 ConTeXt Lua libraries -- extended collection.
+luaotfload | conf : Root cache directory is "/Users/hiraiyuuware/Library/texlive/2023/texmf-var/luatex-cache/generic/names".
+luaotfload | init : Loading fontloader "fontloader-2022-10-03.lua" from kpse-resolved path "/usr/local/texlive/2023/texmf-dist/tex/luatex/luaotfload/fontloader-2022-10-03.lua".
+Lua-only attribute luaotfload@noligature = 1
+luaotfload | init : Context OpenType loader version 3.120
+Inserting `luaotfload.node_processor' in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' in `hpack_filter'.
+Inserting `luaotfload.glyph_stream' in `glyph_stream_provider'.
+Inserting `luaotfload.define_font' in `define_font'.
+Lua-only attribute luaotfload_color_attribute = 2
+luaotfload | conf : Root cache directory is "/Users/hiraiyuuware/Library/texlive/2023/texmf-var/luatex-cache/generic/names".
+Inserting `luaotfload.harf.strip_prefix' in `find_opentype_file'.
+Inserting `luaotfload.harf.strip_prefix' in `find_truetype_file'.
+Removing  `luaotfload.glyph_stream' from `glyph_stream_provider'.
+Inserting `luaotfload.harf.glyphstream' in `glyph_stream_provider'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_hlist' in `hpack_filter'.
+Inserting `luaotfload.cleanup_files' in `wrapup_run'.
+Inserting `luaotfload.harf.finalize_unicode' in `finish_pdffile'.
+Inserting `luaotfload.glyphinfo' in `glyph_info'.
+Lua-only attribute luaotfload.letterspace_done = 3
+Inserting `luaotfload.aux.set_sscale_dimens' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_font_index' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.patch_cambria_domh' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.fixup_fontdata' in `luaotfload.patch_font_unsafe'.
+Inserting `luaotfload.aux.set_capheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_xheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.rewrite_fontname' in `luaotfload.patch_font'. L3 programming layer <2023-02-22>
+Inserting `tracingstacklevels' in `input_level_string'.
+./data6.tex:1: Undefined control sequence.
+l.1 \scalebox
+           {0.7}[0.7]{
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+./data6.tex:1: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \scalebox{0
+             .7}[0.7]{
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./data6.tex:2: LaTeX Error: Environment tikzpicture undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 \begin{tikzpicture}
+                     [gnuplot]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./data6.tex:5: Undefined control sequence.
+l.5 \path
+        (0.000,0.000) rectangle (12.500,8.750);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./data6.tex:6: Undefined control sequence.
+l.6 \gpcolor
+          {color=gp lt color border}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./data6.tex:7: Undefined control sequence.
+l.7 \gpsetlinetype
+                {gp lt border}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./data6.tex:8: Undefined control sequence.
+l.8 \gpsetdashtype
+                {gp dt solid}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./data6.tex:9: Undefined control sequence.
+l.9 \gpsetlinewidth
+                 {1.00}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./data6.tex:10: Undefined control sequence.
+l.10 \draw
+        [gp path] (0.018,0.031)--(0.198,0.031);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./data6.tex:11: Undefined control sequence.
+l.11 \draw
+        [gp path] (12.480,0.031)--(12.300,0.031);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./data6.tex:12: Undefined control sequence.
+l.12 \node
+        [gp node right] at (-0.166,0.031) {$1.46$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 12.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 12.
+./data6.tex:13: Undefined control sequence.
+l.13 \draw
+        [gp path] (0.018,1.117)--(0.198,1.117);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./data6.tex:14: Undefined control sequence.
+l.14 \draw
+        [gp path] (12.480,1.117)--(12.300,1.117);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./data6.tex:15: Undefined control sequence.
+l.15 \node
+        [gp node right] at (-0.166,1.117) {$1.48$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./data6.tex:16: Undefined control sequence.
+l.16 \draw
+        [gp path] (0.018,2.203)--(0.198,2.203);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./data6.tex:17: Undefined control sequence.
+l.17 \draw
+        [gp path] (12.480,2.203)--(12.300,2.203);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./data6.tex:18: Undefined control sequence.
+l.18 \node
+        [gp node right] at (-0.166,2.203) {$1.5$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./data6.tex:19: Undefined control sequence.
+l.19 \draw
+        [gp path] (0.018,3.289)--(0.198,3.289);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./data6.tex:20: Undefined control sequence.
+l.20 \draw
+        [gp path] (12.480,3.289)--(12.300,3.289);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./data6.tex:21: Undefined control sequence.
+l.21 \node
+        [gp node right] at (-0.166,3.289) {$1.52$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./data6.tex:22: Undefined control sequence.
+l.22 \draw
+        [gp path] (0.018,4.375)--(0.198,4.375);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./data6.tex:23: Undefined control sequence.
+l.23 \draw
+        [gp path] (12.480,4.375)--(12.300,4.375);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./data6.tex:24: Undefined control sequence.
+l.24 \node
+        [gp node right] at (-0.166,4.375) {$1.54$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./data6.tex:25: Undefined control sequence.
+l.25 \draw
+        [gp path] (0.018,5.460)--(0.198,5.460);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./data6.tex:26: Undefined control sequence.
+l.26 \draw
+        [gp path] (12.480,5.460)--(12.300,5.460);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./data6.tex:27: Undefined control sequence.
+l.27 \node
+        [gp node right] at (-0.166,5.460) {$1.56$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./data6.tex:28: Undefined control sequence.
+l.28 \draw
+        [gp path] (0.018,6.546)--(0.198,6.546);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./data6.tex:29: Undefined control sequence.
+l.29 \draw
+        [gp path] (12.480,6.546)--(12.300,6.546);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./data6.tex:30: Undefined control sequence.
+l.30 \node
+        [gp node right] at (-0.166,6.546) {$1.58$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./data6.tex:31: Undefined control sequence.
+l.31 \draw
+        [gp path] (0.018,7.632)--(0.198,7.632);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./data6.tex:32: Undefined control sequence.
+l.32 \draw
+        [gp path] (12.480,7.632)--(12.300,7.632);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./data6.tex:33: Undefined control sequence.
+l.33 \node
+        [gp node right] at (-0.166,7.632) {$1.6$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./data6.tex:34: Undefined control sequence.
+l.34 \draw
+        [gp path] (0.018,8.718)--(0.198,8.718);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./data6.tex:35: Undefined control sequence.
+l.35 \draw
+        [gp path] (12.480,8.718)--(12.300,8.718);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./data6.tex:36: Undefined control sequence.
+l.36 \node
+        [gp node right] at (-0.166,8.718) {$1.62$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./data6.tex:37: Undefined control sequence.
+l.37 \draw
+        [gp path] (0.018,0.031)--(0.018,0.211);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./data6.tex:38: Undefined control sequence.
+l.38 \draw
+        [gp path] (0.018,8.718)--(0.018,8.538);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./data6.tex:39: Undefined control sequence.
+l.39 \node
+        [gp node center] at (0.018,-0.277) {$-150$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./data6.tex:40: Undefined control sequence.
+l.40 \draw
+        [gp path] (2.095,0.031)--(2.095,0.211);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./data6.tex:41: Undefined control sequence.
+l.41 \draw
+        [gp path] (2.095,8.718)--(2.095,8.538);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./data6.tex:42: Undefined control sequence.
+l.42 \node
+        [gp node center] at (2.095,-0.277) {$-100$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./data6.tex:43: Undefined control sequence.
+l.43 \draw
+        [gp path] (4.172,0.031)--(4.172,0.211);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./data6.tex:44: Undefined control sequence.
+l.44 \draw
+        [gp path] (4.172,8.718)--(4.172,8.538);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./data6.tex:45: Undefined control sequence.
+l.45 \node
+        [gp node center] at (4.172,-0.277) {$-50$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./data6.tex:46: Undefined control sequence.
+l.46 \draw
+        [gp path] (6.249,0.031)--(6.249,0.211);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./data6.tex:47: Undefined control sequence.
+l.47 \draw
+        [gp path] (6.249,8.718)--(6.249,8.538);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./data6.tex:48: Undefined control sequence.
+l.48 \node
+        [gp node center] at (6.249,-0.277) {$0$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./data6.tex:49: Undefined control sequence.
+l.49 \draw
+        [gp path] (8.326,0.031)--(8.326,0.211);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./data6.tex:50: Undefined control sequence.
+l.50 \draw
+        [gp path] (8.326,8.718)--(8.326,8.538);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./data6.tex:51: Undefined control sequence.
+l.51 \node
+        [gp node center] at (8.326,-0.277) {$50$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./data6.tex:52: Undefined control sequence.
+l.52 \draw
+        [gp path] (10.403,0.031)--(10.403,0.211);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./data6.tex:53: Undefined control sequence.
+l.53 \draw
+        [gp path] (10.403,8.718)--(10.403,8.538);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./data6.tex:54: Undefined control sequence.
+l.54 \node
+        [gp node center] at (10.403,-0.277) {$100$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./data6.tex:55: Undefined control sequence.
+l.55 \draw
+        [gp path] (12.480,0.031)--(12.480,0.211);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./data6.tex:56: Undefined control sequence.
+l.56 \draw
+        [gp path] (12.480,8.718)--(12.480,8.538);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./data6.tex:57: Undefined control sequence.
+l.57 \node
+        [gp node center] at (12.480,-0.277) {$150$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./data6.tex:58: Undefined control sequence.
+l.58 \draw
+        [gp path] (0.018,8.718)--(0.018,0.031)--(12.480,0.031)--(12.480,8.71...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./data6.tex:59: Undefined control sequence.
+l.59 \node
+        [gp node center,rotate=-270,font={\fontsize{17.0pt}{20.4pt}\selectfo...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+luaotfload | db : Font names database loaded from /Users/hiraiyuuware/Library/texlive/2023/texmf-var/luatex-cache/generic/names/luaotfload-names.luc.gz
+./data6.tex:60: Undefined control sequence.
+l.60 \node
+        [gp node center,font={\fontsize{17.0pt}{20.4pt}\selectfont}] at (6.2...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./data6.tex:60: Undefined control sequence.
+<argument> \upmu 
+      m
+l.60 ...中心からの距離$r\ /\ \mathrm{\upmu m}
+                                                  $};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./data6.tex:61: Undefined control sequence.
+l.61 \gpcolor
+           {rgb color={0.000,0.000,0.000}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./data6.tex:62: Undefined control sequence.
+l.62 \draw
+        [gp path] (0.018,0.255)--(0.056,0.287)--(0.118,0.282)--(0.179,0.273)...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./data6.tex:97: Undefined control sequence.
+l.97 \gpsetpointsize
+                  {1.20}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./data6.tex:98: Undefined control sequence.
+l.98 \gp
+      3point{gp mark 7}{}{(0.056,0.287)}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./data6.tex:99: Undefined control sequence.
+l.99 \gp
+      3point{gp mark 7}{}{(0.118,0.282)}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./data6.tex:100: Undefined control sequence.
+l.100 \gp
+       3point{gp mark 7}{}{(0.179,0.273)}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./data6.tex:101: Undefined control sequence.
+l.101 \gp
+       3point{gp mark 7}{}{(0.240,0.304)}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./data6.tex:102: Undefined control sequence.
+l.102 \gp
+       3point{gp mark 7}{}{(0.302,0.247)}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./data6.tex:103: Undefined control sequence.
+l.103 \gp
+       3point{gp mark 7}{}{(0.363,0.287)}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./data6.tex:104: Undefined control sequence.
+l.104 \gp
+       3point{gp mark 7}{}{(0.424,0.335)}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./data6.tex:105: Undefined control sequence.
+l.105 \gp
+       3point{gp mark 7}{}{(0.486,0.287)}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./data6.tex:106: Undefined control sequence.
+l.106 \gp
+       3point{gp mark 7}{}{(0.547,0.278)}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./data6.tex:107: Undefined control sequence.
+l.107 \gp
+       3point{gp mark 7}{}{(0.608,0.295)}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./data6.tex:108: Undefined control sequence.
+l.108 \gp
+       3point{gp mark 7}{}{(0.670,0.331)}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./data6.tex:109: Undefined control sequence.
+l.109 \gp
+       3point{gp mark 7}{}{(0.731,0.300)}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./data6.tex:110: Undefined control sequence.
+l.110 \gp
+       3point{gp mark 7}{}{(0.792,0.278)}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./data6.tex:111: Undefined control sequence.
+l.111 \gp
+       3point{gp mark 7}{}{(0.853,0.273)}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./data6.tex:112: Undefined control sequence.
+l.112 \gp
+       3point{gp mark 7}{}{(0.915,0.247)}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./data6.tex:113: Undefined control sequence.
+l.113 \gp
+       3point{gp mark 7}{}{(0.976,0.243)}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./data6.tex:114: Undefined control sequence.
+l.114 \gp
+       3point{gp mark 7}{}{(1.037,0.326)}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./data6.tex:115: Undefined control sequence.
+l.115 \gp
+       3point{gp mark 7}{}{(1.099,0.243)}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./data6.tex:116: Undefined control sequence.
+l.116 \gp
+       3point{gp mark 7}{}{(1.160,0.282)}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./data6.tex:117: Undefined control sequence.
+l.117 \gp
+       3point{gp mark 7}{}{(1.221,0.260)}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./data6.tex:118: Undefined control sequence.
+l.118 \gp
+       3point{gp mark 7}{}{(1.283,0.313)}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./data6.tex:119: Undefined control sequence.
+l.119 \gp
+       3point{gp mark 7}{}{(1.344,0.340)}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./data6.tex:120: Undefined control sequence.
+l.120 \gp
+       3point{gp mark 7}{}{(1.405,0.278)}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./data6.tex:121: Undefined control sequence.
+l.121 \gp
+       3point{gp mark 7}{}{(1.467,0.317)}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./data6.tex:122: Undefined control sequence.
+l.122 \gp
+       3point{gp mark 7}{}{(1.528,0.273)}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./data6.tex:123: Undefined control sequence.
+l.123 \gp
+       3point{gp mark 7}{}{(1.589,0.313)}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./data6.tex:124: Undefined control sequence.
+l.124 \gp
+       3point{gp mark 7}{}{(1.651,0.344)}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./data6.tex:125: Undefined control sequence.
+l.125 \gp
+       3point{gp mark 7}{}{(1.712,0.326)}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./data6.tex:126: Undefined control sequence.
+l.126 \gp
+       3point{gp mark 7}{}{(1.773,0.295)}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./data6.tex:127: Undefined control sequence.
+l.127 \gp
+       3point{gp mark 7}{}{(1.834,0.295)}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./data6.tex:128: Undefined control sequence.
+l.128 \gp
+       3point{gp mark 7}{}{(1.896,0.313)}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./data6.tex:129: Undefined control sequence.
+l.129 \gp
+       3point{gp mark 7}{}{(1.957,0.375)}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./data6.tex:130: Undefined control sequence.
+l.130 \gp
+       3point{gp mark 7}{}{(2.018,0.335)}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./data6.tex:131: Undefined control sequence.
+l.131 \gp
+       3point{gp mark 7}{}{(2.080,0.375)}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./data6.tex:132: Undefined control sequence.
+l.132 \gp
+       3point{gp mark 7}{}{(2.141,0.375)}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./data6.tex:133: Undefined control sequence.
+l.133 \gp
+       3point{gp mark 7}{}{(2.202,0.366)}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./data6.tex:134: Undefined control sequence.
+l.134 \gp
+       3point{gp mark 7}{}{(2.264,0.357)}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./data6.tex:135: Undefined control sequence.
+l.135 \gp
+       3point{gp mark 7}{}{(2.325,0.414)}
+(That makes 100 errors; please try again.)
+
+Here is how much of LuaTeX's memory you used:
+ 24 strings out of 478285
+ 100000,1977958 words of node,token memory allocated
+ 46424 words of node memory still in use:
+   2 hlist, 1 local_par, 1 dir, 36 math, 343 glue, 5 kern, 6146 glyph, 108 attribute, 39 glue_spec, 108 attribute_list, 1 temp nodes
+   avail lists: 3:4,4:1,5:4,8:4,9:2
+ 20348 multiletter control sequences out of 65536+600000
+ 25 fonts using 1345055 bytes
+ 18i,2n,12p,162b,66s stack positions out of 10000i,1000n,20000p,200000b,200000s
+./data6.tex:135:  ==> Fatal error occurred, no output PDF file produced!

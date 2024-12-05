@@ -1,0 +1,65 @@
+\documentclass[a4paper,10.5pt]{ltjsarticle}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{luatexja-fontspec}
+\usepackage[top=10truemm,bottom=15truemm,left=10truemm,right=10truemm]{geometry}
+\usepackage{array}
+\usepackage{upgreek}
+\usepackage{braket}
+\usepackage{fancyhdr}
+\usepackage{amsmath, amssymb}
+\usepackage{type1cm}
+\renewcommand{\refname}{}
+\captionsetup[figure]{format=plain, labelformat=simple, labelsep=quad, font=bf}
+\captionsetup[table]{format=plain, labelformat=simple, labelsep=quad, font=bf}
+\parindent = 0pt
+\setmainjfont[BoldFont=HGSMinchoE]{MSMincho}
+%[BoldFont=HGSMinchoE]{MSMincho}[BoldFont=HiraMinProN-W6]{HiraMinPro-W3}
+\begin{document}
+
+\centerline
+{\huge \bfseries　調査}
+\rightline
+{June/6/2024}
+\leftline
+{}
+\leftline{\large \bfseries わかっていること}
+・Silicon, in contrast to group III-V materials like GaAs, contains a low abundance of spin non-zero nuclei, making it an attractive candidate for quantum computation Ref\cite{1}.\\
+・silicon can be isotopically purified, effectively eliminating unwanted interactions between nuclear and electron spins Ref\cite{1}.\\
+・第１量子化のフーリエ変換はあくまで基底変換Ref\cite{2}。\\
+・電子は区別ができないから、個数で状態をきめる。\\
+・'spin-like' qubits are often controlled by magnetic fields, which poses more stringent requirements on the control lines, but decoupling from magnetic field noise has been more achievable than decoupling from charge noise.\\
+・one of the greatest difficulties in building systems with large numbers of spin qubits is tuning the quantum dots to have the correct properties so that they can act as qubits Ref\cite{3}.\\
+・Spin qubits in quantum dots are coupled through the exchange interaction at \tilda 50 nm length scales. Spin-photon coupling was proposed as a method for interactions over cm length scales and recently the first experimental advances towards a photonic interconnect have been made. Ref\cite{4}\\
+・While introducing a qubit overhead, parity architecture encoding removes the requirement for long-distance interactions and the redundant information allows for quantum error mitigation and partial quantum error correction.\\
+\\
+{\Large \bfseries REFERENCES}
+\begin{thebibliography}{1}
+\vspace{-1.5cm}
+  \bibitem{1} Lawrie, Spin Qubits in Silicon and Germanium
+  \bibitem{2} 加藤 岳生, 第二量子化の速習のためのノート
+  \bibitem{3} Shannon Harvey, Quantum Dots \/ Spin Qubits, arXiv:2204.04261v1
+  \bibitem{4} A. R. Mills, Shuttling a single charge across a one-dimensional array of silicon quantum dots, arXiv:1809.03976v1
+\end{thebibliography}
+\vspace{50pt}
+\leftline{\bfseries  要調査}
+・超伝導やシリコンスピンで取り除かなければならない異質とは何か\\
+・中性原子のparasitic chargeとは\\
+・中性原子の配列をグラフ理論の点に対応させることで問題を解ける\\
+・中性原子の量子ビット再配列方法\\
+・analog simulationの可能性\\
+・nFT state preparation\\
+・feedforwardとmid-circuit measurementの違い\\
+・Instataneous Quantum Polynomial\\
+・braidingでd以上動かすとどうなるのか\\
+・easy intializationとdifficult intializationはどっちがいいのか\\
+・toric code in magnetic field(ising model)\\
+・bacon-shor code\\
+・neutral adn traped ion approaches rely on light scattering for entropy removal\\
+・中性原子のmeasurement freeなprotocol\\
+・Sisyphus cooling\\
+・magic intensity, magic-wavelenghth tweezers\\
+・spin echo pulse, magic trapping\\
+・code distanceの求め方\\
+・LDPC codeでは、あんまり冗長性がありすぎてもいけない\\
+\end{document}

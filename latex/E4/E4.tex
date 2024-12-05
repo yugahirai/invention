@@ -1,0 +1,245 @@
+\documentclass[a4paper,10.5pt]{ltjsarticle}
+\usepackage{graphicx}
+\usepackage{luatexja-fontspec}
+\usepackage{caption}
+\usepackage{amsmath,amssymb,bm,braket}
+\usepackage{gnuplot-lua-tikz}
+\usepackage[top=10truemm,bottom=15truemm,left=10truemm,right=10truemm]{geometry}
+\usepackage{array}
+\usepackage{upgreek}
+\usepackage{fancyhdr}
+\renewcommand{\refname}{}
+\usepackage{listings,jvlisting}
+\usepackage{tikz}
+\usetikzlibrary{external}
+\tikzexternalize
+\lstset{
+  basicstyle={\ttfamily},
+  identifierstyle={\small},
+  commentstyle={\smallitshape},
+  keywordstyle={\small\bfseries},
+  ndkeywordstyle={\small},
+  stringstyle={\small\ttfamily},
+  frame={tb},
+  breaklines=true,
+  columns=[l]{fullflexible},
+  numbers=left,
+  xrightmargin=0pt,
+  xleftmargin=3pt,
+  numberstyle={\scriptsize},
+  stepnumber=1,
+  numbersep=1pt,
+  lineskip=-0.5ex
+}
+\captionsetup[figure]{format=plain, labelformat=simple, labelsep=quad,labelfont=bf}
+\captionsetup[table]{format=plain, labelformat=simple, labelsep=quad,labelfont=bf}
+\parindent = 0pt
+\setmainjfont[BoldFont=HiraMinProN-W6]{HiraMinPro-W3}
+%[BoldFont=HGSMinchoE]{MSMincho}[BoldFont=HiraMinProN-W6]{HiraMinPro-W3}
+\begin{document}
+\centerline{\HUGE \bfseries 物理情報工学CD実験　報告書}
+\centerline{ }
+\rightline{\vspace{-3mm} \Large 2023年度　　　}
+\begin{table}[h]
+  \newcolumntype{I}{!{\vrule width 1.5pt}}
+  \newcolumntype{i}{!{\vrule width 0.8pt}}
+  \arrayrulewidth=0.8pt
+  \renewcommand{\arraystretch}{1.5}
+  \newcommand{\bhline}[1]{\noalign{\hrule height #1}}
+  \huge
+  \centering
+  \begin{tabular}{Iwc{6cm}Iwc{2cm}iciwc{5cm}I}
+    \bhline{1.5pt}
+    実験テーマ&\multicolumn{3}{cI}{E4 筋肉活電位の計測}\\
+    \hline
+    担当教員名&\multicolumn{3}{cI}{石渡TA\&井上TA}\\
+    \hline
+    実験整理番号&80&実験者氏名&平井 優我\\
+    \hline
+    共同実験者氏名&\multicolumn{3}{cI}{深瀬\ 遥斗}\\
+    \hline
+    曜日組&木&実験日&11月30日\\
+    \hline
+    実験回&6&報告書提出日&12月6日\\
+    \bhline{1.5pt}
+  \end{tabular}
+\end{table}
+\clearpage
+%1-2-------------------------------------------------------------------------
+\hspace{-2pt}{\Large \bfseries 1.目的}\\
+　筋活動電位を例として微弱な信号の計測方法を学び、筋活動電位の伝搬速度を調べ、相互相関関数を用いる速度計測について理解を深める。\\
+\\
+\hspace{-2pt}{\Large \bfseries 2.原理}\\
+　同じ起源の信号を、信号が伝搬する方向に距離$\Delta x$離れている場所で観測する。観測した2つの信号を$x(t),y(t)$とする。これらの2つの信号に対して
+\begin{align}
+  C(\tau)&=\mathbb{E}\left[x(t)y(t-\tau)\right]\nonumber\\[10pt]
+  &=\int_{-\infty}^{\infty}x(t)y(t-\tau)\mathrm{d}t
+\end{align}
+で定義される相互相関関数を求める。相互相関関数$C(\tau)$は、$\tau$が2つの信号の時間的なずれ$\tau_0$に等しいとき、すなわち$\tau=\tau_0$のときに最大となる。したがって、相互相関関数$C(\tau)$を最大にする$\tau_0$を求めることによって、信号の伝搬速度$v=\Delta x/\tau_0$を得る。\\
+\\
+\hspace{-2pt}{\Large \bfseries 3.実験方法}\\
+{\large \bfseries 3.1筋活動電位の計測}\\
+　接地用電極を手首に装着し、多点電極を小指外転筋に強く押し当て、テープでずれないように固定した。手部を1周するようにテープを巻いた後、小指におもりをつけた糸をかけた。その状態で計測を開始し、筋活動電位計測アンプによって増幅された信号は、USBインタフェースのAD変換器を通して、計測用計算機に入力された。このとき、サンプリング周波数は5000\ Hzであった。そして、連続する4つのチャネルで1つの活動電位が伝搬していることが確認できる筋活動電位を計測して保存した。\\
+\\
+{\large \bfseries 3.2相互相関関数を用いた速度計測}\\
+　1つの活動電位が伝搬していることが確認できるサンプル番号を選択し、プログラムをもちいて相互相関関数$C_k$を計算し、$k$と$C_k$の関係を求めた。そして、$C_k$が最大になる$k$から，筋活動電位の伝搬速度を求めた。\\
+\\
+{\large \bfseries 3.3電極間距離と伝搬速度}\\
+　1ch飛ばしたチャネル間で活動電位が時間差がある状態で計測されているチャネルとサンプルの位置を探し、探したチャネルとサンプルの位置から、筋活動電位の伝搬速度を求めた。2ch飛ばしたチャネル間の活動電位についても同様の解析を行なった。\\
+\\
+{\large \bfseries 3.4相互相関関数を計算する区間}\\
+　3.2節で解析したチャネルとサンプル位置について、相互相関関数を計算する区間のデータ数を$N =1000$にしたときについて、$k$と$C_k$の関係を求めて筋活動電位の伝搬速度を求めた。$N=10$のときについても同様にして、$k$と$C_k$の関係を求めて筋活動電位の伝搬速度を求めた。\\
+\clearpage
+\hspace{-2pt}{\Large \bfseries 4.結果}\\
+{\large \bfseries 4.1筋活動電位の計測}\\
+　図\ref{musclewave}に測定し筋活動電位の波形を示す。
+\begin{figure}[h]
+  \centering
+  \includegraphics[scale=0.3]{figure1.pdf}
+  \caption{計測した筋活動電位}
+  \label{musclewave}
+\end{figure}\\
+図\ref{musclewave}より、ch4〜ch7を解析に用いた。\\
+\\
+{\large \bfseries 4.2相互相関関数を用いた速度計測}\\
+　3.1節で選択したchのうちch4,ch5を用いて$k$と$C_k$の関係を求めると、図\ref{4-5N=100}のようになった。
+\begin{figure}[h]
+  \centering
+  \include{data1}
+  \vspace{-35pt}\caption{$k$と$C_k$の関係$(N=100)$}
+  \label{4-5N=100}
+\end{figure}\\
+図\ref{4-5N=100}から、$k=1$のとき$C_k$は最大となる。これより伝搬速度$v$は、$v=30\ \mathrm{m/s}$となる。\\
+\clearpage
+{\large \bfseries 4.3電極間距離と伝搬速度}\\
+　3.1節で選択したchのうちch4,ch6を用いて$k$と$C_k$の関係を求めると、図\ref{4-6N=100}のようになった。
+\begin{figure}[h]
+  \centering
+  \include{data2.tex}
+  \vspace{-35pt}\caption{$k$と$C_k$の関係$(N=100)$}
+  \label{4-6N=100}
+\end{figure}\\
+図\ref{4-6N=100}から、$k=3$のとき$C_k$は最大となる。これより伝搬速度$v$は、$v=20\ \mathrm{m/s}$となる。\\
+　次に3.1節で選択したchのうちch4,ch7を用いて$k$と$C_k$の関係を求めると、図\ref{4-7N=100}のようになった。
+\begin{figure}[h]
+  \centering
+  \include{data3.tex}
+  \vspace{-35pt}\caption{$k$と$C_k$の関係$(N=100)$}
+  \label{4-7N=100}
+\end{figure}\\
+図\ref{4-7N=100}から、$k=3$のとき$C_k$は最大となる。これより伝搬速度$v$は、$v=30\ \mathrm{m/s}$となる。\\
+\\
+{\large \bfseries 4.4相互相関関数を計算する区間}\\
+　$N=10$として、3.1節で選択したchのうちch4,ch5を用いて$k$と$C_k$の関係を求めると、図\ref{4-5N=10}のようになった。
+\begin{figure}[h]
+  \centering
+  \include{data4}
+  \vspace{-35pt}\caption{$k$と$C_k$の関係$(N=10)$}
+  \label{4-5N=10}
+\end{figure}\\
+図\ref{4-5N=10}から、$k=3$のとき$C_k$は最大となる。これより伝搬速度$v$は、$v=30\ \mathrm{m/s}$となる。\\
+\clearpage
+　次に$N=1000$として、3.1節で選択したchのうちch4,ch5を用いて$k$と$C_k$の関係を求めると、図\ref{4-5N=1000}のようになった。
+\begin{figure}[h]
+  \centering
+  \include{data5}
+  \vspace{-35pt}\caption{$k$と$C_k$の関係$(N=1000)$}
+  \label{4-5N=1000}
+\end{figure}\\
+　図\ref{4-5N=1000}から、$k=1$のとき$C_k$は最大となる。これより伝搬速度$v$は、$v=10\ \mathrm{m/s}$となる。\\
+\\
+\hspace{-2pt}{\Large \bfseries 5.考察}\\
+{\large \bfseries 4.1誤差の原因と速度の分解能}\\
+　4.結果で求めた伝搬速度$v$の平均$\bar{v}$と標準偏差$\delta$を求めると、$\bar{v}=24\ \mathrm{m/s}\ , \delta=8\ \mathrm{m/s}$となる。これより実験によって求められた伝搬速度$v_\mathrm{ex}$は、
+\begin{equation}
+  v_\mathrm{ex}=24\pm8\ \mathrm{m/s}
+\end{equation}
+と求められる。しかし、参考文献\cite{Murakami}から、$v=3〜5\ \mathrm{m/s}$であるため、今回の実験で求めた伝搬速度では少なくとも、320\%の誤差が存在する。\\
+　この誤差の原因としては電極と筋肉に流れる電気の進行方向が垂直に交わっていないことが考えられる。ここで図\ref{electrode}のように電気の進行方向と電極の並ぶ方向のなす角を$\theta$とする。
+\begin{figure}[h]
+  \centering
+  \includegraphics{figure2.eps}
+  \vspace{-30pt}\caption{電極と電圧の進行方向の位置関係}
+  \label{electrode}
+\end{figure}\\
+このとき、電極が測定できる伝搬速度$v_\mathrm{ex}$は、真の伝搬速度$v_\mathrm{true}$を用いて、
+\begin{equation}
+  v_\mathrm{ex}=v_\mathrm{true}\cos{\theta}
+\end{equation}
+と表される。よって、$v_\mathrm{ex}=24\pm8\ \mathrm{m/s}\ ,\ v_\mathrm{true}=4 \mathrm{m/s}$から、$v_\mathrm{ex}$は、ありえない数値であることがわかる。この誤差の原因としては、$C_k$を最大にする$k$がもっと$k$が大きい範囲で存在することが考えられる。
+　次に速度の分解能について述べる。今回の実験ではサンプリング周波数を5000\ Hzとした。これよりサンプリング周期は$2.0\times10^{-4}\ \mathrm{s}$となり、電極間距離が6\ mmであることから、速度の分解能は、
+\begin{align}
+  \frac{6}{2.0\times10^{-4}}\ \mathrm{mm/s}=30\ \mathrm{m/s}
+\end{align}
+となる。\\
+\\
+{\large \bfseries 4.2\ 1ch 飛ばしと2ch飛ばしの計測精度の差}\\
+　サンプリング周期を$\Delta t$、電極間距離を$d$、左から$k+1$個目の赤点と電極の距離を$\Delta d$とし、図\ref{measurement}に示す。
+\begin{figure}[h]
+  \centering
+  \includegraphics{figure3.eps}
+  \vspace{-30pt}\caption{測定方法の図}
+  \label{measurement}
+\end{figure}\\
+ここで、赤点はある時刻$t_0$で左の電極で測定された波の山がサンプリング周期ごとに測定された位置を表す。このとき、$k$というのは電極間内にギリギリ収まる$v\Delta t$の個数を表し、わずかに余った隙間は$\Delta d$となる。よって、伝搬速度$v$は、
+\begin{align}
+  v&=\frac{d-\Delta d}{k\Delta t}\nonumber\\[10pt]
+  &=\frac{d}{k\Delta t}-\frac{1}{k}\frac{\Delta d}{\Delta t}
+\end{align}
+と表される。いま、$d$を大きくすれば$k$が大きくなることは明らかである。よって、十分に$d$を大きくすれば(5)式の第2項は無視することができる。すなわち、1ch飛ばしより、2ch飛ばしの方が精度よく伝搬速度を測定することができる。　\\
+\\
+{\large \bfseries 4.3\ 適切な$N$の大きさ}\\
+　適切な$N$の大きさを考えるとき、$C_k$の最大値が最大になるような$N$を考えなければならない。$N=10$のように$N$が小さすぎると、2つのchで同じような波形がいくつもある場合に誤差が大きくなる。また、今回の実験で用いた筋活動電位の波形は図\ref{musclewave}から、$N=100$以内収まっていることから、$N=1000$のように筋活動電位の波形よりも非常に大きいと、筋活動電位の波形とは関係のない部分で誤差が生じ、$C_k$の値が小さくなってしまうことが考えられる。よって、適切な$N$の大きさ筋活電位の波形の周期ぐらいである。\\
+\\
+{\large \bfseries 4.4\ 計測精度の向上}\\
+　計測制度の向上のためには、4.1節から電圧の変化方向と電極の並ぶ方向できるだけ平行にし、4.2から電極の距離はできるだけ離せばよい。\\
+\\
+{\large \bfseries 4.5調査}\\
+{\large \bfseries 4.5.1相互相関関数}\\
+　5節の(1)式に示した。\\
+\clearpage
+{\large \bfseries 4.5.2自己相関関数}\cite{autocorrelation}\\
+　時間的に変化する信号波形$x(t)$についての自己相関関数$C_xx(\tau)$を次式で定義する。
+\begin{equation}
+  C_{xx}(\tau)=\lim_{T\rightarrow\infty}\frac{1}{T}\int_{-\frac{T}{2}}^{\frac{T}{2}}{x(t)x(t+\tau)}\mathrm{d}x
+\end{equation}
+$R(\tau)$は信号波形について，時間$\tau$だけ離れた点の相関の大きさを表す量である。$\tau$は遅れ時間と呼ばれるが，積分に関して$\tau$は定数である。\\
+\\
+{\large \bfseries 4.5.1フーリエ変換、パワースペクトル、クロススペクトル}\cite{onosokki}\cite{OsakaUniversity}\\
+　時間信号$x(t)$のフーリエ変換を$X(\omega)$とすると$x(t)$のパワースペクトル$P_x(\omega)$は、
+\begin{equation}
+  P_x(\omega)=|X(\omega)|^2
+\end{equation}
+と表せる。これと同じように、2つの信号$x(t),y(t)$のフーリエ変換を$X(\omega),Y(\omega)$として、クロススペクトル$C_{xy}$は、
+\begin{equation}
+  C_{xy}(\omega)=X^*(\omega)Y(\omega)
+\end{equation}
+と表せる。無限に続く定常シグナルは自乗可積分とならないために、フーリエ成分が発散し
+てしまい、フーリエ変換できないが、相互相関関数であればフーリエ変換することができる。\\
+　(6)式の$x(t)$にフーリエ逆変換を代入すると、
+\begin{align}
+  C_{xx}&=\lim_{T\rightarrow\infty}\frac{1}{T}\int_{-\frac{T}{2}}^{\frac{T}{2}}{x(t)\left\{\int_{-\infty}^{\infty}{X(\omega)e^{i\omega(t+\tau)}\mathrm{d}\omega}\right\}\mathrm{d}t}\nonumber\\[10pt]
+  &=\lim_{T\rightarrow\infty}\frac{1}{T}\int_{-\infty}^{\infty}{X(\omega)e^{i\omega \tau}\left\{\int_{-\infty}^{\infty}{x(t)e^{i\omega t}\mathrm{d}t}\right\}\mathrm{d}\omega}\nonumber\\[10pt]
+  &=\int_{-\infty}^{\infty}{\lim_{T\rightarrow\infty}\frac{2\pi |X(\omega)|^2}{T}e^{i\omega\tau}\mathrm{d}\omega}
+\end{align}
+となる。ここで、パワースペクトル密度$\Phi$を
+\begin{align}
+  \Phi(\omega)=\lim_{T\rightarrow\infty}\frac{2\pi|X(\omega)|^2}{T}
+\end{align}
+と定義すると、
+\begin{align}
+  C_{xx}=\int_{-\infty}^{\infty}{\Phi(\omega)e^{i\omega\tau}\mathrm{d}\omega}
+\end{align}
+と表される。
+\\
+\\
+{\Large \bfseries 参考文献}
+\begin{thebibliography}{1}
+\vspace{-1.5cm}
+  \bibitem{Murakami} 筋線維伝導速度の基礎,村上賢一(https://www.jstage.jst.go.jp/article/mpta/20/1/20\_1\_21/\_pdf/\-char/ja)\\閲覧日:2023/12/4
+  \bibitem{autocorrelation} 自己相関関数,近畿大学(https://www.phys.kindai.ac.jp/laboratory/kondo/lectures/ichikawa/Autocorr.pdf)\\閲覧日:2023/12/5
+  \bibitem{onosokki} 基礎からの周波数分析(16)-「クロススペクトル」,ONOSOKKI\\(https://www.onosokki.co.jp/HP\-WK/eMM\_back/emm154.pdf)閲覧日:2023/12/5
+  \bibitem{OsakaUniversity} 自己相関関数,大阪大学(https://www.fbs.osaka-u.ac.jp/labs/ishijima/power-02.html)\\閲覧日:2023/12/6
+\end{thebibliography}
+\end{document}
+\end{document}

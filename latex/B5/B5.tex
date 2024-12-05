@@ -1,0 +1,339 @@
+\documentclass[a4paper,10.5pt]{ltjsarticle}
+\usepackage{graphicx}
+\usepackage{luatexja-fontspec}
+\usepackage{caption}
+\usepackage{amsmath,amssymb,bm,braket}
+\usepackage{gnuplot-lua-tikz}
+\usepackage[top=10truemm,bottom=15truemm,left=10truemm,right=10truemm]{geometry}
+\usepackage{array}
+\usepackage{upgreek}
+\usepackage{fancyhdr}
+\renewcommand{\refname}{}
+\usepackage{listings,jvlisting}
+\usepackage{tikz}
+\usetikzlibrary{external}
+\tikzexternalize
+\lstset{
+  basicstyle={\ttfamily},
+  identifierstyle={\small},
+  commentstyle={\smallitshape},
+  keywordstyle={\small\bfseries},
+  ndkeywordstyle={\small},
+  stringstyle={\small\ttfamily},
+  frame={tb},
+  breaklines=true,
+  columns=[l]{fullflexible},
+  numbers=left,
+  xrightmargin=0pt,
+  xleftmargin=3pt,
+  numberstyle={\scriptsize},
+  stepnumber=1,
+  numbersep=1pt,
+  lineskip=-0.5ex
+}
+\captionsetup[figure]{format=plain, labelformat=simple, labelsep=quad,labelfont=bf}
+\captionsetup[table]{format=plain, labelformat=simple, labelsep=quad,labelfont=bf}
+\parindent = 0pt
+\setmainjfont[BoldFont=HiraMinProN-W6]{HiraMinPro-W3}
+%[BoldFont=HGSMinchoE]{MSMincho}[BoldFont=HiraMinProN-W6]{HiraMinPro-W3}
+\begin{document}
+\centerline{\HUGE \bfseries 物理情報工学CD実験　報告書}
+\centerline{ }
+\rightline{\vspace{-3mm} \Large 2023年度　　　}
+\begin{table}[h]
+  \newcolumntype{I}{!{\vrule width 1.5pt}}
+  \newcolumntype{i}{!{\vrule width 0.8pt}}
+  \arrayrulewidth=0.8pt
+  \renewcommand{\arraystretch}{1.5}
+  \newcommand{\bhline}[1]{\noalign{\hrule height #1}}
+  \huge
+  \centering
+  \begin{tabular}{Iwc{6cm}Iwc{2cm}iciwc{5cm}I}
+    \bhline{1.5pt}
+    実験テーマ&\multicolumn{3}{cI}{B5 光ファイバー}\\
+    \hline
+    担当教員名&\multicolumn{3}{cI}{一ノ瀬TA\&市塚TA}\\
+    \hline
+    実験整理番号&80&実験者氏名&平井 優我\\
+    \hline
+    共同実験者氏名&\multicolumn{3}{cI}{肥田\ 侑真、日野\ 正一}\\
+    \hline
+    曜日組&木&実験日&12月7日\\
+    \hline
+    実験回&7&報告書提出日&12月13日\\
+    \bhline{1.5pt}
+  \end{tabular}
+\end{table}
+\clearpage
+%1-2-------------------------------------------------------------------------
+\hspace{-2pt}{\Large \bfseries 1.目的}\\
+　本実験では、はじめに高速通信線路に光ファイバが必要となる理由につ
+いて考える。さらに，光ファイバの伝送速度を支配する分散要因について理解し、高
+速通信を実現するための、光ファイバの構造上の工夫を学ぶ。また、実際に様々な光
+ファイバに触れ、光結合、伝送損失、伝送帯域測定などを通して、光ファイバの光学
+特性について学ぶ。\\
+\\
+\hspace{-2pt}{\Large \bfseries 2.結果}\\
+{\large \bfseries 2.1 光ファイバへの光結合実験}\\
+　表\ref{efficiency}に光ファイバから出てきた光強度と結合効率を示す。ただし、レーザーの発光強度は$7.2\ \mathrm{mW}$、波長は$633\ \mathrm{nm}$であった。
+\begin{table}[h]
+  \newcolumntype{I}{!{\vrule width 1.5pt}}
+  \newcolumntype{i}{!{\vrule width 0.5pt}}
+  \arrayrulewidth=0.8pt
+  \renewcommand{\arraystretch}{1.5}
+  \newcommand{\bhline}[1]{\noalign{\hrule height #1}}
+  \centering
+  \caption{光ファイバの結合効率}
+  \label{efficiency}
+  \begin{tabular}{IcicccI}
+    \bhline{1.5pt}
+    光ファイバの種類&
+    \begin{tabular}{c}
+      $10\ \mathrm{\upmu m}$径の\\[-10pt]シングルモードファイバ
+    \end{tabular}&
+    \begin{tabular}{c}
+      200$\ \mathrm{\upmu m}$径の\\[-10pt]マルチモードファイバ
+    \end{tabular}&
+    \begin{tabular}{c}
+      $50\ \mathrm{\upmu m}$径の\\[-10pt]マルチモードファイバ
+    \end{tabular}\\
+    \hline
+    光ファイバの長さ$\ /\ \mathrm{m}$&1&1&1\\
+    ケーブルの色&黄色&橙色&水色\\
+    最大の光強度$\ /\ \mathrm{\upmu W}$&2.577&650.5&41.94\\
+    \begin{tabular}{c}
+      20$\ \mathrm{\upmu m}$位置をずらした\\[-10pt]
+      ときの光強度$\ /\ \mathrm{\upmu W}$\\
+    \end{tabular}
+    &2.499&642.2&43.12\\
+    結合効率$\mathrm{\ /\ \%}$&0.03579&8.919&0.5825\\
+    \bhline{1.5pt}
+  \end{tabular}
+\end{table}\\
+表\ref{efficiency}から、測定の位置を$20\ \mathrm{\upmu m}$ずらしても光強度はあまり変わらなかった。また、光ファイバのコアの面積と結合効率には正の相関がみられた。\\
+\\
+{\large \bfseries 2.2 光ファイバの伝送損失測定}\\
+　表\ref{lengthefficiency}に光ファイバーの長さを変えたときの出射光強度を示す。そして、そのグラフを図\ref{loss}に示す。ただし、グラフの直線は回帰直線を表す。
+\begin{table}[h]
+  \newcolumntype{I}{!{\vrule width 1.5pt}}
+  \newcolumntype{i}{!{\vrule width 0.5pt}}
+  \arrayrulewidth=0.8pt
+  \renewcommand{\arraystretch}{1.5}
+  \newcommand{\bhline}[1]{\noalign{\hrule height #1}}
+  \centering
+  \caption{光ファイバの出射光強度}
+  \label{lengthefficiency}
+  \begin{tabular}{IcicI}
+    \bhline{1.5pt}
+    ファイバ長$\ /\ \mathrm{m}$&光強度$/\ \mathrm{dBm}$\\
+    \hline
+    161&$-13.7$\\
+    61&$-10.2$\\
+    11&$-7.43$\\
+    1&$-6.48$\\
+    \bhline{1.5pt}
+  \end{tabular}
+\end{table}
+\clearpage
+\begin{figure}[h]
+  \centering
+  \include{data1}
+  \vspace{-30pt}\caption{ファイバ長と光強度の関係}
+  \label{loss}
+\end{figure}
+グラフから回帰直線の傾きは$-0.044\ \mathrm{dBm/m}$であるから、伝送損失は$44\ \mathrm{dB/km}$と求まる。\\
+\\
+{\large \bfseries 2.3 光ファイバの屈折率分布測定}\\
+　図\ref{GI}、図\ref{SI}に実験によって得られた光強度分布の写真とグラフを示す。
+\begin{figure}[h]
+  \centering
+  \begin{minipage}[h]{0.48\linewidth}
+    \includegraphics[scale=0.20]{figure1.eps}
+    \vspace{25pt}\caption*{(a)}
+    \label{}
+  \end{minipage}
+  \vspace{30pt}\begin{minipage}[h]{0.38\linewidth}
+    \include{data2}
+    \vspace{-30pt}\caption*{(b)}
+    \label{}
+  \end{minipage}
+  \vspace{-30pt}\caption{GI型について、(a)撮影したNFPの写真\ (b)光強度分布}
+  \label{GI}
+\end{figure}
+\clearpage
+\begin{figure}[h]
+  \centering
+  \begin{minipage}[h]{0.48\linewidth}
+    \includegraphics[scale=0.20]{figure2.eps}
+    \vspace{25pt}\caption*{(a)}
+    \label{}
+  \end{minipage}
+  \vspace{30pt}\begin{minipage}[h]{0.38\linewidth}
+    \include{data3}
+    \vspace{-30pt}\caption*{(b)}
+    \label{}
+  \end{minipage}
+  \vspace{-30pt}\caption{SI型について、(a)撮影したNFPの写真\ (b)光強度分布}
+  \label{SI}
+\end{figure}
+図\ref{GI}から、GI型のコア径は$200\ \mathrm{\upmu m}$、図\ref{SI}から、SI型のコア径は$50\ \mathrm{\upmu m}$であることがわかる。\\
+\\
+{\large \bfseries 2.4 光ファイバの伝送帯域特性}\\
+\begin{table}[h]
+  \newcolumntype{I}{!{\vrule width 1.5pt}}
+  \newcolumntype{i}{!{\vrule width 0.8pt}}
+  \arrayrulewidth=0.8pt
+  \renewcommand{\arraystretch}{1.5}
+  \newcommand{\bhline}[1]{\noalign{\hrule height #1}}
+  \centering
+  \caption{光ファイバの出射光強度}
+  \label{lengthefficiency}
+  \begin{tabular}{IcicccI}
+    \bhline{1.5pt}
+    ファイバ被覆の色&ファイバ長\ /\ m&FWHM\ /\ ps&実測した伝送帯域\ /\ MHz\\
+    \bhline{0.5pt}
+    白色&100&769&956\\
+    橙色&100&265&1100\\
+    水色&100&129&2640\\
+    \bhline{1.5pt}
+  \end{tabular}
+\end{table}
+表\ref{lengthefficiency}と補足データからファイバ長とFWHMの関係を図\ref{fiberlength-FWHM}に、ファイバ長と伝送帯域の関係を図\ref{fiberlength-Hz}に示す。
+\begin{figure}[h]
+  \centering
+  \include{data7}
+  \vspace{-30pt}\caption{ファイバ長とFWHMの関係}
+  \label{fiberlength-FWHM}
+\end{figure}
+\clearpage
+\begin{figure}[h]
+  \centering
+  \include{data8}
+  \vspace{-30pt}\caption{ファイバ長と伝送帯域の関係}
+  \label{fiberlength-Hz}
+\end{figure}
+　図\ref{fiberlength-FWHM}から、水色のFWHMはファイバ長に対してほぼ一定、白色のFWHMはファイバ長と正の相関があることがわかる。また、図\ref{fiberlength-Hz}から、水色の伝送帯域は白色の伝送帯域よりも大きくなった。そして両方の伝送帯域がファイバの長さに反比例した。
+\begin{figure}[h]
+  \centering
+  \vspace{20pt}\begin{minipage}[h]{0.8\linewidth}
+    \begin{minipage}[h]{0.53\linewidth}
+      \includegraphics[scale=0.05]{figure3.eps}
+    \end{minipage}
+    \begin{minipage}[h]{0.5\linewidth}
+      \includegraphics[scale=0.05]{figure4.eps}
+    \end{minipage}
+    \caption*{(a)}
+  \end{minipage}
+  \begin{minipage}[h]{0.8\linewidth}
+    \begin{minipage}[h]{0.53\linewidth}
+      \includegraphics[scale=0.05]{figure5.eps}
+    \end{minipage}
+    \begin{minipage}[h]{0.5\linewidth}
+      \includegraphics[scale=0.05]{figure6.eps}
+    \end{minipage}
+    \caption*{(b)}
+  \end{minipage}
+  \begin{minipage}[h]{0.8\linewidth}
+    \begin{minipage}[h]{0.53\linewidth}
+      \includegraphics[scale=0.05]{figure7.eps}
+    \end{minipage}
+    \begin{minipage}[h]{0.5\linewidth}
+      \includegraphics[scale=0.05]{figure8.eps}
+    \end{minipage}
+    \caption*{(c)}
+  \end{minipage}
+  \caption{オシロスコープ(a)白色の光ファイバー、(b)橙色の光ファイバー、(c)水色の光ファイバー}
+  \label{scope}
+\end{figure}
+\clearpage
+\hspace{-2pt}{\Large \bfseries 3.考察}\\
+{\large \bfseries 3.1光ファイバの種類と構造}\\
+　光ファイバの種類には、シングルモードファイバ、SI型のマルチモードファイバ、GI型のマルチモードファイバが存在する。シングルモードファイバはコア径が$8〜10\ \mathrm{\upmu m}$で小さく、単一方向つまり光ファイバーに平行な向きの光しか伝送できない。しかし、シングルモードの光しか伝送できないことから原理的にモード分散が存在せず、長距離の光伝送に向いている。マルチモードファイバはコア径が$50〜62.5\ \mathrm{\upmu m}$である。このうち、SI型はコア全体の屈折率が一定で入射した光はコアとクラッドの境目で全反射を繰り返しながら伝送される。また、コア径が大きいため複数の方向の光を伝送することができる。しかし、クラッドへの入射が小さい光は光路長がクラッドへの入射角が大きい光より長くなり、モード分散が大きくなる。これを改善するために作られた光ファイバがGI型のマルチモードファイバで、SI型と違ってコアの屈折率が中心から外側に向かって小さくなるようになっている。これにより、クラッドへの入射角の大きい光は屈折率の大きい領域を通過する時間が長くなり、逆にクラッドへの入射角の小さい光は屈折率の大きい領域と小さい領域を通り、最終的にどのモードの光も同じぐらいのタイミングで伝送先へ到着する。そのため、GI型はモード分散が小さい。このようなことから、シングルモードファイバは大陸間のような長距離の伝送、マルチモードファイバは家庭内のような短距離の伝送で用いられる。\\
+\\
+{\large \bfseries 3.2光結合特性}\\
+　図\ref{core-efficiency}にコア面積と結合効率の関係を示す。ただし、点は表\ref{efficiency}での測定点、直線はそれらの回帰直線を表す。
+\begin{figure}[h]
+  \centering
+  \include{data4}
+  \vspace{-30pt}\caption{コア面積と結合効率の関係}
+  \label{core-efficiency}
+\end{figure}
+これより、グラフの直線の方程式は傾きが$7.08\times 10^{-5}$、切片が$0.0197$である。今、結合効率を$100\ \%$とすることを考えると、コア径は$670\ \mathrm{\upmu m}$である必要がある。ただし、図\ref{core-efficiency}の回帰直線での近似はコア面積が小さい範囲でしか成り立たないと考えられるから、実際は上記で求めた値は必ずしも正しくない。\\
+\\
+{\large \bfseries 3.3伝送損失}\\
+  文献\cite{text}の(2)式から、$P$とそれよりも少し大きい$P+\Delta P$、光強度が$P$のときの光ファイバの長さを$L$、光強度が$P+\Delta L$のときの光ファイバの長さを$L+\Delta L$とすると、伝送損失$T$は、
+\begin{align}
+  T&=-\frac{10}{\Delta L}\log{\frac{P+\Delta P}{P}}\nonumber\\[10pt]
+  &=-\frac{10\log{(P+\Delta P)}-10\log{P}}{\Delta L}
+\end{align}
+となる。これより、伝送損失$T$は図\ref{loss}の2つの点を結んだ直線の傾きに$-1$を掛けた値だとわかる。また、$L=0$としたとき、接続損失のみによってレーザから出射された光が失われるから、このとき観測される光強度は光ファイバーに入射した光強度であることがわかる。\\
+　また、文献\cite{text}の図4から伝送損失は約$18\ \mathrm{dB/km}$である。よって、2.2節で求めた伝送損失$44\ \mathrm{dB/km}$は大きな誤差を持つ。誤差の原因として考えられるのは、実験の際、レーザと測定装置の他にも$100,60,10,1 \mathrm{m}$の光ファイバーの接続部分があったことである。これにより、多くの接続損失が生み出され文献値よりも実験値の方が伝送損失が大きくなったのだと考えられる。
+\clearpage
+{\large \bfseries 3.4マルチモードファイバの屈折率分布}\\
+　まず、文献\cite{text}の(9)式から、
+\begin{align}
+  n(r)&=\frac{P(r)}{P(0)}\left\{n(0)-n_2\right\}+n_2\nonumber\\[10pt]
+  &=\frac{P(r)}{P(0)}\frac{\Delta}{1-\Delta}n_2+n_2\nonumber\\[10pt]
+  &=0.1618\frac{P(r)}{P(0)}+1.457
+\end{align}
+となる。ただし、$\Delta=0.01\ ,\ n_2=1.457$を用いた。よって、(2)式を用いると図\ref{GI}(b)は図\ref{GIfixed}、図\ref{SI}　(b)は図\ref{SIfixed}となる。\\
+\begin{figure}[h]
+  \centering
+  \include{data5}
+  \vspace{-30pt}\caption{GI型の屈折率分布}
+  \label{GIfixed}
+\end{figure}
+\begin{figure}[h]
+  \centering
+  \include{data6}
+  \vspace{-30pt}\caption{SI型の屈折率分布}
+  \label{SIfixed}
+\end{figure}\\
+{\large \bfseries 3.5ファイバ長とパルス幅、ファイバ長と伝送帯域の関係}\\
+　まずファイバ長とパルス幅の関係について、図\ref{fiberlength-FWHM}から白色はモード分散が大きく、水色はモード分散が小さいことがわかる。これより、白色の光ファイバー内では光がコアとクラッドの境目で全反射を繰り返し進んでおり、クラッドへの入射角が大きい光と小さい光で測定装置への到達時間に差ができていることがわかる。逆に水色の光ファイバー内では光が正弦波を描くように進んでおり、クラッドへの入射角が大きい光と小さい光で測定装置への到達時間がほぼ同時になっていることがわかる。このような考察から、白色はSI型、水色はGI型であることが予想できる。また、橙色は水色と同じようにFWHMが小さいためGI型であると予想できる。\\
+まず、図\ref{scope}から周波数が大きくなると光強度は減衰していることがわかる。これは周波数の大きい光は周波数の小さい光よりも回析しづらく、光ファイバー内で回析される度に失われる割合が高いからであると考えられる。また、図\ref{fiberlength-Hz}から、水色つまりGI型は伝送帯域が大きく、白色つまりSI型は伝送帯域が小さいことがわかる。これは、SI型では全反射する際にクラッド側に浸透する光が存在し、全反射をする度に大きく光強度が下がることに起因する。逆に、SI型では全反射は起こらないためそのような光強度の減衰はない。そのため、GI型の方がSI型よりも伝送帯域が大きくなる。\\
+\\
+{\large \bfseries 3.6パルス波形がガウス波形であるときの伝送帯域}\\
+　文献\cite{text}の(11)式から、白色、橙色、水色の伝送帯域を求めると、表\ref{gausswave}のようになる。
+\begin{table}[h]
+  \newcolumntype{I}{!{\vrule width 1.5pt}}
+  \newcolumntype{i}{!{\vrule width 0.5pt}}
+  \arrayrulewidth=0.8pt
+  \renewcommand{\arraystretch}{1.5}
+  \newcommand{\bhline}[1]{\noalign{\hrule height #1}}
+  \centering
+  \caption{近似式から求めた伝送帯域}
+  \label{gausswave}
+  \begin{tabular}{IcicI}
+    \bhline{1.5pt}
+    光ファイバの被覆の色&伝送帯域\ /\ MHz\\
+    \hline
+    白色&573\\
+    橙色&1660\\
+    水色&3420\\
+    \bhline{1.5pt}
+  \end{tabular}
+\end{table}\\
+表\ref{gausswave}と表\ref{lengthefficiency}を比較すると大体同じような値となり、文献\cite{text}の(11)式は良い近似を与えていることがわかる。\\
+\\
+{\large \bfseries 3.7伝送帯域のコア径依存性}\\
+　文献\cite{text}の(5)式から、様々なモード含まれるパワーが距離$L$を伝搬するのにかかる時間$\tau$は
+\begin{align}
+  \tau=\frac{LN_1}{c}\frac{kn_1}{\beta}\left\{1+\frac{g-2-\varepsilon}{g+2}\Delta\left(\frac{m}{M}\right)^\frac{g}{g+2}+\frac{3g-2-2\varepsilon}{2(g+2)}\Delta^2\left(\frac{m}{M}\right)^\frac{2g}{g+2}\right\}
+\end{align}
+と表される。今、(3)中の変数、$L,N_1,g,\varepsilon,m,M$は全て光ファイバのコア径によらない。これより、伝送帯域はコア径の影響を受けない。\\
+\\
+\hspace{-2pt}{\Large \bfseries 4.結論}\\
+　光ファイバの伝送速度を支配する分散要因について理解し、高
+速通信を実現するための、光ファイバの構造上の工夫を学べた。また、実際に様々な光
+ファイバに触れ、光結合、伝送損失、伝送帯域測定などを通して、光ファイバの光学
+特性について学べた。\\
+\\
+{\Large \bfseries 参考文献}
+\begin{thebibliography}{1}
+\vspace{-1.5cm}
+  \bibitem{text} B5\_光ファイバーの種類と構造【221021改定版】.pdf 閲覧日:2023/12/11
+\end{thebibliography}
+
+
+\end{document}

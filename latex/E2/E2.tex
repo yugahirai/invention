@@ -1,0 +1,841 @@
+\documentclass[a4paper,10.5pt]{ltjsarticle}
+\usepackage{graphicx}
+\usepackage{luatexja-fontspec}
+\usepackage{caption}
+\usepackage{amsmath,amssymb,bm,braket}
+\usepackage{gnuplot-lua-tikz}
+\usepackage[top=10truemm,bottom=15truemm,left=10truemm,right=10truemm]{geometry}
+\usepackage{array}
+\usepackage{upgreek}
+\usepackage{fancyhdr}
+\renewcommand{\refname}{}
+\usepackage{listings,jvlisting}
+\usepackage{tikz}
+\usetikzlibrary{external}
+\tikzexternalize
+\lstset{
+  basicstyle={\ttfamily},
+  identifierstyle={\small},
+  commentstyle={\smallitshape},
+  keywordstyle={\small\bfseries},
+  ndkeywordstyle={\small},
+  stringstyle={\small\ttfamily},
+  frame={tb},
+  breaklines=true,
+  columns=[l]{fullflexible},
+  numbers=left,
+  xrightmargin=0pt,
+  xleftmargin=3pt,
+  numberstyle={\scriptsize},
+  stepnumber=1,
+  numbersep=1pt,
+  lineskip=-0.5ex
+}
+\captionsetup[figure]{format=plain, labelformat=simple, labelsep=quad, font=bf}
+\captionsetup[table]{format=plain, labelformat=simple, labelsep=quad, font=bf}
+\parindent = 0pt
+\setmainjfont[BoldFont=HiraMinProN-W6]{HiraMinPro-W3}
+%[BoldFont=HGSMinchoE]{MSMincho}[BoldFont=HiraMinProN-W6]{HiraMinPro-W3}
+\begin{document}
+\centerline{\HUGE \bfseries 物理情報工学CD実験　報告書}
+\centerline{ }
+\rightline{\vspace{-3mm} \Large 2023年度　　　}
+\begin{table}[h]
+  \newcolumntype{I}{!{\vrule width 1.5pt}}
+  \newcolumntype{i}{!{\vrule width 0.8pt}}
+  \arrayrulewidth=0.8pt
+  \renewcommand{\arraystretch}{1.5}
+  \newcommand{\bhline}[1]{\noalign{\hrule height #1}}
+  \huge
+  \centering
+  \begin{tabular}{Iwc{6cm}Iwc{2cm}iciwc{5cm}I}
+    \bhline{1.5pt}
+    実験テーマ&\multicolumn{3}{cI}{E2\&E3 動的システムの最適制御}\\
+    \hline
+    担当教員名&\multicolumn{3}{cI}{武田TA\&石井TA\&南TA}\\
+    \hline
+    実験整理番号&80&実験者氏名&平井 優我\\
+    \hline
+    共同実験者氏名&\multicolumn{3}{cI}{肥田 侑真、日野 正一}\\
+    \hline
+    曜日組&木&実験日&11月9日\\
+    \hline
+    実験回&4,5&報告書提出日&11月28日\\
+    \bhline{1.5pt}
+  \end{tabular}
+\end{table}
+\clearpage
+%1-2-------------------------------------------------------------------------
+\hspace{-2pt}{\Large \bfseries 1.目的}\\
+　設計理論とシミュレーションでの検証，そして，Ball\&Beam 実験装置への実装から検証を通して、動的システムに対する系統的な制御系設計法を学ぶ。\\
+\\
+\hspace{-2pt}{\Large \bfseries 2.原理}\\
+{\large \bfseries 2.1 実験装置の構成}\\
+　図\ref{fig:figure1}に今回の実験で用いたBall\&Beam実験装置を示す。図\ref{fig:figure1}は実験装置を正面から見た図である。実験装置は主に、ビームとサーボモータによって構成されており、サーボモータの角度$\theta$を調整することによって、ビームが傾き、平面からビームの角度$\psi$が変化する。そして、ビーム上のボールが転がって移動する。実験装置には赤外線センサが設置されており、センサからボールまでの距離$z$を測定することができる。また、サーボモータとビームにはポテンショメータが取り付けられており、サーボモータの角度$\theta$とビームの角度$\psi$を測定できる。また、サーボモータにはモータドライバを介して電圧$v$を印加できるため、電圧$v$を適切に操作することで角度$\theta$を調整できる。
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[scale=0.7]{figure1.eps}
+  \caption{Ball\&Beam実験装置}
+  \label{fig:figure1}
+\end{figure}
+
+{\large \bfseries 2.2 モデリングの理論}\\
+  ここでは、2.1で示したBall\&Beam実験装置を状態方程式で記述する。また、図\ref{fig:figure2}にモデリングで用いたフィードバックシステムを示す。
+\begin{figure}[h]
+  \centering
+  \includegraphics[scale=0.7]{figure2.eps}
+  \vspace{-30pt}\caption{フィードバックシステム}
+  \label{fig:figure2}
+\end{figure}
+\clearpage
+%2-3-----------------------------------------------------------------------
+{\large \bfseries 2.2.1 離散時間状態方程式の導出}\\
+　制御対象である実験装置は、サーボモーターへの印加電圧を$v$、それによってボールの位置$z$や速度$\dot{z}$、サーボモーターの角度$\theta$や角速度$\dot{\theta}$が駆動される入出力システムである。ここで、$u_\mathrm{c}(t)=v(t)\ ,\ \bm x(t)=[\theta,\dot{\theta},z,\dot{z}]^\top$とおく。また、センサーを用いて全状態を観測できるとすると、観測信号$\bm y_\mathrm{c}(t)$は$\bm x(t)$そのものとなる。システム$P_\mathrm{c}$は次のように表せる。
+\begin{equation}
+  \mathrm{P_c}:\ \dot{\bm x}(t)=A_\mathrm{c}\bm x (t)+B_\mathrm{c}u_\mathrm{c}(t)\ ,\ \bm y_\mathrm{c}=\bm x(t)
+\end{equation}
+ここで、$A_\mathrm{c}\in \mathbb{R}^{4\times4},B_\mathrm{c}\in \mathbb{R}^4$である。\\
+　計算機を用いて信号を処理する場合、装置から得られた連続時間信号をホールダとサンプラを用いて離散時間信号に変換しなければならない。サンプラのサンプリング周期を$\Delta t$とすると、$t=k\Delta t\ ,\ \forall k\in\{0,1,2,3\cdots\}$という離散時間毎に$\bm y_\mathrm{c}$の値を取得することになる。得られた数列を$\bm y_\mathrm{c}[k]$のように離散時間$[k]$をつけて表記すると、
+\begin{equation}
+  \bm y_\mathrm{c}[k]=\bm y_\mathrm{c}(k\Delta t)\ ,\ \forall k\in\{0,1,2,3\cdots\}
+\end{equation}
+の関係が成り立つ。次に今回の実験ではホールダについて0次ホールドを用いる。よって、信号$u_\mathrm{c}(t)$はある時刻$t=k\Delta t$から$t=(k+1)\Delta t$までの間は$u[k]$の一定値をとる。すなわち、
+\begin{equation}
+  u_\mathrm{c}(t)=u[k]\ ,\ \forall t\in[k\Delta t,(k+1)\Delta t]\ ,\ \forall k\in\{0,1,2,3\cdots\}
+\end{equation}
+の関係が成り立つ。\\
+　これより、$\mathrm{P_c}$、サンプラ、ホールダのモデルをもとにして、$u[k]$から$y[k]$までの振る舞いをモデル化する。まず、(1)式の連続時間状態方程式で、時間$t=k\Delta t$からサンプリング周期が一個先の$t=(k+1)\Delta t$までの状態$\bm x(t)$の遷移を計算すると、
+\begin{equation}
+  \bm x((k+1)\Delta t)=e^{A_\mathrm{c}\Delta t}+\int_{k\Delta t}^{(k+1)\Delta t} e^{A_\mathrm{c}((k+1)\Delta t-\tau)}B_\mathrm{c}u_\mathrm{c}(\tau)\mathrm{d}\tau
+\end{equation}
+となる。ここで、(3)式と$\tau=(k+1)\Delta t-\tau$と置き直すことによって(4)式は、
+\begin{equation}
+  \bm x((k+1)\Delta t)=e^{A_\mathrm{c}\Delta t}+\left\{\int_{0}^{\Delta t} e^{A_\mathrm{c}\tau}B_\mathrm{c}\mathrm{d}\tau\right\}u_\mathrm{c}(\tau)
+\end{equation}
+と書き換えることができる。さらに、サンプリング周期に合わせた$t=k\Delta t\ ,\ k\in\{0,1,2,3\cdots\}$の離散時間上の状態$\bm x(t)$を$\bm x[k]$と表記する。このとき、(2)式のように$\bm x[k]=\bm x(k\Delta t)\ ,\ k\in \{0,1,2,3\cdots\}$が成り立つため、$u[k]$から$y[k]=x[k]$までの振る舞いは、
+\begin{equation}
+  \mathrm{P}:\bm x[k+1]=A\bm x[k]+Bu[k]\ ,\ \bm y[k]=\bm x[k]
+\end{equation}
+と記述できる。ただし、$A\in \mathbb{R}^{4\times4}$と$B\in \mathbb{R}^{4}$はそれぞれ、
+\begin{equation}
+  A=e^{A_\mathrm{c}\Delta t}\ ,\ B=\int_{0}^{\Delta t}e^{A_\mathrm{c}\tau}\mathrm{d}\tau
+\end{equation}
+とした。\\
+　以上より、離散時間状態方程式では逐次代入をするだけで振る舞いを計算することができる。初期状態が$\bm x[0]=\bm x_0$であるとすると、入力信号$\{u[0]u[1]\cdots u[k-1]\}$のもとで$\bm x[k]$は、
+\begin{equation}
+  \bm x[k]=A^k\bm x_0+\sum^{k-1}_{\tau=0}A^{\tau}Bu[k-1-\tau]
+\end{equation}
+のように求めることができる。
+\clearpage
+%3-4------------------------------------------------------------------------
+{\large \bfseries 2.2.2 データ駆動モデリング}\\
+　制御入力$\{u[0],u[1],\dots u[N-1]\}$に対して、状態$\{\bm x[0],\bm x[1],\dots {\bm x[N-1]}\}$がデータとして得られているとする。ただし、$N\in \mathbb{N}$である。このとき、状態方程式(6)のシステム行列$A,B$を求めることを考える。$\{u[0],u[1],\dots u[N-1]\}$と$\{\bm x[0],\bm x[1],\dots {\bm x[N-1]}\}$は(6)式を満たすから、
+\begin{align*}
+  \bm x[1]&=A\bm x[0]+Bu[0]\\
+  \bm x[1]&=A\bm x[0]+Bu[0]\\
+  \vdots \hspace{-10pt}\\
+  \bm x[N]&=A\bm x[N-1]+Bu[N-1]
+\end{align*}
+が成り立つ。ここで、新しく行列$X_1,X_0\in \mathbb{R}^{4\times N},U_0\in \mathbb{R}^{1\times N}$を
+\begin{align*}
+  X_1&:=[\bm x[1],\bm x[2],\dots {\bm x[N]}]\\
+  X_0&:=[\bm x[0],\bm x[1],\dots {\bm x[N-1]}]\\
+  U_0&:=[u[0],u[1],\dots u[N-1]
+\end{align*}
+のように定義する。よって、データが満たすべき条件は、
+\begin{align}
+  X_1=AX_0+BU_0
+\end{align}
+と書ける。しかし、実際は観測ノイズにより、(9)式が成り立つとは限らない。そこで、(9)式を解く代わりに次に最小自乗法を解くことによって、$A,B$を求める。
+\begin{equation}
+  \min_{A,B}\|X_1-(AX_0+BU_0)\|_\mathrm{F}
+\end{equation}
+(10)式をベクトルのユークリッドノルムで表すと、
+\begin{equation}
+  \min_{A,B} \sum_{\tau=0}^{N-1}\|\bm x[\tau+1]-(A\bm x[\tau]+B\bm x[\tau])\|_2^2
+\end{equation}
+となる。\\
+\\
+{\large \bfseries 2.2.3 Ball\&Beam実験装置のデータ駆動モデリング}\\
+　実験装置は、サーボモータへの印加電圧$v$から、サーボモータの角度$\theta$や角速度$\dot{\theta}$までのシステム$\mathrm{P_{up}}$と、角度$\theta$からボールの位置$z$やボールの速度$\dot{z}$までのシステム$\mathrm{P_{down}}$の2つから構成されている。また、図\ref{fig:figure3}に示すように、2つのシステム$\mathrm{P_{up},P_{down}}$はカスケード接続されている。\\
+\begin{figure}[h]
+  \centering
+  \includegraphics[scale=0.9]{figure3.eps}
+  \vspace{-40pt}\caption{Ball\&Beam実験装置のカスケード構造}
+  \label{fig:figure3}
+\end{figure}\\
+　まず、上流システム$\mathrm{P_{up}}$は、2.2.2により、データ駆動でモデリングすることができる。状態変数を$\bm x_\mathrm{up}:=[\theta,\dot{\theta}]^\top$、システム行列を$A_\mathrm{up},B_\mathrm{up}$と定義すると、入力$u[k]$と状態$x_\mathrm{up}$の時系列データをもとに、離散時間状態方程式
+\begin{align}
+  \mathrm{P_{up}}:\ \bm x_\mathrm{up}[k+1]=A_\mathrm{up}\bm x_\mathrm{up}[k]+B_\mathrm{up}u[k]
+\end{align}
+から$A_\mathrm{up},B_\mathrm{up}$を求めることができる。\\
+　次に下流システム$\mathrm{P_{up}}$ ついて考える。$\mathrm{P_{down}}$の入力であるサーボモータの角度$\theta$の変化はビームの角度$\psi$に即座に伝わることから、この入出力関係は静的システムである。よって、$\theta,\psi$によって定まる定数$K_{\theta,\psi}$を用いて、
+\begin{align}
+  \psi[k]=K_{\theta,\psi}\theta[k]
+\end{align}
+%4-5------------------------------------------------------------------------
+と表せる。また、図\ref{fig:figure4}を参考にして、ビームの角度$\psi$に対するボールの位置$z$の振る舞いを考える。ボールとしてピンポン玉を利用し、ボールの内部は内空、殻の厚みは無視できるものとする。また、簡単のため、$\psi$やその変化$\dot{\psi}$は十分に小さいものとし、ボールの慣性モーメントまで考慮すると、次の運動方程式を導ける。
+\begin{align}
+  m\ddot{z}+\left(\frac{2}{3}mr^2\right)\frac{\ddot{\phi}}{r}=mg\sin{\psi}
+\end{align}
+ここで、$m$はボールの質量、$g$ は重力加速度、$r$はボールの半径、$g$は重力加速度$φ$はボールの回転角度である.幾何学的な関係から、$r\phi=z$、$\psi$が十分に小さいことから$\sin{\psi}\approx\psi$とできることから、
+\begin{align}
+  \ddot{z}=\frac{3}{5}g\psi
+\end{align}
+が成り立つ。この運動方程式を離散時間状態方程式に変換すると、(13)式、(15)式より、
+\begin{align}
+  \dot{z}[k+1]&=\dot{z}[k]+\frac{3}{5}\Delta tK_{\theta,\psi}g\theta[k],\\
+  z[k+1]&=z[k]+\Delta t \dot{z}[k]
+\end{align}
+と表せる。ここで、$\Delta t$はサンプリング周期である。よって、状態を$\bm x_\mathrm{down}[k]=[z,\dot{z}]^\top$、システム行列$A_\mathrm{down},B_\mathrm{down}$とすると、
+\begin{equation}
+  \mathrm{P_{down}}:\ \bm x_\mathrm{down}[k+1]=A_\mathrm{down}\bm x_\mathrm{down}[k]+B_\mathrm{down}\theta[k]
+\end{equation}
+となる。ただし、システム行列$A_\mathrm{down},B_\mathrm{down}$は、
+\begin{equation}
+  A_\mathrm{down}=
+  \begin{bmatrix}
+    1&\Delta t\\
+    0&1
+  \end{bmatrix}
+  ,\ B_\mathrm{down}=
+  \begin{bmatrix}
+    0\\
+    \frac{3}{5}\Delta tK_{\theta,\psi}g
+  \end{bmatrix}
+\end{equation}
+である。
+\\
+\begin{figure}[h]
+  \centering
+  \includegraphics[scale=0.9]{figure4.eps}
+  \vspace{-35pt}\caption{ボールのダイナミクス}
+  \label{fig:figure4}
+\end{figure}
+\\
+改めて、$\bm x=[\bm x_\mathrm{down}^\top, \bm x_\mathrm{up}^\top]$と置くことにより、(12)、(18)式から、(6)の状態方程式を得ることができる。よって、システム行列$A,B$は、
+\begin{align}
+  A=
+  \begin{bmatrix}
+    A_\mathrm{down}&
+    \begin{bmatrix}
+      B_\mathrm{down}&\bm O
+    \end{bmatrix}\\
+    \bm O&A_\mathrm{up}
+  \end{bmatrix}
+  \ ,\ B=
+  \begin{bmatrix}
+    \bm O\\
+    B_\mathrm{up}
+  \end{bmatrix}
+\end{align}
+\clearpage
+{\large \bfseries 2.3 最適制御理論}\\
+　次の評価関数$J$を考える。
+\begin{equation}
+  J:=\sum_{k=0}^{\infty} \left\{(\bm x[k]-\bm x_\mathrm{ref})^\top Q(\bm x[k]-\bm x_\mathrm{ref})+(u[k]-u_\mathrm{ref})^\top R(u[k]-u_\mathrm{ref})\right\}
+\end{equation}
+ここで、$Q$は半正定行列、$R$は正定行列、$\bm x_\mathrm{ref}$と$u_\mathrm{ref}$はそれぞれ状態と制御入力である。ただしこれらは、
+\begin{equation}
+  \bm x_\mathrm{ref}=A\bm x_\mathrm{ref}+Bu_\mathrm{ref}
+\end{equation}
+を満たす。ボールをビーム上の所望の位置$z_\mathrm{ref}$に留めるという制御目標に合わせると、$\bm x_\mathrm{ref}=[z_\mathrm{ref},0,0,0]$や$u_\mathrm{ref}=0$と設定するのが自然である。\\
+　目標状態$\bm x_\mathrm{ref}$や重み$Q,R$が与えられたとき、(21)式を最小にする制御入力信号$\{u[0],u[1],u[2]\dots\}$は一意に定まり、図\ref{fig:figure2}について
+\begin{equation}
+  \mathrm{K}: u[k]=-F^*(\bm x[k]-\bm x_\mathrm{ref})+u_\mathrm{ref},\ k\in {0,1,2,\dots}
+\end{equation}
+の状態フィードバック制御として与えられる。ただし、　$F^*$はリッカチ方程式
+\begin{equation}
+  A^\top XA-X-A^\top XB(R+B^\top XB)^{-1}B^\top XA+Q=0
+\end{equation}
+%5-6------------------------------------------------------------------------
+の半正定解$X$を用いて、
+\begin{equation}
+  F^*=(B^\top XB+R)^{-1}B^\top XA
+\end{equation}
+で与えられる。\\
+\\
+{\large \bfseries 2.4 演習課題5}\\
+{\large \bfseries 2.4.1 \ 1次元状態方程式モデル$x[k+1]=x[k]+u[k]$について、最適制御のためのフィードバックゲイン$F^*$\\
+を求める。ただし、重み行列は、$Q=1,R=1$とした。}\\
+\\
+\centerline{実行プログラム}
+\begin{lstlisting}
+  Ac = 1
+  Bc = 1
+  Cc = 1
+  Dc = 0
+  st = 0.02 #サンプリング時間
+  sysc = ss(Ac,Bc,Cc,Dc) # 離散時間状態方程式の定義
+  sys = c2d(sysc, st, method='zoh')
+  A,B,C,D = ssdata(sysc) # システム行列の取り出し
+  Q = 1 # 重み行列の定義
+  R = 1
+  X, L, F = dare(A,B,Q,R) # リッカチ方程式の求解
+  sys_FB = ss(A - B*F,B,C,D,st) # 最適状態フィードバック制御を施した制御システムの定義
+  print(F)
+\end{lstlisting}
+\centerline{\ }
+\centerline{実行結果}
+\begin{lstlisting}
+  [[0.61803399]]
+\end{lstlisting}
+\clearpage
+{\large \bfseries 2.4.2 2.4.1の手計算による解}\\
+　(24)式から、
+\begin{gather}
+  A^\top XA-X-A^\top XB(R+B^\top XB)^{-1}B^\top XA+Q=0\notag \\
+  \therefore X-X-X(1+X)^{-1}X+1=0\notag \\
+  \therefore X=\frac{1+\sqrt{5}}{2}\ \ (\because X>0)
+\end{gather}
+となり、(26)式を(25)式に代入すると、
+\begin{align}
+  F^*&=(B^\top XB+R)^{-1}B^\top XA\notag\\
+  &=\left(\frac{1+\sqrt{5}}{2}+1\right)^{-1}\times \frac{1+\sqrt{5}}{2}\notag\\
+  &=\frac{-1+\sqrt{5}}{2}\notag\\[10pt]
+  &\approx 0.6180339887
+\end{align}
+となり。2.4.1で求めた$F^*$の値と一致した。\\
+\\
+{\large \bfseries 2.4.3 最適フィードバックゲイン$F^*$の値をずらした時の評価関数$J$の振る舞い}\\
+　図\ref{fig:figure5}に最適フィードバックゲイン$F^*$と評価関数$J$の関係を示す。
+\begin{figure}[h]
+  \centering
+  \include{data1.tex}
+  \vspace{-30pt}\caption{$J$と$F^*$の関係}
+  \label{fig:figure5}
+\end{figure}
+\\
+図\ref{fig:figure5}から、2.5.1で求めた$F^*=0.61803399$のときに$J$が最も小さくなっており、最適な制御ができていることがわかる。\\
+\\
+\hspace{-2pt}{\Large \bfseries 3.実験方法}\\
+{\large \bfseries 3.1 モデリング方法}\\
+　まず、Ball\&Beam実験装置のモータのモデリングを行うため、同定信号として周期$0.2,0.4,0.6\ \mathrm{s}$の矩形波、$0.2,0.3,0.4\ \mathrm{s}$ののこぎり波、周波数$10,50,100\ \mathrm{Hz}$の正弦波の入力電圧を印加し、出力信号$\theta,\dot{\theta}$を得た。その後、得られたデータをハイパスフィルタやローパスフィルタに通し、2.2.2と2.2.3に示したモデリング方法を用いて、システム行列$A,B$をモデリングした。得られたデータとモデリングの自乗誤差を計算し、その誤差が最も小さいものをその後の入力信号として用いた。\\
+\\
+{\large \bfseries 3.2最適制御器の設計}\\
+　最適制御器を設計する際は、3.1によって求めたシステム行列$A,B$について、評価関数が最小になるようにシミュレーションを行った。また、重みの値$Q,R$は入力信号$u$の絶対値が$5\ \mathrm{V}$を超えず、出力$z$のオーバーシュートができるだけ小さくなるように設定した。そして、その重みの値から、(24)、(25)式を用いて最適フィードバックゲイン$F^*$を求めた。\\
+\\
+{\large \bfseries 3.3最適制御器を用いたボールの位置制御の方法}\\
+　実際にボールの位置を制御する際は、はじめにビームが水平になるように調整しその上にボールを静止させた。そして、ビーム上に設置された赤外線センサによってボールの位置を観測し、その観測データをフィードバック入力としてシステムを構成した。\\
+\\
+\hspace{-2pt}{\Large \bfseries 4.実験結果}\\
+{\large \bfseries 4.1 実験1(1週目)}\\
+　今回の実験ではサンプリング周期を$0.02\ \mathrm{s}$とした。表1にそれぞれの入力信号の角度の測定値とシミュレーションのMSEを示す。
+\begin{table}[h]
+  \newcolumntype{I}{!{\vrule width 1.5pt}}
+  \newcolumntype{i}{!{\vrule width 0.8pt}}
+  \arrayrulewidth=0.8pt
+  \renewcommand{\arraystretch}{1.5}
+  \newcommand{\bhline}[1]{\noalign{\hrule height #1}}
+  \centering
+  \caption{角度の測定値とシミュレーションのMSE}
+  \begin{tabular}{Ic|c|c|c|c|c|c|c|c|cI}
+    \bhline{1.5pt}
+    波形&\multicolumn{3}{ci}{矩形波}&\multicolumn{3}{ci}{のこぎり波}&\multicolumn{3}{cI}{正弦波}\\
+    \hline
+    周期\ /\ s&0.2&0.4&0.6&0.2&0.3&0.4&0.1\pi&0.02\pi&0.01\pi\\
+    \hline
+    \begin{tabular}{c}
+      \vspace{-10pt}角度の測定値と\\
+      \vspace{-10pt}シミュレーションの\\
+      MSE
+      \end{tabular}&64.8&36.6&33.7&54.2&189&197&29.7&25.8&33.8\\
+      \bhline{1.5pt}
+  \end{tabular}
+  \label{tb:table1}
+\end{table}
+以後、今回の実験で周期0.4\ sの矩形波を入力信号として用いる。その理由は考察に示す。そして図\ref{fig:figure6}に$\mathrm{P_{up}}$に印加した周期$0.4\ \mathrm{s}$の矩形波の入力電圧を示す。
+\begin{figure}[h]
+  \centering
+  \includegraphics[scale=0.7]{figure6.eps}
+  \caption{入力電圧}
+  \label{fig:figure6}
+\end{figure}
+\clearpage
+図\ref{fig:figure7}に角度$\theta$の時間変化、図\ref{fig:figure8}にハイパスフィルタのゲイン線図を示す。ただし、青線は何も処理をしていない角$\theta$、赤線は図\ref{fig:figure8}に示すようなハイパスフィルタを通した角度$\theta$を表す。
+\begin{figure}[h]
+  \centering
+  \includegraphics[scale=0.7]{figure7.eps}
+  \caption{角度$\theta$の時間変化}
+  \label{fig:figure7}
+\end{figure}
+\begin{figure}[h]
+  \centering
+  \includegraphics[scale=0.7]{figure8.eps}
+  \caption{ハイパスフィルタ}
+  \label{fig:figure8}
+\end{figure}
+\clearpage
+図\ref{fig:figure9}に角度$\theta$の時間変化、図\ref{fig:figure10}にローパスフィルタのゲイン線図を示す。ただし、青線は何も処理をしていない角$\theta$、赤線は図\ref{fig:figure8}に示すようなハイパスフィルタ、図\ref{fig:figure10}に示すようなローパスフィルタフィルタを通した角$\theta$を表す。
+\begin{figure}[h]
+  \centering
+  \includegraphics[scale=0.7]{figure9.eps}
+  \caption{角度$\theta$の時間変化}
+  \label{fig:figure9}
+\end{figure}
+\begin{figure}[h]
+  \centering
+  \includegraphics[scale=0.7]{figure10.eps}
+  \caption{ローパスフィルタ}
+  \label{fig:figure10}
+\end{figure}
+\clearpage
+図\ref{fig:figure11}、図\ref{fig:figure12}に実験データから得られたグラフとシミュレーションによって得られたグラフを比較した図を示す。
+\begin{figure}[h]
+  \centering
+  \includegraphics[scale=0.7]{figure11.eps}
+  \caption{実験データとシミュレーションの比較(角度$\theta$)}
+  \label{fig:figure11}
+\end{figure}
+\begin{figure}[h]
+  \centering
+  \includegraphics[scale=0.7]{figure12.eps}
+  \caption{実験データとシミュレーションの比較(角速度$\dot{\theta}$)}
+  \label{fig:figure12}
+\end{figure}\\
+角度の測定値とシミュレーションのMSEは、$25.766$であった。
+\clearpage
+最後にモデリングによって得られた状態方程式を(28)、(29)、(30)、(31)式に示す。ただし、(28)、(29)式はハイパスフィルタとローパスフィルタに通したときの状態方程式、(30)、(31)式はハイパスフィルタのみに通したときの状態方程式を示す。
+\begin{align}
+  \mathrm{P_{up}}:\ \bm x[k+1]&=
+  \begin{bmatrix}
+    -0.905&5.97\times 10^{-4}\\
+    -8.99&-0.288
+  \end{bmatrix}\bm
+  x_\mathrm{up}+
+  \begin{bmatrix}
+    -0.201\\
+    4.30
+  \end{bmatrix}
+  u[k]\\[10pt]
+  \mathrm{P_{down}}:\ \bm x[k+1]&=
+  \begin{bmatrix}
+    1&0.02\\
+    0&1
+  \end{bmatrix}
+  \bm x_\mathrm{up}+
+  \begin{bmatrix}
+    0\\
+    0.0287
+  \end{bmatrix}
+  u[k]
+\end{align}
+\begin{align}
+  \mathrm{P_{up}}:\ \bm x[k+1]&=
+  \begin{bmatrix}
+    0.793&-7.70\times 10^{-3}\\
+    3.64&-0.302
+  \end{bmatrix}\bm
+  x_\mathrm{up}+
+  \begin{bmatrix}
+    0.285\\
+    6.36
+  \end{bmatrix}
+  u[k]\\[10pt]
+  \mathrm{P_{down}}:\ \bm x[k+1]&=
+  \begin{bmatrix}
+    1&0.02\\
+    0&1
+  \end{bmatrix}
+  \bm x_\mathrm{up}+
+  \begin{bmatrix}
+    0\\
+    0.0287
+  \end{bmatrix}
+  u[k]
+\end{align}\\
+\\
+{\large \bfseries 4.2 実験2(2週目)}\\
+　2週目の実験では、ハイパスフィルタとローパスフィルタに通したときの状態方程式、ハイパスフィルタのみに通したときの状態方程式について実験を行った。以下、ハイパスフィルタとローパスフィルタに通したときを(i)、ハイパスフィルタのみに通したときを(ii)と表す。\\
+　まず、(i)について、重み$q_1,q_2,q_3,q_4,r$の選定結果を(32)、(33)、(34)式に示す。また、図\ref{fig:figure13}、図\ref{fig:figure14}、図\ref{fig:figure15}にそれぞれの選定結果(32)、(33)、(34)式のボールの位置$z$のシミュレーション結果を示す。
+\begin{align}
+  [q_1,q_2,q_3,q_4]=[30000,100,1,1]\ ,\ r=5000000
+\end{align}
+\begin{figure}[h]
+  \centering
+  \vspace{-30pt}\includegraphics[scale=0.5]{figure13.eps}
+  \caption{ボールの位置のシミュレーション結果}
+  \label{fig:figure13}
+\end{figure}
+\clearpage
+\begin{align}
+  [q_1,q_2,q_3,q_4]=[10000,1000,1,1]\ ,\ r=5000000
+\end{align}
+\begin{figure}[h]
+  \centering
+  \vspace{-30pt}\includegraphics[scale=0.5]{figure14.eps}
+  \caption{ボールの位置のシミュレーション結果}
+  \label{fig:figure14}
+\end{figure}
+\begin{align}
+  [q_1,q_2,q_3,q_4]=[100000,1,100,100]\ ,\ r=5000000
+\end{align}
+\begin{figure}[h]
+  \centering
+  \vspace{-30pt}\includegraphics[scale=0.5]{figure15.eps}
+  \caption{ボールの位置のシミュレーション結果}
+  \label{fig:figure15}
+\end{figure}\\
+(32)、(33)、(34)式のときはいずれもボールがビームから落ちてしまい実験は失敗した。
+次に(ii)について、重み$q_1,q_2,q_3,q_4,r$の選定結果を(35)、(36)、(37)、(38)、(39)、(40)式に示す。また、図\ref{fig:figure16}、図\ref{fig:figure20}、図\ref{fig:figure24}、図\ref{fig:figure28}、図\ref{fig:figure32}、図\ref{fig:figure36}にそれぞれの選定結果(35)、(36)、(37)式のボールの位置$z$のシミュレーション結果を、図\ref{fig:figure17}、図\ref{fig:figure21}、図\ref{fig:figure25}、図\ref{fig:figure29}、図\ref{fig:figure33}、図\ref{fig:figure37}にそれぞれの選定結果(35)、(36)、(37)式のボールの位置$z$の実験結果を、図\ref{fig:figure18}、図\ref{fig:figure22}、図\ref{fig:figure26}、図\ref{fig:figure30}、図\ref{fig:figure34}、図\ref{fig:figure38}にそれぞれの選定結果(35)、(36)、(37)式の角度$\theta$の実験結果を、図\ref{fig:figure19}、図\ref{fig:figure23}、図\ref{fig:figure27}、図\ref{fig:figure31}、図\ref{fig:figure35}、図\ref{fig:figure39}にそれぞれの選定結果(35)、(36)、(37)式の角速度$\dot{\theta}$の実験結果示す。
+\clearpage
+\begin{align}
+  [q_1,q_2,q_3,q_4]=[1000,1,100,100]\ ,\ r=50000
+\end{align}
+\begin{figure}[h]
+  \centering
+  \vspace{-30pt}
+  \begin{minipage}[h]{0.4\linewidth}
+    \centering
+    \includegraphics[scale=0.35]{figure16.eps}
+    \caption{ボールの位置のシミュレーション結果}
+    \label{fig:figure16}
+  \end{minipage}
+  \begin{minipage}[h]{0.4\linewidth}
+    \centering
+    \include{data2.tex}
+    \vspace{-30pt}\caption{ボールの位置の時間変化}
+    \label{fig:figure17}
+  \end{minipage}
+  \begin{minipage}[h]{0.4\linewidth}
+    \centering
+    \include{data4.tex}
+    \vspace{-30pt}\caption{角度の時間変化}
+    \label{fig:figure18}
+  \end{minipage}
+  \begin{minipage}[h]{0.4\linewidth}
+    \centering
+    \include{data3_1}
+    \vspace{-30pt}\caption{角速度の時間変化}
+    \label{fig:figure19}
+  \end{minipage}
+\end{figure}
+\begin{align}
+  [q_1,q_2,q_3,q_4]=[1000,10,100,100]\ ,\ r=21000
+\end{align}
+\begin{figure}[h]
+  \centering
+  \vspace{-30pt}
+  \begin{minipage}[h]{0.4\linewidth}
+    \centering
+    \includegraphics[scale=0.35]{figure17.eps}
+    \caption{ボールの位置のシミュレーション結果}
+    \label{fig:figure20}
+  \end{minipage}
+  \begin{minipage}[h]{0.4\linewidth}
+    \centering
+    \include{data5}
+    \vspace{-30pt}\caption{ボールの位置の時間変化}
+    \label{fig:figure21}
+  \end{minipage}
+  \begin{minipage}[h]{0.4\linewidth}
+    \centering
+    \include{data6}
+    \vspace{-30pt}\caption{角度の時間変化}
+    \label{fig:figure22}
+  \end{minipage}
+  \begin{minipage}[h]{0.4\linewidth}
+    \centering
+    \include{data7}
+    \vspace{-30pt}\caption{角速度の時間変化}
+    \label{fig:figure23}
+  \end{minipage}
+\end{figure}
+\clearpage
+\begin{align}
+  [q_1,q_2,q_3,q_4]=[1000,1000,100,100]\ ,\ r=21000
+\end{align}
+\begin{figure}[h]
+  \vspace{-30pt}
+  \centering
+  \begin{minipage}{0.4\linewidth}
+    \centering
+    \includegraphics[scale=0.35]{figure18.eps}
+    \caption{ボールの位置のシミュレーション結果}
+    \label{fig:figure24}
+  \end{minipage}
+  \begin{minipage}[h]{0.4\linewidth}
+    \centering
+    \include{data8}
+    \vspace{-30pt}\caption{ボールの位置の時間変化}
+    \label{fig:figure25}
+  \end{minipage}
+  \begin{minipage}[h]{0.4\linewidth}
+    \centering
+    \include{data9}
+    \vspace{-30pt}\caption{角度の時間変化}
+    \label{fig:figure26}
+  \end{minipage}
+  \begin{minipage}[h]{0.4\linewidth}
+    \centering
+    \include{data10}
+    \vspace{-30pt}\caption{角速度の時間変化}
+    \label{fig:figure27}
+  \end{minipage}
+\end{figure}
+\begin{align}
+  [q_1,q_2,q_3,q_4]=[100,1000,1,1]\ ,\ r=5000
+\end{align}
+\begin{figure}[h]
+  \vspace{-30pt}
+  \centering
+  \begin{minipage}{0.4\linewidth}
+    \centering
+    \includegraphics[scale=0.35]{figure19.eps}
+    \caption{ボールの位置のシミュレーション結果}
+    \label{fig:figure28}
+  \end{minipage}
+  \begin{minipage}[h]{0.4\linewidth}
+    \centering
+    \include{data11}
+    \vspace{-30pt}\caption{ボールの位置の時間変化}
+    \label{fig:figure29}
+  \end{minipage}
+  \begin{minipage}[h]{0.4\linewidth}
+    \centering
+    \include{data12}
+    \vspace{-30pt}\caption{角度の時間変化}
+    \label{fig:figure30}
+  \end{minipage}
+  \begin{minipage}[h]{0.4\linewidth}
+    \centering
+    \include{data13}
+    \vspace{-30pt}\caption{角速度の時間変化}
+    \label{fig:figure31}
+  \end{minipage}
+\end{figure}
+\clearpage
+\begin{align}
+  [q_1,q_2,q_3,q_4]=[50,1000,1,1]\ ,\ r=5000
+\end{align}
+\begin{figure}[h]
+  \vspace{-30pt}
+  \centering
+  \begin{minipage}{0.4\linewidth}
+    \centering
+    \includegraphics[scale=0.35]{figure20.eps}
+    \caption{ボールの位置のシミュレーション結果}
+    \label{fig:figure32}
+  \end{minipage}
+  \begin{minipage}[h]{0.4\linewidth}
+    \centering
+    \include{data14}
+    \vspace{-30pt}\caption{ボールの位置の時間変化}
+    \label{fig:figure33}
+  \end{minipage}
+  \begin{minipage}[h]{0.4\linewidth}
+    \centering
+    \include{data15}
+    \vspace{-30pt}\caption{角度の時間変化}
+    \label{fig:figure34}
+  \end{minipage}
+  \begin{minipage}[h]{0.4\linewidth}
+    \centering
+    \include{data16}
+    \vspace{-30pt}\caption{角速度の時間変化}
+    \label{fig:figure35}
+  \end{minipage}
+\end{figure}
+\begin{align}
+  [q_1,q_2,q_3,q_4]=[80,1000,1,1]\ ,\ r=5000s
+\end{align}
+\begin{figure}[h]
+  \vspace{-30pt}
+  \centering
+  \begin{minipage}{0.4\linewidth}
+    \centering
+    \includegraphics[scale=0.35]{figure21.eps}
+    \caption{ボールの位置のシミュレーション結果}
+    \label{fig:figure36}
+  \end{minipage}
+  \begin{minipage}[h]{0.4\linewidth}
+    \centering
+    \include{data17}
+    \vspace{-30pt}\caption{ボールの位置の時間変化}
+    \label{fig:figure37}
+  \end{minipage}
+  \begin{minipage}[h]{0.4\linewidth}
+    \centering
+    \include{data18}
+    \vspace{-30pt}\caption{角度の時間変化}
+    \label{fig:figure38}
+  \end{minipage}
+  \begin{minipage}[h]{0.4\linewidth}
+    \centering
+    \include{data19}
+    \vspace{-30pt}\caption{角速度の時間変化}
+    \label{fig:figure39}
+  \end{minipage}
+\end{figure}
+\clearpage
+\hspace{-2pt}{\Large \bfseries 5.考察}\\
+{\large \bfseries 5.1実験1(1週目)}\\
+　まず、1週目の実験について矩形波を選んだ理由を説明する。表\ref{tb:table1}に注目すると、最もMSEが小さい波形は周期が$0.02\pi\ \mathrm{s}$の正弦波であることがわかる。しかし、この正弦波のフーリエ級数展開を考えたとき、周波数が$50\ \mathrm{Hz}$の波しか存在しない。そのため、正弦波を入力信号として用いてしまうとその周波数の速さでしか装置を制御できないことがわかる。一方で、正弦波を除くと矩形波のMSEが小さい傾向にある。ここで、図\ref{fig:figure6}の矩形波をフーリエ級数展開すると次式のようになる。
+\begin{align}
+  v(t)=\frac{6}{\pi}\sum^{\infty}_{n=1}\frac{1}{2n-1}\sin{5\pi nt}
+\end{align}
+(41)式から、矩形波には様々な周波数の正弦波が存在することがわかるため、最適制御実験に用いるためには、正弦波より矩形波の方が適していると言える。次に、周期が$0.6\ \mathrm{s}$のMSEの方が周期が$0.4\ \mathrm{s}$のMSEより小さいにもかかわらず、周期が$0.4\ \mathrm{s}$の矩形波を選んだ理由を説明する。図\ref{fig:figure40}に周期0.4\ sについてのデータとモデリングの比較を、図\ref{fig:figure41}に周期0.6\ sについてのデータとモデリングの比較を示す。\\
+\begin{figure}[h]
+  \centering
+  \begin{minipage}{0.4\linewidth}
+    \includegraphics[scale=0.4]{figure40.eps}
+    \caption{周期0.4\ sの矩形波}
+    \label{fig:figure40}
+  \end{minipage}
+  \begin{minipage}{0.4\linewidth}
+    \includegraphics[scale=0.4]{figure41.eps}
+    \caption{周期0.6\ sの矩形波}
+    \label{fig:figure41}
+  \end{minipage}
+\end{figure}\\
+図\ref{fig:figure40}から、初めはモデリングの波形はデータの波形より大きく振動しているが、時間が経つとデータの波形にうまくフィッティングしていることがわかる。一方で、図\ref{fig:figure41}では、初めから最後までデータの波形とモデリングの波形に大きなずれはないが、常に小さなずれが存在していることがわかり、時間が経った後でもこのずれは消えていない。このような理由により、十分に時間が経過した状態では周期0.4\ sの矩形波の方が最適制御実験に用いる点で適してると考えられる。\\
+　次に用いた矩形波をハイパスフィルタとローパスフィルタに通した理由を説明する。まず、図\ref{fig:figure7}に着目すると、青線で示された何も処理されていない角度$\theta$はかなり小さい周波数で常に減少していることがわかる。そのためこの低周波の関数を減少させる成分を取り除くためにはハイパスフィルタを用いるのが効果的であることがわかる。次に(41) 式に注目すると、フーリエ係数には$1/(2n-1)$が含まれ、周波数が大きい成分の振幅は小さくなることがわかる。周波数が十分大きくなると、正弦波の振幅よりも誤差の高周波成分の振幅の方が大きくなる。そのためそのような大きな周波数では入力信号より誤差の方が大きくなり使い物にならないと考えらるためローパスフィルタにも通してそのような成分を取り除いた。\\
+\\
+{\large \bfseries 5.2実験2(2週目)}\\
+　入力データをハイパスフィルタとローパスフィルタの両方を通してモデリングをした場合はいずれの重みでもボールはビームから落ちた。逆に、入力データをハイパスフィルタのみ通してモデリングを行った場合は、シミュレーションでオーバーシュートが起こらなくなると実機での制御もボールがビームの上に留まるようになった。これは、実機では入力信号の高い周波数帯が大部分を占めており、シミュレーションのシステムが実機のシステムから大きくずれたことが原因だと考えられる。このような結果から入力波として矩形波を用いた場合は、周波数の高い波が重要であることがわかる。
+\clearpage
+{\large \bfseries 5.4モデリングの精度向上のための入出力応答の取得方法}\\
+　まず、今回の実験ではビームの上に赤外線センサが乗っていた。これは入力電圧を印加し、サーボモータを動作させ、出力の角度$\theta$を測定する際、赤外線センサによる重力により、ビームのサーボモータ側が下がるときは下がりやすく、ビームのサーボモータ側が上がる時は上がりにくくなる原因となる。この影響は実際に実験1の結果に現れており、図\ref{fig:figure7}の青い線が減少傾向にあるのはこれが原因である。また、5.1でも述べた通り、フーリエ級数展開をした際にできるだけ様々な周波数を持った正弦波が存在する方が装置を制御する際に様々なパターンの動きに対応できるため精度が向上する。\\
+\\
+{\large \bfseries 5.3位置や速度の計測データのノイズによる影響}\\
+\begin{figure}[h]
+  \centering
+  \includegraphics[scale=1.2]{figure42.eps}
+  \caption{システム$\mathrm{P_c}$のブロック線図}
+  \label{fig:figure42}
+\end{figure}\\
+　図\ref{fig:figure42}に、今回用いたシステム$\mathrm{P_c}$を示す。実際のシステムでは図42のように、入力時に入力ノイズ$\bm v[k]$が、観測時に観測ノイズ$\bm w[k]$が生じる。このようなノイズを考慮して、状態方程式と出力方程式を求めると、
+\begin{align}
+  \left\{
+  \begin{aligned}
+    &\bm x[k+1]=A\bm x[k]+Bu[k]+\bm v[k]\\
+    &\bm y[k]=C\bm x[k]+\bm w[k]
+  \end{aligned}
+  \right .
+\end{align}
+となる。$\bm x[k]\ ,\ \bm y[k]$を求めると、
+\begin{align}
+  \left\{
+  \begin{aligned}
+    &\bm x[k]=A^k\bm x[0]+\sum^{k}_{i=1}A^{k-i}Bu[i-1]+\sum^{k}_{i=1}A^{k-i}\bm v[i-1]\\
+    &\bm y[k]=CA^k+C\sum^{k}_{i=1}A^{k-i}Bu[i-1]+C\sum^{k}_{i=1}A^{k-i}\bm v[i-1]+\bm w[k]
+  \end{aligned}
+  \right .
+\end{align}
+となる。よって、 時刻$k$で観測すると、$C\sum^{k}_{i=1}A^{k-i}\bm v[i-1]+\bm w[k]$のノイズが載ることになる。ここで、このノイズによる影響を減らすため、オブザーバを設置する。オブザーバを用いたブロック線図を図\ref{fig:figure43}に示す。
+オブザーバの状態方程式と出力方程式は、
+\begin{align}
+  \left\{
+  \begin{aligned}
+    &\hat{\bm x}[k+1]=A\hat{\bm x}[k]+Bu[k]+L\left(\bm y[k]-\hat{\bm y}[k]\right)\\
+    &\hat{\bm y}[k]=C\hat{\bm x}[k]
+  \end{aligned}
+  \right .
+\end{align}
+となる。$\bm e[k]=\bm x[k]-\hat{\bm x}[k]$を用いると、(42)、(44)式から、
+\begin{gather}
+  \bm e[k+1]=(A-LC)\bm e[k]+
+  \begin{bmatrix}
+    I&-L
+  \end{bmatrix}
+  \begin{bmatrix}
+    \bm v[k]\\
+    \bm w[k]
+  \end{bmatrix}\nonumber\\
+  \therefore\ \bm e[k+1]=\tilde{A}\bm e[k]+\tilde{B}\bm d[k]
+\end{gather}
+と表せる。ただし、$\tilde{A}=A-LC,\ \tilde{B}=[I\ -L],\ \bm d[k]=[\bm v^\top[k]\ \bm w^\top[k]]^\top$とおいた。このとき、(8)式を用いることによって、
+\begin{align}
+  \bm e[k]&=\tilde{A}^{k}\bm e[0]+\sum^{k-1}_{\tau=0}\tilde{A}^\tau\tilde{B}u[k-1-\tau]\nonumber\\
+  &=\tilde{A}^{k}\bm e[0]+\sum^{k-1}_{\tau=0}\tilde{A}^{k-1-\tau}\tilde{B}u[\tau]
+\end{align}
+と表せる。ここで、正定値行列$P[k]$を$P[k]=\mathbb{E}[\bm e[k]\bm e^\top[k]]$と定義すれば、$P[k]$の対角成分の和を最小にするような$u[k]$を求めればよい。
+\begin{equation}
+  \mathbb{E}[\bm  e[0]\bm d^\top[k]]=\bm O\ ,\ \mathbb{E}[\bm d[k]\bm d^\top[k]]=
+  \begin{bmatrix}
+    Q&\bm O\\
+    \bm O&R
+  \end{bmatrix}
+\end{equation}
+とすると、
+\begin{align}
+  P[k]&=\mathbb{E}[\bm e[k]\bm e^\top[k]]\nonumber\\
+  &=\tilde{A}^k\mathbb{E}\left[\left(\bm e[0]+\sum^{k-1}_{\tau=0}\tilde{A}^{-1-\tau}\tilde{B}u[\tau]\right)\left(\bm e[0]+\sum^{k-1}_{\tau=0}\tilde{A}^{-1-\tau}\tilde{B}u[\tau]\right)^\top\right]\left({\tilde{A}}^\top\right)^k\nonumber\\
+  &=\tilde{A}^k\left[\mathbb{E}[\bm e[0]\bm e^\top[0]]+\sum_{\tau=0}^{k-1}\tilde{A}^{-1-\tau}\left(Q+LRL^\top\right)\left(\tilde{A}^\top\right)^{-1-\tau}\right]\left(\tilde{A}^\top\right)^k
+\end{align}\\
+となる。よって、
+\begin{align}
+  P[k+1]&=\tilde{A}^{k+1}\left[\mathbb{E}[\bm e[0]\bm e^\top[0]]+\sum_{\tau=0}^{k}\tilde{A}^{-1-\tau}\left(Q+LRL^\top\right)\left(\tilde{A}^\top\right)^{-1-\tau}\right]\left(\tilde{A}^\top\right)^{k+1}\nonumber\\
+  &=\tilde{A}^{k+1}\left[\mathbb{E}[\bm e[0]\bm e^\top[0]]+\sum_{\tau=0}^{k-1}\tilde{A}^{-1-\tau}\left(Q+LRL^\top\right)\left(\tilde{A}^\top\right)^{-1-\tau}+\tilde{A}^{-1-k}\left(Q+LRL^\top\right)\left(\tilde{A}^\top\right)^{-1-k}\right]\left(\tilde{A}^\top\right)^{k+1}\nonumber\\
+  &=\tilde{A}^{k+1}P[k]\left(\tilde{A}^\top\right)^{k+1}+Q+LRL^\top
+\end{align}
+となる。ここで、$k\rightarrow\infty$のとき、$P[k]=P(一定)$として良い。よって、(49)式は、
+\begin{align}
+  P=\tilde{A}^{k+1}P\left(\tilde{A}^\top\right)^{k+1}+Q+LRL^\top
+\end{align}
+となる。よって、(50)式から$P$を最小とするように$L$を設定し、オブザーバを設計すればよい。
+\begin{figure}[h]
+  \centering
+  \includegraphics{figure43.eps}
+  \caption{オブザーバを用いたブロック線図}
+  \label{fig:figure43}
+\end{figure}
+\clearpage
+{\large \bfseries 5.5行列$Q,R$による制御系の振る舞い}\\
+　図\ref{fig:figure28}と図\ref{fig:figure32}を比べると、図\ref{fig:figure28}の方が収束が早くなっている。これは、$Q$の対角成分が大きくなると制御系の即応性が上がることに起因する。(21)式で$Q$の対角成分が大きくなると$\bm x[k]-\bm x_{ref}$がより重視されるような評価関数になるため、このようなことが起こる。しかし、入力に関しては評価関数内では、$u[k]-u_{ref}$の割合が小さくなるため、入力電圧が大きくなる。逆に、$R$を大きくすると即応性が下がり収束が遅くなった。また、入力電圧が小さくなった。これは(21)式で$u[k]-u_{ref}$の割合が大きくなり、$\bm x[k]-\bm x_{ref}$の割合が小さくなったことによって即応性が下がったのだと考えられる。　\\
+\\
+{\large \bfseries 5.6シミュレーシュンと実機の最適制御の結果の比較}\\
+　実機の最適制御では全てシミュレーションとは異なった挙動を観測した。シミュレーションでオーバーシュートが見られると実機のボールは最終的にはビームの上から落ちた。逆にシミュレーションでオーバーシュートしない場合は実機でボールがビームの上に留まった。これは、オーバーシュートが存在すると目標値を超えた時に修正するために反対方向に動く必要がある。しかし、実機ではモーターを反対方向に動かす際に遅延が生じるため、シミュレーションより大きくオーバーシュートすることとなる。そのため、シミュレーションで収束していたとしても、実機では収束しなかったりする。\\
+\\
+{\large \bfseries 5.7ボールの静止位置のずれ}\\
+　ボールの静止位置にずれが生じない場合は、赤外線センサとボールの中心を結んだ直線がビームと平行になる時である。しかし、実際には赤外線センサとボールの中心を結んだ直線はビームとは平行にならず少しずれる。これにより、赤外線センサは正確にボールの中心の位置を測定することができず、ボールの静止位置はずれる。\\
+\\
+{\large \bfseries 5.8\ Bellman方程式からのリッカチ方程式の導出}\\
+　まず、(51)式にBellman方程式を示す。
+\begin{align}
+  J_k(\bm x[k])=\min_{\{\bm u[k]\}}\left\{\bm x^\top[k]Q\bm x[k]+\bm u^\top[k]R\bm u[k]+J_{k+1}\left(A\bm x[k]+B\bm u[k]\right)\right\}
+\end{align}
+ここで、$J_k(\bm x)=\bm x^\top[k]P[k]\bm x[k]\ (P[k]は正定値)$とおき、(51)式の右辺の\{\}の中を$f(\bm u[k])$とおくと、(6)式を用いて、
+\begin{align}
+  f(\bm u[k])&=\bm x^\top[k]Q\bm x[k]+\bm u^\top[k]R\bm u[k]+J_{k+1}(A\bm x[k]+B\bm u[k])\nonumber\\
+  &=\bm x^\top[k]Q\bm x[k]+\bm u^\top[k]R\bm u[k]+(A\bm x[k]+B\bm u[k])^\top P[k+1](A\bm x[k]+B\bm u[k])\nonumber\\
+  &=\bm x^\top[k]Q\bm x[k]+\bm u^\top[k]R\bm u[k]+\bm x^\top[k]A^\top P[k+1]A\bm x[k]+\bm x^\top[k]AP[k+1]B\bm u[k]\nonumber\\
+  &\hspace{126pt}+\bm u^\top[k]B^\top P[k+1]A\bm x[k]+\bm u^\top[k]B^\top P[k+1]B\bm u[k]\nonumber\\
+  &=\bm x^\top[k]Q\bm x[k]+\bm u^\top[k]\left(R+B^\top P[k+1]B\right)\bm u[k]+\bm x^\top[k]A^\top P[k+1]A\bm x[k]+\bm x^\top[k]AP[k+1]B\bm u[k]\nonumber\\
+  &\hspace{303pt}+\bm u^\top[k]B^\top P[k+1]A\bm x[k]
+\end{align}
+と表せる。$f(\bm u[k])$を$\bm u[k]$で微分すると、
+\begin{align}
+  \frac{\partial f}{\partial\bm u}&=2\bm u^\top[k]\left(R+B^\top P[k+1]B\right)+\bm x^\top[k]AP[k+1]B+ \bm x^\top[k]A^\top P[k+1]B\nonumber\\
+  &=2\bm u^\top[k]\left(R+B^\top P[k+1]B\right)+2\bm x^\top[k]AP[k+1]B
+\end{align}
+となる。ここで、$f(\bm u[k])$が最小になるとき、$\partial f/\partial\bm u=\bm O$
+となるから、(53)式は、
+\begin{gather}
+  2\bm u^\top[k]\left(R+B^\top P[k+1]B\right)+2\bm x^\top[k]AP[k+1]B=\bm O\nonumber\\
+  \therefore\ \bm u^\top[k]=-\bm x^\top[k]AP[k+1]B\left(R+B^\top P[k+1]B\right)^{-1}\\
+  \therefore\ \bm u[k]=-\left(R+B^\top P[k+1]B\right)^{-1}B^\top P[k+1]A^\top\bm x[k]
+\end{gather}
+となる。(51)、(54)、(55)式と$J_k(\bm x)=\bm x^\top[k]P[k]\bm x[k]$から、(51)式は、
+\begin{align}
+  \bm x^\top[k]P[k]\bm x[k]=&\ \bm x^\top[k]Q\bm x[k]+\bm x^\top[k]AP[k+1]B\left(R+B^\top P[k+1]B\right)B^\top P[k+1]A^\top\bm x[k]\hspace{70pt}\nonumber\\
+  &+\bm x^\top[k]A^\top P[k+1]A\bm x[k]-2\bm x^\top[k]AP[k+1]B\left(R+B^\top P[k+1]B\right)^{-1}B^\top P[k+1]A^\top\bm x[k]\nonumber\\
+  =&\ \bm x^\top[k]Q\bm x[k]-\bm x^\top[k]AP[k+1]B\left(R+B^\top P[k+1]B\right)B^\top P[k+1]A^\top\bm x[k]+\bm x^\top[k]A^\top P[k+1]A\bm x[k]\nonumber\\
+  =&\ \bm x^\top[k]\left\{Q+A^\top P[k+1]A-AP[k+1]B\left(R+B^\top P[k+1]B\right)B^\top P[k+1]A^\top\right\}\bm x[k]
+\end{align}
+となる。よって、
+\begin{equation}
+  P[k]=Q+A^\top P[k+1]A-AP[k+1]B\left(R+B^\top P[k+1]B\right)B^\top P[k+1]A^\top
+\end{equation}
+となる。(57)をリッカチ方程式と呼ぶ。\\
+\\
+\hspace{-2pt}{\Large \bfseries 6.感想}\\
+　制御は意外と難しいなと思いました。理論だけじゃ何もできないなと思いました。\\
+\\
+{\Large \bfseries 参考文献}
+\begin{thebibliography}{1}
+\vspace{-1.5cm}
+  \bibitem{text} 2022OptimalControl\_MI\_0912.pdf閲覧日:2023/11/28
+\end{thebibliography}
+\end{document}

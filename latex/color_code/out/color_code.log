@@ -1,0 +1,6 @@
+This is LuaHBTeX, Version 1.18.0 (TeX Live 2024)  (format=lualatex 2024.5.11)  16 OCT 2024 19:28
+ restricted system commands enabled.
+**"c:/Users/Yuga Hirai/Desktop/latex/color_code/color_code.tex"
+(
+! error:  (file io): fflush() failed (Invalid argument)
+!  ==> Fatal error occurred, no output PDF file produced!

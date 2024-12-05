@@ -1,0 +1,82 @@
+\documentclass[a4paper,10.5pt]{ltjsarticle}
+\usepackage{graphicx}
+\usepackage{bxtexlogo}
+\usepackage{multirow}
+\usepackage{graphicx}
+\usepackage{graphics}
+\usepackage{luatexja-fontspec}
+\usepackage{caption}
+\usepackage{amsmath,amssymb,bm,braket}
+\usepackage[top=10truemm,bottom=15truemm,left=10truemm,right=10truemm]{geometry}
+\usepackage{array}
+\usepackage{upgreek}
+\usepackage{fancyhdr}
+\renewcommand{\refname}{}
+\usepackage{listings,jvlisting}
+
+\begin{document}
+\centerline{\huge 物理情報工学CD実験　報告書}
+\centerline{ }
+\rightline{\vspace{-3mm} \Large 2023年度　　　}
+
+\begin{table}[h]
+  \newcolumntype{I}{!{\vrule width 1.5pt}}
+  \newcolumntype{i}{!{\vrule width 0.8pt}}
+  \arrayrulewidth=0.8pt
+  \renewcommand{\arraystretch}{1.5}
+  \newcommand{\bhline}[1]{\noalign{\hrule height #1}}
+  \huge
+  \centering
+  \begin{tabular}{Iwc{6cm}Iwc{2cm}iciwc{5cm}I}
+    \bhline{1.5pt}
+    実験テーマ&\multicolumn{3}{cI}{B5光ファイバ}\\
+    \hline
+    担当教員名&\multicolumn{3}{cI}{武田TA\&石井TA\&南TA}\\
+    \hline
+    実験整理番号&80&実験者氏名&平井 優我\\
+    \hline
+    共同実験者氏名&\multicolumn{3}{cI}{肥田 侑真、日野 正一}\\
+    \hline
+    曜日組&木&実験日&11月9日\\
+    \hline
+    実験回&4,5&報告書提出日&10月29日\\
+    \bhline{1.5pt}
+  \end{tabular}
+\end{table}
+\clearpage
+\leftline{\bfseries{1.目的}}
+　電磁波の一種である光を用いた「光通信」で利用される光ファイバについて、光ファイバの伝送速度を支配する分散要因について理解し、高速通信を実現する構造上の工夫点を学習する。また、実際に光ファイバを用いて光結合、伝送損失、伝送帯域測定などを通して光ファイバの光学特性について理解する。
+\vskip\baselineskip
+\leftline{\textbf{2.原理}}
+\centerline{省略}
+\vskip\baselineskip
+\leftline{\textbf{3.方法}}
+\centerline{省略}
+\vskip\baselineskip
+\leftline{\textbf{4.結果}}
+ \underline{4.1.光ファイバの結合効率}
+
+　測定した光ファイバのファイバ長,ケーブルの色,最大強度,20 µmだけ位置をずらしたときの強度および各結合効率についてまとめた表を表1に示す。
+
+
+\begin{table}[h]
+   \centering
+   \caption{各光ファイバの特性および結合効率}
+   \begin{tabular}{cccc}
+     \hline
+     \multirow{2}{*}{光ファイバの種類}&10µmΦ&50µmΦ&200µmΦ\\
+                                      &シングルモードファイバ&マルチモードファイバ&マルチモードファイバ\\
+     \hline\hline
+     ファイバ長/m&2&2&2\\
+     \hline
+     ケーブルの色&黄&水&橙\\
+     \hline
+     最大の強度/µm&2.580&42.02&650.6\\
+     \hline
+     20µmだけ位置を&\multirow{2}{*}{2.520}&\multirow{2}{*}{43.13}&\multirow{2}{*}{650.6}\\
+     ずらしたときの強度/µm\\
+     結合効率&3.6
+   \end{tabular}
+\end{table}
+
+\end{document}

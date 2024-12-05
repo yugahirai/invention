@@ -1,0 +1,65 @@
+\documentclass[a4paper,10.5pt]{ltjsarticle}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{luatexja-fontspec}
+\usepackage[top=10truemm,bottom=15truemm,left=10truemm,right=10truemm]{geometry}
+\usepackage{array}
+\usepackage{upgreek}
+\usepackage{braket}
+\usepackage{fancyhdr}
+\usepackage{amsmath, amssymb}
+\usepackage{type1cm}
+\renewcommand{\refname}{}
+\captionsetup[figure]{format=plain, labelformat=simple, labelsep=quad, font=bf}
+\captionsetup[table]{format=plain, labelformat=simple, labelsep=quad, font=bf}
+\parindent = 0pt
+\setmainjfont[BoldFont=HGSMinchoE]{MSMincho}
+%[BoldFont=HGSMinchoE]{MSMincho}[BoldFont=HiraMinProN-W6]{HiraMinPro-W3}
+\begin{document}
+
+\centerline
+{\huge \bfseries　調査}
+\rightline
+{May/28/2024}
+\leftline
+{}
+\leftline{\large \bfseries わかっていること}
+・トンネル電流による熱の発生は集積回路発展の阻害要因、江崎によりPN接合を用いたトンネルダイオードが発明されて以来、トンネル効果を利用したデバイスが数多く考案されているRef\cite{1}。\\
+・なぜ固有関数の係数で確率が決まるのかはわかっていない。\\
+・波動関数の収縮を記述する数式はない。\\
+・高効率の磁気モーメントは、質量の分布と電荷の分布が異なる物体が自転している場合に起こり得る。例えば、表面にだけに電荷分布がある円柱が回転すると、磁気モーメントと角運動量の比は、点電荷が円運動する場合の2倍となる。ただし、古典力学に基づきそのような自転運動を計算すると、「プランク定数程度の角運動量を持つためには、物体表面の速度が光速を超えなければならない」という矛盾が生じるRef\cite{1}。\\
+・束縛状態では波動関数の節が多いほどエネルギーが高くなり、波動関数はパリティを持つ。\\
+・確率密度関数のみを見ると、結合状態よりも反結合状態のほうがエネルギーが低そうに見えるが、実際は運動エネルギーによって反結合状態のほうがエネルギーが高い。反結合状態は確率密度の実効的な広がりが小さく位置のばらつきが小さい。不確定原理を考えると、運動量のばらつきが大きくなるはずだから運動エネルギーが高くなる。Ref\cite{1}\\
+・平面波の波数とブロッホ関数の波数は厳密には違うRef\cite{1}。\\
+\\
+\leftline{\large \bfseries 思考}\\
+・量子力学で値が量子化されるのは、ヒルベルト空間での連続性が関わっているのかな。\\
+\clearpage
+{\Large \bfseries REFERENCES}
+\begin{thebibliography}{1}
+\vspace{-1.5cm}
+  \bibitem{1} 小野 行徳, 電子・物性系のための量子力学 デバイスの本質を理解する, 森北出版株式会社
+
+\end{thebibliography}
+\vspace{50pt}
+\leftline{\bfseries  要調査}
+・超伝導やシリコンスピンで取り除かなければならない異質とは何か\\
+・中性原子のparasitic chargeとは\\
+・中性原子の配列をグラフ理論の点に対応させることで問題を解ける\\
+・中性原子の量子ビット再配列方法\\
+・analog simulationの可能性\\
+・nFT state preparation\\
+・feedforwardとmid-circuit measurementの違い\\
+・Instataneous Quantum Polynomial\\
+・braidingでd以上動かすとどうなるのか\\
+・easy intializationとdifficult intializationはどっちがいいのか\\
+・toric code in magnetic field(ising model)\\
+・bacon-shor code\\
+・neutral adn traped ion approaches rely on light scattering for entropy removal\\
+・中性原子のmeasurement freeなprotocol\\
+・Sisyphus cooling\\
+・magic intensity, magic-wavelenghth tweezers\\
+・spin echo pulse, magic trapping\\
+・code distanceの求め方\\
+・LDPC codeでは、あんまり冗長性がありすぎてもいけない\\
+\end{document}

@@ -1,0 +1,59 @@
+\documentclass[a4paper,10.5pt]{ltjsarticle}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{luatexja-fontspec}
+\usepackage[top=10truemm,bottom=15truemm,left=10truemm,right=10truemm]{geometry}
+\usepackage{array}
+\usepackage{upgreek}
+\usepackage{braket}
+\usepackage{fancyhdr}
+\renewcommand{\refname}{}
+\captionsetup[figure]{format=plain, labelformat=simple, labelsep=quad, font=bf}
+\captionsetup[table]{format=plain, labelformat=simple, labelsep=quad, font=bf}
+\parindent = 0pt
+\setmainjfont[BoldFont=HiraMinProN-W6]{HiraMinPro-W3}
+%[BoldFont=HGSMinchoE]{MSMincho}[BoldFont=HiraMinProN-W6]{HiraMinPro-W3}
+\begin{document}
+
+\centerline
+{\huge \bfseries　調査}
+\rightline
+{May/02/2024}
+\leftline
+{}
+
+\leftline{\large \bfseries 動向}\\
+・KQCCではVQAがオワコンだと言われている→回路が短くなることは良いことだ。\\
+・VQAで解ける問題は古典で解くのと速さあんまり変わんなくねってなったらしい。\\
+・まさかの中性原子方式は常温の真空で計算できる←量子コンピュータはこの方式で絶対決まりだな\\
+・2026年に1万qubitをアナウンスしている。\\
+\\
+\leftline{\large \bfseries わかっていること}\\
+・surface codeでは、実際torusを扱うことが難しいため、平面の配列に穴を開けてgenusを作る。\\
+・color code 色が同じ→扱うqubitが違う　色が違う→扱うqubitが同じ可能性がある。\\
+・MISはport folio diversification in finance, broadcast systems optimizationで出てくる問題←これがanalog processingで解けるかも\\
+\\
+\leftline{\large \bfseries 思考}\\
+・なぜsurface codeのcode distanceがshortes untrivial cycleに一致するのかがいまだにわからない。\\
+\\
+{\Large \bfseries REFERENCE}
+\begin{thebibliography}{1}
+\vspace{-1.5cm}
+  \bibitem{1} Héctor Bombín, An Introduction to Topological Quantum Codes, arXiv:1311.0277 (2013)
+\end{thebibliography}
+\leftline{\bfseries  要調査}
+・超伝導やシリコンスピンで取り除かなければならない異質とは何か\\
+・中性原子のparasitic chargeとは\\
+・中性原子の配列をグラフ理論の点に対応させることで問題を解ける\\
+・中性原子の量子ビット再配列方法\\
+・analog simulationの可能性\\
+・nFT state preparation\\
+・feedforwardとmid-circuit measurementの違い\\
+・Instataneous Quantum Polynomial\\
+・braidingでd以上動かすとどうなるのか\\
+・easy intializationとdifficult intializationはどっちがいいのか\\
+・toric code in magnetic field(ising model)\\
+\\
+\leftline{\bfseries 解決}\\
+・holeの大きさ←holeが大きくなるとerrorへの耐性があがるRef\cite{1}\\
+\end{document}

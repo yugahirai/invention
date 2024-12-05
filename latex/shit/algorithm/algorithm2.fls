@@ -1,0 +1,4 @@
+PWD /Users/hiraiyuuware/Desktop/latex/shit/algorithm
+INPUT /usr/local/texlive/2023/texmf-var/web2c/luahbtex/lualatex.fmt
+INPUT ./algorithm2.tex
+OUTPUT algorithm2.log

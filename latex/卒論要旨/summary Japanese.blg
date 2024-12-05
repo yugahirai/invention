@@ -1,0 +1,15 @@
+[0] Config.pm:308> INFO - This is Biber 2.20
+[0] Config.pm:311> INFO - Logfile is 'summary Japanese.blg'
+[165] biber-MSWIN64:340> INFO - === 
+[241] Biber.pm:420> INFO - Reading 'summary Japanese.bcf'
+[319] Biber.pm:994> INFO - Found 4 citekeys in bib section 0
+[329] Biber.pm:4463> INFO - Processing section 0
+[348] Biber.pm:4654> INFO - Looking for bibtex file 'utility/REFERENCES.bib' for section 0
+[400] bibtex.pm:1713> INFO - LaTeX decoding ...
+[413] bibtex.pm:1519> INFO - Found BibTeX data source 'utility/REFERENCES.bib'
+[466] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[466] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[466] Biber.pm:4283> INFO - Sorting list 'nty/global//global/global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[466] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
+[469] bbl.pm:676> INFO - Writing 'summary Japanese.bbl' with encoding 'UTF-8'
+[470] bbl.pm:779> INFO - Output to summary Japanese.bbl

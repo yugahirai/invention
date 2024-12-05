@@ -1,0 +1,43 @@
+{
+    "editor.wordWrap": "on",
+    "latex-workshop.latex.autoBuild.run": "onSave",
+    "latex-workshop.latex.tools": [
+        {
+            "name": "latexmk",
+            "command": "latexmk",
+            "args": [
+                "-lualatex",
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-output-directory=out",
+                "%DOC%"
+            ]
+        },
+        {
+            "name": "latexmk-clean",
+            "command": "latexmk",
+            "args": [
+                "-c",
+                "-output-directory=out",
+                "%DOC%"
+            ]
+        }
+    ],
+    "latex-workshop.latex.recipes": [
+        {
+            "name": "latexmk with clean",
+            "tools": [
+                "latexmk",
+                "latexmk-clean"
+            ]
+        }
+    ],
+    "latex-workshop.latex.clean.fileTypes": [
+        "aux",
+        "log",
+        "out",
+        "fls",
+        "fdb_latexmk",
+        "synctex.gz"
+    ]
+}

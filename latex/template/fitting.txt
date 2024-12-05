@@ -1,0 +1,15 @@
+reset
+set terminal lua tikz createstyle
+set output "data1.tex"
+set lmargin 0.1
+set rmargin 0.1
+set tmargin 0.1
+set bmargin 0.1
+set xlabel font ",17"
+set ylabel font ",17"
+unset key
+set xlabel 'コア面積$\ /\ \mathrm{\upmu m^2}$'offset 0,-1
+set ylabel '結合効率$\ /\ \%$' offset -1.5,0
+fit a*x "Untitled.txt" via a
+
+plot "Untitled.txt" pt 7 lc "#000000", a*x lw 2 lc "#000000"

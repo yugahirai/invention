@@ -1,0 +1,20 @@
+reset
+set terminal lua tikz createstyle
+set output "data1.tex"
+set lmargin 0.1
+set rmargin 0.1
+set tmargin 0.1
+set bmargin 0.1
+set xlabel font ",17"
+set ylabel font ",17"
+set key right top
+set yrange [0 to 2]
+set xtics nomirror
+set ytics nomirror
+set xlabel '${r_0}$'offset 0,-1
+set ylabel '$a_{10000}$' offset -1.5,0
+unset key
+
+
+
+plot "Untitled.txt" with points pointtype 7 pointsize 0.2 lc "#000000"

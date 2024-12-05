@@ -1,0 +1,73 @@
+\documentclass[a4paper,10.5pt]{ltjsarticle}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{luatexja-fontspec}
+\usepackage[top=10truemm,bottom=15truemm,left=10truemm,right=10truemm]{geometry}
+\usepackage{array}
+\usepackage{upgreek}
+\usepackage{braket}
+\usepackage{fancyhdr}
+\renewcommand{\refname}{}
+\captionsetup[figure]{format=plain, labelformat=simple, labelsep=quad, font=bf}
+\captionsetup[table]{format=plain, labelformat=simple, labelsep=quad, font=bf}
+\parindent = 0pt
+\setmainjfont[BoldFont=HGSMinchoE]{MSMincho}
+%[BoldFont=HGSMinchoE]{MSMincho}[BoldFont=HiraMinProN-W6]{HiraMinPro-W3}
+\begin{document}
+
+\centerline
+{\huge \bfseries　調査}
+\rightline
+{May/17/2024}
+\leftline
+{}
+\leftline{\large \bfseries 動向}
+・A series of recent breakthroughs have achieved long elusive results for both classical\ and quantum LDPC codes. On the quantum side, good qLDPC codes
+have now been constructed. On the classical side, we now have good cLDPC codes that are also locally testable. Ref\cite{1}\\
+\\
+\leftline{\large \bfseries わかっていること}
+・In good codes, both the code rate k (the number of logical qubits　encoded) and the code distance d (the size of the smallest undetectable error) are proportional to n (the number of physical qubits), which is the optimal scaling.\\
+・When defined on expander graphs, qLDPC codes can give rise to so-called “good
+codes” that combine a finite encoding rate with an optimal scaling of the code distance, which governs the code’s robustness against noise.\\
+・it has been known for decades that expander graphs allow for the construction of good classical LDPC (cLDPC) codes\\
+・consider any pair of boxes in Tanner graph, reppresenting an X-check and Z-check.
+In a valid Tanner graph the number of circles connected to both boxes must be even.\\
+・The dierence between stabilizer and subsystem codes is that the subsystem
+code does not impose the condition that these check operators should commute with one another
+and hence in general there is no interpretation of a subsystem code as a chain complex Ref\cite{2}.\\
+\\
+\leftline{\large \bfseries 問題}\\
+・The construction of good quantum LDPC codes which are also locally testable is still an outstanding challenge.\\
+・qLDPCでcode distanceをphysical qubitの個数に対して線形にすることがめちゃくちゃchallenging.\\
+
+\clearpage
+{\Large \bfseries REFERENCES}
+\begin{thebibliography}{1}
+\vspace{-1.5cm}
+  \bibitem{1} Tibor Rakovszky and Vedika Khemani, The Physics of (good) LDPC Codes I. Gauging and dualities, arXiv:2310.16032v1
+  \bibitem{2} Matthew B. Hastings, Fiber Bundle Codes: Breaking the N1=2 polylog(N) Barrier for Quantum LDPC Codes, arXiv:2009.03921v2
+\end{thebibliography}
+\vspace{50pt}
+\leftline{\bfseries  要調査}
+・超伝導やシリコンスピンで取り除かなければならない異質とは何か\\
+・中性原子のparasitic chargeとは\\
+・中性原子の配列をグラフ理論の点に対応させることで問題を解ける\\
+・中性原子の量子ビット再配列方法\\
+・analog simulationの可能性\\
+・nFT state preparation\\
+・feedforwardとmid-circuit measurementの違い\\
+・Instataneous Quantum Polynomial\\
+・braidingでd以上動かすとどうなるのか\\
+・easy intializationとdifficult intializationはどっちがいいのか\\
+・toric code in magnetic field(ising model)\\
+・bacon-shor code\\
+・neutral adn traped ion approaches rely on light scattering for entropy removal\\
+・中性原子のmeasurement freeなprotocol\\
+・Sisyphus cooling\\
+・magic intensity, magic-wavelenghth tweezers\\
+・spin echo pulse, magic trapping\\
+・code distanceの求め方\\
+・LDPC codeでは、あんまり冗長性がありすぎてもいけない\\
+・エラーの種類はなぜbit-flipとphase flipだけなのか？\\
+\\
+\end{document}

@@ -1,0 +1,78 @@
+\documentclass[a4paper,10.5pt]{ltjsarticle}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{luatexja-fontspec}
+\usepackage[top=10truemm,bottom=15truemm,left=10truemm,right=10truemm]{geometry}
+\usepackage{array}
+\usepackage{upgreek}
+\usepackage{braket}
+\usepackage{fancyhdr}
+\renewcommand{\refname}{}
+\captionsetup[figure]{format=plain, labelformat=simple, labelsep=quad, font=bf}
+\captionsetup[table]{format=plain, labelformat=simple, labelsep=quad, font=bf}
+\parindent = 0pt
+\setmainjfont[BoldFont=HiraMinProN-W6]{HiraMinPro-W3}
+%[BoldFont=HGSMinchoE]{MSMincho}[BoldFont=HiraMinProN-W6]{HiraMinPro-W3}
+\begin{document}
+
+\centerline
+{\huge \bfseries　調査}
+\rightline
+{May/04/2024}
+\leftline
+{}
+\ flag method重要です。\\
+\\
+\leftline{\large \bfseries 動向}\\
+・最近は中性原子のmeasurement free(要調査)なprotocolに焦点が当てられている\\
+・Flag methodの登場によって、シンドローム測定によって引き起こされるエラー訂正のためのアンシラの数が急激に減った\\
+\\
+\leftline{\large \bfseries わかっていること}\\
+・In quantum computing platforms supporting unconditional qubit resets, or a constant supply of fresh qubits, alternative schemes which do not require measurements are possible\\
+・中性原子は秒単位で量子情報を維持できるRef\cite{1}←!?\\
+・Rydberg interactionを用いたCZ gateの操作は、single qubit gateの操作よりちょっとだけ早い。\\
+・One limitation of neutral-atom platforms is state mea- surement, which is typically performed by inducing fluo- rescence and detecting the light emitted from the atoms.\\
+・Coupling the atoms to a cavity could speed up the times required for read out, at the cost of a loss of parallelism for single-mode cavities Ref\cite{2}\cite{3}.\\
+・Recently, fault tolerance was achieved by adopting el- ements of Steane-type error correction, by introducing an auxiliary register of qubits to be used as intermediary between data and ancillae Ref\cite{4}\\
+・基本的にCoherent Error CorrectionはMeasurement Error Correctionより振幅が小さくなるRef\cite{5}\\
+・相関のあるエラーはシンドローム測定の順番に注意することで訂正することができるRef\cite{6}\\
+・flag methodは、シンドローム測定のgateにおいてエラーが出てきた時に、CNOTによって伝搬したエラーのパターンを記録するために使うRef\cite{7}\\
+\\
+\leftline{\large \bfseries 問題}\\
+・中性原子では量子ビットを自由に動かして量子計算を実行できるが、一つ一つの動作に時間がかかりすぎる。\\
+・Feed-forward operations based on real-time measurements remain challenging←測定にかかる時間だけで$500\ \mathrm{\upmu s}$もかかるRef\cite{1}\\
+・中性原子で1 qubitだけ測定するのは、光が散乱したりして難しいRef\cite{5}(in 2016)\\
+・Ref\cite{5}のMFではおそらくCNOTによって引き起こされるエラーは考えてない\\
+\\
+\leftline{\large \bfseries 思考}\\
+・Rydberg interactionを用いて誤り訂正アルゴリズムを考えるのはこれからのトレンドになりそう(大予想)\\
+\clearpage
+{\Large \bfseries REFERENCES}
+\begin{thebibliography}{1}
+\vspace{-1.5cm}
+  \bibitem{1} Stefano Veroni, Markus Müller, and Giacomo Giudice, Optimized measurement-free and fault-tolerant quantum error correction for neutral atoms, arXiv:2404.11663v1.
+  \bibitem{2} J. Bochmann, M. Mücke, C. Guhl, S. Ritter, G. Rempe, and D. L. Moehring, Lossless state detection of single neu- tral atoms, Physical Review Letters 104, 203601 (2010).
+  \bibitem{3} E. Deist, Y.-H. Lu, J. Ho, M. K. Pasha, J. Zeiher, Z. Yan, and D. M. Stamper-Kurn, Mid-circuit cavity measurement in a neutral atom array, Physical Review Letters 129, 203602 (2022).
+  \bibitem{4} S. Heußen, D. F. Locher, and M. Müller, Measurement- free fault-tolerant quantum error correction in near-term devices, PRX Quantum 5, 010333 (2024).
+  \bibitem{5} Daniel Crow, Robert Joynt, and M. Saffman, Improved error thresholds for measurement-free error correction, arXiv:1510.08359v5
+  \bibitem{6} Rui Chao and Ben W. Reichardt, Quantum error correction with only two extra qubits, arXiv:1705.02329v1
+  \bibitem{7} Prithviraj Prabhu, Ben W. Reichardt, Fault-tolerant syndrome extraction and cat state preparation with fewer qubits, arXiv:2108.02184
+\end{thebibliography}
+\vspace{50pt}
+\leftline{\bfseries  要調査}
+・超伝導やシリコンスピンで取り除かなければならない異質とは何か\\
+・中性原子のparasitic chargeとは\\
+・中性原子の配列をグラフ理論の点に対応させることで問題を解ける\\
+・中性原子の量子ビット再配列方法\\
+・analog simulationの可能性\\
+・nFT state preparation\\
+・feedforwardとmid-circuit measurementの違い\\
+・Instataneous Quantum Polynomial\\
+・braidingでd以上動かすとどうなるのか\\
+・easy intializationとdifficult intializationはどっちがいいのか\\
+・toric code in magnetic field(ising model)\\
+・bacon-shor code\\
+・neutral adn traped ion approaches rely on light scattering for entropy removal\\
+・中性原子のmeasurement freeなprotocol\\　
+\\
+\end{document}

@@ -1,0 +1,4 @@
+PWD c:/Users/Yuga Hirai/Desktop/latex/color_code
+INPUT c:/texlive/2024/texmf-var/web2c/luahbtex/lualatex.fmt
+INPUT c:/Users/Yuga Hirai/Desktop/latex/color_code/color_code.tex
+OUTPUT out/color_code.log

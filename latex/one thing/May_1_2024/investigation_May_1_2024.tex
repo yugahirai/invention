@@ -1,0 +1,64 @@
+\documentclass[a4paper,10.5pt]{ltjsarticle}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{luatexja-fontspec}
+\usepackage[top=10truemm,bottom=15truemm,left=10truemm,right=10truemm]{geometry}
+\usepackage{array}
+\usepackage{upgreek}
+\usepackage{braket}
+\usepackage{fancyhdr}
+\renewcommand{\refname}{}
+\captionsetup[figure]{format=plain, labelformat=simple, labelsep=quad, font=bf}
+\captionsetup[table]{format=plain, labelformat=simple, labelsep=quad, font=bf}
+\parindent = 0pt
+\setmainjfont[BoldFont=HiraMinProN-W6]{HiraMinPro-W3}
+%[BoldFont=HGSMinchoE]{MSMincho}[BoldFont=HiraMinProN-W6]{HiraMinPro-W3}
+\begin{document}
+
+\centerline
+{\huge \bfseries　調査}
+\rightline
+{May/01/2024}
+\leftline
+{}
+　surface codeについて。Ref\cite{2}の資料はtopological codeを学習する上でかなりわかりやすい。\\
+\leftline{\large \bfseries わかっていること}\\
+・surface codeではbraidを用いないとCNOT gateが実現できない(性質)、むしろbraidを用いればCNOT gateを実現できる。\\
+・surface codeのholeの大きさは、code distanceに対応し、大きくなるとerrorが小さくなる。しかし、測定回数が多くなるRef\cite{1}。←WHY\\
+・Schrodinger pictureはoperatorがtime-independentだと考えるが、Heizenberg pictureはwave functionがtime-independentだと考える。\\
+・braiding qubitsはdata qubitの操作はunitaryではないが、logical qubitの操作はunitary\\
+・surface codeではqubitを移動させることによって、byproduct operatorが発生するが、これらはZとXの反可換性により相殺できる。ただし、その制御はソフトウェアに任せる。Ref\cite{1}\\
+・surface codeではlogical qubitの移動がすぐにできるため、距離の遠いlogical qubit同士の相互作用も簡単に実現できるRef\cite{1}。\\
+・In order to decide whether a curve is a boundary or not we need global information about it in surface code.\\
+・surface codeは局所性をアイデアにできているRef\cite{2}。\\
+・The key for fault tolerane is statistics: an error that cannot be corrected but is unlikely to occur is not important.\\
+\\
+\leftline{\large \bfseries 問題}\\
+・order $10^8$ qubits is probably the smallest number needed for a parctical factoring computer Ref\cite{1}\\
+\\
+\leftline{\large \bfseries 思考}\\
+・中性原子、surface codingの両方にqubitの移動の話が出てくることから、この2つは親和性が高い。あと立体に配置する点(推測)\\
+・easy intializationとdifficult intializationはどっちがいいのか(要調査)\\
+・braidingでd以上動かすとどうなるのか(要調査)\\
+・braiding transformationと複素関数の周回積分は似ている。\\
+\\
+{\Large \bfseries REFERENCE}
+\begin{thebibliography}{1}
+\vspace{-1.5cm}
+  \bibitem{1} Andrew N. Cleland, An introduction to the surface code, SciPost Phys. Lect. Notes 49 (2022)
+  \bibitem{2} Héctor Bombín, An Introduction to Topological Quantum Codes, arXiv:1311.0277 (2013)
+\end{thebibliography}
+\vspace{50pt}
+\leftline{\bfseries  要調査}
+・超伝導やシリコンスピンで取り除かなければならない異質とは何か\\
+・中性原子のparasitic chargeとは\\
+・中性原子の配列をグラフ理論の点に対応させることで問題を解ける\\
+・中性原子の量子ビット再配列方法\\
+・analog simulationの可能性\\
+・nFT state preparation\\
+・feedforwardとmid-circuit measurementの違い\\
+・Instataneous Quantum Polynomial\\
+・holeの大きさ
+・braidingでd以上動かすとどうなるのか\\
+・easy intializationとdifficult intializationはどっちがいいのか\\
+\end{document}

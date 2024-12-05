@@ -1,0 +1,74 @@
+\documentclass[a4paper,10.5pt]{ltjsarticle}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{luatexja-fontspec}
+\usepackage[top=10truemm,bottom=15truemm,left=10truemm,right=10truemm]{geometry}
+\usepackage{array}
+\usepackage{upgreek}
+\usepackage{braket}
+\usepackage{fancyhdr}
+\usepackage{amsmath, amssymb}
+\usepackage{type1cm}
+\renewcommand{\refname}{}
+\captionsetup[figure]{format=plain, labelformat=simple, labelsep=quad, font=bf}
+\captionsetup[table]{format=plain, labelformat=simple, labelsep=quad, font=bf}
+\parindent = 0pt
+\setmainjfont[BoldFont=HGSMinchoE]{MSMincho}
+%[BoldFont=HGSMinchoE]{MSMincho}[BoldFont=HiraMinProN-W6]{HiraMinPro-W3}
+\begin{document}
+
+\centerline
+{\huge \bfseries　調査}
+\rightline
+{May/21/2024}
+\leftline
+{}
+\leftline{\large \bfseries わかっていること}
+・実射影平面のように、裏表のない閉曲面を3角形に分割して得られる単体複体$K$の2次のホモロジー群は、$\mathbb{Z}$と同型にはならないRef\cite{1}。\\
+・topological codes are highly degenerate, which means that the minimum distance is much higher than the weight of the stabilizers. Though the thresholds of topological
+codes are relatively high, their dimensions are usually much smaller than for general QLDPC codes of the same length (it is constant for the surface and color codes).\\
+・Asymptotically good constructions may not necessarily produce the best QLDPC codes for relatively small code lengths. Indeed, in the construction of hypergraph product codes was further improved and generalized. Although the asymptotic characteristics of the improved codes are the same as before, their parameters such as the rate and he minimum distance are much better for smaller lengths.\\
+・The sparseness usually means that the weights of all rows and columns in $H$ are upper boudned by some universal constant as the code length $n$ grows in an infinite family of codes.\\
+・It was observed that LDPC codes without 4-cycles perform very well in practice.→問題1へ\\
+・fiber bundle code はgeneralized hypergraph product codeに対応させることができるRef\cite{3}。\\
+\\
+\leftline{\large \bfseries 問題}\\
+・that practical observation is not fully investigated from theoretical point of view.\\
+・the minimum distance of generalized hypergraph product is not found. Ref\cite{2}\\
+・non-abelian lift product codes is not studied.\\
+\\
+\leftline{\large \bfseries 思考}\\
+・How can we difine a code distance in bicycle codes? Ref\cite{2}\\
+\clearpage
+{\Large \bfseries REFERENCES}
+\begin{thebibliography}{1}
+\vspace{-1.5cm}
+  \bibitem{1} 枡田 幹也 ,代数的トポロジー
+  \bibitem{2} Pavel Panteleev and Gleb Kalachev ,Degenerate Quantum LDPC Codes With Good Finite Length Performance, arXiv:1904.02703v3
+  \bibitem{3} Pavel Panteleev and Gleb Kalachev, Quantum LDPC Codes with Almost Linear
+Minimum Distance, arXiv:2012.04068v2
+
+\end{thebibliography}
+\vspace{50pt}
+\leftline{\bfseries  要調査}
+・超伝導やシリコンスピンで取り除かなければならない異質とは何か\\
+・中性原子のparasitic chargeとは\\
+・中性原子の配列をグラフ理論の点に対応させることで問題を解ける\\
+・中性原子の量子ビット再配列方法\\
+・analog simulationの可能性\\
+・nFT state preparation\\
+・feedforwardとmid-circuit measurementの違い\\
+・Instataneous Quantum Polynomial\\
+・braidingでd以上動かすとどうなるのか\\
+・easy intializationとdifficult intializationはどっちがいいのか\\
+・toric code in magnetic field(ising model)\\
+・bacon-shor code\\
+・neutral adn traped ion approaches rely on light scattering for entropy removal\\
+・中性原子のmeasurement freeなprotocol\\
+・Sisyphus cooling\\
+・magic intensity, magic-wavelenghth tweezers\\
+・spin echo pulse, magic trapping\\
+・code distanceの求め方\\
+・LDPC codeでは、あんまり冗長性がありすぎてもいけない\\
+\\
+\end{document}

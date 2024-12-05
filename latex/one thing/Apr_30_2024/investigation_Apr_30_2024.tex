@@ -1,0 +1,72 @@
+\documentclass[a4paper,10.5pt]{ltjsarticle}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{luatexja-fontspec}
+\usepackage[top=10truemm,bottom=15truemm,left=10truemm,right=10truemm]{geometry}
+\usepackage{array}
+\usepackage{upgreek}
+\usepackage{braket}
+\usepackage{fancyhdr}
+\renewcommand{\refname}{}
+\captionsetup[figure]{format=plain, labelformat=simple, labelsep=quad, font=bf}
+\captionsetup[table]{format=plain, labelformat=simple, labelsep=quad, font=bf}
+\parindent = 0pt
+\setmainjfont[BoldFont=HiraMinProN-W6]{HiraMinPro-W3}
+%[BoldFont=HGSMinchoE]{MSMincho}[BoldFont=HiraMinProN-W6]{HiraMinPro-W3}
+\begin{document}
+
+\centerline
+{\huge \bfseries　調査}
+\rightline
+{Apr/30/2024}
+\leftline
+{}
+　前回に引き続き、中性原子量子コンピューター(2023年後半)について調べた。それにともなってsurface codingの理解とcolor codingの理解を深めるためそれに関する資料Ref\cite{4}\cite{5}について学習した。\\
+\\
+\leftline{\large \bfseries 動向}\\
+・280 physical qubitsまでのlogical qubitsを実現したRef\cite{1}。\\
+・48 logical qubits entangled with hypercube connectivity, 228 logical two-qubit gates and 48 logical CZ gates を達成Ref\cite{1}。←hypercube connectivityとは\\
+・Ref\cite{1}では2D latticeのsurface codingを用いている。\\
+・$\ket{0_L}$のinitialization fidelityは99.91\%、GHZ stateのfidelityは72(2)\%、stabilizerを用いると99.85\%を達成Ref\cite{1}。\\
+・H2はshuttling-based trapped-ion QCCD deviceでhigh-fidelity state-preparation and measurement with an error rate of $0.15\%$, two-qubit gates with an error rate of $0.14(1)\%$, long range connectivity, and mid-circuit measurement and reset with crosstalk errors $\le 2\times10^{-5}$である。\\
+\\
+\leftline{\large \bfseries わかっていること}\\
+・たくさんのbit informationをmanipulateできるようにするよりか、classical control lineを効率よくする方が大切。\\
+・中性原子はidling errorが起きづらい。→code distanceを念頭に置いて、どれだけentangling operationを改善できるかが重要\\
+・CNOTはqubitに相関を持たせるため、片方のqubitにerorrが起こるともう一方にもそのerrorが伝搬する。これを逆に利用して、stabilizer codeのhyperedge and edgeを用いてerror訂正を行う。これを用いると従来のdecodingではcode distanceが大きくなるとBell stateのerrorが大きくなったが、correlated decodingを用いるとcode distanceが大きくなるにしたがってBell stateのerrorが小さくなる。←何これ（要調査）←nFT state preparationが関係するらしい。\\
+・the use of the zoned architecture directly allows scaling circuits to larger nombers, without increasing the number of controls, by encoding and operationg on logical qubits, moving them to storage, and then accessing storage as appropriate.\\
+・the complexity of the fault-tolerant preparation already becomes apparent.\\
+・surface codingでdefectsを作ると自由度が増え、smooth boundaryが作れる。\\
+・surface codingで2つのprimal defectsを作る(経路の中身をX測定)と、それらを周回する経路はplaquette operatorと非可換になり、star operatorと可換になる。しかし、今2つのprimal defectsを用意しているため、それぞれを周回する経路を足すとstabilizer generatorとなる(Chapter 4 Ref\cite{4})。\\
+・surface codeのlogical qubitの数はboundaryの数に対応するRef\cite{5}.\\
+\\
+\leftline{\large \bfseries 問題}\\
+・考えられているアルゴリズムを実現させるにはFidelityが$O(10^{-10})$ほど必要←前回の予想的中→解決策は依然として冗長性を持たせること。\\
+・Ref\cite{1}のlogical qubit中のphysical qubitはtransversalなため、errorが他のphysical qubitに伝搬しない←すごくね\\
+・entangling gateをテストするのに$\ket{0}$と$\ket{+}$のphysical qubitsが必要で、それらのstate preparationはnFT←このerrorは緩和できるRef\cite{1}\\
+・The transversal CNOT should be used in combination with many repeated rounds of noisy syndrome extraction Ref\cite{2}, which is expected to have a somewhat lower threshold and is an important goal for future reserch. Ref\cite{1}\\
+・using 2D code, non-Clifford operations cannot be easily performed(not transversal). Incontrast, 3D codes can transversally realize non-Clifford operation, but lose the transversal H Ref\cite{3}.←these constraints do not imply that classically hard or useful quantum circuits cannot be realized transversally or efficiently!!\\
+・improving the XEB score yields significant practical gain.\\
+・7D hypercubeで228 logical two-qubit gates and 48 logical CCZ gatesを達成できるが、これはシミュレーションすることが難しい。\\
+・deep computation will further require continuous reloading of atoms from a reservoir source.\\
+・improving encoding efficiency, by using quantum LDPC codes, utilizing erasure conversion or noise bias, and optimizing the choice of atomic species, as well as advanced optical controls.\\
+・further advances by connectinog procssors in a modular fashion using photonic links or transport, or more power-efficient trapping schemes such as optical lattices.\\
+・approaches to speed up processing in hardware or with nonlocal connectivity should aloso be explored.\\
+\\
+\leftline{\large \bfseries 思考}\\
+・Ref\cite{1}のp.5で言われる、feedforwardとMid-circuit measurementのちがいは？\\
+・Instantaneous Quantum Polynomial(IQP)とは？\\
+・surface codingのdefect expantionでlogical qubitが変化しないようにできるのはなぜ？(Chapter4 Ref\cite{4})\\
+・surface codeのdefectによってlogical qubitが作れるが、それらの性質はdefectの大きさによってどう変化するか\\
+\\
+{\Large \bfseries REFERENCE}
+\begin{thebibliography}{1}
+\vspace{-1.5cm}
+  \bibitem{1} Dolev Bluvstein, Simon J. Evered, Logical quantum processor based on reconfigurable atom array, arXiv:2312.03982v1
+  \bibitem{2} Google Quantum AI, Suppressing quantum errors by scaling a surface code logical qubit, arXiv:2207.06431v2
+  \bibitem{3} Héctor Bombín, Gauge Color Codes: Optimal Transversal Gates and Gauge Fixing in Topological Stabilizer Codes, arXiv:1311.0879v6
+  \bibitem{4} Keisuke Fujii, Quantum Computation with Topological Codes — from qubit to topological fault-tolerance —, arXiv:1504.01444v1
+  \bibitem{5} Andrew N. Cleland, An introduction to the surface code, SciPost Phys. Lect. Notes 49 (2022)
+\end{thebibliography}
+
+\end{document}

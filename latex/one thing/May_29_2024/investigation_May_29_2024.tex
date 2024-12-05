@@ -1,0 +1,64 @@
+\documentclass[a4paper,10.5pt]{ltjsarticle}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{luatexja-fontspec}
+\usepackage[top=10truemm,bottom=15truemm,left=10truemm,right=10truemm]{geometry}
+\usepackage{array}
+\usepackage{upgreek}
+\usepackage{braket}
+\usepackage{fancyhdr}
+\usepackage{amsmath, amssymb}
+\usepackage{type1cm}
+\renewcommand{\refname}{}
+\captionsetup[figure]{format=plain, labelformat=simple, labelsep=quad, font=bf}
+\captionsetup[table]{format=plain, labelformat=simple, labelsep=quad, font=bf}
+\parindent = 0pt
+\setmainjfont[BoldFont=HGSMinchoE]{MSMincho}
+%[BoldFont=HGSMinchoE]{MSMincho}[BoldFont=HiraMinProN-W6]{HiraMinPro-W3}
+\begin{document}
+
+\centerline
+{\huge \bfseries　調査}
+\rightline
+{May/29/2024}
+\leftline
+{}
+\leftline{\large \bfseries わかっていること}
+・バンドギャップが4 eVよりも小さい絶縁体を半導体と呼ぶことが多い。\\
+・14属の元素からなる結晶では、周期が上がるに従いバンドギャップが小さくなる。そして、鉛(Pb)ではバンドギャップがゼロになるため、鉛は金属となる。また、スズ(Sn)は半導体と金属の中間の性質を持つ。\\
+・半導体中で電子を束縛しているポテンシャルは中心力ポテンシャルではない。←なぜ？←周りの原子のポテンシャルエネルギーが邪魔するから（多分）。\\
+・等重率の原理は、「状態間遷移によりエネルギーが均等に行きわたる」といったことを考えなくても、とにかくそれを用いることで正しい実験結果が得られるということを意味しているRef\cite{1}。\\
+・エネルギー当分配の法則は低温では成り立たない。\\
+・電子のエネルギーを変化させるには、熱を与えて占有状態を変化させるか、電磁場を与えてポテンシャル自体を変化させるかがある。井戸型ポテンシャルで言えば、熱は占有状態を変化させ、電磁場は井戸の幅を変化させる。Ref\cite{1}\\
+・クラウジウスの関係から、エントロピーの増大は低温になるほど顕著になる。\\
+・励起状態にある電子が、光などを放出して基底状態に遷移する状況を思い浮かべる。なぜそのような遷移が起こるかを考えるとき、基底状態のほうがエネルギーが低く安定だからと答えがちだが、実際はそのような状態のほうが系の状態数が多く、観測される確率が高いからである。もし孤立系に2つの原子しかなければ、1つの電子が低エネルギー状態になることは、もう一方の電子が高エネルギー状態になることを意味する。電子は低エネルギーを好んでいるわけではない。Ref\cite{1}\\
+\\
+\\
+{\Large \bfseries REFERENCES}
+\begin{thebibliography}{1}
+\vspace{-1.5cm}
+  \bibitem{1} 小野 行徳, 電子・物性系のための量子力学 デバイスの本質を理解する, 森北出版株式会社
+
+\end{thebibliography}
+\vspace{50pt}
+\leftline{\bfseries  要調査}
+・超伝導やシリコンスピンで取り除かなければならない異質とは何か\\
+・中性原子のparasitic chargeとは\\
+・中性原子の配列をグラフ理論の点に対応させることで問題を解ける\\
+・中性原子の量子ビット再配列方法\\
+・analog simulationの可能性\\
+・nFT state preparation\\
+・feedforwardとmid-circuit measurementの違い\\
+・Instataneous Quantum Polynomial\\
+・braidingでd以上動かすとどうなるのか\\
+・easy intializationとdifficult intializationはどっちがいいのか\\
+・toric code in magnetic field(ising model)\\
+・bacon-shor code\\
+・neutral adn traped ion approaches rely on light scattering for entropy removal\\
+・中性原子のmeasurement freeなprotocol\\
+・Sisyphus cooling\\
+・magic intensity, magic-wavelenghth tweezers\\
+・spin echo pulse, magic trapping\\
+・code distanceの求め方\\
+・LDPC codeでは、あんまり冗長性がありすぎてもいけない\\
+\end{document}

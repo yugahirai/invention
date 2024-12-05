@@ -1,0 +1,66 @@
+\documentclass[a4paper,10.5pt]{ltjsarticle}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{luatexja-fontspec}
+\usepackage[top=10truemm,bottom=15truemm,left=10truemm,right=10truemm]{geometry}
+\usepackage{array}
+\usepackage{upgreek}
+\usepackage{braket}
+\usepackage{fancyhdr}
+\usepackage{amsmath, amssymb}
+\usepackage{type1cm}
+\renewcommand{\refname}{}
+\captionsetup[figure]{format=plain, labelformat=simple, labelsep=quad, font=bf}
+\captionsetup[table]{format=plain, labelformat=simple, labelsep=quad, font=bf}
+\parindent = 0pt
+\setmainjfont[BoldFont=HGSMinchoE]{MSMincho}
+%[BoldFont=HGSMinchoE]{MSMincho}[BoldFont=HiraMinProN-W6]{HiraMinPro-W3}
+\begin{document}
+
+\centerline
+{\huge \bfseries　調査}
+\rightline
+{May/26/2024}
+\leftline
+{}
+\leftline{\large \bfseries わかっていること}
+・By enriching to nearly pure 28Si, with only 800 ppm
+of 29Si remaining, inhomogeneous spin-dephasing times ($T_2^*$) and spin-coherence times ($T_2$) exceeding 100 s and 20 ms, respectively, have been measured for electron spins, placing silicon as one of the most coherent solid-state systems in nature.Ref\cite{2}\\
+・For optimal performance, silicon qubits are cooled down to a few tens of millikelvin under magnetic fields of the order of \\1\ T but these parameters may be relaxed in the future to allow operation above $1$ K and at just 150 mT.\\
+・半導体量子ビットのfidelityはsurface codingの閾値を超えている。\\
+・many recent excting physics results from the QD community have shown that spins can be coherently coupled to microwave photons, providing tantalizing opportunities for longrange coupling of spin qubits and readout.\\
+\\
+\leftline{\large \bfseries 問題}\\
+・No one is not aware of any simple way to find the dimention $K$ of the code LP($A,B$) in the general case.\\
+・A few challenges that these factories face, however, are the inflexibility to test new materials quickly given the strict contamination requirements, the cost and long lead times associated with optical mask design changes, the constraints imposed by design rules and acceptable processing flows, and (sometimes) the inability to test devices at intermediate stages of device fabrication. These can make circuit design modifications, process choices, and material exploration costly and slow.\\
+\\
+{\Large \bfseries REFERENCES}
+\begin{thebibliography}{1}
+\vspace{-1.5cm}
+  \bibitem{1} Pavel Panteleev and Gleb Kalachev, Quantum LDPC Codes with Almost Linear
+Minimum Distance, arXiv:2012.04068v2
+  \bibitem{2} M. Veldhorst, An addressable quantum dot qubit with fault-tolerant control fidelity, arXiv:1407.1950v1
+
+\end{thebibliography}
+\vspace{50pt}
+\leftline{\bfseries  要調査}
+・超伝導やシリコンスピンで取り除かなければならない異質とは何か\\
+・中性原子のparasitic chargeとは\\
+・中性原子の配列をグラフ理論の点に対応させることで問題を解ける\\
+・中性原子の量子ビット再配列方法\\
+・analog simulationの可能性\\
+・nFT state preparation\\
+・feedforwardとmid-circuit measurementの違い\\
+・Instataneous Quantum Polynomial\\
+・braidingでd以上動かすとどうなるのか\\
+・easy intializationとdifficult intializationはどっちがいいのか\\
+・toric code in magnetic field(ising model)\\
+・bacon-shor code\\
+・neutral adn traped ion approaches rely on light scattering for entropy removal\\
+・中性原子のmeasurement freeなprotocol\\
+・Sisyphus cooling\\
+・magic intensity, magic-wavelenghth tweezers\\
+・spin echo pulse, magic trapping\\
+・code distanceの求め方\\
+・LDPC codeでは、あんまり冗長性がありすぎてもいけない\\
+\end{document}

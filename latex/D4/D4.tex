@@ -1,0 +1,390 @@
+\documentclass[a4paper,10.5pt]{ltjsarticle}
+\usepackage{graphicx}
+\usepackage{luatexja-fontspec}
+\usepackage{caption}
+\usepackage{amsmath,amssymb,bm,braket}
+\usepackage{gnuplot-lua-tikz}
+\usepackage[top=10truemm,bottom=15truemm,left=10truemm,right=10truemm]{geometry}
+\usepackage{array}
+\usepackage{upgreek}
+\usepackage{fancyhdr}
+\renewcommand{\refname}{}
+\usepackage{listings,jvlisting}
+\usepackage{tikz}
+\usetikzlibrary{external}
+\tikzexternalize
+\lstset{
+  basicstyle={\ttfamily},
+  identifierstyle={\small},
+  commentstyle={\smallitshape},
+  keywordstyle={\small\bfseries},
+  ndkeywordstyle={\small},
+  stringstyle={\small\ttfamily},
+  frame={tb},
+  breaklines=true,
+  columns=[l]{fullflexible},
+  numbers=left,
+  xrightmargin=0pt,
+  xleftmargin=3pt,
+  numberstyle={\scriptsize},
+  stepnumber=1,
+  numbersep=1pt,
+  lineskip=-0.5ex
+}
+\captionsetup[figure]{format=plain, labelformat=simple, labelsep=quad,labelfont=bf}
+\captionsetup[table]{format=plain, labelformat=simple, labelsep=quad,labelfont=bf}
+\parindent = 0pt
+\setmainjfont[BoldFont=HiraMinProN-W6]{HiraMinPro-W3}
+%[BoldFont=HGSMinchoE]{MSMincho}[BoldFont=HiraMinProN-W6]{HiraMinPro-W3}
+\begin{document}
+\centerline{\HUGE \bfseries 物理情報工学CD実験　報告書}
+\centerline{ }
+\rightline{\vspace{-3mm} \Large 2023年度　　　}
+\begin{table}[h]
+  \newcolumntype{I}{!{\vrule width 1.5pt}}
+  \newcolumntype{i}{!{\vrule width 0.8pt}}
+  \arrayrulewidth=0.8pt
+  \renewcommand{\arraystretch}{1.5}
+  \newcommand{\bhline}[1]{\noalign{\hrule height #1}}
+  \huge
+  \centering
+  \begin{tabular}{Iwc{6cm}Iwc{2cm}iciwc{5cm}I}
+    \bhline{1.5pt}
+    実験テーマ&\multicolumn{3}{cI}{D4\ AD/DA変換回路}\\
+    \hline
+    担当教員名&\multicolumn{3}{cI}{増田}\\
+    \hline
+    実験整理番号&80&実験者氏名&平井 優我\\
+    \hline
+    共同実験者氏名&\multicolumn{3}{cI}{藤井\ 大樹}\\
+    \hline
+    曜日組&木&実験日&12月14日\\
+    \hline
+    実験回&8&報告書提出日&12月20日\\
+    \bhline{1.5pt}
+  \end{tabular}
+\end{table}
+\clearpage
+%1-2-------------------------------------------------------------------------
+\hspace{-2pt}{\Large \bfseries 1.目的}\\
+　デジタル信号の特徴を理解すると共に、アナログ信号のデジタル処理に必要なアナログ・デジタル変換の方法と性質を、実験を通じて理解する。\\
+\\
+\hspace{-2pt}{\Large \bfseries 2.結果と考察}\\
+{\large \bfseries 2.1 実験1}\\
+　図\ref{A_D}にサンプルホールド波形（緑）、図\ref{D_A}にLPF通過波形（緑）を示す。ただし、黄色の波形は入力正弦波を表す。
+\begin{figure}[h]
+  \centering
+  \begin{minipage}[h]{0.45\linewidth}
+    \includegraphics[scale=0.18]{JOUON01.eps}
+    \caption*{(a)}
+  \end{minipage}
+  \begin{minipage}[h]{0.43\linewidth}
+    \includegraphics[scale=0.18]{JOUON02.eps}
+    \caption*{(b)}
+  \end{minipage}
+  \begin{minipage}[h]{0.45\linewidth}
+    \includegraphics[scale=0.18]{JOUON03.eps}
+    \caption*{(c)}
+  \end{minipage}
+  \begin{minipage}[h]{0.43\linewidth}
+    \includegraphics[scale=0.18]{JOUON04.eps}
+    \caption*{(d)}
+  \end{minipage}
+  \caption{アナログ波形をデジタル波形にしたグラフ\ サンプリング周波数(a)$10\ \mathrm{kHz}$\ (b)$5\ \mathrm{kHz}$\ (c)$2\ \mathrm{kHz}$\ (d)$1\ \mathrm{kHz}$}
+  \label{A_D}
+\end{figure}\\
+図\ref{A_D}から、サンプリング周波数を大きくすればするほどサンプルホールド波形は入力正弦波に近い形となった。また、サンプルホールド波形は入力正弦波と位相が一致した。そして、サンプルホールド波形は値が一定となるような部分の数が周波数に比例して変化しているため妥当な形となった。
+\clearpage
+\begin{figure}[h]
+  \centering
+  \begin{minipage}[h]{0.45\linewidth}
+    \includegraphics[scale=0.18]{JOUON05.eps}
+    \caption*{(a)}
+  \end{minipage}
+  \begin{minipage}[h]{0.43\linewidth}
+    \includegraphics[scale=0.18]{JOUON06.eps}
+    \caption*{(b)}
+  \end{minipage}
+  \begin{minipage}[h]{0.45\linewidth}
+    \includegraphics[scale=0.18]{JOUON07.eps}
+    \caption*{(c)}
+  \end{minipage}
+  \begin{minipage}[h]{0.43\linewidth}
+    \includegraphics[scale=0.18]{JOUON08.eps}
+    \caption*{(d)}
+  \end{minipage}
+  \caption{デジタル波形をアナログ波形にしたグラフ\ サンプリング周波数(a)$10\ \mathrm{kHz}$\ (b)$5\ \mathrm{kHz}$\ (c)$2\ \mathrm{kHz}$\ (d)$1\ \mathrm{kHz}$}
+  \label{D_A}
+\end{figure}
+図\ref{D_A}から、サンプリング周波数が$10,5,2\ \mathrm{kHz}$のとき、LPF通過波形は入力正弦波に近い形となった。これより、アナログ波形の周波数$1\ \mathrm{kHz}$の2倍以上のサンプリング周波数だと、LPF通過波形が入力正弦に近い形となり、サンプリング定理が成り立っている。また、LPF通過波形は入力波形よりも位相が早くなった。そして、LPF通過波形はサンプルホールド波形の急激に値が変化した部分をなめらかにしたような波形となった。\\
+　周波数を連続的に変化させたときにサンプルホールド波形とLPF通過波形がどのように変化するかを考える。まず、サンプルホールド波形について、周波数を大きくすると値が一定となる部分が小さくなり入力正弦波に近づいていくと考えられる。逆に周波数を小さくするとき、入力波形をそのままサンプリングする部分とその値をホールドする部分が長くなっていき、元の入力波形と一定値が交互に繰り返されるような波形となる。\\
+　図\ref{A_D}について、振幅の減衰と位相差を見積もると表\ref{ADattenuation-delay}となる。
+\begin{table}[h]
+  \newcolumntype{I}{!{\vrule width 1.5pt}}
+  \newcolumntype{i}{!{\vrule width 0.5pt}}
+  \arrayrulewidth=0.8pt
+  \renewcommand{\arraystretch}{1.5}
+  \newcommand{\bhline}[1]{\noalign{\hrule height #1}}
+  \centering
+  \caption{振れ幅の減衰と位相差}
+  \label{ADattenuation-delay}
+  \begin{tabular}{IciccI}
+    \bhline{1.5pt}
+    \begin{tabular}{c}
+      サンプリング\\[-10pt]
+      周波数\ /\ kHz\\
+    \end{tabular}
+    &振幅の減衰率&位相差\\
+    \hline
+    10&0.99&$-0.012$\pi\\
+    5&1.0&$-0.011\pi$\\
+    2&0.86&$-0.0035\pi$\\
+    1&0.88&$0.0\pi$\\
+    \bhline{1.5pt}
+  \end{tabular}
+\end{table}
+\clearpage
+表\ref{ADattenuation-delay}から、サンプリング周波数が5\ kHzよりも小さくなると振幅が減衰することがわかる。これは入力波形の周波数に対してサンプリング周波数が小さく、入力波形で最大振幅が実現される直前の領域で値がホールドされていることに起因する。ただし、サンプリングする位相をずらすことで振幅の減衰率は1になり得る。\\
+　次に、図\ref{D_A}について、振幅の減衰と位相差を見積もると表\ref{DAattenuation-delay}となる。
+\begin{table}[h]
+  \newcolumntype{I}{!{\vrule width 1.5pt}}
+  \newcolumntype{i}{!{\vrule width 0.5pt}}
+  \arrayrulewidth=0.8pt
+  \renewcommand{\arraystretch}{1.5}
+  \newcommand{\bhline}[1]{\noalign{\hrule height #1}}
+  \centering
+  \caption{振れ幅の減衰と位相差}
+  \label{DAattenuation-delay}
+  \begin{tabular}{IciccI}
+    \bhline{1.5pt}
+    \begin{tabular}{c}
+      サンプリング\\[-10pt]
+      周波数\ /\ kHz\\
+    \end{tabular}
+    &振幅の減衰率&位相差\\
+    \hline
+    10&0.49&$-0.54\pi$\\
+    5&0.49&$-0.54\pi$\\
+    2&0.50&$-0.50\pi$\\
+    1&0.47&$-0.64\pi$\\
+    \bhline{1.5pt}
+  \end{tabular}
+\end{table}\\
+　表\ref{DAattenuation-delay}から、振幅の減衰率はサンプリング周波数によらず約$-6$\ dBなり、位相差はサンプリング周波数によらず約$\pi/2$となった。これらの結果から位相差も振幅の減衰も理論値とほぼ一致し、表\ref{DAattenuation-delay}の結果は妥当である。\\
+　次にFGによって発生される正弦波とパルス波のタイミングのずれについて考える。正弦波とパルス波のタイミングがずれると、サンプルホールドするタイミングがずれることは自明である。これにより、正弦波の山または谷の直前でホールドすればサンプルホールド波形の振幅は小さくなる。逆に、正弦波の山または谷の直後でホールドすればサンプルホールド波形の振幅は入力正弦波に一致する。\\
+\\
+{\large \bfseries 2.2 実験2}\\
+{\large \bfseries 2.2.1\ DA変換}\\
+　図\ref{DA}に入力と出力の関係を示す。ただし、点は測定値、黒線は測定点を直線で繋いだ線、赤の破線は原点と$(256,5)$を繋ぐ直線を表す。\\
+\begin{figure}[h]
+  \centering
+  \include{data1}
+  \vspace{-30pt}\caption{入出力の関係}
+  \label{DA}
+\end{figure}\\
+理論値は、
+\begin{align}
+  V_\mathrm{out}=\Delta\times\sum^{n-1}_{k=0}{d_k\cdot 2^k}\ ,\ \Delta=\frac{E_\mathrm{ref}}{2^n}\ ,\ d_k=0\ \mathrm{or}\ 1
+\end{align}
+から、赤の破線と一致すると考えられる。また、赤の破線の傾きの値$0.020$はデジタル値が1増加したときのアナログ電圧の増加量を表す。図\ref{DA}から、測定値は全体的に赤の破線よりも値が小さくなり、理論値からの値の減少は入力したデジタル値が大きくなるほど大きくなった。この誤差の原因としては回路内の抵抗が考えられる。
+　ここで、上記で示した誤差を小さくする方法を提示する。まず、測定点の回帰直線を求めるとその傾きは0.018である。ただし、回帰直線は原点を通る前提とした。これより、出力されるアナログ電圧の理論値と測定値の比は大まかに$0.02/0.018=1.1$である。よって、巻き数の比が1.1:1の変圧器を用いれば理論値とほぼ一致させることができる。\\
+　ビット数を大きくすると用いる回路も大きくなることから回路内の誤差も含めた抵抗値は大きくなると考えられる。そのため、出力されるアナログ電圧の理論値と測定値の比$p$は大きくなっていく。仮に$n$ビットDACを用いる場合、出力されるアナログ電圧の理論値と測定値の比は$p(n)$、理論値の直線の傾きは$5/2^n$だから、回帰直線の傾き$a$は、
+\begin{align}
+  a=\frac{1}{p(n)}\frac{5}{2^n}
+\end{align}
+と表せる。\\
+\\
+{\large \bfseries 2.2.2\ AD変換}\\
+　図\ref{AD}に入力と出力の関係を示す。ただし、点は測定値、黒線は測定点を直線で繋いだ線、赤の破線は原点と$(5,256)$を繋ぐ直線を表す。\\
+\begin{figure}[h]
+  \centering
+  \include{data2}
+  \vspace{-30pt}\caption{入出力の関係}
+  \label{AD}
+\end{figure}\\
+1.1節と同様、理論値は赤の破線と一致すると考えられる。また、赤の破線の傾きと$0.02$の積$1.024$はアナログの電圧値が$0.02$増加したときのデジタル値の増加量を表し、ちょうど$1$に近い値となっている。図\ref{AD}から、測定値は全体的に赤の破線よりも値が大きくなり、理論値からの値の増加は入力したアナログの電圧値が大きくなるほど大きくなった。この原因として考えら得ることを述べる。AD変換する際にDACから出力される電圧は2.2.1節から少し小さくなる。これにより、入力電圧とDACから出力された電圧を比べることによって本来よりも入力電圧の方がDACの出力電圧よりも大きくなりやすくなるため、マイコンによって処理されるbitは1になりやすくなる。よってこれが原因である。\\
+　図\ref{AD}のグラフは図\ref{DA}のグラフの逆関数の関係にあると考えられる。すなわち、図\ref{AD}のグラフの傾きは(2)式の逆数で表され、ビット数が大きくなると傾きは大きくなると考えられる\\
+\clearpage
+{\large \bfseries 2.3 実験3}\\
+　今回入力したデジタル信号を表\ref{tab:digitalsignal}、図\ref{fig:digitalsignal}に示す。
+\begin{table}[h]
+  \newcolumntype{I}{!{\vrule width 1.5pt}}
+  \newcolumntype{i}{!{\vrule width 1.2pt}}
+  \arrayrulewidth=0.8pt
+  \renewcommand{\arraystretch}{1.5}
+  \newcommand{\bhline}[1]{\noalign{\hrule height #1}}
+  \centering
+  \caption{入力したデジタル信号}
+  \label{tab:digitalsignal}
+  \begin{tabular}{IccIccIccIccI}
+    \bhline{1.5pt}
+    番号&デジタル値&番号&デジタル値&番号&デジタル値&番号&デジタル値\\
+    \bhline{0.4pt}
+    0	&128	&10	&224	&20	&64	&30	&96\\
+    1	&144	&11	&208	&21	&48	&31	&112\\
+    2	&160	&12	&192	&22	&32	&32	&128\\
+    3	&176	&13	&176	&23	&16	&33	&144\\
+    4	&192	&14	&160	&24	&0	&34	&160\\
+    5	&208	&15	&144	&25	&16	&35	&176\\
+    6	&224	&16	&128	&26	&32	&36	&192\\
+    7	&240	&17	&112	&27	&48	&37	&176\\
+    8	&255	&18	&96	&28	&64	&38	&160\\
+    9	&240	&19	&80	&29	&80	&39	&144\\
+    \bhline{1.5pt}
+  \end{tabular}
+\end{table}
+\begin{figure}[h]
+  \centering
+  \include{data3}
+  \vspace{-30pt}\caption{入力したデジタル信号}
+  \label{fig:digitalsignal}
+\end{figure}\\
+また、図\ref{digitalsignaloutput}にDAC.OUT端子からの出力(黄色)、LPF.OUT端子からの出力(緑色)を示す。
+\clearpage
+\begin{figure}[h]
+  \centering
+  \includegraphics[scale=0.2]{JOUON09.eps}
+  \caption{入力したデジタル信号の出力}
+  \label{digitalsignaloutput}
+\end{figure}
+図\ref{digitalsignaloutput}より、DAC.OUTから出力されたデジタル信号は点ではなくステップ的に値が変化した。図\ref{fig:digitalsignal}から、入力したデジタル信号は山が二つ、谷が1つで繰り返されるような信号としたが、実際に\ref{digitalsignaloutput}でもそのような傾向が反映されており、入力をしっかり再現している。また、DAC.OUTからの出力波形とLPF.OUTからの出力波形を比べると、LPF.OUTからの出力波形の方がDAC.OUTからの出力波形よりも位相が早くなり、振幅は小さくなっていることがわかる。図\ref{digitalsignaloutput}から、出力波形の周波数は$250$\ Hzであり、フーリエ変換から出力波形を形成する正弦波の集合の周波数は$250$\ Hzよりも大きくなければならない。そのため、LPFのカットオフ周波数よりも大きい周波数を出力波形は十分に含むため、LPF.OUTからの出力波形は減衰されたし、位相も早くなったと考えられる。
+\clearpage
+{\large \bfseries 2.4 実験4}\\
+　図\ref{voice1}に音声の波形を示す。
+\begin{figure}[h]
+  \hspace{27pt}\begin{minipage}[h]{0.45\linewidth}
+    \includegraphics[scale=0.18]{JOUON13.eps}
+    \caption*{(a)}
+  \end{minipage}
+  \begin{minipage}[h]{0.45\linewidth}
+    \includegraphics[scale=0.18]{JOUON14.eps}
+    \caption*{(b)}
+  \end{minipage}
+  \caption{(a)入力音声の波形\ \ (b)\ DAC.OUTからの出力波形(黄色)とLPF.OUTからの出力波形(緑色)}
+  \label{voice1}
+\end{figure}\\
+図\ref{voice1}について、(a)から音声は周期的な波が繰り返されていることがわかる。また、音声の波形にはノイズがあり、周波数の比較的小さい波に周波数の比較的大きい波がいくつも重なっていることがわかる。これにより、(b)のDAC.OUTからの出力波形では(a)で音が急激に変化していないように見える点で大きく波形がぶれている。それでも、(b)のDAC.OUTからの出力波形では大まかに(a)の波形を再現できていることが確認できる。(b)のLPF.OUTからの出力波形ではDAC.OUTからの出力波形よりも振幅が大きく減衰していることがわかる。これは文献\cite{voice}から会話音声の周波数は$300\ 〜\ 3400$\ Hzであり、LPFのカットオフ周波数$1$\ kHzの音を多く含むことが原因であると考えられる。また、(a)の波形と(b)のLPF.OUTからの出力波形を比べると、周波数はほぼ等しいが波の形状はあまり再現されてはいないことがわかる。よって、ADDA変換で音の高さぐらいしか再現されていない。\\
+　実際に音声をDAC.OUTからの出力音声とLPF.OUTからの出力音声を聴き比べるとDAC.OUTからの出力音声はノイズが多く蝉の鳴き声のようなものが聞こえるが、LPF.OUTからの出力音声ではノイズが小さくなり蝉の鳴き声も小さくなった。また、LPFにより高音が軽減されるためLPF.OUTからの出力音声はこもったように聞こえた。そして、LPF.OUTからの出力音声は音量が小さくなり、DAC.OUTからの出力音声とLPF.OUTからの出力音声では音の高さは同じであった。これは上記で行った波形の考察に一致する。\\
+\\
+{\large \bfseries 2.5 実験5}\\
+　図\ref{voice2}に入力した音声の波形、図\ref{voice3}に出力した音声の波形を示す。
+\begin{figure}[h]
+  \hspace{27pt}\begin{minipage}[h]{0.45\linewidth}
+    \includegraphics[scale=0.18]{JOUON15.eps}
+    \caption*{(a)}
+  \end{minipage}
+  \begin{minipage}[h]{0.43\linewidth}
+    \includegraphics[scale=0.18]{JOUON16.eps}
+    \caption*{(b)}
+  \end{minipage}
+  \caption{入力波形\ \ (a)縮小図\ (b)拡大図}
+  \label{voice2}
+\end{figure}\\
+図\ref{voice2}より、実験4と同様同じ波形の波が繰り返されていることがわかる。また、実験4の入力と比べてノイズが少なり、波形が複雑になった。
+\clearpage
+\begin{figure}[h]
+  \hspace{27pt}\begin{minipage}[h]{0.45\linewidth}
+    \includegraphics[scale=0.18]{JOUON17.eps}
+    \caption*{(a)}
+  \end{minipage}
+  \begin{minipage}[h]{0.43\linewidth}
+    \includegraphics[scale=0.18]{JOUON18.eps}
+    \caption*{(b)}
+  \end{minipage}
+  \caption{DAC.OUTからの出力波形(黄色)とLPF.OUTからの出力波形(緑色)\ \ (a)縮小図\ (b)拡大図}
+  \label{voice3}
+\end{figure}
+図\ref{voice3}から、DAC.OUTからの出力波形は実験4とは異なり矩形波のようなものになった。これは\Delta\Sigma 変調では波の形ではなく、bitの疎密で表していることによる。これにより、LPF.OUTからの出力波形は、波の形も周期も入力波形とほぼ一致し、入力音声とあまり変化のない音声が再生されると期待される。\\
+　実際にDAC.OUTからの出力音声とLPF.OUTからの出力音声を聴き比べると、LPF.OUTからの出力音声に存在する蝉の鳴き声のようなノイズはLPF.OUTからの出力音声では軽減され、音も入力と同じようにクリアなままであった。これは、実験4のようにLPFを通さずにDA変換を行ったことから音がこもらなかったのだと考えられる。しかし、LPF.OUTからの出力音声からは周期的なノイズが発生するようになった。
+\clearpage
+\hspace{-2pt}{\Large \bfseries 3.追加の考察}\\
+{\large \bfseries 3.1考察(d)について}\\
+　ラダー回路の等価回路を図\ref{radder1}に示す。ただし、$d_i=1\ ( i\in \mathbb{Z},\ 0\leq i\leq n-1)$の部分に電圧源$E_\mathrm{ref}$が存在するとしている。そのため、図\ref{radder1}の等価回路では複数の電圧源を用いることによってラダー回路を表現する。
+\begin{figure}[h]
+  \centering
+  \includegraphics{figure1.eps}
+  \vspace{10pt}\caption{ラダー回路の等価回路}
+  \label{radder1}
+\end{figure}\\
+電気回路では重ね合わせの理が成り立つことから、$i$番目の電圧源のみを残しそれ以外の電圧源を短絡させたときの$V^i_\mathrm{out}$を求めることによって、最終的に求めたい$V_\mathrm{out}$はそれらの線形結合で表される($d_0,d_1,\cdots d_{n-1}$の全てが$0$のとき、$V_\mathrm{out}=0$となることは自明である)。図\ref{radder1}について$i$番目の電圧源のみを残し、それ以外を短絡させたあと、$0\ 〜\ i-1$番目の抵抗器を並列または直列で複数回合成することによって、図\ref{radder2}のようになり少し簡単になる。
+\begin{figure}[h]
+  \centering
+  \includegraphics{figure2.eps}
+  \vspace{10pt}\caption{ラダー回路の等価回路}
+  \label{radder2}
+\end{figure}\\
+ここで、電圧源を電流源を用いて表せば図\ref{radder3}のようにできる。
+\clearpage
+\begin{figure}[h]
+  \centering
+  \includegraphics{figure3.eps}
+  \vspace{-40pt}\caption{ラダー回路の等価回路}
+  \label{radder3}
+\end{figure}
+先ほどの操作の逆を行うことによって図\ref{radder4}のようにできる。
+\begin{figure}[h]
+  \centering
+  \includegraphics{figure4.eps}
+  \vspace{-40pt}\caption{ラダー回路の等価回路}
+  \label{radder4}
+\end{figure}\\
+図\ref{radder4}は図\ref{radder2}と同じ形をしていることがわかる。よって、同様の操作を繰り返すことによって図\ref{radder5}のようになる。
+\clearpage
+\begin{figure}[h]
+  \centering
+  \includegraphics{figure5.eps}
+  \vspace{-40pt}\caption{ラダー回路の等価回路}
+  \label{radder5}
+\end{figure}
+図\ref{radder5}から$V^i_\mathrm{out}$を求めると
+\begin{align}
+  V^i_\mathrm{out}=\frac{1}{2^{n-i}}\frac{E_\mathrm{ref}}{2}
+\end{align}
+となる。よって、求めたい$V_\mathrm{out}$は(3)式の線形結合で表されるから、
+\begin{align}
+  V_\mathrm{out}=\sum^{n-1}_{i=0}2^{i-n}d_i\frac{E_\mathrm{ref}}{2}
+\end{align}
+となる。\\
+\\
+{\large \bfseries 3.2考察(f)について}\\
+　マイクプリンアンプユニットとサンプルホールドユニットの間にLPFユニットを挿入する理由は、マイクから入力される信号にはノイズが多く存在するからである。普通、入力時に生じるノイズは私たちが扱いたいノイズよりも周波数がものすごく大きいことが多いためLPFユニットを用いる。また、もしLPFユニットを用いらなければノイズによって波形が大きく変化したときにサンプルホールドする場合が多くなり、サンプルホールド波形が入力波形と異なってしまう可能性が高まる。そのため、マイクプリンアンプユニットとサンプルホールドユニットの間にLPFユニットを挿入する。\\
+\\
+\hspace{-2pt}{\Large \bfseries 4.結論}\\
+　デジタル信号の特徴を理解すると共に、アナログ信号のデジタル処理に必要なアナログ・デジタル変換の方法と性質を、実験を通じて理解することができた。\\
+\\
+{\Large \bfseries 参考文献}
+\begin{thebibliography}{1}
+\vspace{-1.5cm}
+  \bibitem{text} D4実験テキスト.pdf 閲覧日:2023/12/19
+  \bibitem{text1} D4実験\_補助資料2023v1.0.pdf 閲覧日:2023/12/19
+  \bibitem{voice} 音の雑学大辞典,\ Pioneer\\(https:// jpn.pioneer/ja/carrozzeria/museum/oto/01\_a03.html)閲覧日:2023/12/19
+\end{thebibliography}
+\clearpage
+$============================================================$\\
+学籍番号：62115799\\
+ 氏  名 ：平井優我\\
+$============================================================$\\
+■自己評価点 (100点満点)： 100点 〔最低希望点： 100点〕\\
+・このように評価する理由：\\自分で書いたレポートは100点じゃないとおかしい。
+
+
+
+$------------------------------------------------------------$\\
+■レポートで特に力を入れたところ：\\
+全体。
+
+
+$------------------------------------------------------------$\\
+■レポートで難しかった・わからなかったところ：\\
+なし。
+
+
+$------------------------------------------------------------$\\
+■レポートについて質問・確認したいこと：\\
+なし。
+
+
+$------------------------------------------------------------$\\
+■その他の質問・意見・要望など：\\
+ヘッドホンで聞いている高音質ってすごいんだなと思った。
+\end{document}
