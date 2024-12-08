@@ -104,7 +104,44 @@
         \caption{ }
         \label{figure10}
     \end{figure}
-
-    
 }
+\clearpage
+
+\section{CNOTの順序}{
+
+    \begin{figure}[h]
+        \centering
+        \includegraphics[scale=0.25]{figure/figure11.eps}
+        \caption{ }
+        \label{figure11}
+    \end{figure}
+
+    また、エラー伝播により実効的なcode distanceが小さくなるのを防ぐこともできそうである。基本的に正方形を敷き詰めて作るsurface codeと考え方は同じである。Fig.\ref{figure11}でいうと、6-weightの多体pauli測定をする際にancilla qubitからのエラーについて、水平方向にXエラーが、水平から$60^\circ$の方向にZエラーが蓄積しなければいい。それを満たす手順とエラー伝播の種類をFig.\ref{figure12}に示す。
+
+    \begin{figure}[h]
+        \centering
+        \includegraphics[scale=0.25]{figure/figure12.eps}
+        \caption{ }
+        \label{figure12}
+    \end{figure}
+
+    Fig.\ref{figure12}から、水平方向、水平から$60^\circ$方向のどちらにも2つのエラーが伝搬していないから、X,Z stabilizerの両方をこのCNOT順序で実行すれば良い。
+}
+\clearpage
+
+\section{拡大}{
+    　最後にunfolding操作と同時に拡大する手順を載せておく(Fig.\ref{figure13})。正方形Surface Codeの領域はオレンジがX stabilizerで青色がZ stabilizerである。
+
+    \begin{figure}[h]
+        \centering
+        \includegraphics[scale=0.25]{figure/figure13.eps}
+        \caption{ }
+        \label{figure13}
+    \end{figure}
+
+    おそらくこの手順で実行すればエラーを見つけながらunfoldingと拡大を同時にできる。
+
+
+}
+
 \end{document}
