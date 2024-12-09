@@ -142,7 +142,22 @@
             \end{align*}
 
             From straightforward calculations, you can confirm that $L_X\ket{0}_L = \ket{1}_L$, $L_Z\ket{1}_L = -\ket{1}_L$, and $L_XL_Z = -L_ZL_X$. By definition, a logical operator cannot be expressed as the product of stabilizer generators.
+        }
 
+        \subsection{Error Detction}{
+            \ \ \ In this subsection, we will describe how to detect errors using syndrome measurements. Let $\ket{\psi}^t$ be the state of the physical qubits at round $t$, where "round" indicates the sequence number of the error correction operation. After the round $t$ error correction, some logical operations are performed, followed by round $t+1$ error correction. Finally, this results in the round $t+1$ state $\ket{\psi}^{t+1}$. Assume there are no errors in $\ket{\psi}^t$, and that errors occur due to the logical operations between round $t$ and round $t+1$. In this case, we obtain a syndrome $m^t_j$ of $s_j \in \mathcal{S}$ at round $t$ as:
+            
+            \begin{align*}
+                s_j\ket{\psi}^t=m_j^t\ket{\psi}^t.
+            \end{align*}
+
+            And at round $t+1$, we obtain a syndrome $m^{t+1}_j$ as:
+
+            \begin{align*}
+                s_j\ket{\psi}^{t+1}=m_j^{t+1}\ket{\psi}^{t+1}.
+            \end{align*}
+
+            In the case where the errors can be detected by $s_j$, $m_j^{t+1}$ has the opposite sign of $m_j^t$, so $m_j^{t+1}m_j^t = -1$. On the other hand, if the errors cannot be detected by $s_j$, $m_j^{t+1}$ has the same sign as $m_j^t$, so $m_j^{t+1}m_j^t = 1$. From this discussion, we only need to know the product of the syndromes from round $t$ and round $t+1$.
 
 
         }

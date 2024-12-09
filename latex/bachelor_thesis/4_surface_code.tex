@@ -22,6 +22,8 @@
         
         where $V$ is the number of vertices, $E$ is the number of edges, $F$ is the number of faces of the lattice on the torus, and $g$ is the genus. For $g = 1$, the 1-genus case, Eq.~\ref{euler_genus} equals $0$. now we introduce data qubits on the edges, X stabilizers on the vertices and Z stabilizers on the faces shown in Fig.\ref{local}.
 
+        \clearpage
+
         \begin{figure}[h]
             \centering
             \includegraphics[scale=0.40]{figure/local.eps}
@@ -29,18 +31,15 @@
             \label{local}
             \vspace{-10pt}
         \end{figure}
-
-        
-
-    }
-    In Fig.~\ref{local}, we show some of the stabilizers of the Surface Code, but others exist in the remaining parts of the lattice. Thus, we have $V - 1$ $X$ stabilizer generators because the product of all $X$ stabilizers on the vertices is the identity. From the same discussion, we have $F - 1$ $Z$ stabilizer generators. Therefore, the number of logical qubits $k$ that can be encoded in the Surface Code is:
+    
+        In Fig.~\ref{local}, we show some of the stabilizers of the Surface Code, but others exist in the remaining parts of the lattice. Thus, we have $V - 1$ $X$ stabilizer generators because the product of all $X$ stabilizers on the vertices is the identity. From the same discussion, we have $F - 1$ $Z$ stabilizer generators. Therefore, the number of logical qubits $k$ that can be encoded in the Surface Code is:
 
     \begin{align}
         k = E - (V - 1) - (F - 1) = 2
     \end{align} 
 
-    using Eq.~\ref{euler_genus}. From these results, we can identify four logical operators corresponding to the non-trivial cycles on the torus. The logical operators are shown in Fig.~\ref{logical_operator}, where the subscripts 1 and 2 indicate the qubit numbers of the two logical qubits.
-    
+    using Eq.~\ref{euler_genus}. From these results, we can identify four logical operators corresponding to the non-trivial cycles on the torus. The logical operators are shown in Fig.~\ref{logical_operator}, where the subscripts 1 and 2 indicate the qubit numbers of the two logical qubits. From Fig.~\ref{logical_operator}, one can confirm that $L^i_XL^i_Z = -L^i_ZL^i_X$, that all logical operators commute with the stabilizers, and that the code distance is $\sqrt{n}$, which is the least weight of a logical operator.
+
     \begin{figure}[h]
         \centering
         \includegraphics[scale=0.40]{figure/logical_operator.eps}
@@ -48,5 +47,19 @@
         \label{logical_operator}
         \vspace{-10pt}
     \end{figure}
+    }
+
+
+    \subsection{Surface Code on the Planar}{
+        \ \ \ The surface code on the planar is different from that on the torus, because it has some boudaries. it is shown in Fig.\ref{planar}. one can find that there exists 3-weight stabilizers in the boudaries. Additionally, the surface code can encode one logical qubit.
+
+        \begin{figure}[h]
+            \centering
+            \includegraphics[scale=0.40]{figure/planar.eps}
+            \vspace{0pt}\caption{}
+            \label{planar}
+            \vspace{-10pt}
+        \end{figure}
+    }
 }
 \end{document}
