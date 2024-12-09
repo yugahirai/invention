@@ -98,7 +98,7 @@
             \end{align*}
 
             which makes it appear as though no errors have occurred, even though errors have actually occurred. In summary, this code can detect and correct one error, can detect two errors but cannot correct them, and cannot detect or correct three errors.\\
-            \ \ \ One may find that if a continuous error, such as $\ket{0} \rightarrow \ket{0} + \ket{1}$, occurs, we cannot obtain syndromes. Actually, when we obtain syndromes, we perform syndrome measurements using $Z_1 Z_2$ and $Z_2 Z_3$. As a result, the superposition state will be projected to either $\ket{0}$ or $\ket{1}$ with a probability proportional to the coefficients of the superposition state.
+            \ \ \ One may find that if a continuous error, such as $\ket{0} \rightarrow \ket{0} + \ket{1}$, occurs, we cannot obtain syndromes. Actually, when we obtain syndromes, we perform syndrome measurements using $Z_1 Z_2$ and $Z_2 Z_3$. As a result, the superposition state will be projected to either $\ket{0}$ or $\ket{1}$ with a probability proportional to the coefficients of the superposition state.\\
             \ \ \ In the following section, we refer to the minimum number of errors that cannot be detected as the code distance, often expressed as $d$, encoded qubits as logical qubits, and the number of them as $k$, and qubits used to encode logical qubits as physical qubits, with their number often expressed as $n$. The properties of the code are often denoted as $[[n, k, d]]$. In the case of the former repetition code, its properties are $[[3, 1, 1]]$, but this code cannot correct phase-flip errors. Therefore, we show how to correct both types of errors: bit-flip and phase-flip.
         }
 
@@ -141,7 +141,8 @@
                 \ket{\psi_L}=\prod_{i}(I+s_i)\ket{0000000}+\prod_{i}(I+s_i)\ket{1111111}.
             \end{align*}
 
-            From straightforward calculations, you can confirm that $L_X\ket{0}_L=\ket{1}_L$, $L_Z\ket{1}_L=-\ket{1}_L$ and $L_XL_Z = -L_ZL_X$.
+            From straightforward calculations, you can confirm that $L_X\ket{0}_L = \ket{1}_L$, $L_Z\ket{1}_L = -\ket{1}_L$, and $L_XL_Z = -L_ZL_X$. By definition, a logical operator cannot be expressed as the product of stabilizer generators.
+
 
 
         }

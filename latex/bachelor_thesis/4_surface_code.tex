@@ -1,0 +1,52 @@
+\documentclass[a4paper,11pt]{ltjsarticle}
+\input{utility/SETTINGS.tex}
+\begin{document}
+\section{Surface Code}{
+    \ \ \ The Surface Code, first introduced by Kitaev \cite{kitaev1997}, is the most promising error correction code for quantum computing. Using this code, universal computation can be performed with magic state distillation. In this section, we will first introduce the stabilizers of the Surface Code on the torus and then on the planar surface.
+
+    \subsection{Surface Code on the Torus}{
+
+        \begin{figure}[h]
+            \centering
+            \includegraphics[scale=0.20]{figure/torus.eps}
+            \vspace{0pt}\caption{}
+            \label{torus}
+            \vspace{-15pt}
+        \end{figure}
+
+        Usually, the Surface Code is defined on a 1-genus torus, but it can also be defined on an $n$-genus torus in the same way. The lattice on the torus, shown in Fig.~\ref{torus}, has the following property:
+
+        \begin{align}\label{euler_genus}
+            V-E+F=2-2g
+        \end{align}
+        
+        where $V$ is the number of vertices, $E$ is the number of edges, $F$ is the number of faces of the lattice on the torus, and $g$ is the genus. For $g = 1$, the 1-genus case, Eq.~\ref{euler_genus} equals $0$. now we introduce data qubits on the edges, X stabilizers on the vertices and Z stabilizers on the faces shown in Fig.\ref{local}.
+
+        \begin{figure}[h]
+            \centering
+            \includegraphics[scale=0.40]{figure/local.eps}
+            \vspace{0pt}\caption{}
+            \label{local}
+            \vspace{-10pt}
+        \end{figure}
+
+        
+
+    }
+    In Fig.~\ref{local}, we show some of the stabilizers of the Surface Code, but others exist in the remaining parts of the lattice. Thus, we have $V - 1$ $X$ stabilizer generators because the product of all $X$ stabilizers on the vertices is the identity. From the same discussion, we have $F - 1$ $Z$ stabilizer generators. Therefore, the number of logical qubits $k$ that can be encoded in the Surface Code is:
+
+    \begin{align}
+        k = E - (V - 1) - (F - 1) = 2
+    \end{align} 
+
+    using Eq.~\ref{euler_genus}. From these results, we can identify four logical operators corresponding to the non-trivial cycles on the torus. The logical operators are shown in Fig.~\ref{logical_operator}, where the subscripts 1 and 2 indicate the qubit numbers of the two logical qubits.
+    
+    \begin{figure}[h]
+        \centering
+        \includegraphics[scale=0.40]{figure/logical_operator.eps}
+        \vspace{0pt}\caption{}
+        \label{logical_operator}
+        \vspace{-10pt}
+    \end{figure}
+}
+\end{document}
