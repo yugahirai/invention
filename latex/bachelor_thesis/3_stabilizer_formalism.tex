@@ -1,8 +1,8 @@
 \documentclass[a4paper,11pt]{ltjsarticle}
 \input{utility/SETTINGS.tex}
 \begin{document}
-\section{Stabilizer Formalism \cite{nielsen2010}}{
-    \ \ \ In this section, we describe the stabilizer formalism, which forms the backbone of quantum error correction theory. Before delving into the main discussion, we provide a small case example of error correction and briefly introduce classical error correction theory.
+\section{Stabilizer Formalism }{
+    \ \ \ In this section, we describe the stabilizer formalism\cite{nielsen2010}, which forms the backbone of quantum error correction theory. Before delving into the main discussion, we provide a small case example of error correction and briefly introduce classical error correction theory.
     \subsection{Introduction to Error Correction}\label{introduction_to_error_correction}{
         \ \ \ Noise is a great bane of information systems. Whenever we build systems for computation or other purposes, we cannot avoid noise from outside the system. However, even in such environments, classical components perform reliable computation with a failure rate typically below one error in $10^{17}$ operations. The details of the techniques used to protect against noise in practice are sometimes rather complicated, but the basic principles are easily understood. For example, consider the case when Alice sends Bob a single bit of information through a noisy channel, where the error rate is $p$. If Alice sends a bit without protection, a bit-flip error, where $0$ flips to $1$ and vice versa, occurs with a probability of $p$. As a result, Bob will fail to receive the correct information from Alice with a probability of $p$. In such cases, we cannot communicate reliably through the noisy channel. Yet, there is a way to address this issue. If Alice introduces redundancy for a bit of information, a process called "encoding," such as:
 
@@ -138,7 +138,7 @@
             where $s_i$ is a $Z$ stabilizer generator, and the state is post-selected to the $+1$ eigenstates, ignoring the normalization factor. In the same way, $\ket{1}_L$ can be encoded. Thus, if you want to encode an arbitrary state $\ket{\psi} = a\ket{0} + b\ket{1}$, first prepare the Bell state $a\ket{0000000} + b\ket{1111111}$ and perform projective measurements of the $Z$ stabilizer generators. The final states is:
 
             \begin{align*}
-                \ket{\psi_L}=\prod_{i}(I+s_i)\ket{0000000}+\prod_{i}(I+s_i)\ket{1111111}.
+                \ket{\psi_L}=a\prod_{i}(I+s_i)\ket{0000000}+b\prod_{i}(I+s_i)\ket{1111111}.
             \end{align*}
 
             From straightforward calculations, you can confirm that $L_X\ket{0}_L = \ket{1}_L$, $L_Z\ket{1}_L = -\ket{1}_L$, and $L_XL_Z = -L_ZL_X$. By definition, a logical operator cannot be expressed as the product of stabilizer generators.

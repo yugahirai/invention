@@ -20,8 +20,7 @@
             V-E+F=2-2g
         \end{align}
         
-        where $V$ is the number of vertices, $E$ is the number of edges, $F$ is the number of faces of the lattice on the torus, and $g$ is the genus. For $g = 1$, the 1-genus case, Eq.~\ref{euler_genus} equals $0$. now we introduce data qubits on the edges, X stabilizers on the vertices and Z stabilizers on the faces shown in Fig.\ref{local}.
-
+        where $V$ is the number of vertices, $E$ is the number of edges, $F$ is the number of faces of the lattice on the torus, and $g$ is the genus. For $g = 1$, the 1-genus case, Eq.~\ref{euler_genus} equals $0$. now we introduce data qubits on the edges, X stabilizers on the vertices and Z stabilizers on the faces shown in Fig.\ref{local}. Incidentally, in Fig.~\ref{local}, the left and right sides are identical. Similarly, the upper and bottom sides are identical.
         \clearpage
 
         \begin{figure}[h]
@@ -32,7 +31,7 @@
             \vspace{-10pt}
         \end{figure}
     
-        In Fig.~\ref{local}, we show some of the stabilizers of the Surface Code, but others exist in the remaining parts of the lattice. Thus, we have $V - 1$ $X$ stabilizer generators because the product of all $X$ stabilizers on the vertices is the identity. From the same discussion, we have $F - 1$ $Z$ stabilizer generators. Therefore, the number of logical qubits $k$ that can be encoded in the Surface Code is:
+        In Fig.~\ref{local}, we show some of the stabilizers of the Surface Code, but others exist in the remaining parts of the lattice. Thus, we have $V - 1$ X stabilizer generators because the product of all X stabilizers on the vertices is the identity. From the same discussion, we have $F - 1$ Z stabilizer generators. Therefore, the number of logical qubits $k$ that can be encoded in the Surface Code is:
 
     \begin{align}
         k = E - (V - 1) - (F - 1) = 2
@@ -47,11 +46,12 @@
         \label{logical_operator}
         \vspace{-10pt}
     \end{figure}
+    \clearpage
     }
 
 
     \subsection{Surface Code on the Planar}{
-        \ \ \ The Surface Code on the planar is different from that on the torus because it has boundaries, as shown in Fig.~\ref{planar}. One can observe that there exist 3-weight stabilizers at the boundaries. Additionally, the Surface Code on the planar can encode one logical qubit.
+        \ \ \ The Surface Code on the planar is different from that on the torus because it has boundaries, as shown in Fig.~\ref{planar}. One can observe that there exist 3-weight stabilizers at the boundaries. 
 
         \begin{figure}[h]
             \centering
@@ -61,13 +61,17 @@
             \vspace{-10pt}
         \end{figure}
 
+        Additionally, the Surface Code on the planar can encode one logical qubit (Fig.~\ref{logical_operator_planar}). In the same way of the torus, one can confirm that code distance of the surface code in Fig.~\ref{logical_operator_planar} is $\sqrt{n}$ where there exists $n$ qubits.
+
         \begin{figure}[h]
             \centering
             \includegraphics[scale=0.40]{figure/logical_operator_planar.eps}
             \vspace{0pt}\caption{}
-            \label{logaical_operator_planar}
+            \label{logical_operator_planar}
             \vspace{-10pt}
         \end{figure}
+
+
 
         
     }
