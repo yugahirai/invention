@@ -142,6 +142,17 @@
             \end{align*}
 
             From straightforward calculations, you can confirm that $L_X\ket{0}_L = \ket{1}_L$, $L_Z\ket{1}_L = -\ket{1}_L$, and $L_XL_Z = -L_ZL_X$. By definition, a logical operator cannot be expressed as the product of stabilizer generators.
+
+            \ \ \ To perform syndrome measurements, we need to implement multi-body Pauli measurements, which are challenging to directly implement in experiments. Therefore, we require an ancilla qubit for each stabilizer. As shown in Fig.~\ref{syndrome_measurement_circuit}, (a) represents a 4-weight $Z$ stabilizer measurement circuit, and (b) represents a 4-weight $X$ stabilizer measurement circuit. The top four qubits are data qubits, and the bottom qubit is the ancilla qubit. In the following sections, we assume these circuits are used for syndrome measurements.
+
+
+            \begin{figure}[h]
+                \centering
+                \includegraphics[scale=0.30]{figure/syndrome_measurement_circuit.eps}
+                \vspace{0pt}\caption{}
+                \label{syndrome_measurement_circuit}
+                \vspace{-10pt}
+            \end{figure}
         }
 
         \subsection{Error Detction}{

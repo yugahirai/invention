@@ -1,0 +1,38 @@
+\documentclass[a4paper,11pt]{ltjsarticle}
+\input{utility/SETTINGS.tex}
+\begin{document}
+\section{Lattice Surgery}{
+    \ \ \ Lattice Surgery \cite{horsman2012} is an operation of code deformation, where a code is transformed into another code and then returned to the initial code, resulting in a change in the logical qubit states. In this section, we will first introduce the lattice surgery operation and then describe a CNOT operation implemented using lattice surgery.
+
+    \subsection{Merging}
+    \ \ \ The Lattice Surgery operation consists of two operations: Merging and Splitting. In this section, we will first describe the merging operation. Briefly, the procedure of the merging operation is shown in Fig.~\ref{merging}.
+    \begin{figure}[h]
+        \centering
+        \includegraphics[scale=0.25]{figure/merging.eps}
+        \vspace{0pt}\caption{}
+        \label{merging}
+        \vspace{-10pt}
+    \end{figure}
+
+    In the following description of the merging operation, the notations (1), (2), (3), and (4) correspond to (1), (2), (3), and (4) in Fig.~\ref{merging}. In step (1), two arbitrary logical states, $\ket{\psi_1}$ and $\ket{\psi_2}$, encoded by the surface codes, are placed adjacent to each other. In step (2), new data qubits are introduced and initialized in the $\ket{+}$ state between the two logical qubits. By this initialization, 4-weight $X$ stabilizers that connect the two logical states are already established in step (3), so no additional operations are required in step (3). Then, in step (4), we perform the syndrome measurements of $Z$ stabilizers that connect the two logical qubits. The product of all $Z$ stabilizers added in step (4) equals $Z_1Z_2$, where $Z_i$ is the logical operator of the state $\ket{\psi_i}$. Thus, we can obtain a measurement result $m_{Z_1Z_2}$ for $Z_1Z_2$. This operation can be written as:
+
+    \begin{align}
+        O_\text{merging}\ket{\psi_1}\ket{\psi_2}=\left(I+(-1)^{m_{Z_1Z_2}}Z_1Z_2\right)\ket{\psi_1}\ket{\psi_2}
+    \end{align}
+
+    where $O_{\text{merging}}$ indicates the merging operation in the equation. We have merged the smooth boundaries of two Surface Codes, but the rough boundaries can be merged in the same way.
+
+    \subsection{splitting}{
+        \ \ \ In the previous section, we introduced the merging operation of lattice surgery. In this section, we will introduce the splitting operation, which is the opposite of the merging operation.
+
+        \begin{figure}[h]
+            \centering
+            \includegraphics[scale=0.25]{figure/splitting.eps}
+            \vspace{0pt}\caption{}
+            \label{splitting}
+            \vspace{-10pt}
+        \end{figure}
+
+    }
+}
+\end{document}

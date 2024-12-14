@@ -20,8 +20,7 @@
             V-E+F=2-2g
         \end{align}
         
-        where $V$ is the number of vertices, $E$ is the number of edges, $F$ is the number of faces of the lattice on the torus, and $g$ is the genus. For $g = 1$, the 1-genus case, Eq.~\ref{euler_genus} equals $0$. now we introduce data qubits on the edges, X stabilizers on the vertices and Z stabilizers on the faces shown in Fig.\ref{local}. Incidentally, in Fig.~\ref{local}, the left and right sides are identical. Similarly, the upper and bottom sides are identical.
-        \clearpage
+        where $V$ is the number of vertices, $E$ is the number of edges, $F$ is the number of faces of the lattice on the torus, and $g$ is the genus. For $g = 1$, the 1-genus case, Eq.~\ref{euler_genus} equals $0$. We now introduce data qubits on the edges, $X$ stabilizers on the vertices, and $Z$ stabilizers on the faces, as shown in Fig.~\ref{local}. Incidentally, in Fig.~\ref{local}, the left and right sides are identical, and similarly, the upper and bottom sides are identical. Ancilla qubits for syndrome measurements are allocated at the center of the faces for the Zstabilizers and on the vertices for the X stabilizers.
 
         \begin{figure}[h]
             \centering
@@ -37,7 +36,7 @@
         k = E - (V - 1) - (F - 1) = 2
     \end{align} 
 
-    using Eq.~\ref{euler_genus}. From these results, we can identify four logical operators corresponding to the non-trivial cycles on the torus. The logical operators are shown in Fig.~\ref{logical_operator}, where the subscripts 1 and 2 indicate the qubit numbers of the two logical qubits. From Fig.~\ref{logical_operator}, one can confirm that $L^i_XL^i_Z = -L^i_ZL^i_X$, that all logical operators commute with the stabilizers, and that the code distance is $\sqrt{n}$, which is the least weight of a logical operator.
+    using Eq.~\ref{euler_genus}. From these results, we can identify four logical operators corresponding to the non-trivial cycles on the torus. The logical operators are shown in Fig.~\ref{logical_operator}, where the subscripts 1 and 2 indicate the qubit numbers of the two logical qubits. From Fig.~\ref{logical_operator}, one can confirm that $L^i_XL^i_Z = -L^i_ZL^i_X$, that all logical operators commute with the stabilizers, and that the code distance is $\sqrt{n}$, which is the least weight of a logical operator. 
 
     \begin{figure}[h]
         \centering
@@ -46,7 +45,6 @@
         \label{logical_operator}
         \vspace{-10pt}
     \end{figure}
-    \clearpage
     }
 
 
@@ -55,23 +53,32 @@
 
         \begin{figure}[h]
             \centering
-            \includegraphics[scale=0.40]{figure/planar.eps}
+            \includegraphics[scale=0.30]{figure/planar.eps}
             \vspace{0pt}\caption{}
             \label{planar}
             \vspace{-10pt}
         \end{figure}
 
-        Additionally, the Surface Code on the planar can encode one logical qubit (Fig.~\ref{logical_operator_planar}). In the same way of the torus, one can confirm that code distance of the surface code in Fig.~\ref{logical_operator_planar} is $\sqrt{n}$ where there exists $n$ qubits.
+        Additionally, the Surface Code on the planar can encode one logical qubit (Fig.~\ref{logical_operator_planar}). In the same way of the torus, one can confirm that code distance of the surface code in Fig.~\ref{logical_operator_planar} is $\sqrt{n}$ where there exists $n$ qubits. The two boundaries that are connected to each other by the logical Z operator are called rough boundaries, while the remaining boundaries are called smooth boundaries.
 
         \begin{figure}[h]
             \centering
-            \includegraphics[scale=0.40]{figure/logical_operator_planar.eps}
+            \includegraphics[scale=0.30]{figure/logical_operator_planar.eps}
             \vspace{0pt}\caption{}
             \label{logical_operator_planar}
             \vspace{-10pt}
         \end{figure}
 
+        \ \ \ There exist excess qubits in the previous Surface Code. As shown in Fig.~\ref{rotated_surface_code}, we can cut along the green line, which contains both data qubits and ancilla qubits, trim off the excess parts, and rotate the lattice by 45 degrees to obtain the rotated Surface Code. With this modification, the code distance of the Surface Code is preserved by defining new logical operators on the rotated Surface Code that connect the rough boundaries or the smooth boundaries.
 
+
+        \begin{figure}[h]
+            \centering
+            \includegraphics[scale=0.25]{figure/rotated_surface_code.eps}
+            \caption{}
+            \label{rotated_surface_code}
+            \vspace{-10pt}
+        \end{figure}
 
         
     }

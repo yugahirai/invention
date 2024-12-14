@@ -1,0 +1,76 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{horsman2012}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=71fa14996d0e66e018d607154b5136e8}{%
+           family={Horsman},
+           familyi={H\bibinitperiod},
+           given={Dominic},
+           giveni={D\bibinitperiod}}}%
+        {{hash=963708fd18e82e5d31c988cc8f3f7758}{%
+           family={Fowler},
+           familyi={F\bibinitperiod},
+           given={Austin\bibnamedelima G.},
+           giveni={A\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=d9b97be97b4a41c6a06c95432027abb3}{%
+           family={Devitt},
+           familyi={D\bibinitperiod},
+           given={Simon},
+           giveni={S\bibinitperiod}}}%
+        {{hash=604623ddcf7f87a592d237d861ac80ef}{%
+           family={Meter},
+           familyi={M\bibinitperiod},
+           given={Rodney\bibnamedelima Van},
+           giveni={R\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+      }
+      \strng{namehash}{b6654bee1eb03eafdf4a62ccfd7503bc}
+      \strng{fullhash}{b6654bee1eb03eafdf4a62ccfd7503bc}
+      \strng{fullhashraw}{b6654bee1eb03eafdf4a62ccfd7503bc}
+      \strng{bibnamehash}{b6654bee1eb03eafdf4a62ccfd7503bc}
+      \strng{authorbibnamehash}{b6654bee1eb03eafdf4a62ccfd7503bc}
+      \strng{authornamehash}{b6654bee1eb03eafdf4a62ccfd7503bc}
+      \strng{authorfullhash}{b6654bee1eb03eafdf4a62ccfd7503bc}
+      \strng{authorfullhashraw}{b6654bee1eb03eafdf4a62ccfd7503bc}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{New J. Phys.}
+      \field{title}{Surface code quantum computing by lattice surgery}
+      \field{volume}{14}
+      \field{year}{2012}
+      \field{pages}{123011}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/1367-2630/14/12/123011
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1088/1367-2630/14/12/123011
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1088/1367-2630/14/12/123011
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
