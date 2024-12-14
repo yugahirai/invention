@@ -22,7 +22,7 @@
 
     where $O_{\text{merging}}$ indicates the merging operation in the equation. We have merged the smooth boundaries of two Surface Codes, but the rough boundaries can be merged in the same way.
 
-    \subsection{splitting}{
+    \subsection{Splitting}{
         \ \ \ In the previous section, we introduced the merging operation of lattice surgery. In this section, we will introduce the splitting operation, which is the opposite of the merging operation.
 
         \begin{figure}[h]
@@ -32,6 +32,32 @@
             \label{splitting}
             \vspace{-10pt}
         \end{figure}
+
+        In the following description of the splitting operation, the notations (1), (2), (3), and (4) correspond to (1), (2), (3), and (4) in Fig.~\ref{splitting}. In step (1), we start with a state $\ket{\psi_{12}}$. In step (2), the middle column of qubits is measured in the Pauli-$X$ basis. As a result, some $Z$ stabilizers in the middle of the qubits are lost in step (3). By eliminating the data qubits measured in the Pauli-$X$ basis, we obtain two logical states, $\ket{\psi'_1}$ and $\ket{\psi'_2}$, in step (4). While the measurement results will be used for error correction after the splitting operation, we avoid delving into that aspect here.
+    }
+
+    \subsection{Logical CNOT Gate}{
+        \ \ \ In this section, we introduce a logical CNOT gate using the lattice surgery operation described in the previous sections. In quantum error correction theory, a logical CNOT gate is often implemented using measurement-based quantum computation. Within the lattice surgery framework, we can leverage this approach. The CNOT gate implemented by local measurements is shown in Fig.~\ref{logical_cnot}.
+        \clearpage
+
+        \begin{figure}[h]
+            \centering
+            \includegraphics[scale=0.30]{figure/logical_cnot.eps}
+            \vspace{0pt}\caption{}
+            \label{logical_cnot}
+            \vspace{-10pt}
+        \end{figure}
+
+        In the previous sections, we have seen the measurement operation $Z_1Z_2$ ($X_1X_2$) for logical qubits. Ignoring the Pauli correction based on the measurement results, as long as a 2-weight Pauli measurement on the logical qubits can be performed, we can achieve a CNOT gate.
+
+        \begin{figure}[h]
+            \centering
+            \includegraphics[scale=0.25]{figure/cnot_in_lattice_surgery.eps}
+            \vspace{0pt}\caption{}
+            \label{cnot_in_lattice_surgery}
+            \vspace{-10pt}
+        \end{figure}
+
 
     }
 }
