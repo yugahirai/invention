@@ -1,0 +1,128 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{devitt2013}{article}{}
+      \name{author}{3}{}{%
+        {{hash=180815463d935cc858b03475d140a713}{%
+           family={Devitt},
+           familyi={D\bibinitperiod},
+           given={Simon\bibnamedelima J.},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=b0b0728e985c235044ba35a10e46011d}{%
+           family={Munro},
+           familyi={M\bibinitperiod},
+           given={William\bibnamedelima J.},
+           giveni={W\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=43de8552ab61d76a124fd195717ad5a8}{%
+           family={Nemoto},
+           familyi={N\bibinitperiod},
+           given={Kae},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{c85ef1e7204b8955c5a836ee397906f5}
+      \strng{fullhash}{c85ef1e7204b8955c5a836ee397906f5}
+      \strng{bibnamehash}{c85ef1e7204b8955c5a836ee397906f5}
+      \strng{authorbibnamehash}{c85ef1e7204b8955c5a836ee397906f5}
+      \strng{authornamehash}{c85ef1e7204b8955c5a836ee397906f5}
+      \strng{authorfullhash}{c85ef1e7204b8955c5a836ee397906f5}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint}
+      \field{title}{Quantum Error Correction for Beginners}
+      \field{year}{2013}
+      \verb{eprint}
+      \verb 0905.2794
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/0905.2794
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/0905.2794
+      \endverb
+    \endentry
+    \entry{gottesman1998}{article}{}
+      \name{author}{1}{}{%
+        {{hash=7547b3f3d9b6b3aebccf1577d598b7de}{%
+           family={Gottesman},
+           familyi={G\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{7547b3f3d9b6b3aebccf1577d598b7de}
+      \strng{fullhash}{7547b3f3d9b6b3aebccf1577d598b7de}
+      \strng{bibnamehash}{7547b3f3d9b6b3aebccf1577d598b7de}
+      \strng{authorbibnamehash}{7547b3f3d9b6b3aebccf1577d598b7de}
+      \strng{authornamehash}{7547b3f3d9b6b3aebccf1577d598b7de}
+      \strng{authorfullhash}{7547b3f3d9b6b3aebccf1577d598b7de}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint}
+      \field{title}{The Heisenberg Representation of Quantum Computers}
+      \field{year}{1998}
+      \verb{eprint}
+      \verb quant-ph/9807006
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/quant-ph/9807006
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/quant-ph/9807006
+      \endverb
+    \endentry
+    \entry{litinski2019}{article}{}
+      \name{author}{1}{}{%
+        {{hash=d837952f6e1a3c6b778bfffa0ff0f161}{%
+           family={Litinski},
+           familyi={L\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{d837952f6e1a3c6b778bfffa0ff0f161}
+      \strng{fullhash}{d837952f6e1a3c6b778bfffa0ff0f161}
+      \strng{bibnamehash}{d837952f6e1a3c6b778bfffa0ff0f161}
+      \strng{authorbibnamehash}{d837952f6e1a3c6b778bfffa0ff0f161}
+      \strng{authornamehash}{d837952f6e1a3c6b778bfffa0ff0f161}
+      \strng{authorfullhash}{d837952f6e1a3c6b778bfffa0ff0f161}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Quantum}
+      \field{title}{Magic State Distillation: Not as Costly as You Think}
+      \field{volume}{3}
+      \field{year}{2019}
+      \field{pages}{128}
+      \range{pages}{1}
+      \verb{urlraw}
+      \verb https://quantum-journal.org/papers/q-2019-12-02-205/
+      \endverb
+      \verb{url}
+      \verb https://quantum-journal.org/papers/q-2019-12-02-205/
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

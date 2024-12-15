@@ -23,13 +23,12 @@
         \begin{align}
             \tau_\text{max}=\max_i{\tau_i}.
         \end{align}
-        From the second dataset onward, the time required for processing each dataset equals the maximum of $\tau_i$. Hence, the total time for processing the $k$th datasets are given by:
-        \begin{align}
-            T_\text{pipe}=T_\text{circ}+(k-1)\tau_text{max}.
+        which is called "rate-limiting step." From the second dataset onward, the time required for processing each dataset equals the maximum of $\tau_i$. Hence, the total time for processing the $k$th datasets are given by:
+        \begin{align}\label{pipeline_processing_time}
+            T_\text{pipe}=T_\text{circ}+(k-1)\tau_\text{max}.
         \end{align}
-        The data stream can flow through the entire pipeline without requiring modifications to the time gap between adjacent datasets or being put on hold at any point along the pipeline.
+        We call this the "steady-flow" pipelining scheme, as the data stream can flow through the entire pipeline without requiring modifications to the time gap between adjacent datasets or being put on hold at any point along the pipeline. Deviating from the steadyflow scheme, we often need to tempolary put the dataset on hold in the pipeline. For this, we need to implement "baffer" where multiple datasets can be on hold. 
     }
-    \clearpage
     \subsection{Looped Qubit Pipeline}{
         \begin{figure}[h]
             \centering
@@ -37,6 +36,10 @@
             \vspace{0pt}\caption{}
             \label{shuttling_truck}
         \end{figure}
+
+        \ \ \ Similar to the classical pipeline, we can define the linear qubit pipeline, as shown in Fig.~\ref{shuttling_truck}(a). The qubits are processed at each step, which consists of shuttling, gate operations, initialization, or measurement. We can apply the steady-flow scheme to this pipeline, so the time required to process $k$ qubits is given by Eq.~\ref{pipeline_processing_time}. Note that, in practice, the rate-limiting step is often not the shuttling step, as the shuttling operation is relatively faster compared to other operations. Without loss of generality, we assume that the shuttling operation can hold the qubits without pushing them forward, allowing it to act as a buffering region for the pipelining when needed.\\
+        \ \ \ Beyond the linear qubit pipeline, we can define the looped qubit pipeline, as shown in Fig.~\ref{shuttling_truck}. Unlike the linear qubit pipeline, where the circuits that can be performed on the qubits are restricted by the number of devices on the pipeline, the looped pipeline allows the qubits to circulate around the loop and reuse the gate devices. This enables the effective execution of circuits with any depth on the qubits.
+
     }
 }
 \end{document}

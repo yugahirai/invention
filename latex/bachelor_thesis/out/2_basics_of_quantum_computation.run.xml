@@ -41,13 +41,13 @@
   >
 ]>
 <requests version="1.0">
-  <internal package="biblatex" priority="9" active="1">
+  <internal package="biblatex" priority="9" active="0">
     <generic>latex</generic>
     <provides type="dynamic">
-      <file>6_looped_pipeline_architecture.bcf</file>
+      <file>2_basics_of_quantum_computation.bcf</file>
     </provides>
     <requires type="dynamic">
-      <file>6_looped_pipeline_architecture.bbl</file>
+      <file>2_basics_of_quantum_computation.bbl</file>
     </requires>
     <requires type="static">
       <file>blx-dm.def</file>
@@ -61,23 +61,23 @@
       <file>english.lbx</file>
     </requires>
   </internal>
-  <external package="biblatex" priority="5" active="1">
+  <external package="biblatex" priority="5" active="0">
     <generic>biber</generic>
     <cmdline>
       <binary>biber</binary>
-      <infile>6_looped_pipeline_architecture</infile>
+      <infile>2_basics_of_quantum_computation</infile>
     </cmdline>
     <input>
-      <file>6_looped_pipeline_architecture.bcf</file>
+      <file>2_basics_of_quantum_computation.bcf</file>
     </input>
     <output>
-      <file>6_looped_pipeline_architecture.bbl</file>
+      <file>2_basics_of_quantum_computation.bbl</file>
     </output>
     <provides type="dynamic">
-      <file>6_looped_pipeline_architecture.bbl</file>
+      <file>2_basics_of_quantum_computation.bbl</file>
     </provides>
     <requires type="dynamic">
-      <file>6_looped_pipeline_architecture.bcf</file>
+      <file>2_basics_of_quantum_computation.bcf</file>
     </requires>
     <requires type="editable">
       <file>utility/REFERENCES.bib</file>
