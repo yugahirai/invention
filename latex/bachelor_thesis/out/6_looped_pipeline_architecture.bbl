@@ -1,0 +1,69 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{cai2023}{article}{}
+      \name{author}{3}{}{%
+        {{hash=8ea41cf3838b8cbd7dfef5c651f8c244}{%
+           family={Cai},
+           familyi={C\bibinitperiod},
+           given={Zhenyu},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=436a67268fa3af7963accf54942c3c10}{%
+           family={Siegel},
+           familyi={S\bibinitperiod},
+           given={Adam},
+           giveni={A\bibinitperiod}}}%
+        {{hash=83a25208ae76cb0721ea7e603ed736cb}{%
+           family={Benjamin},
+           familyi={B\bibinitperiod},
+           given={Simon},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{9312a92b012f0aa32ee0e93aec4fcd90}
+      \strng{fullhash}{9312a92b012f0aa32ee0e93aec4fcd90}
+      \strng{bibnamehash}{9312a92b012f0aa32ee0e93aec4fcd90}
+      \strng{authorbibnamehash}{9312a92b012f0aa32ee0e93aec4fcd90}
+      \strng{authornamehash}{9312a92b012f0aa32ee0e93aec4fcd90}
+      \strng{authorfullhash}{9312a92b012f0aa32ee0e93aec4fcd90}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{PRX Quantum}
+      \field{title}{Looped Pipelines Enabling Effective 3D Qubit Lattices in a Strictly 2D Device}
+      \field{volume}{4}
+      \field{year}{2023}
+      \field{pages}{020345}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PRXQuantum.4.020345
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1103/PRXQuantum.4.020345
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1103/PRXQuantum.4.020345
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

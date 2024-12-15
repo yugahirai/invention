@@ -5,7 +5,8 @@
     \ \ \ Lattice Surgery \cite{horsman2012} is an operation of code deformation, where a code is transformed into another code and then returned to the initial code, resulting in a change in the logical qubit states. In this section, we will first introduce the lattice surgery operation and then describe a CNOT operation implemented using lattice surgery.
 
     \subsection{Merging}
-    \ \ \ The Lattice Surgery operation consists of two operations: Merging and Splitting. In this section, we will first describe the merging operation. Briefly, the procedure of the merging operation is shown in Fig.~\ref{merging}.
+    \ \ \ The Lattice Surgery operation consists of two operations: Merging and Splitting. In this section, we will first describe the merging operation. There are two types of merging: smooth merging and rough merging. Smooth merging involves merging the smooth boundaries of two Surface Codes, while rough merging involves merging their rough boundaries. Briefly, the procedure for the smooth merging operation is shown in Fig.~\ref{merging}; the rough merging operation can be performed in almost the same way.
+
     \begin{figure}[h]
         \centering
         \includegraphics[scale=0.25]{figure/merging.eps}
@@ -14,7 +15,7 @@
         \vspace{-10pt}
     \end{figure}
 
-    In the following description of the merging operation, the notations (1), (2), (3), and (4) correspond to (1), (2), (3), and (4) in Fig.~\ref{merging}. In step (1), two arbitrary logical states, $\ket{\psi_1}$ and $\ket{\psi_2}$, encoded by the surface codes, are placed adjacent to each other. In step (2), new data qubits are introduced and initialized in the $\ket{+}$ state between the two logical qubits. By this initialization, 4-weight $X$ stabilizers that connect the two logical states are already established in step (3), so no additional operations are required in step (3). Then, in step (4), we perform the syndrome measurements of $Z$ stabilizers that connect the two logical qubits. The product of all $Z$ stabilizers added in step (4) equals $Z_1Z_2$, where $Z_i$ is the logical operator of the state $\ket{\psi_i}$. Thus, we can obtain a measurement result $m_{Z_1Z_2}$ for $Z_1Z_2$. This operation can be written as:
+    In the following description of the smooth merging operation, the notations (1), (2), (3), and (4) correspond to (1), (2), (3), and (4) in Fig.~\ref{merging}. In step (1), two arbitrary logical states, $\ket{\psi_1}$ and $\ket{\psi_2}$, encoded by the surface codes, are placed adjacent to each other. In step (2), new data qubits are introduced and initialized in the $\ket{+}$ state between the two logical qubits. By this initialization, 4-weight $X$ stabilizers that connect the two logical states are already established in step (3), so no additional operations are required in step (3). Then, in step (4), we perform the syndrome measurements of $Z$ stabilizers that connect the two logical qubits. The product of all $Z$ stabilizers added in step (4) equals $Z_1Z_2$, where $Z_i$ is the logical operator of the state $\ket{\psi_i}$. Thus, we can obtain a measurement result $m_{Z_1Z_2}$ for $Z_1Z_2$. This operation can be written as:
 
     \begin{align}
         O_\text{merging}\ket{\psi_1}\ket{\psi_2}=\left(I+(-1)^{m_{Z_1Z_2}}Z_1Z_2\right)\ket{\psi_1}\ket{\psi_2}
@@ -48,7 +49,7 @@
             \vspace{-10pt}
         \end{figure}
 
-        In the previous sections, we have seen the measurement operation $Z_1Z_2$ ($X_1X_2$) for logical qubits. Ignoring the Pauli correction based on the measurement results, as long as a 2-weight Pauli measurement on the logical qubits can be performed, we can achieve a CNOT gate.
+        In the previous sections, we have seen the measurement operation $Z_1Z_2$ ($X_1X_2$) for logical qubits. Ignoring the Pauli correction based on the measurement results, as long as a 2-weight Pauli measurement on the logical qubits can be performed, we can achieve a CNOT gate. The protocol to implement the CNOT gate, where $\ket{\psi_1}$ is the target and $\ket{\psi_2}$ is the control, is shown in Fig.~\ref{cnot_in_lattice_surgery}. In the following description of the logical CNOT operation, the notations (1), (2), (3), (4), (5), and (6) correspond to (1), (2), (3), (4), (5), and (6) in Fig.~\ref{cnot_in_lattice_surgery}. In step (1), there are three logical states, $\ket{\psi_1}$, $\ket{\psi_2}$, and $\ket{0}$, referred to as qubit-1, qubit-2, and the ancilla qubit, respectively. All of these states are encoded in the Surface Code. Additionally, unused data qubits for the merging operation exist in the middle of the logical qubits. Then, a rough merging operation is performed between qubit-1 and the ancilla qubit in step (2). In step (3), qubit-1 and the ancilla qubit are roughly split. Next, a smooth merging operation is performed between qubit-2 and the ancilla qubit, followed by smooth splitting between qubit-2 and the ancilla qubit. Finally, a measurement is performed on the ancilla qubit in the Pauli-$X$ basis. 
 
         \begin{figure}[h]
             \centering
@@ -57,7 +58,6 @@
             \label{cnot_in_lattice_surgery}
             \vspace{-10pt}
         \end{figure}
-
 
     }
 }
