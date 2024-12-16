@@ -1,7 +1,7 @@
 \documentclass[a4paper,11pt]{ltjsarticle}
 \input{utility/SETTINGS.tex}
 \begin{document}
-\section{Looped Pipeline Architecture}{
+\section{Looped Pipeline Architecture}\label{looped_pipeline}{
     \ \ \ Many quantum computing platforms are based on a two-dimensional physical layout. We focus on "looped pipelines," \cite{cai2023} which offer the advantages of a three-dimensional lattice while being restricted to two-dimensional space. This architecture leverages qubit shuttling, where qubits are moved around on the chip, enabling long-range interactions between qubits that are far apart. 
 
     \subsection{Classical Linear Pipeline}{
@@ -38,8 +38,30 @@
         \end{figure}
 
         \ \ \ Similar to the classical pipeline, we can define the linear qubit pipeline, as shown in Fig.~\ref{shuttling_truck}(a). The qubits are processed at each step, which consists of shuttling, gate operations, initialization, or measurement. We can apply the steady-flow scheme to this pipeline, so the time required to process $k$ qubits is given by Eq.~\ref{pipeline_processing_time}. Note that, in practice, the rate-limiting step is often not the shuttling step, as the shuttling operation is relatively faster compared to other operations. Without loss of generality, we assume that the shuttling operation can hold the qubits without pushing them forward, allowing it to act as a buffering region for the pipelining when needed.\\
-        \ \ \ Beyond the linear qubit pipeline, we can define the looped qubit pipeline, as shown in Fig.~\ref{shuttling_truck}. Unlike the linear qubit pipeline, where the circuits that can be performed on the qubits are restricted by the number of devices on the pipeline, the looped pipeline allows the qubits to circulate around the loop and reuse the gate devices. This enables the effective execution of circuits with any depth on the qubits.
+        \ \ \ Beyond the linear qubit pipeline, we can define the looped qubit pipeline, as shown in Fig.~\ref{shuttling_truck}. Unlike the linear qubit pipeline, where the circuits that can be performed on the qubits are restricted by the number of devices on the pipeline, the looped pipeline allows the qubits to circulate around the loop and reuse the gate devices. This enables the effective execution of circuits with any depth on the qubits. Focusing on the first qubit in the qubit stream, the time for wrapping around the loop is called the "cycling period," denoted as $T_\text{loop}$. Let us assume that all the additional qubits in the pipeline follow behind with a constant time gap $\tau_\text{gap}$ between consecutive qubits. To avoid a qubit collision, where the first qubit collides with the last qubit after wrapping around the loop, we need to ensure that the cycling period $T_\text{loop}$ is larger than the time gap between the first qubit and the last qubit, which is $(k-1)\tau_\text{gap}$, where $k$ is the number of qubits:
+        \begin{align}
+            T_\text{loop}\ge (k-1)\tau_\text{gap}.
+        \end{align}
+        The cycling period $T_\text{loop}$ may vary from one round to another because, for example, we might apply four gates in one round but only three gates in the next round, or certain rounds may not involve measurement or initialization. Let us denote the "minimum cycling period" throughout the entire pipeline process as $T_\text{loop}^\text{min}$. To avoid collisions, the following condition must hold:
 
+        \begin{align}
+            T_\text{loop}^\text{min}\ge (k-1)\tau_\text{gap},\\
+            k\leq T_\text{loop}^\text{min}/\tau_\text{gap} + 1 = K_\text{loop}
+        \end{align}
+
+        where $K_\text{loop}$ represents the maximum number of qubits that can fit in the pipeline. In the steday-flow scheme, we have $\tau_\text{gap} = \tau_\text{max}$. thus, the maximum number of qubits that can fit in the loop in this case is:
+        \begin{align}
+            K_\text{loop} = T_\text{loop}^\text{min}/\tau_\text{max} + 1.
+        \end{align}
+
+        We can increase the number of qubits in the pipeline by reducing $\tau_\text{max}$. When the rate-limiting step is measurement or initialization, we can reduce their effective processing time by adding more initialization or measurement devices, as shown in Fig.~\ref{more_devices}, and operating them in parallel. If there are $m$ times more initialization or measurement devices in the pipeline, the rate-limiting time $\tau_\text{max}$, which represents the effective measurement or initialization time in parallel, will be reduced by a factor of $m$, provided we are operating on more than $m$ qubits: $\tau_\text{max} = \tau_\text{init/meas}/m$. This makes it possible to reduce $\tau_\text{max}$ to the extent that measurement or initialization is no longer the rate-limiting step.
+
+        \begin{figure}[h]
+            \centering
+            \includegraphics[scale=0.20]{figure/more_devices.eps}
+            \vspace{0pt}\caption{}
+            \label{more_devices}
+        \end{figure}
     }
 }
 \end{document}
