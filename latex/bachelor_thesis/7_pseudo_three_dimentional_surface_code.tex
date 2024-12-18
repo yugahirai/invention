@@ -5,7 +5,29 @@
     \ \ \ In this section, we describe the pseudo three-dimensional Surface Code on the looped pipeline architecture introduced in Section~\ref{looped_pipeline}. First, we describe how computation is performed on multiple 2D Surface Codes in a processor. Then, we extend this concept into a pseudo three-dimensional structure with a periodic cycle in the direction of the third dimension.
 
     \subsection{Quantum Processor}{
-        \ \ \ In fault-tolerant quantum computation, the Surface Code, introduced in Section~\ref{surface_code}, is the most promising error correction code for calculations required in many quantum algorithms. On the other hand, quantum low-density parity-check codes (qLDPC) are often considered more suitable for quantum memory due to their high encoding rate. However, while a single Surface Code can encode only one logical qubit, it offers many advantages, such as a simple approach for universal logical operations using lattice surgery combined with magic state distillation.
+        \ \ \ In fault-tolerant quantum computation, the Surface Code, introduced in Section~\ref{surface_code}, is the most promising error correction code for the calculations required in many quantum algorithms. On the other hand, quantum low-density parity-check codes (qLDPC) are often considered more suitable for quantum memory due to their high encoding rate. However, while a single Surface Code can encode only one logical qubit, it offers many advantages, such as a simple approach for universal logical operations using lattice surgery combined with magic state distillation.
+
+        \ \ \ When designing the processor for computation, we simplify a single Surface Code into a "patch," which features dashed and solid lines. Simply put, a patch represents a logical qubit. In Fig.~\ref{patch}(a), three patches are allocated on the processor, and the corresponding Surface Codes are shown in Fig.~\ref{patch}(b), which are numbered. The rest of the qubits in Fig.~\ref{patch}(b) are unused data qubits for lattice surgery, as introduced in Section~\ref{lattice_surgery}.
+        \begin{figure}[h]
+            \centering
+            \includegraphics[scale=0.20]{figure/patch.eps}
+            \vspace{0pt}\caption{}
+            \label{patch}
+            \vspace{-10pt}
+        \end{figure}
+
+        \clearpage
+
+        Using lattice surgery, we can perform logical operations between two patches, three patches, or more. Additionally, we can perform commutative surgery operations in parallel when there exists a route from the control qubit to the target qubit by using unused data qubits in the processor. In this scheme, the efficiency of computation depends on how many parallel operations we can execute, thus requiring careful decision-making regarding the routing of operations.
+
+        \begin{figure}[h]
+            \centering
+            \includegraphics[scale=0.20]{figure/patch_operation.eps}
+            \vspace{0pt}\caption{}
+            \label{patch_operation}
+            \vspace{-10pt}
+        \end{figure}
+
 
     }
 }
