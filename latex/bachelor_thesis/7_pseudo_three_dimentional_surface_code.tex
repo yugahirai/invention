@@ -86,23 +86,24 @@
     }
 
     \subsection{Lattice Surgery Routing}{
-        \ \ \ In this subsection, we will show the advantage with using the psuedo-3D surface code for the lattice surgery routing. The numerical results are shown in Section.\ref{results}. 
+        \ \ \ In this subsection, we will show the advantage with using the psuedo-3D surface code for the lattice surgery routing. The numerical results are shown in Section.\ref{results}.\\
+        \ \ \ In Fig.~\ref{3D_advantage_distance}, we are showing the distance advantage of the pseudo-3D Surface Code. When the blue operation in Fig.~\ref{3D_advantage_distance} is being processed, the orange operation needs to make a detour in the 2D Surface Code. However, in the pseudo-3D Surface Code, the orange operation can bypass the blue operation by utilizing the upper layer. Thus, the total cost for routing the blue and orange operations is less in the pseudo-3D Surface Code than in 2D.
 
         \begin{figure}[h]
             \centering
             \includegraphics[scale=0.30]{figure/3D_advantage_distance.eps}
-            \vspace{0pt}\caption{}
+            \vspace{10pt}\caption{}
             \label{3D_advantage_distance}
             \vspace{-10pt}
         \end{figure}
 
-
+        In Fig.~\ref{3D_advantage_parallel}, we are showing the parallelization advantage of the pseudo-3D Surface Code. When the blue operation in Fig.~\ref{3D_advantage_parallel} is being processed, the orange operation cannot be executed in the 2D Surface Code because there is no available route for the orange operation. However, in the pseudo-3D Surface Code, the orange operation can bypass the blue operation by utilizing the upper layer. Thus, the total time for executing the blue and orange operations is reduced in the pseudo-3D Surface Code compared to the 2D Surface Code.
 
         \begin{figure}[h]
             \centering
-            \includegraphics[scale=0.30]{figure/3D_advantage_pararell.eps}
-            \vspace{0pt}\caption{}
-            \label{3D_advantage_pararell}
+            \includegraphics[scale=0.30]{figure/3D_advantage_parallel.eps}
+            \vspace{10pt}\caption{}
+            \label{3D_advantage_parallel}
             \vspace{-10pt}
         \end{figure}
     }
