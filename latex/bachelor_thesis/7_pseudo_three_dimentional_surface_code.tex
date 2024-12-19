@@ -18,7 +18,7 @@
 
         \clearpage
 
-        Using lattice surgery, we can perform logical operations between two patches, three patches, or more. Additionally, we can perform commutative surgery operations in parallel when there exists a route from the control qubit to the target qubit by using unused data qubits in the processor. In this scheme, the efficiency of computation depends on how many parallel operations we can execute, thus requiring careful decision-making regarding the routing of operations.
+        Using lattice surgery, we can perform logical operations between two patches, three patches, or more. Additionally, we can perform commutative surgery operations in parallel when there exists a route from the control qubit to the target qubit by using unused data qubits in the processor. In this scheme, the efficiency of computation depends on how many parallel operations we can execute, thus requiring careful decision-making regarding the routing of operations. For instance, a certain logical 2-qubit operation between patch 2 and patch 3 is shown in Fig.~\ref{patch_operation}. In this case, we cannot perform a logical operation between patch 1 and patch 2 in parallel.
 
         \begin{figure}[h]
             \centering
@@ -27,7 +27,19 @@
             \label{patch_operation}
             \vspace{-10pt}
         \end{figure}
+        
+        In Fig.~\ref{qubit_plane}, some logical operations performed in parallel are illustrated with blue routes, while the orange route is prohibited since it intersects with an existing blue route at their intersection.
 
+        \begin{figure}[h]
+            \centering
+            \includegraphics[scale=0.20]{figure/qubit_plane.eps}
+            \vspace{0pt}\caption{}
+            \label{qubit_plane}
+            \vspace{-10pt}
+        \end{figure}
+    }
+
+    \subsection{Pseudo Three-dimensional Surface Code}{
 
     }
 }
