@@ -42,7 +42,7 @@
     }
 
     \subsection{Pseudo Three-dimensional Surface Code}{
-        Fist, we introduce the surface code implemented in the looped pipeline introduced in section\ref{looped_pipeline}. In the looped pipeline architecture, we see single looped pipeline as a qubit in the surface code, shown in Fig.\ref{looped_pipeline_surface_code}. The red dashed lines reperesents 2 qubit gate for the 2 two physical qubits in the looped pipeline.
+        \ \ \ First, we introduce the Surface Code implemented in the looped pipeline as described in Section~\ref{looped_pipeline}. In the looped pipeline architecture, we consider a single looped pipeline as a qubit in the Surface Code, as shown in Fig.~\ref{looped_pipeline_surface_code}. The red dashed lines represent a two-qubit gate for the two physical qubits in the looped pipeline. In the following description, the devices for measurement and initialization are not shown for simplicity.
 
         \begin{figure}[h]
             \centering
@@ -52,7 +52,8 @@
             \vspace{-10pt}
         \end{figure}
 
-        Considering the looped pipeline in the middle of the five pipelines as the ancilla qubit for syndrome measurement, and the looped pipelines surrounding the ancilla qubit as the data qubits, we can see that the allocation of looped pipelines corresponds to the Surface Code, as shown in Fig.~\ref{looped_pipeline_weak_surface_code}.
+        Considering the looped pipeline in the middle of the five pipelines as the ancilla qubit for syndrome measurement, and the looped pipelines surrounding the ancilla qubit as the data qubits, we can see that the allocation of looped pipelines corresponds to the Surface Code, as shown in Fig.~\ref{looped_pipeline_weak_surface_code}. There exist synchronized qubits with the same color in the looped pipeline.
+
         \clearpage
         \begin{figure}[h]
             \centering
@@ -72,9 +73,38 @@
             \vspace{-10pt}
         \end{figure}
 
-        Now, we have four qubits in a single pipeline, thus we have four stacks of Surface Codes, as shown in Fig.~\ref{stacked_surface_code}.
+        Now, we have four qubits in a single pipeline; thus, we have four stacks of Surface Codes, as shown in Fig.~\ref{stacked_surface_code}. In the following description, we refer to each stacked Surface Code as a "layer." Furthermore, when representing the pseudo-3D Surface Code as shown in Fig.~\ref{pipeline_to_surface}, we refer to each layer as a "floor." For example, we designate the red layer as floor 0 and the blue layer as floor 2. On the one hand, by introducing interloop interactions, as shown in Fig.~\ref{looped_pipeline_weak_surface_code}, we enable the construction of the Surface Code. On the other hand, by introducing intraloop interactions, we can perform logical two-qubit operations between qubits, each present in adjacent layers. Lastly, it is worth noting that in Fig.~\ref{pipeline_to_surface}, floor 0 and floor 3 are adjacent since the red qubits and orange qubits are adjacent in the looped pipelines.
 
+        \begin{figure}[h]
+            \centering
+            \includegraphics[scale=0.30]{figure/pipeline_to_surface.eps}
+            \vspace{0pt}\caption{}
+            \label{pipeline_to_surface}
+            \vspace{-10pt}
+        \end{figure}
         
+    }
+
+    \subsection{Lattice Surgery Routing}{
+        \ \ \ In this subsection, we will show the advantage with using the psuedo-3D surface code for the lattice surgery routing. The numerical results are shown in Section.\ref{results}. 
+
+        \begin{figure}[h]
+            \centering
+            \includegraphics[scale=0.30]{figure/3D_advantage_distance.eps}
+            \vspace{0pt}\caption{}
+            \label{3D_advantage_distance}
+            \vspace{-10pt}
+        \end{figure}
+
+
+
+        \begin{figure}[h]
+            \centering
+            \includegraphics[scale=0.30]{figure/3D_advantage_pararell.eps}
+            \vspace{0pt}\caption{}
+            \label{3D_advantage_pararell}
+            \vspace{-10pt}
+        \end{figure}
     }
 }
 \end{document}
