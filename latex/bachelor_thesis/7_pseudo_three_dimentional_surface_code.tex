@@ -29,6 +29,7 @@
         \end{figure}
         
         In Fig.~\ref{qubit_plane}, some logical operations performed in parallel are illustrated with blue routes, while the orange route is prohibited since it intersects with an existing blue route at their intersection.
+        \clearpage
 
         \begin{figure}[h]
             \centering
@@ -37,10 +38,43 @@
             \label{qubit_plane}
             \vspace{-10pt}
         \end{figure}
+        
     }
 
     \subsection{Pseudo Three-dimensional Surface Code}{
+        Fist, we introduce the surface code implemented in the looped pipeline introduced in section\ref{looped_pipeline}. In the looped pipeline architecture, we see single looped pipeline as a qubit in the surface code, shown in Fig.\ref{looped_pipeline_surface_code}. The red dashed lines reperesents 2 qubit gate for the 2 two physical qubits in the looped pipeline.
 
+        \begin{figure}[h]
+            \centering
+            \includegraphics[scale=0.30]{figure/looped_pipeline_surface_code.eps}
+            \vspace{0pt}\caption{}
+            \label{looped_pipeline_surface_code}
+            \vspace{-10pt}
+        \end{figure}
+
+        Considering the looped pipeline in the middle of the five pipelines as the ancilla qubit for syndrome measurement, and the looped pipelines surrounding the ancilla qubit as the data qubits, we can see that the allocation of looped pipelines corresponds to the Surface Code, as shown in Fig.~\ref{looped_pipeline_weak_surface_code}.
+        \clearpage
+        \begin{figure}[h]
+            \centering
+            \includegraphics[scale=0.20]{figure/looped_pipeline_weak_surface_code.eps}
+            \vspace{0pt}\caption{}
+            \label{looped_pipeline_weak_surface_code}
+            \vspace{-10pt}
+        \end{figure} 
+
+        In addition to the interloop interactions shown in the right half of Fig.~\ref{looped_pipeline_surface_code}, we can perform intraloop interactions as shown in Fig.~\ref{intraloop_interaction}.
+
+        \begin{figure}[h]
+            \centering
+            \includegraphics[scale=0.50]{figure/intraloop_interaction.eps}
+            \vspace{0pt}\caption{}
+            \label{intraloop_interaction}
+            \vspace{-10pt}
+        \end{figure}
+
+        Now, we have four qubits in a single pipeline, thus we have four stacks of Surface Codes, as shown in Fig.~\ref{stacked_surface_code}.
+
+        
     }
 }
 \end{document}
