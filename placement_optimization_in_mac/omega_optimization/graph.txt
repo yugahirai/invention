@@ -1,0 +1,2097 @@
+Node
+MAGIC_NODE
+control_0_th_0
+control_0_th_1
+control_0_th_10
+control_0_th_11
+control_0_th_12
+control_0_th_13
+control_0_th_14
+control_0_th_15
+control_0_th_16
+control_0_th_17
+control_0_th_18
+control_0_th_19
+control_0_th_2
+control_0_th_20
+control_0_th_21
+control_0_th_22
+control_0_th_23
+control_0_th_24
+control_0_th_25
+control_0_th_26
+control_0_th_27
+control_0_th_28
+control_0_th_29
+control_0_th_3
+control_0_th_30
+control_0_th_31
+control_0_th_4
+control_0_th_5
+control_0_th_6
+control_0_th_7
+control_0_th_8
+control_0_th_9
+control_1_th_0
+control_1_th_1
+control_1_th_10
+control_1_th_11
+control_1_th_12
+control_1_th_13
+control_1_th_14
+control_1_th_15
+control_1_th_16
+control_1_th_17
+control_1_th_18
+control_1_th_19
+control_1_th_2
+control_1_th_20
+control_1_th_21
+control_1_th_22
+control_1_th_23
+control_1_th_24
+control_1_th_25
+control_1_th_26
+control_1_th_27
+control_1_th_28
+control_1_th_29
+control_1_th_3
+control_1_th_30
+control_1_th_31
+control_1_th_4
+control_1_th_5
+control_1_th_6
+control_1_th_7
+control_1_th_8
+control_1_th_9
+control_2_th_0
+control_2_th_1
+control_2_th_10
+control_2_th_11
+control_2_th_12
+control_2_th_13
+control_2_th_14
+control_2_th_15
+control_2_th_16
+control_2_th_17
+control_2_th_18
+control_2_th_19
+control_2_th_2
+control_2_th_20
+control_2_th_21
+control_2_th_22
+control_2_th_23
+control_2_th_24
+control_2_th_25
+control_2_th_26
+control_2_th_27
+control_2_th_28
+control_2_th_29
+control_2_th_3
+control_2_th_30
+control_2_th_31
+control_2_th_4
+control_2_th_5
+control_2_th_6
+control_2_th_7
+control_2_th_8
+control_2_th_9
+control_3_th_0
+control_3_th_1
+control_3_th_10
+control_3_th_11
+control_3_th_12
+control_3_th_13
+control_3_th_14
+control_3_th_15
+control_3_th_16
+control_3_th_17
+control_3_th_18
+control_3_th_19
+control_3_th_2
+control_3_th_20
+control_3_th_21
+control_3_th_22
+control_3_th_23
+control_3_th_24
+control_3_th_25
+control_3_th_26
+control_3_th_27
+control_3_th_28
+control_3_th_29
+control_3_th_3
+control_3_th_30
+control_3_th_31
+control_3_th_4
+control_3_th_5
+control_3_th_6
+control_3_th_7
+control_3_th_8
+control_3_th_9
+control_4_th_0
+control_4_th_1
+control_4_th_10
+control_4_th_11
+control_4_th_12
+control_4_th_13
+control_4_th_14
+control_4_th_15
+control_4_th_16
+control_4_th_17
+control_4_th_18
+control_4_th_19
+control_4_th_2
+control_4_th_20
+control_4_th_21
+control_4_th_22
+control_4_th_23
+control_4_th_24
+control_4_th_25
+control_4_th_26
+control_4_th_27
+control_4_th_28
+control_4_th_29
+control_4_th_3
+control_4_th_30
+control_4_th_31
+control_4_th_4
+control_4_th_5
+control_4_th_6
+control_4_th_7
+control_4_th_8
+control_4_th_9
+control_5_th_0
+control_5_th_1
+control_5_th_10
+control_5_th_11
+control_5_th_12
+control_5_th_13
+control_5_th_14
+control_5_th_15
+control_5_th_16
+control_5_th_17
+control_5_th_18
+control_5_th_19
+control_5_th_2
+control_5_th_20
+control_5_th_21
+control_5_th_22
+control_5_th_23
+control_5_th_24
+control_5_th_25
+control_5_th_26
+control_5_th_27
+control_5_th_28
+control_5_th_29
+control_5_th_3
+control_5_th_30
+control_5_th_31
+control_5_th_4
+control_5_th_5
+control_5_th_6
+control_5_th_7
+control_5_th_8
+control_5_th_9
+control_6_th_0
+control_6_th_1
+control_6_th_10
+control_6_th_11
+control_6_th_12
+control_6_th_13
+control_6_th_14
+control_6_th_15
+control_6_th_16
+control_6_th_17
+control_6_th_18
+control_6_th_19
+control_6_th_2
+control_6_th_20
+control_6_th_21
+control_6_th_22
+control_6_th_23
+control_6_th_24
+control_6_th_25
+control_6_th_26
+control_6_th_27
+control_6_th_28
+control_6_th_29
+control_6_th_3
+control_6_th_30
+control_6_th_31
+control_6_th_4
+control_6_th_5
+control_6_th_6
+control_6_th_7
+control_6_th_8
+control_6_th_9
+control_7_th_0
+control_7_th_1
+control_7_th_10
+control_7_th_11
+control_7_th_12
+control_7_th_13
+control_7_th_14
+control_7_th_15
+control_7_th_16
+control_7_th_17
+control_7_th_18
+control_7_th_19
+control_7_th_2
+control_7_th_20
+control_7_th_21
+control_7_th_22
+control_7_th_23
+control_7_th_24
+control_7_th_25
+control_7_th_26
+control_7_th_27
+control_7_th_28
+control_7_th_29
+control_7_th_3
+control_7_th_30
+control_7_th_31
+control_7_th_4
+control_7_th_5
+control_7_th_6
+control_7_th_7
+control_7_th_8
+control_7_th_9
+control_8_th_0
+control_8_th_1
+control_8_th_10
+control_8_th_11
+control_8_th_12
+control_8_th_13
+control_8_th_14
+control_8_th_15
+control_8_th_16
+control_8_th_17
+control_8_th_18
+control_8_th_19
+control_8_th_2
+control_8_th_20
+control_8_th_21
+control_8_th_22
+control_8_th_23
+control_8_th_24
+control_8_th_25
+control_8_th_26
+control_8_th_27
+control_8_th_28
+control_8_th_29
+control_8_th_3
+control_8_th_30
+control_8_th_31
+control_8_th_4
+control_8_th_5
+control_8_th_6
+control_8_th_7
+control_8_th_8
+control_8_th_9
+control_9_th_0
+control_9_th_1
+control_9_th_10
+control_9_th_11
+control_9_th_12
+control_9_th_13
+control_9_th_14
+control_9_th_15
+control_9_th_16
+control_9_th_17
+control_9_th_18
+control_9_th_19
+control_9_th_2
+control_9_th_20
+control_9_th_21
+control_9_th_22
+control_9_th_23
+control_9_th_24
+control_9_th_25
+control_9_th_26
+control_9_th_27
+control_9_th_28
+control_9_th_29
+control_9_th_3
+control_9_th_30
+control_9_th_31
+control_9_th_4
+control_9_th_5
+control_9_th_6
+control_9_th_7
+control_9_th_8
+control_9_th_9
+control_ancilla_0_th_0
+control_ancilla_0_th_16
+control_ancilla_0_th_24
+control_ancilla_0_th_8
+control_ancilla_1_th_0
+control_ancilla_1_th_12
+control_ancilla_1_th_16
+control_ancilla_1_th_20
+control_ancilla_1_th_24
+control_ancilla_1_th_28
+control_ancilla_1_th_4
+control_ancilla_1_th_8
+control_ancilla_2_th_0
+control_ancilla_2_th_10
+control_ancilla_2_th_12
+control_ancilla_2_th_14
+control_ancilla_2_th_16
+control_ancilla_2_th_18
+control_ancilla_2_th_2
+control_ancilla_2_th_20
+control_ancilla_2_th_22
+control_ancilla_2_th_24
+control_ancilla_2_th_26
+control_ancilla_2_th_28
+control_ancilla_2_th_30
+control_ancilla_2_th_4
+control_ancilla_2_th_6
+control_ancilla_2_th_8
+control_ancilla_3_th_0
+control_ancilla_3_th_1
+control_ancilla_3_th_10
+control_ancilla_3_th_11
+control_ancilla_3_th_12
+control_ancilla_3_th_13
+control_ancilla_3_th_14
+control_ancilla_3_th_15
+control_ancilla_3_th_16
+control_ancilla_3_th_17
+control_ancilla_3_th_18
+control_ancilla_3_th_19
+control_ancilla_3_th_2
+control_ancilla_3_th_20
+control_ancilla_3_th_21
+control_ancilla_3_th_22
+control_ancilla_3_th_23
+control_ancilla_3_th_24
+control_ancilla_3_th_25
+control_ancilla_3_th_26
+control_ancilla_3_th_27
+control_ancilla_3_th_28
+control_ancilla_3_th_29
+control_ancilla_3_th_3
+control_ancilla_3_th_30
+control_ancilla_3_th_31
+control_ancilla_3_th_4
+control_ancilla_3_th_5
+control_ancilla_3_th_6
+control_ancilla_3_th_7
+control_ancilla_3_th_8
+control_ancilla_3_th_9
+control_ancilla_4_th_0
+control_ancilla_4_th_1
+control_ancilla_4_th_10
+control_ancilla_4_th_11
+control_ancilla_4_th_12
+control_ancilla_4_th_13
+control_ancilla_4_th_14
+control_ancilla_4_th_15
+control_ancilla_4_th_16
+control_ancilla_4_th_17
+control_ancilla_4_th_18
+control_ancilla_4_th_19
+control_ancilla_4_th_2
+control_ancilla_4_th_20
+control_ancilla_4_th_21
+control_ancilla_4_th_22
+control_ancilla_4_th_23
+control_ancilla_4_th_24
+control_ancilla_4_th_25
+control_ancilla_4_th_26
+control_ancilla_4_th_27
+control_ancilla_4_th_28
+control_ancilla_4_th_29
+control_ancilla_4_th_3
+control_ancilla_4_th_30
+control_ancilla_4_th_31
+control_ancilla_4_th_4
+control_ancilla_4_th_5
+control_ancilla_4_th_6
+control_ancilla_4_th_7
+control_ancilla_4_th_8
+control_ancilla_4_th_9
+control_ancilla_5_th_0
+control_ancilla_5_th_1
+control_ancilla_5_th_10
+control_ancilla_5_th_11
+control_ancilla_5_th_12
+control_ancilla_5_th_13
+control_ancilla_5_th_14
+control_ancilla_5_th_15
+control_ancilla_5_th_16
+control_ancilla_5_th_17
+control_ancilla_5_th_18
+control_ancilla_5_th_19
+control_ancilla_5_th_2
+control_ancilla_5_th_20
+control_ancilla_5_th_21
+control_ancilla_5_th_22
+control_ancilla_5_th_23
+control_ancilla_5_th_24
+control_ancilla_5_th_25
+control_ancilla_5_th_26
+control_ancilla_5_th_27
+control_ancilla_5_th_28
+control_ancilla_5_th_29
+control_ancilla_5_th_3
+control_ancilla_5_th_30
+control_ancilla_5_th_31
+control_ancilla_5_th_4
+control_ancilla_5_th_5
+control_ancilla_5_th_6
+control_ancilla_5_th_7
+control_ancilla_5_th_8
+control_ancilla_5_th_9
+control_ancilla_6_th_0
+control_ancilla_6_th_1
+control_ancilla_6_th_10
+control_ancilla_6_th_11
+control_ancilla_6_th_12
+control_ancilla_6_th_13
+control_ancilla_6_th_14
+control_ancilla_6_th_15
+control_ancilla_6_th_16
+control_ancilla_6_th_17
+control_ancilla_6_th_18
+control_ancilla_6_th_19
+control_ancilla_6_th_2
+control_ancilla_6_th_20
+control_ancilla_6_th_21
+control_ancilla_6_th_22
+control_ancilla_6_th_23
+control_ancilla_6_th_24
+control_ancilla_6_th_25
+control_ancilla_6_th_26
+control_ancilla_6_th_27
+control_ancilla_6_th_28
+control_ancilla_6_th_29
+control_ancilla_6_th_3
+control_ancilla_6_th_30
+control_ancilla_6_th_31
+control_ancilla_6_th_4
+control_ancilla_6_th_5
+control_ancilla_6_th_6
+control_ancilla_6_th_7
+control_ancilla_6_th_8
+control_ancilla_6_th_9
+control_ancilla_7_th_0
+control_ancilla_7_th_1
+control_ancilla_7_th_10
+control_ancilla_7_th_11
+control_ancilla_7_th_12
+control_ancilla_7_th_13
+control_ancilla_7_th_14
+control_ancilla_7_th_15
+control_ancilla_7_th_16
+control_ancilla_7_th_17
+control_ancilla_7_th_18
+control_ancilla_7_th_19
+control_ancilla_7_th_2
+control_ancilla_7_th_20
+control_ancilla_7_th_21
+control_ancilla_7_th_22
+control_ancilla_7_th_23
+control_ancilla_7_th_24
+control_ancilla_7_th_25
+control_ancilla_7_th_26
+control_ancilla_7_th_27
+control_ancilla_7_th_28
+control_ancilla_7_th_29
+control_ancilla_7_th_3
+control_ancilla_7_th_30
+control_ancilla_7_th_31
+control_ancilla_7_th_4
+control_ancilla_7_th_5
+control_ancilla_7_th_6
+control_ancilla_7_th_7
+control_ancilla_7_th_8
+control_ancilla_7_th_9
+control_ancilla_8_th_0
+control_ancilla_8_th_1
+control_ancilla_8_th_10
+control_ancilla_8_th_11
+control_ancilla_8_th_12
+control_ancilla_8_th_13
+control_ancilla_8_th_14
+control_ancilla_8_th_15
+control_ancilla_8_th_16
+control_ancilla_8_th_17
+control_ancilla_8_th_18
+control_ancilla_8_th_19
+control_ancilla_8_th_2
+control_ancilla_8_th_20
+control_ancilla_8_th_21
+control_ancilla_8_th_22
+control_ancilla_8_th_23
+control_ancilla_8_th_24
+control_ancilla_8_th_25
+control_ancilla_8_th_26
+control_ancilla_8_th_27
+control_ancilla_8_th_28
+control_ancilla_8_th_29
+control_ancilla_8_th_3
+control_ancilla_8_th_30
+control_ancilla_8_th_31
+control_ancilla_8_th_4
+control_ancilla_8_th_5
+control_ancilla_8_th_6
+control_ancilla_8_th_7
+control_ancilla_8_th_8
+control_ancilla_8_th_9
+control_ancilla_9_th_0
+control_ancilla_9_th_1
+control_ancilla_9_th_10
+control_ancilla_9_th_11
+control_ancilla_9_th_12
+control_ancilla_9_th_13
+control_ancilla_9_th_14
+control_ancilla_9_th_15
+control_ancilla_9_th_16
+control_ancilla_9_th_17
+control_ancilla_9_th_18
+control_ancilla_9_th_19
+control_ancilla_9_th_2
+control_ancilla_9_th_20
+control_ancilla_9_th_21
+control_ancilla_9_th_22
+control_ancilla_9_th_23
+control_ancilla_9_th_24
+control_ancilla_9_th_25
+control_ancilla_9_th_26
+control_ancilla_9_th_27
+control_ancilla_9_th_28
+control_ancilla_9_th_29
+control_ancilla_9_th_3
+control_ancilla_9_th_30
+control_ancilla_9_th_31
+control_ancilla_9_th_4
+control_ancilla_9_th_5
+control_ancilla_9_th_6
+control_ancilla_9_th_7
+control_ancilla_9_th_8
+control_ancilla_9_th_9
+system_0_0
+system_0_1
+system_0_2
+system_0_3
+system_0_4
+system_0_5
+system_0_6
+system_0_7
+system_0_8
+system_1_0
+system_1_1
+system_1_2
+system_1_3
+system_1_4
+system_1_5
+system_1_6
+system_1_7
+system_1_8
+system_2_0
+system_2_1
+system_2_2
+system_2_3
+system_2_4
+system_2_5
+system_2_6
+system_2_7
+system_2_8
+system_3_0
+system_3_1
+system_3_2
+system_3_3
+system_3_4
+system_3_5
+system_3_6
+system_3_7
+system_3_8
+system_4_0
+system_4_1
+system_4_2
+system_4_3
+system_4_4
+system_4_5
+system_4_6
+system_4_7
+system_4_8
+system_5_0
+system_5_1
+system_5_2
+system_5_3
+system_5_4
+system_5_5
+system_5_6
+system_5_7
+system_5_8
+system_6_0
+system_6_1
+system_6_2
+system_6_3
+system_6_4
+system_6_5
+system_6_6
+system_6_7
+system_6_8
+system_7_0
+system_7_1
+system_7_2
+system_7_3
+system_7_4
+system_7_5
+system_7_6
+system_7_7
+system_7_8
+system_8_0
+system_8_1
+system_8_2
+system_8_3
+system_8_4
+system_8_5
+system_8_6
+system_8_7
+system_8_8
+
+edge
+1 control_ancilla_4_th_28 control_5_th_28 1
+2 control_ancilla_4_th_27 control_5_th_27 1
+3 control_ancilla_4_th_26 control_5_th_26 1
+4 control_ancilla_4_th_23 control_5_th_23 1
+5 control_ancilla_4_th_19 control_5_th_19 1
+6 control_ancilla_4_th_14 control_5_th_14 1
+7 control_ancilla_4_th_13 control_5_th_13 1
+8 control_ancilla_4_th_11 control_5_th_11 1
+9 control_ancilla_4_th_10 control_5_th_10 1
+10 control_ancilla_4_th_8 control_5_th_8 1
+11 control_ancilla_4_th_3 control_5_th_3 1
+12 control_ancilla_4_th_0 control_5_th_0 1
+13 system_7_3 control_ancilla_9_th_24 1
+14 system_5_5 control_ancilla_9_th_21 1
+15 system_5_0 control_ancilla_9_th_16 2
+16 system_8_7 control_ancilla_9_th_4 2
+17 system_8_6 control_ancilla_9_th_29 3
+18 system_4_6 control_ancilla_9_th_18 3
+19 system_7_5 control_ancilla_9_th_25 3
+20 system_5_7 control_ancilla_9_th_22 3
+21 system_4_0 control_ancilla_9_th_16 5
+22 system_6_8 control_ancilla_9_th_26 3
+23 system_8_8 control_ancilla_9_th_30 3
+24 system_4_8 control_ancilla_9_th_19 3
+25 system_2_4 control_ancilla_9_th_7 3
+26 system_5_2 control_ancilla_9_th_20 3
+27 system_3_5 control_ancilla_9_th_11 3
+28 system_1_7 control_ancilla_9_th_8 3
+29 system_8_8 control_ancilla_9_th_5 3
+30 system_8_4 control_ancilla_9_th_2 3
+31 system_8_1 control_ancilla_9_th_27 3
+32 system_6_3 control_ancilla_9_th_24 3
+33 system_2_8 control_ancilla_9_th_12 3
+34 system_1_3 control_ancilla_9_th_1 3
+35 system_6_8 control_ancilla_9_th_23 6
+36 system_6_1 control_ancilla_9_th_20 6
+37 system_4_3 control_ancilla_9_th_17 3
+38 system_2_6 control_ancilla_9_th_8 6
+39 control_ancilla_5_th_31 control_6_th_31 2
+40 control_ancilla_5_th_30 control_6_th_30 2
+41 control_ancilla_5_th_26 control_6_th_26 2
+42 control_ancilla_5_th_24 control_6_th_24 2
+43 control_ancilla_5_th_23 control_6_th_23 2
+44 control_ancilla_5_th_21 control_6_th_21 2
+45 control_ancilla_5_th_20 control_6_th_20 2
+46 control_ancilla_5_th_28 control_6_th_28 2
+47 control_ancilla_5_th_19 control_6_th_19 2
+48 control_ancilla_5_th_16 control_6_th_16 2
+49 control_ancilla_5_th_15 control_6_th_15 2
+50 control_ancilla_5_th_14 control_6_th_14 2
+51 control_ancilla_5_th_13 control_6_th_13 2
+52 control_ancilla_5_th_7 control_6_th_7 2
+53 control_ancilla_5_th_6 control_6_th_6 2
+54 control_ancilla_5_th_4 control_6_th_4 2
+55 control_ancilla_5_th_2 control_6_th_2 2
+56 control_ancilla_5_th_1 control_6_th_1 2
+57 system_8_5 control_ancilla_9_th_31 6
+58 system_8_0 control_ancilla_9_th_27 6
+59 system_3_7 control_ancilla_9_th_12 6
+60 system_0_5 control_ancilla_9_th_3 13
+61 system_4_8 control_ancilla_9_th_16 6
+62 system_1_2 control_ancilla_9_th_1 3
+63 system_6_0 control_ancilla_9_th_20 6
+64 system_3_4 control_ancilla_9_th_14 6
+65 system_8_4 control_ancilla_9_th_31 6
+66 system_7_1 control_ancilla_9_th_27 9
+67 system_4_5 control_ancilla_9_th_18 7
+68 system_2_1 control_ancilla_9_th_6 6
+69 system_8_1 control_ancilla_9_th_0 3
+70 system_1_4 control_ancilla_9_th_7 8
+71 system_1_5 control_ancilla_9_th_4 3
+72 system_6_7 control_ancilla_9_th_26 9
+73 system_4_2 control_ancilla_9_th_13 2
+74 system_1_4 control_ancilla_9_th_2 3
+75 system_8_3 control_ancilla_9_th_31 6
+76 system_8_7 control_ancilla_9_th_30 9
+77 system_5_4 control_ancilla_9_th_18 7
+78 system_2_0 control_ancilla_9_th_6 6
+79 system_6_5 control_ancilla_9_th_22 8
+80 system_4_7 control_ancilla_9_th_19 11
+81 system_0_7 control_ancilla_9_th_4 3
+82 system_4_3 control_ancilla_9_th_14 6
+83 system_0_3 control_ancilla_9_th_1 3
+84 system_4_6 control_ancilla_9_th_19 12
+85 system_0_2 control_ancilla_9_th_1 20
+86 control_ancilla_6_th_22 control_7_th_22 4
+87 control_ancilla_6_th_20 control_7_th_20 4
+88 control_ancilla_6_th_14 control_7_th_14 4
+89 control_ancilla_6_th_12 control_7_th_12 4
+90 control_ancilla_6_th_11 control_7_th_11 4
+91 control_ancilla_6_th_10 control_7_th_10 4
+92 control_ancilla_6_th_8 control_7_th_8 4
+93 control_ancilla_6_th_5 control_7_th_5 4
+94 control_ancilla_6_th_4 control_7_th_4 4
+95 control_ancilla_6_th_3 control_7_th_3 4
+96 system_5_7 control_ancilla_9_th_19 5
+97 system_7_6 control_ancilla_9_th_26 9
+98 system_5_8 control_ancilla_9_th_23 9
+99 system_1_6 control_ancilla_9_th_8 12
+100 system_1_7 control_ancilla_9_th_5 6
+101 system_1_3 control_ancilla_9_th_2 6
+102 system_5_7 control_ancilla_9_th_23 12
+103 system_1_5 control_ancilla_9_th_8 12
+104 system_8_2 control_ancilla_9_th_31 6
+105 system_7_3 control_ancilla_9_th_28 12
+106 system_2_7 control_ancilla_9_th_12 13
+107 system_6_1 control_ancilla_9_th_24 12
+108 system_2_6 control_ancilla_9_th_12 12
+109 system_6_4 control_ancilla_9_th_22 6
+110 system_5_6 control_ancilla_9_th_19 9
+111 system_3_8 control_ancilla_9_th_16 9
+112 system_3_7 control_ancilla_9_th_16 12
+113 system_7_5 control_ancilla_9_th_26 6
+114 system_4_2 control_ancilla_9_th_17 15
+115 control_ancilla_6_th_16 control_7_th_16 4
+116 system_4_1 control_ancilla_9_th_14 3
+117 system_1_2 control_ancilla_9_th_2 3
+118 control_ancilla_7_th_31 control_8_th_31 7
+119 control_ancilla_7_th_27 control_8_th_27 7
+120 control_ancilla_7_th_25 control_8_th_25 7
+121 control_ancilla_7_th_24 control_8_th_24 7
+122 system_8_5 control_ancilla_9_th_3 3
+123 control_ancilla_7_th_21 control_8_th_21 7
+124 control_ancilla_7_th_20 control_8_th_20 7
+125 system_6_0 control_ancilla_9_th_23 3
+126 control_ancilla_7_th_18 control_8_th_18 7
+127 control_ancilla_7_th_17 control_8_th_17 7
+128 control_ancilla_7_th_16 control_8_th_16 7
+129 control_ancilla_7_th_15 control_8_th_15 7
+130 control_ancilla_7_th_14 control_8_th_14 7
+131 control_ancilla_7_th_5 control_8_th_5 7
+132 control_ancilla_6_th_9 control_7_th_9 4
+133 control_ancilla_7_th_4 control_8_th_4 7
+134 control_ancilla_7_th_3 control_8_th_3 7
+135 control_ancilla_7_th_1 control_8_th_1 7
+136 control_ancilla_7_th_0 control_8_th_0 7
+137 system_8_1 control_ancilla_9_th_31 6
+138 control_ancilla_6_th_21 control_7_th_21 4
+139 system_7_5 control_ancilla_9_th_29 15
+140 system_8_2 control_ancilla_9_th_28 9
+141 system_7_1 control_ancilla_9_th_24 9
+142 system_5_3 control_ancilla_9_th_21 15
+143 system_3_5 control_ancilla_9_th_14 3
+144 control_ancilla_7_th_29 control_8_th_29 7
+145 system_1_0 control_ancilla_9_th_0 6
+146 system_8_5 control_ancilla_9_th_30 3
+147 system_7_4 control_ancilla_9_th_29 12
+148 system_5_2 control_ancilla_9_th_21 12
+149 system_5_5 control_ancilla_9_th_19 6
+150 system_4_7 control_ancilla_9_th_16 9
+151 system_8_1 control_ancilla_9_th_1 6
+152 system_6_3 control_ancilla_9_th_25 12
+153 system_6_3 control_ancilla_9_th_22 3
+154 system_3_7 control_ancilla_9_th_13 3
+155 control_ancilla_5_th_11 control_6_th_11 2
+156 system_2_1 control_ancilla_9_th_7 3
+157 system_1_5 control_ancilla_9_th_3 6
+158 control_ancilla_8_th_28 control_9_th_28 14
+159 control_ancilla_8_th_27 control_9_th_27 14
+160 control_ancilla_8_th_26 control_9_th_26 14
+161 control_ancilla_8_th_23 control_9_th_23 14
+162 control_ancilla_8_th_22 control_9_th_22 14
+163 control_ancilla_8_th_21 control_9_th_21 14
+164 control_ancilla_8_th_20 control_9_th_20 14
+165 control_ancilla_8_th_14 control_9_th_14 14
+166 control_ancilla_8_th_8 control_9_th_8 14
+167 control_ancilla_8_th_7 control_9_th_7 14
+168 control_ancilla_8_th_6 control_9_th_6 14
+169 control_ancilla_8_th_4 control_9_th_4 14
+170 control_ancilla_8_th_1 control_9_th_1 14
+171 system_5_5 control_ancilla_9_th_18 3
+172 control_ancilla_8_th_0 control_9_th_0 14
+173 system_6_6 control_ancilla_9_th_23 6
+174 system_3_3 control_ancilla_9_th_14 15
+175 system_2_4 control_ancilla_9_th_8 6
+176 system_7_4 control_ancilla_9_th_26 3
+177 system_3_2 control_ancilla_9_th_14 12
+178 system_3_2 control_ancilla_9_th_11 3
+179 system_0_7 control_ancilla_9_th_5 21
+180 system_0_5 control_ancilla_9_th_2 3
+181 system_8_8 control_ancilla_9_th_31 6
+182 system_7_7 control_ancilla_9_th_30 15
+183 system_8_4 control_ancilla_9_th_29 9
+184 system_8_1 control_ancilla_9_th_28 6
+185 system_7_7 control_ancilla_9_th_27 6
+186 system_7_3 control_ancilla_9_th_25 8
+187 system_0_3 control_ancilla_9_th_2 21
+188 system_7_0 control_ancilla_9_th_24 6
+189 system_5_5 control_ancilla_9_th_22 14
+190 system_6_2 control_ancilla_9_th_21 9
+191 system_5_7 control_ancilla_9_th_20 4
+192 system_4_6 control_ancilla_9_th_16 5
+193 system_3_5 control_ancilla_9_th_12 6
+194 system_2_4 control_ancilla_9_th_11 13
+195 system_3_1 control_ancilla_9_th_10 8
+196 system_2_7 control_ancilla_9_th_9 9
+197 system_4_5 control_ancilla_9_th_19 8
+198 system_1_3 control_ancilla_9_th_7 14
+199 system_0_8 control_ancilla_9_th_6 6
+200 system_8_7 control_ancilla_9_th_5 4
+201 system_0_5 control_ancilla_9_th_4 8
+202 system_8_3 control_ancilla_9_th_2 4
+203 control_ancilla_6_th_27 control_7_th_27 4
+204 system_0_1 control_ancilla_9_th_1 8
+205 system_7_8 control_ancilla_9_th_31 3
+206 system_7_6 control_ancilla_9_th_30 12
+207 system_6_5 control_ancilla_9_th_26 10
+208 system_6_5 control_ancilla_9_th_23 1
+209 system_8_3 control_ancilla_9_th_1 2
+210 system_8_6 control_ancilla_9_th_4 6
+211 system_4_7 control_ancilla_9_th_20 4
+212 system_2_7 control_ancilla_9_th_13 2
+213 system_2_3 control_ancilla_9_th_11 10
+214 system_1_6 control_ancilla_9_th_9 3
+215 system_1_2 control_ancilla_9_th_7 11
+216 system_0_6 control_ancilla_9_th_5 1
+217 system_0_2 control_ancilla_9_th_2 1
+218 system_8_0 control_ancilla_9_th_1 2
+219 system_0_0 control_ancilla_9_th_0 15
+220 control_ancilla_9_th_31 control_9_th_31 14
+221 control_ancilla_6_th_30 control_7_th_30 4
+222 system_6_7 control_ancilla_9_th_23 9
+223 MAGIC_NODE control_ancilla_9_th_31 56
+224 MAGIC_NODE control_ancilla_9_th_30 56
+225 control_ancilla_9_th_29 control_9_th_29 14
+226 control_ancilla_9_th_28 control_9_th_28 14
+227 system_5_8 control_ancilla_9_th_20 6
+228 MAGIC_NODE control_ancilla_9_th_28 56
+229 control_ancilla_4_th_9 control_5_th_9 1
+230 system_3_3 control_ancilla_9_th_10 3
+231 control_ancilla_9_th_27 control_ancilla_8_th_27 42
+232 MAGIC_NODE control_ancilla_9_th_27 56
+233 control_ancilla_9_th_26 control_9_th_26 14
+234 MAGIC_NODE control_ancilla_9_th_24 56
+235 control_ancilla_9_th_23 control_9_th_23 14
+236 MAGIC_NODE control_ancilla_9_th_22 56
+237 control_ancilla_7_th_30 control_8_th_30 7
+238 control_ancilla_9_th_21 control_9_th_21 14
+239 control_ancilla_6_th_17 control_7_th_17 4
+240 control_ancilla_9_th_20 control_ancilla_8_th_20 42
+241 MAGIC_NODE control_ancilla_9_th_20 56
+242 MAGIC_NODE control_ancilla_9_th_19 56
+243 control_ancilla_9_th_18 control_9_th_18 14
+244 control_ancilla_4_th_20 control_5_th_20 1
+245 MAGIC_NODE control_ancilla_9_th_18 56
+246 control_ancilla_9_th_17 control_9_th_17 14
+247 control_ancilla_9_th_17 control_ancilla_8_th_17 42
+248 MAGIC_NODE control_ancilla_9_th_17 56
+249 control_ancilla_9_th_16 control_9_th_16 14
+250 control_ancilla_5_th_29 control_6_th_29 2
+251 control_ancilla_9_th_16 control_ancilla_8_th_16 42
+252 system_6_3 control_ancilla_9_th_21 6
+253 control_ancilla_9_th_14 control_9_th_14 14
+254 control_ancilla_9_th_14 control_ancilla_8_th_14 42
+255 MAGIC_NODE control_ancilla_9_th_14 56
+256 MAGIC_NODE control_ancilla_9_th_13 56
+257 MAGIC_NODE control_ancilla_9_th_12 56
+258 control_ancilla_6_th_6 control_7_th_6 4
+259 control_ancilla_9_th_11 control_9_th_11 14
+260 control_ancilla_9_th_11 control_ancilla_8_th_11 42
+261 control_ancilla_9_th_10 control_ancilla_8_th_10 42
+262 control_ancilla_8_th_15 control_9_th_15 14
+263 MAGIC_NODE control_ancilla_9_th_10 56
+264 control_ancilla_9_th_9 control_9_th_9 14
+265 MAGIC_NODE control_ancilla_9_th_9 56
+266 control_ancilla_9_th_8 control_ancilla_8_th_8 42
+267 MAGIC_NODE control_ancilla_9_th_8 56
+268 MAGIC_NODE control_ancilla_9_th_7 56
+269 control_ancilla_9_th_5 control_ancilla_8_th_5 42
+270 MAGIC_NODE control_ancilla_9_th_5 56
+271 control_ancilla_9_th_4 control_9_th_4 14
+272 MAGIC_NODE control_ancilla_9_th_4 56
+273 control_ancilla_9_th_2 control_9_th_2 14
+274 control_ancilla_9_th_1 control_9_th_1 14
+275 control_ancilla_9_th_1 control_ancilla_8_th_1 42
+276 control_ancilla_9_th_5 control_9_th_5 14
+277 MAGIC_NODE control_ancilla_9_th_1 56
+278 control_ancilla_5_th_8 control_6_th_8 2
+279 control_ancilla_9_th_0 control_ancilla_8_th_0 42
+280 control_ancilla_8_th_31 control_8_th_31 7
+281 system_4_4 control_ancilla_9_th_14 3
+282 control_ancilla_8_th_31 control_ancilla_7_th_31 21
+283 system_8_3 control_ancilla_9_th_28 6
+284 MAGIC_NODE control_ancilla_8_th_31 28
+285 control_ancilla_8_th_29 control_8_th_29 7
+286 system_6_4 control_ancilla_9_th_25 15
+287 control_ancilla_8_th_29 control_ancilla_7_th_29 21
+288 control_ancilla_8_th_28 control_ancilla_7_th_28 21
+289 control_ancilla_6_th_2 control_7_th_2 4
+290 system_3_1 control_ancilla_9_th_14 1
+291 MAGIC_NODE control_ancilla_8_th_28 28
+292 MAGIC_NODE control_ancilla_8_th_27 28
+293 control_ancilla_8_th_26 control_8_th_26 7
+294 MAGIC_NODE control_ancilla_8_th_25 28
+295 control_ancilla_8_th_24 control_ancilla_7_th_24 21
+296 control_ancilla_8_th_23 control_ancilla_7_th_23 21
+297 MAGIC_NODE control_ancilla_8_th_23 28
+298 control_ancilla_9_th_12 control_9_th_12 14
+299 MAGIC_NODE control_ancilla_8_th_29 28
+300 control_ancilla_8_th_22 control_8_th_22 7
+301 MAGIC_NODE control_ancilla_8_th_22 28
+302 control_ancilla_8_th_21 control_8_th_21 7
+303 system_5_1 control_ancilla_9_th_20 12
+304 system_2_3 control_ancilla_9_th_7 8
+305 control_ancilla_8_th_21 control_ancilla_7_th_21 21
+306 MAGIC_NODE control_ancilla_8_th_21 28
+307 control_ancilla_8_th_20 control_ancilla_7_th_20 21
+308 control_ancilla_8_th_19 control_8_th_19 7
+309 control_ancilla_8_th_19 control_ancilla_7_th_19 21
+310 control_ancilla_9_th_22 control_ancilla_8_th_22 42
+311 control_ancilla_8_th_18 control_8_th_18 7
+312 control_ancilla_8_th_18 control_ancilla_7_th_18 21
+313 control_ancilla_4_th_7 control_5_th_7 1
+314 control_ancilla_8_th_17 control_8_th_17 7
+315 system_3_2 control_ancilla_9_th_13 3
+316 control_ancilla_8_th_17 control_ancilla_7_th_17 21
+317 MAGIC_NODE control_ancilla_8_th_17 28
+318 system_4_8 control_ancilla_9_th_20 6
+319 control_ancilla_8_th_16 control_8_th_16 7
+320 MAGIC_NODE control_ancilla_8_th_16 28
+321 control_ancilla_8_th_15 control_8_th_15 7
+322 control_ancilla_9_th_30 control_9_th_30 14
+323 control_ancilla_8_th_15 control_ancilla_7_th_15 21
+324 system_2_0 control_ancilla_9_th_9 7
+325 MAGIC_NODE control_ancilla_8_th_15 28
+326 control_ancilla_8_th_14 control_8_th_14 7
+327 system_5_4 control_ancilla_9_th_21 4
+328 control_ancilla_9_th_29 control_ancilla_8_th_29 42
+329 control_ancilla_8_th_14 control_ancilla_7_th_14 21
+330 control_ancilla_8_th_13 control_8_th_13 7
+331 control_ancilla_9_th_24 control_ancilla_8_th_24 42
+332 control_ancilla_8_th_13 control_ancilla_7_th_13 21
+333 MAGIC_NODE control_ancilla_8_th_13 28
+334 control_ancilla_8_th_12 control_ancilla_7_th_12 21
+335 MAGIC_NODE control_ancilla_8_th_12 28
+336 control_ancilla_8_th_11 control_ancilla_7_th_11 21
+337 MAGIC_NODE control_ancilla_8_th_10 28
+338 MAGIC_NODE control_ancilla_8_th_7 28
+339 system_2_8 control_ancilla_9_th_9 6
+340 system_5_4 control_ancilla_9_th_19 2
+341 control_ancilla_8_th_6 control_ancilla_7_th_6 21
+342 control_ancilla_8_th_5 control_ancilla_7_th_5 21
+343 MAGIC_NODE control_ancilla_8_th_5 28
+344 control_ancilla_8_th_29 control_9_th_29 14
+345 control_ancilla_8_th_4 control_8_th_4 7
+346 control_ancilla_8_th_4 control_ancilla_7_th_4 21
+347 MAGIC_NODE control_ancilla_8_th_4 28
+348 system_1_1 control_ancilla_9_th_1 3
+349 control_ancilla_8_th_3 control_ancilla_7_th_3 21
+350 system_8_2 control_ancilla_9_th_1 6
+351 control_ancilla_8_th_2 control_8_th_2 7
+352 control_ancilla_8_th_2 control_ancilla_7_th_2 21
+353 system_6_1 control_ancilla_9_th_21 3
+354 control_ancilla_8_th_1 control_8_th_1 7
+355 control_ancilla_6_th_28 control_7_th_28 4
+356 MAGIC_NODE control_ancilla_8_th_1 28
+357 control_ancilla_6_th_29 control_7_th_29 4
+358 control_ancilla_8_th_0 control_8_th_0 7
+359 control_ancilla_8_th_0 control_ancilla_7_th_0 21
+360 control_ancilla_4_th_1 control_5_th_1 1
+361 MAGIC_NODE control_ancilla_8_th_0 28
+362 control_ancilla_7_th_31 control_7_th_31 4
+363 control_ancilla_9_th_6 control_ancilla_8_th_6 42
+364 control_ancilla_7_th_31 control_ancilla_6_th_31 11
+365 control_ancilla_7_th_30 control_7_th_30 4
+366 MAGIC_NODE control_ancilla_7_th_30 16
+367 control_ancilla_7_th_28 control_7_th_28 4
+368 control_ancilla_7_th_23 control_8_th_23 7
+369 control_8_th_15 control_8_th_7 2
+370 MAGIC_NODE control_ancilla_7_th_27 16
+371 control_ancilla_6_th_7 control_6_th_7 2
+372 MAGIC_NODE control_ancilla_7_th_25 16
+373 control_ancilla_4_th_15 control_5_th_15 1
+374 control_ancilla_3_th_13 control_ancilla_3_th_12 2
+375 control_ancilla_7_th_24 control_7_th_24 4
+376 control_ancilla_9_th_7 control_ancilla_8_th_7 42
+377 control_ancilla_7_th_24 control_ancilla_6_th_24 11
+378 MAGIC_NODE control_ancilla_7_th_24 16
+379 system_6_6 control_ancilla_9_th_22 3
+380 control_ancilla_7_th_21 control_ancilla_6_th_21 11
+381 control_4_th_21 control_4_th_5 2
+382 MAGIC_NODE control_ancilla_7_th_21 16
+383 control_ancilla_7_th_15 control_ancilla_6_th_15 11
+384 system_2_5 control_ancilla_9_th_8 9
+385 MAGIC_NODE control_ancilla_7_th_14 16
+386 control_ancilla_7_th_13 control_ancilla_6_th_13 11
+387 control_ancilla_6_th_15 control_7_th_15 4
+388 control_ancilla_7_th_12 control_7_th_12 4
+389 MAGIC_NODE control_ancilla_4_th_20 8
+390 control_ancilla_7_th_12 control_ancilla_6_th_12 11
+391 MAGIC_NODE control_ancilla_7_th_12 16
+392 control_ancilla_8_th_11 control_9_th_11 14
+393 MAGIC_NODE control_ancilla_6_th_22 8
+394 control_ancilla_7_th_10 control_ancilla_6_th_10 11
+395 control_ancilla_7_th_3 control_7_th_3 4
+396 MAGIC_NODE control_ancilla_7_th_10 16
+397 control_ancilla_7_th_9 control_7_th_9 4
+398 control_ancilla_9_th_15 control_9_th_15 14
+399 control_ancilla_7_th_9 control_ancilla_6_th_9 11
+400 MAGIC_NODE control_ancilla_8_th_20 28
+401 control_ancilla_2_th_16 control_ancilla_1_th_16 4
+402 control_ancilla_7_th_8 control_7_th_8 4
+403 control_ancilla_7_th_8 control_ancilla_6_th_8 11
+404 system_8_5 control_ancilla_9_th_29 6
+405 MAGIC_NODE control_ancilla_3_th_6 8
+406 control_ancilla_3_th_10 control_ancilla_2_th_10 4
+407 MAGIC_NODE control_ancilla_7_th_7 16
+408 control_ancilla_5_th_13 control_ancilla_4_th_13 3
+409 control_ancilla_7_th_6 control_ancilla_6_th_6 11
+410 control_4_th_16 control_4_th_0 2
+411 control_ancilla_7_th_5 control_ancilla_6_th_5 11
+412 system_0_8 control_ancilla_9_th_5 9
+413 control_ancilla_8_th_16 control_ancilla_7_th_16 21
+414 control_ancilla_7_th_18 control_7_th_18 4
+415 MAGIC_NODE control_ancilla_9_th_29 56
+416 control_ancilla_8_th_24 control_8_th_24 7
+417 control_9_th_17 control_9_th_1 2
+418 control_7_th_28 control_7_th_12 2
+419 control_ancilla_7_th_3 control_ancilla_6_th_3 11
+420 MAGIC_NODE control_ancilla_7_th_3 16
+421 MAGIC_NODE control_ancilla_7_th_11 16
+422 control_ancilla_9_th_4 control_ancilla_8_th_4 42
+423 control_ancilla_7_th_2 control_ancilla_6_th_2 11
+424 control_ancilla_4_th_24 control_5_th_24 1
+425 control_ancilla_6_th_8 control_6_th_8 2
+426 MAGIC_NODE control_ancilla_7_th_2 16
+427 MAGIC_NODE control_ancilla_5_th_29 4
+428 MAGIC_NODE control_ancilla_7_th_1 16
+429 control_ancilla_9_th_8 control_9_th_8 14
+430 control_ancilla_6_th_31 control_ancilla_5_th_31 6
+431 control_ancilla_6_th_30 control_6_th_30 2
+432 MAGIC_NODE control_ancilla_4_th_17 8
+433 control_ancilla_6_th_30 control_ancilla_5_th_30 6
+434 control_ancilla_8_th_28 control_8_th_28 7
+435 control_3_th_9 control_3_th_1 2
+436 control_ancilla_6_th_28 control_6_th_28 2
+437 system_2_4 control_ancilla_9_th_10 2
+438 control_6_th_6 control_6_th_2 2
+439 control_ancilla_6_th_28 control_ancilla_5_th_28 6
+440 control_ancilla_7_th_2 control_7_th_2 4
+441 MAGIC_NODE control_ancilla_5_th_18 4
+442 MAGIC_NODE control_ancilla_6_th_28 8
+443 control_ancilla_6_th_27 control_ancilla_5_th_27 6
+444 system_1_0 control_ancilla_9_th_6 9
+445 control_ancilla_4_th_7 control_4_th_7 2
+446 control_ancilla_7_th_0 control_7_th_0 4
+447 MAGIC_NODE control_ancilla_6_th_27 8
+448 control_ancilla_7_th_13 control_8_th_13 7
+449 MAGIC_NODE control_ancilla_4_th_8 8
+450 control_ancilla_4_th_4 control_4_th_4 2
+451 control_ancilla_6_th_26 control_ancilla_5_th_26 6
+452 control_ancilla_6_th_25 control_ancilla_5_th_25 6
+453 control_ancilla_6_th_24 control_6_th_24 2
+454 MAGIC_NODE control_ancilla_9_th_11 56
+455 MAGIC_NODE control_ancilla_6_th_24 8
+456 MAGIC_NODE control_ancilla_6_th_23 8
+457 control_ancilla_6_th_22 control_6_th_22 2
+458 control_ancilla_6_th_22 control_ancilla_5_th_22 6
+459 control_ancilla_6_th_21 control_ancilla_5_th_21 6
+460 control_ancilla_6_th_20 control_ancilla_5_th_20 6
+461 control_ancilla_3_th_28 control_ancilla_2_th_28 4
+462 control_ancilla_7_th_23 control_7_th_23 4
+463 control_ancilla_6_th_17 control_6_th_17 2
+464 MAGIC_NODE control_ancilla_6_th_17 8
+465 control_ancilla_6_th_16 control_6_th_16 2
+466 control_ancilla_6_th_16 control_ancilla_5_th_16 6
+467 system_4_2 control_ancilla_9_th_14 7
+468 control_ancilla_6_th_15 control_ancilla_5_th_15 6
+469 MAGIC_NODE control_ancilla_6_th_13 8
+470 control_ancilla_6_th_12 control_6_th_12 2
+471 control_ancilla_6_th_12 control_ancilla_5_th_12 6
+472 control_ancilla_5_th_10 control_6_th_10 2
+473 control_ancilla_6_th_11 control_6_th_11 2
+474 control_7_th_16 control_7_th_0 2
+475 control_ancilla_6_th_10 control_6_th_10 2
+476 control_ancilla_6_th_9 control_ancilla_5_th_9 6
+477 MAGIC_NODE control_ancilla_6_th_9 8
+478 control_8_th_20 control_8_th_4 2
+479 control_ancilla_7_th_1 control_7_th_1 4
+480 system_0_1 control_ancilla_9_th_0 16
+481 control_ancilla_6_th_8 control_ancilla_5_th_8 6
+482 control_ancilla_7_th_22 control_8_th_22 7
+483 MAGIC_NODE control_ancilla_6_th_8 8
+484 MAGIC_NODE control_ancilla_6_th_7 8
+485 control_ancilla_6_th_6 control_6_th_6 2
+486 MAGIC_NODE control_ancilla_7_th_5 16
+487 MAGIC_NODE control_ancilla_6_th_6 8
+488 control_ancilla_6_th_5 control_6_th_5 2
+489 MAGIC_NODE control_ancilla_6_th_5 8
+490 control_ancilla_6_th_4 control_6_th_4 2
+491 control_ancilla_6_th_4 control_ancilla_5_th_4 6
+492 control_ancilla_8_th_18 control_9_th_18 14
+493 control_ancilla_9_th_24 control_9_th_24 14
+494 control_3_th_20 control_3_th_4 2
+495 MAGIC_NODE control_ancilla_6_th_2 8
+496 control_6_th_20 control_6_th_4 2
+497 control_ancilla_6_th_1 control_6_th_1 2
+498 control_ancilla_9_th_30 control_ancilla_8_th_30 42
+499 control_ancilla_3_th_16 control_ancilla_2_th_16 4
+500 MAGIC_NODE control_ancilla_6_th_1 8
+501 system_8_0 control_ancilla_9_th_0 4
+502 MAGIC_NODE control_ancilla_6_th_21 8
+503 control_ancilla_6_th_0 control_6_th_0 2
+504 control_1_th_17 control_1_th_1 2
+505 control_ancilla_5_th_31 control_5_th_31 1
+506 control_ancilla_5_th_30 control_5_th_30 1
+507 MAGIC_NODE control_ancilla_5_th_30 4
+508 control_ancilla_5_th_29 control_ancilla_4_th_29 3
+509 system_6_1 control_ancilla_9_th_23 3
+510 control_ancilla_6_th_7 control_ancilla_5_th_7 6
+511 control_ancilla_5_th_28 control_5_th_28 1
+512 system_4_3 control_ancilla_9_th_18 12
+513 control_ancilla_5_th_28 control_ancilla_4_th_28 3
+514 control_ancilla_7_th_15 control_7_th_15 4
+515 MAGIC_NODE control_ancilla_5_th_28 4
+516 control_ancilla_5_th_27 control_5_th_27 1
+517 system_7_8 control_ancilla_9_th_27 6
+518 control_ancilla_5_th_27 control_ancilla_4_th_27 3
+519 control_ancilla_5_th_26 control_5_th_26 1
+520 control_ancilla_5_th_25 control_5_th_25 1
+521 control_ancilla_5_th_25 control_ancilla_4_th_25 3
+522 control_ancilla_8_th_12 control_9_th_12 14
+523 control_ancilla_7_th_18 control_ancilla_6_th_18 11
+524 MAGIC_NODE control_ancilla_5_th_25 4
+525 control_ancilla_5_th_23 control_ancilla_4_th_23 3
+526 system_4_1 control_ancilla_9_th_16 3
+527 control_ancilla_5_th_21 control_5_th_21 1
+528 system_4_1 control_ancilla_9_th_13 6
+529 control_ancilla_7_th_1 control_ancilla_6_th_1 11
+530 control_ancilla_5_th_21 control_ancilla_4_th_21 3
+531 control_ancilla_5_th_20 control_5_th_20 1
+532 control_ancilla_4_th_12 control_4_th_12 2
+533 MAGIC_NODE control_ancilla_1_th_16 8
+534 control_ancilla_6_th_10 control_ancilla_5_th_10 6
+535 control_0_th_18 control_0_th_2 2
+536 MAGIC_NODE control_ancilla_3_th_24 8
+537 control_ancilla_5_th_30 control_ancilla_4_th_30 3
+538 control_ancilla_5_th_23 control_5_th_23 1
+539 control_ancilla_9_th_0 control_9_th_0 14
+540 control_8_th_9 control_8_th_1 2
+541 control_ancilla_5_th_19 control_5_th_19 1
+542 control_ancilla_8_th_25 control_ancilla_7_th_25 21
+543 control_5_th_24 control_5_th_8 2
+544 control_ancilla_5_th_19 control_ancilla_4_th_19 3
+545 MAGIC_NODE control_ancilla_4_th_4 8
+546 control_ancilla_5_th_18 control_5_th_18 1
+547 control_ancilla_7_th_19 control_ancilla_6_th_19 11
+548 control_ancilla_4_th_4 control_5_th_4 1
+549 control_ancilla_5_th_18 control_ancilla_4_th_18 3
+550 control_ancilla_6_th_9 control_6_th_9 2
+551 MAGIC_NODE control_ancilla_5_th_17 4
+552 system_3_8 control_ancilla_9_th_12 1
+553 control_ancilla_2_th_0 control_ancilla_1_th_0 4
+554 control_ancilla_5_th_31 control_ancilla_4_th_31 3
+555 control_ancilla_4_th_5 control_4_th_5 2
+556 MAGIC_NODE control_ancilla_5_th_16 4
+557 control_4_th_28 control_4_th_12 2
+558 control_ancilla_5_th_11 control_ancilla_4_th_11 3
+559 control_ancilla_5_th_15 control_5_th_15 1
+560 MAGIC_NODE control_ancilla_5_th_26 4
+561 control_ancilla_5_th_15 control_ancilla_4_th_15 3
+562 system_5_3 control_ancilla_9_th_18 6
+563 system_6_6 control_ancilla_9_th_26 13
+564 control_ancilla_5_th_14 control_5_th_14 1
+565 control_ancilla_5_th_14 control_ancilla_4_th_14 3
+566 system_4_3 control_ancilla_9_th_15 3
+567 control_ancilla_8_th_9 control_ancilla_7_th_9 21
+568 control_ancilla_6_th_0 control_ancilla_5_th_0 6
+569 control_8_th_8 control_8_th_0 2
+570 control_ancilla_5_th_13 control_5_th_13 1
+571 MAGIC_NODE control_ancilla_6_th_14 8
+572 control_2_th_13 control_2_th_5 2
+573 control_ancilla_5_th_12 control_5_th_12 1
+574 control_ancilla_7_th_25 control_ancilla_6_th_25 11
+575 control_ancilla_9_th_13 control_9_th_13 14
+576 control_6_th_17 control_6_th_1 2
+577 control_ancilla_5_th_12 control_ancilla_4_th_12 3
+578 control_ancilla_8_th_22 control_ancilla_7_th_22 21
+579 control_ancilla_7_th_22 control_ancilla_6_th_22 11
+580 MAGIC_NODE control_ancilla_5_th_11 4
+581 control_ancilla_5_th_10 control_5_th_10 1
+582 control_ancilla_5_th_10 control_ancilla_4_th_10 3
+583 control_ancilla_1_th_8 control_ancilla_0_th_8 4
+584 MAGIC_NODE control_ancilla_5_th_10 4
+585 control_ancilla_5_th_9 control_5_th_9 1
+586 system_2_3 control_ancilla_9_th_10 5
+587 control_ancilla_8_th_6 control_8_th_6 7
+588 control_6_th_23 control_6_th_7 2
+589 MAGIC_NODE control_ancilla_5_th_9 4
+590 control_ancilla_5_th_8 control_5_th_8 1
+591 system_0_4 control_ancilla_9_th_3 15
+592 control_ancilla_5_th_8 control_ancilla_4_th_8 3
+593 MAGIC_NODE control_ancilla_5_th_8 4
+594 control_ancilla_5_th_7 control_5_th_7 1
+595 MAGIC_NODE control_ancilla_6_th_0 8
+596 control_ancilla_7_th_21 control_7_th_21 4
+597 control_ancilla_5_th_7 control_ancilla_4_th_7 3
+598 control_6_th_26 control_6_th_10 2
+599 control_ancilla_4_th_30 control_ancilla_3_th_30 4
+600 control_ancilla_5_th_6 control_ancilla_4_th_6 3
+601 control_9_th_18 control_9_th_2 2
+602 MAGIC_NODE control_ancilla_5_th_6 4
+603 control_ancilla_7_th_7 control_7_th_7 4
+604 control_ancilla_5_th_5 control_5_th_5 1
+605 control_7_th_31 control_7_th_15 2
+606 control_ancilla_5_th_5 control_ancilla_4_th_5 3
+607 control_ancilla_4_th_2 control_ancilla_3_th_2 4
+608 control_ancilla_5_th_4 control_5_th_4 1
+609 system_8_4 control_ancilla_9_th_3 4
+610 control_ancilla_5_th_4 control_ancilla_4_th_4 3
+611 control_0_th_31 control_0_th_15 2
+612 MAGIC_NODE control_ancilla_5_th_4 4
+613 system_8_6 control_ancilla_9_th_31 6
+614 control_ancilla_5_th_3 control_ancilla_4_th_3 3
+615 control_ancilla_8_th_24 control_9_th_24 14
+616 MAGIC_NODE control_ancilla_5_th_3 4
+617 control_ancilla_5_th_22 control_ancilla_4_th_22 3
+618 control_ancilla_5_th_2 control_ancilla_4_th_2 3
+619 control_ancilla_5_th_1 control_5_th_1 1
+620 control_ancilla_6_th_13 control_6_th_13 2
+621 control_ancilla_5_th_1 control_ancilla_4_th_1 3
+622 system_1_2 control_ancilla_9_th_0 3
+623 control_ancilla_8_th_19 control_9_th_19 14
+624 control_ancilla_5_th_0 control_ancilla_4_th_0 3
+625 system_5_1 control_ancilla_9_th_17 9
+626 control_ancilla_4_th_31 control_4_th_31 2
+627 system_1_1 control_ancilla_9_th_0 6
+628 control_ancilla_4_th_31 control_ancilla_3_th_31 4
+629 system_2_1 control_ancilla_9_th_9 3
+630 control_ancilla_7_th_19 control_7_th_19 4
+631 system_3_0 control_ancilla_9_th_9 3
+632 control_ancilla_6_th_25 control_6_th_25 2
+633 system_3_1 control_ancilla_9_th_9 1
+634 MAGIC_NODE control_ancilla_5_th_21 4
+635 control_ancilla_9_th_26 control_ancilla_8_th_26 42
+636 MAGIC_NODE control_ancilla_4_th_31 8
+637 control_ancilla_6_th_13 control_ancilla_5_th_13 6
+638 control_ancilla_4_th_30 control_4_th_30 2
+639 control_3_th_2 control_3_th_0 2
+640 MAGIC_NODE control_ancilla_3_th_16 8
+641 MAGIC_NODE control_ancilla_4_th_30 8
+642 system_8_7 control_ancilla_9_th_31 6
+643 MAGIC_NODE control_ancilla_7_th_22 16
+644 control_ancilla_4_th_28 control_4_th_28 2
+645 control_ancilla_9_th_25 control_9_th_25 14
+646 MAGIC_NODE control_ancilla_4_th_28 8
+647 control_ancilla_3_th_6 control_ancilla_2_th_6 4
+648 control_ancilla_4_th_27 control_4_th_27 2
+649 MAGIC_NODE control_ancilla_6_th_30 8
+650 control_ancilla_4_th_27 control_ancilla_3_th_27 4
+651 MAGIC_NODE control_ancilla_4_th_27 8
+652 MAGIC_NODE control_ancilla_6_th_11 8
+653 control_ancilla_5_th_29 control_5_th_29 1
+654 control_ancilla_8_th_3 control_9_th_3 14
+655 control_ancilla_4_th_26 control_4_th_26 2
+656 control_ancilla_4_th_26 control_ancilla_3_th_26 4
+657 control_ancilla_4_th_24 control_ancilla_3_th_24 4
+658 MAGIC_NODE control_ancilla_7_th_6 16
+659 MAGIC_NODE control_ancilla_4_th_24 8
+660 control_ancilla_4_th_23 control_ancilla_3_th_23 4
+661 control_ancilla_4_th_22 control_4_th_22 2
+662 system_5_4 control_ancilla_9_th_22 11
+663 MAGIC_NODE control_ancilla_4_th_22 8
+664 control_ancilla_6_th_29 control_ancilla_5_th_29 6
+665 MAGIC_NODE control_ancilla_8_th_11 28
+666 control_ancilla_4_th_21 control_ancilla_3_th_21 4
+667 MAGIC_NODE control_ancilla_4_th_21 8
+668 control_ancilla_4_th_20 control_ancilla_3_th_20 4
+669 control_ancilla_5_th_2 control_5_th_2 1
+670 control_ancilla_4_th_19 control_4_th_19 2
+671 control_ancilla_4_th_19 control_ancilla_3_th_19 4
+672 control_9_th_3 control_9_th_1 2
+673 MAGIC_NODE control_ancilla_4_th_19 8
+674 control_ancilla_7_th_17 control_ancilla_6_th_17 11
+675 control_ancilla_5_th_24 control_ancilla_4_th_24 3
+676 system_8_3 control_ancilla_9_th_29 3
+677 control_7_th_8 control_7_th_0 2
+678 control_ancilla_4_th_18 control_ancilla_3_th_18 4
+679 MAGIC_NODE control_ancilla_4_th_18 8
+680 control_ancilla_8_th_7 control_ancilla_7_th_7 21
+681 control_6_th_22 control_6_th_6 2
+682 control_5_th_20 control_5_th_4 2
+683 control_ancilla_6_th_6 control_ancilla_5_th_6 6
+684 control_6_th_1 control_6_th_0 2
+685 control_ancilla_4_th_17 control_ancilla_3_th_17 4
+686 control_ancilla_7_th_23 control_ancilla_6_th_23 11
+687 control_ancilla_4_th_16 control_ancilla_3_th_16 4
+688 control_ancilla_7_th_20 control_ancilla_6_th_20 11
+689 system_1_8 control_ancilla_9_th_9 9
+690 control_ancilla_4_th_15 control_4_th_15 2
+691 control_ancilla_4_th_22 control_ancilla_3_th_22 4
+692 control_5_th_23 control_5_th_7 2
+693 control_ancilla_4_th_15 control_ancilla_3_th_15 4
+694 control_ancilla_7_th_0 control_ancilla_6_th_0 11
+695 MAGIC_NODE control_ancilla_4_th_15 8
+696 control_ancilla_4_th_14 control_4_th_14 2
+697 control_4_th_17 control_4_th_1 2
+698 control_ancilla_7_th_5 control_7_th_5 4
+699 control_ancilla_6_th_15 control_6_th_15 2
+700 MAGIC_NODE control_ancilla_2_th_24 8
+701 MAGIC_NODE control_ancilla_4_th_14 8
+702 control_ancilla_4_th_12 control_5_th_12 1
+703 MAGIC_NODE control_ancilla_9_th_15 56
+704 control_ancilla_7_th_6 control_7_th_6 4
+705 control_ancilla_2_th_4 control_ancilla_1_th_4 4
+706 control_ancilla_4_th_13 control_4_th_13 2
+707 MAGIC_NODE control_ancilla_5_th_14 4
+708 control_ancilla_0_th_0 control_0_th_0 2
+709 control_0_th_12 control_0_th_4 2
+710 control_ancilla_4_th_13 control_ancilla_3_th_13 4
+711 MAGIC_NODE control_ancilla_7_th_23 16
+712 MAGIC_NODE control_ancilla_4_th_12 8
+713 system_3_3 control_ancilla_9_th_11 6
+714 system_1_4 control_ancilla_9_th_3 6
+715 control_7_th_19 control_7_th_3 2
+716 control_ancilla_4_th_11 control_ancilla_3_th_11 4
+717 control_ancilla_4_th_10 control_ancilla_3_th_10 4
+718 MAGIC_NODE control_ancilla_8_th_24 28
+719 MAGIC_NODE control_ancilla_4_th_10 8
+720 control_8_th_10 control_8_th_2 2
+721 control_ancilla_4_th_9 control_4_th_9 2
+722 control_5_th_2 control_5_th_0 2
+723 control_ancilla_4_th_9 control_ancilla_3_th_9 4
+724 control_ancilla_7_th_16 control_7_th_16 4
+725 MAGIC_NODE control_ancilla_4_th_9 8
+726 control_ancilla_4_th_8 control_4_th_8 2
+727 control_ancilla_4_th_21 control_4_th_21 2
+728 control_ancilla_4_th_8 control_ancilla_3_th_8 4
+729 control_ancilla_4_th_3 control_ancilla_3_th_3 4
+730 MAGIC_NODE control_ancilla_4_th_3 8
+731 control_ancilla_4_th_2 control_4_th_2 2
+732 MAGIC_NODE control_ancilla_4_th_2 8
+733 MAGIC_NODE control_ancilla_6_th_19 8
+734 MAGIC_NODE control_ancilla_2_th_28 8
+735 MAGIC_NODE control_ancilla_5_th_31 4
+736 control_9_th_9 control_9_th_1 2
+737 control_ancilla_4_th_1 control_ancilla_3_th_1 4
+738 system_0_4 control_ancilla_9_th_2 9
+739 control_4_th_2 control_4_th_0 2
+740 MAGIC_NODE control_ancilla_4_th_1 8
+741 control_ancilla_4_th_0 control_4_th_0 2
+742 MAGIC_NODE control_ancilla_4_th_0 8
+743 control_ancilla_9_th_23 control_ancilla_8_th_23 42
+744 control_ancilla_6_th_2 control_ancilla_5_th_2 6
+745 control_5_th_27 control_5_th_11 2
+746 control_ancilla_3_th_30 control_3_th_30 2
+747 control_0_th_10 control_0_th_2 2
+748 control_ancilla_6_th_5 control_ancilla_5_th_5 6
+749 control_ancilla_7_th_14 control_7_th_14 4
+750 control_ancilla_3_th_30 control_ancilla_2_th_30 4
+751 control_ancilla_9_th_27 control_9_th_27 14
+752 MAGIC_NODE control_ancilla_6_th_20 8
+753 system_4_5 control_ancilla_9_th_15 9
+754 control_0_th_6 control_0_th_2 2
+755 control_ancilla_3_th_29 control_ancilla_3_th_28 2
+756 control_ancilla_4_th_16 control_5_th_16 1
+757 control_ancilla_4_th_5 control_ancilla_3_th_5 4
+758 control_ancilla_3_th_28 control_3_th_28 2
+759 control_ancilla_7_th_4 control_7_th_4 4
+760 MAGIC_NODE control_ancilla_3_th_28 8
+761 control_ancilla_1_th_16 control_ancilla_0_th_16 4
+762 control_ancilla_3_th_26 control_3_th_26 2
+763 system_8_5 control_ancilla_9_th_4 6
+764 MAGIC_NODE control_ancilla_4_th_6 8
+765 control_5_th_9 control_5_th_1 2
+766 control_ancilla_3_th_26 control_ancilla_2_th_26 4
+767 control_8_th_19 control_8_th_3 2
+768 control_7_th_13 control_7_th_5 2
+769 control_ancilla_3_th_24 control_3_th_24 2
+770 control_1_th_12 control_1_th_4 2
+771 control_ancilla_3_th_24 control_ancilla_2_th_24 4
+772 control_ancilla_3_th_23 control_ancilla_3_th_22 2
+773 system_4_4 control_ancilla_9_th_15 6
+774 control_ancilla_3_th_22 control_3_th_22 2
+775 control_7_th_20 control_7_th_4 2
+776 MAGIC_NODE control_ancilla_3_th_22 8
+777 control_ancilla_4_th_6 control_ancilla_3_th_6 4
+778 system_8_0 control_ancilla_9_th_31 3
+779 control_ancilla_3_th_21 control_ancilla_3_th_20 2
+780 control_ancilla_3_th_20 control_3_th_20 2
+781 system_5_0 control_ancilla_9_th_20 9
+782 system_3_6 control_ancilla_9_th_12 9
+783 MAGIC_NODE control_ancilla_3_th_20 8
+784 control_ancilla_3_th_18 control_3_th_18 2
+785 system_8_3 control_ancilla_9_th_3 3
+786 MAGIC_NODE control_ancilla_3_th_18 8
+787 control_ancilla_8_th_13 control_9_th_13 14
+788 control_ancilla_8_th_5 control_8_th_5 7
+789 control_8_th_21 control_8_th_5 2
+790 MAGIC_NODE control_ancilla_3_th_14 8
+791 system_6_6 control_ancilla_9_th_25 2
+792 control_ancilla_8_th_10 control_9_th_10 14
+793 control_ancilla_7_th_30 control_ancilla_6_th_30 11
+794 control_2_th_31 control_2_th_15 2
+795 control_ancilla_3_th_12 control_3_th_12 2
+796 control_4_th_19 control_4_th_3 2
+797 MAGIC_NODE control_ancilla_3_th_12 8
+798 system_1_2 control_ancilla_9_th_6 4
+799 control_ancilla_8_th_25 control_9_th_25 14
+800 control_ancilla_3_th_11 control_ancilla_3_th_10 2
+801 MAGIC_NODE control_ancilla_7_th_13 16
+802 control_ancilla_3_th_10 control_3_th_10 2
+803 control_ancilla_7_th_12 control_8_th_12 7
+804 control_ancilla_6_th_18 control_6_th_18 2
+805 control_ancilla_9_th_19 control_9_th_19 14
+806 MAGIC_NODE control_ancilla_4_th_25 8
+807 MAGIC_NODE control_ancilla_3_th_10 8
+808 system_5_1 control_ancilla_9_th_21 3
+809 control_ancilla_6_th_3 control_6_th_3 2
+810 system_1_1 control_ancilla_9_th_6 15
+811 control_ancilla_3_th_9 control_ancilla_3_th_8 2
+812 system_2_5 control_ancilla_9_th_12 6
+813 control_2_th_5 control_2_th_1 2
+814 control_ancilla_7_th_11 control_7_th_11 4
+815 control_ancilla_3_th_12 control_ancilla_2_th_12 4
+816 control_ancilla_5_th_9 control_ancilla_4_th_9 3
+817 MAGIC_NODE control_ancilla_4_th_16 8
+818 control_ancilla_2_th_22 control_ancilla_2_th_20 2
+819 MAGIC_NODE control_ancilla_3_th_8 8
+820 control_ancilla_2_th_16 control_2_th_16 2
+821 MAGIC_NODE control_ancilla_3_th_26 8
+822 control_ancilla_7_th_16 control_ancilla_6_th_16 11
+823 control_ancilla_4_th_28 control_ancilla_3_th_28 4
+824 control_ancilla_9_th_28 control_ancilla_8_th_28 42
+825 MAGIC_NODE control_ancilla_4_th_11 8
+826 control_ancilla_3_th_4 control_3_th_4 2
+827 control_ancilla_3_th_2 control_3_th_2 2
+828 control_2_th_2 control_2_th_0 2
+829 MAGIC_NODE control_ancilla_3_th_2 8
+830 control_2_th_27 control_2_th_11 2
+831 MAGIC_NODE control_ancilla_6_th_10 8
+832 control_5_th_1 control_5_th_0 2
+833 control_ancilla_3_th_1 control_ancilla_3_th_0 2
+834 control_ancilla_4_th_25 control_5_th_25 1
+835 MAGIC_NODE control_ancilla_5_th_12 4
+836 system_6_7 control_ancilla_9_th_27 6
+837 control_ancilla_3_th_0 control_ancilla_2_th_0 4
+838 control_ancilla_2_th_28 control_2_th_28 2
+839 control_ancilla_2_th_28 control_ancilla_1_th_28 4
+840 MAGIC_NODE control_ancilla_4_th_5 8
+841 control_1_th_9 control_1_th_1 2
+842 control_2_th_9 control_2_th_1 2
+843 control_ancilla_2_th_26 control_ancilla_2_th_24 2
+844 MAGIC_NODE control_ancilla_7_th_29 16
+845 control_9_th_21 control_9_th_5 2
+846 control_2_th_3 control_2_th_1 2
+847 control_ancilla_2_th_24 control_2_th_24 2
+848 system_5_3 control_ancilla_9_th_17 3
+849 control_ancilla_5_th_22 control_6_th_22 2
+850 control_8_th_7 control_8_th_3 2
+851 control_ancilla_6_th_31 control_7_th_31 4
+852 control_ancilla_9_th_19 control_ancilla_8_th_19 42
+853 control_ancilla_2_th_20 control_2_th_20 2
+854 control_ancilla_2_th_14 control_ancilla_2_th_12 2
+855 control_ancilla_6_th_24 control_7_th_24 4
+856 control_9_th_29 control_9_th_13 2
+857 control_ancilla_2_th_12 control_2_th_12 2
+858 control_ancilla_6_th_1 control_7_th_1 4
+859 MAGIC_NODE control_ancilla_5_th_2 4
+860 control_ancilla_3_th_8 control_3_th_8 2
+861 MAGIC_NODE control_ancilla_9_th_6 56
+862 control_ancilla_6_th_14 control_6_th_14 2
+863 control_ancilla_2_th_10 control_ancilla_2_th_8 2
+864 control_ancilla_2_th_6 control_ancilla_2_th_4 2
+865 control_ancilla_7_th_22 control_7_th_22 4
+866 control_ancilla_5_th_25 control_6_th_25 2
+867 control_ancilla_2_th_4 control_2_th_4 2
+868 MAGIC_NODE control_ancilla_8_th_18 28
+869 MAGIC_NODE control_ancilla_4_th_13 8
+870 control_ancilla_2_th_0 control_2_th_0 2
+871 control_9_th_5 control_9_th_1 2
+872 control_ancilla_1_th_28 control_ancilla_1_th_24 2
+873 control_ancilla_9_th_20 control_9_th_20 14
+874 MAGIC_NODE control_ancilla_6_th_3 8
+875 MAGIC_NODE control_ancilla_2_th_16 8
+876 system_7_4 control_ancilla_9_th_28 3
+877 system_3_5 control_ancilla_9_th_15 12
+878 control_ancilla_3_th_25 control_ancilla_3_th_24 2
+879 control_3_th_14 control_3_th_6 2
+880 control_ancilla_1_th_16 control_1_th_16 2
+881 control_7_th_15 control_7_th_7 2
+882 MAGIC_NODE control_ancilla_5_th_20 4
+883 control_ancilla_6_th_18 control_7_th_18 4
+884 control_ancilla_4_th_25 control_4_th_25 2
+885 control_ancilla_4_th_29 control_5_th_29 1
+886 system_2_0 control_ancilla_9_th_10 2
+887 control_ancilla_8_th_20 control_8_th_20 7
+888 control_2_th_26 control_2_th_10 2
+889 control_0_th_26 control_0_th_10 2
+890 control_ancilla_1_th_8 control_1_th_8 2
+891 system_4_6 control_ancilla_9_th_15 4
+892 control_4_th_20 control_4_th_4 2
+893 control_ancilla_3_th_3 control_ancilla_3_th_2 2
+894 MAGIC_NODE control_ancilla_1_th_8 8
+895 control_ancilla_9_th_22 control_9_th_22 14
+896 MAGIC_NODE control_ancilla_6_th_26 8
+897 control_8_th_14 control_8_th_6 2
+898 control_ancilla_1_th_4 control_ancilla_1_th_0 2
+899 control_ancilla_4_th_12 control_ancilla_3_th_12 4
+900 control_ancilla_1_th_0 control_ancilla_0_th_0 4
+901 MAGIC_NODE control_ancilla_5_th_1 4
+902 control_ancilla_0_th_24 control_ancilla_0_th_16 2
+903 control_ancilla_4_th_5 control_5_th_5 1
+904 control_ancilla_7_th_20 control_7_th_20 4
+905 control_ancilla_5_th_0 control_6_th_0 2
+906 MAGIC_NODE control_ancilla_7_th_19 16
+907 control_0_th_27 control_0_th_11 2
+908 system_3_8 control_ancilla_9_th_13 5
+909 control_ancilla_0_th_16 control_0_th_16 2
+910 MAGIC_NODE control_ancilla_3_th_0 8
+911 control_2_th_8 control_2_th_0 2
+912 control_ancilla_1_th_0 control_1_th_0 2
+913 control_ancilla_7_th_11 control_8_th_11 7
+914 control_ancilla_8_th_10 control_ancilla_7_th_10 21
+915 control_ancilla_0_th_8 control_ancilla_0_th_0 2
+916 control_ancilla_7_th_17 control_7_th_17 4
+917 control_9_th_10 control_9_th_2 2
+918 control_2_th_16 control_2_th_0 2
+919 control_8_th_31 control_8_th_15 2
+920 control_ancilla_2_th_12 control_ancilla_1_th_12 4
+921 system_8_8 control_ancilla_9_th_6 3
+922 control_6_th_31 control_6_th_15 2
+923 control_5_th_31 control_5_th_15 2
+924 control_ancilla_8_th_25 control_8_th_25 7
+925 control_8_th_22 control_8_th_6 2
+926 control_3_th_31 control_3_th_15 2
+927 system_3_7 control_ancilla_9_th_15 3
+928 control_6_th_8 control_6_th_0 2
+929 control_2_th_15 control_2_th_7 2
+930 control_5_th_30 control_5_th_14 2
+931 control_0_th_7 control_0_th_3 2
+932 control_ancilla_3_th_22 control_ancilla_2_th_22 4
+933 MAGIC_NODE control_ancilla_3_th_4 8
+934 control_ancilla_3_th_19 control_ancilla_3_th_18 2
+935 system_5_0 control_ancilla_9_th_17 4
+936 control_9_th_25 control_9_th_9 2
+937 control_4_th_30 control_4_th_14 2
+938 control_3_th_30 control_3_th_14 2
+939 control_1_th_19 control_1_th_3 2
+940 control_0_th_30 control_0_th_14 2
+941 MAGIC_NODE control_ancilla_8_th_14 28
+942 control_8_th_29 control_8_th_13 2
+943 control_7_th_29 control_7_th_13 2
+944 MAGIC_NODE control_ancilla_8_th_30 28
+945 control_5_th_29 control_5_th_13 2
+946 system_1_7 control_ancilla_9_th_9 12
+947 control_ancilla_4_th_6 control_4_th_6 2
+948 control_ancilla_4_th_6 control_5_th_6 1
+949 control_2_th_29 control_2_th_13 2
+950 control_0_th_11 control_0_th_3 2
+951 control_ancilla_7_th_7 control_8_th_7 7
+952 control_8_th_28 control_8_th_12 2
+953 MAGIC_NODE control_ancilla_9_th_26 56
+954 control_0_th_29 control_0_th_13 2
+955 control_ancilla_9_th_10 control_9_th_10 14
+956 control_9_th_28 control_9_th_12 2
+957 MAGIC_NODE control_ancilla_7_th_18 16
+958 system_7_3 control_ancilla_9_th_29 3
+959 control_9_th_8 control_9_th_0 2
+960 control_ancilla_8_th_2 control_9_th_2 14
+961 system_5_6 control_ancilla_9_th_23 7
+962 MAGIC_NODE control_ancilla_6_th_31 8
+963 control_ancilla_3_th_14 control_3_th_14 2
+964 control_8_th_30 control_8_th_14 2
+965 control_ancilla_7_th_6 control_8_th_6 7
+966 control_ancilla_3_th_18 control_ancilla_2_th_18 4
+967 control_ancilla_6_th_23 control_6_th_23 2
+968 control_ancilla_3_th_4 control_ancilla_2_th_4 4
+969 MAGIC_NODE control_ancilla_5_th_24 4
+970 control_9_th_13 control_9_th_5 2
+971 control_4_th_31 control_4_th_15 2
+972 control_1_th_10 control_1_th_2 2
+973 system_2_2 control_ancilla_9_th_6 3
+974 control_5_th_28 control_5_th_12 2
+975 system_7_0 control_ancilla_9_th_27 9
+976 control_ancilla_8_th_16 control_9_th_16 14
+977 control_1_th_28 control_1_th_12 2
+978 MAGIC_NODE control_ancilla_7_th_8 16
+979 control_0_th_22 control_0_th_6 2
+980 control_4_th_4 control_4_th_0 2
+981 MAGIC_NODE control_ancilla_9_th_21 56
+982 control_8_th_27 control_8_th_11 2
+983 control_7_th_27 control_7_th_11 2
+984 control_6_th_27 control_6_th_11 2
+985 MAGIC_NODE control_ancilla_5_th_7 4
+986 MAGIC_NODE control_ancilla_7_th_0 16
+987 control_ancilla_4_th_1 control_4_th_1 2
+988 control_3_th_27 control_3_th_11 2
+989 control_ancilla_6_th_18 control_ancilla_5_th_18 6
+990 control_ancilla_3_th_16 control_3_th_16 2
+991 system_0_6 control_ancilla_9_th_4 20
+992 control_2_th_28 control_2_th_12 2
+993 system_1_8 control_ancilla_9_th_5 6
+994 control_ancilla_7_th_29 control_ancilla_6_th_29 11
+995 control_8_th_26 control_8_th_10 2
+996 control_0_th_8 control_0_th_0 2
+997 control_ancilla_8_th_9 control_8_th_9 7
+998 control_7_th_26 control_7_th_10 2
+999 control_7_th_4 control_7_th_0 2
+1000 control_4_th_11 control_4_th_3 2
+1001 system_4_4 control_ancilla_9_th_18 15
+1002 MAGIC_NODE control_ancilla_8_th_8 28
+1003 control_8_th_5 control_8_th_1 2
+1004 control_ancilla_1_th_24 control_ancilla_0_th_24 4
+1005 control_9_th_4 control_9_th_0 2
+1006 control_ancilla_4_th_23 control_4_th_23 2
+1007 system_8_2 control_ancilla_9_th_2 3
+1008 control_7_th_25 control_7_th_9 2
+1009 control_6_th_10 control_6_th_2 2
+1010 control_5_th_26 control_5_th_10 2
+1011 system_6_4 control_ancilla_9_th_21 3
+1012 control_ancilla_8_th_30 control_8_th_30 7
+1013 control_4_th_26 control_4_th_10 2
+1014 control_0_th_28 control_0_th_12 2
+1015 control_9_th_26 control_9_th_10 2
+1016 control_ancilla_6_th_19 control_ancilla_5_th_19 6
+1017 control_2_th_24 control_2_th_8 2
+1018 control_1_th_5 control_1_th_1 2
+1019 control_3_th_26 control_3_th_10 2
+1020 system_6_5 control_ancilla_9_th_25 5
+1021 system_2_8 control_ancilla_9_th_13 6
+1022 control_8_th_25 control_8_th_9 2
+1023 control_ancilla_6_th_21 control_6_th_21 2
+1024 control_3_th_13 control_3_th_5 2
+1025 control_2_th_25 control_2_th_9 2
+1026 control_6_th_4 control_6_th_0 2
+1027 control_5_th_25 control_5_th_9 2
+1028 control_ancilla_7_th_4 control_ancilla_6_th_4 11
+1029 control_4_th_23 control_4_th_7 2
+1030 control_ancilla_6_th_19 control_7_th_19 4
+1031 control_ancilla_8_th_23 control_8_th_23 7
+1032 control_6_th_9 control_6_th_1 2
+1033 system_3_6 control_ancilla_9_th_15 10
+1034 control_4_th_25 control_4_th_9 2
+1035 control_0_th_13 control_0_th_5 2
+1036 control_2_th_19 control_2_th_3 2
+1037 control_3_th_25 control_3_th_9 2
+1038 system_1_7 control_ancilla_9_th_4 3
+1039 MAGIC_NODE control_ancilla_5_th_0 4
+1040 control_ancilla_7_th_13 control_7_th_13 4
+1041 control_1_th_27 control_1_th_11 2
+1042 control_ancilla_4_th_3 control_4_th_3 2
+1043 control_1_th_25 control_1_th_9 2
+1044 MAGIC_NODE control_ancilla_9_th_3 56
+1045 control_ancilla_7_th_28 control_ancilla_6_th_28 11
+1046 control_0_th_25 control_0_th_9 2
+1047 control_ancilla_5_th_18 control_6_th_18 2
+1048 MAGIC_NODE control_ancilla_4_th_7 8
+1049 system_4_0 control_ancilla_9_th_17 4
+1050 control_8_th_24 control_8_th_8 2
+1051 system_3_4 control_ancilla_9_th_15 9
+1052 control_1_th_1 control_1_th_0 2
+1053 control_7_th_24 control_7_th_8 2
+1054 control_ancilla_4_th_31 control_5_th_31 1
+1055 control_1_th_4 control_1_th_0 2
+1056 control_9_th_12 control_9_th_4 2
+1057 control_4_th_24 control_4_th_8 2
+1058 control_ancilla_7_th_26 control_7_th_26 4
+1059 control_3_th_24 control_3_th_8 2
+1060 control_ancilla_5_th_17 control_5_th_17 1
+1061 system_6_0 control_ancilla_9_th_24 6
+1062 MAGIC_NODE control_ancilla_9_th_23 56
+1063 control_9_th_20 control_9_th_4 2
+1064 system_7_4 control_ancilla_9_th_25 6
+1065 control_ancilla_9_th_2 control_ancilla_8_th_2 42
+1066 control_1_th_24 control_1_th_8 2
+1067 control_7_th_5 control_7_th_1 2
+1068 control_0_th_24 control_0_th_8 2
+1069 control_2_th_30 control_2_th_14 2
+1070 control_7_th_6 control_7_th_2 2
+1071 control_4_th_18 control_4_th_2 2
+1072 control_9_th_23 control_9_th_7 2
+1073 control_ancilla_6_th_11 control_ancilla_5_th_11 6
+1074 MAGIC_NODE control_ancilla_7_th_31 16
+1075 MAGIC_NODE control_ancilla_5_th_23 4
+1076 control_ancilla_4_th_0 control_ancilla_3_th_0 4
+1077 MAGIC_NODE control_ancilla_2_th_0 8
+1078 control_ancilla_7_th_28 control_8_th_28 7
+1079 control_8_th_23 control_8_th_7 2
+1080 control_ancilla_6_th_26 control_7_th_26 4
+1081 MAGIC_NODE control_ancilla_7_th_16 16
+1082 control_ancilla_4_th_29 control_4_th_29 2
+1083 control_ancilla_3_th_31 control_ancilla_3_th_30 2
+1084 control_0_th_23 control_0_th_7 2
+1085 control_ancilla_7_th_19 control_8_th_19 7
+1086 MAGIC_NODE control_ancilla_7_th_4 16
+1087 control_ancilla_6_th_27 control_6_th_27 2
+1088 MAGIC_NODE control_ancilla_1_th_24 8
+1089 system_3_0 control_ancilla_9_th_13 9
+1090 control_ancilla_8_th_17 control_9_th_17 14
+1091 control_3_th_11 control_3_th_3 2
+1092 MAGIC_NODE control_ancilla_2_th_8 8
+1093 control_6_th_11 control_6_th_3 2
+1094 control_8_th_13 control_8_th_5 2
+1095 control_9_th_22 control_9_th_6 2
+1096 control_4_th_22 control_4_th_6 2
+1097 control_7_th_22 control_7_th_6 2
+1098 control_9_th_27 control_9_th_11 2
+1099 control_3_th_22 control_3_th_6 2
+1100 control_ancilla_8_th_26 control_ancilla_7_th_26 21
+1101 control_3_th_19 control_3_th_3 2
+1102 control_6_th_12 control_6_th_4 2
+1103 control_1_th_22 control_1_th_6 2
+1104 control_7_th_21 control_7_th_5 2
+1105 control_6_th_5 control_6_th_1 2
+1106 control_5_th_21 control_5_th_5 2
+1107 control_3_th_21 control_3_th_5 2
+1108 control_6_th_29 control_6_th_13 2
+1109 system_6_2 control_ancilla_9_th_25 2
+1110 control_0_th_21 control_0_th_5 2
+1111 control_ancilla_9_th_6 control_9_th_6 14
+1112 control_ancilla_2_th_30 control_ancilla_2_th_28 2
+1113 control_ancilla_1_th_20 control_ancilla_1_th_16 2
+1114 control_7_th_30 control_7_th_14 2
+1115 control_ancilla_5_th_6 control_5_th_6 1
+1116 control_ancilla_6_th_19 control_6_th_19 2
+1117 control_ancilla_4_th_24 control_4_th_24 2
+1118 control_ancilla_6_th_2 control_6_th_2 2
+1119 control_ancilla_4_th_14 control_ancilla_3_th_14 4
+1120 control_6_th_19 control_6_th_3 2
+1121 system_0_2 control_ancilla_9_th_0 3
+1122 control_4_th_15 control_4_th_7 2
+1123 control_5_th_4 control_5_th_0 2
+1124 control_ancilla_5_th_12 control_6_th_12 2
+1125 control_5_th_19 control_5_th_3 2
+1126 control_9_th_16 control_9_th_0 2
+1127 system_6_8 control_ancilla_9_th_27 6
+1128 control_7_th_10 control_7_th_2 2
+1129 system_3_6 control_ancilla_9_th_16 5
+1130 MAGIC_NODE control_ancilla_6_th_12 8
+1131 control_9_th_30 control_9_th_14 2
+1132 control_2_th_12 control_2_th_4 2
+1133 control_8_th_6 control_8_th_2 2
+1134 system_1_6 control_ancilla_9_th_3 3
+1135 system_8_7 control_ancilla_9_th_6 3
+1136 control_8_th_18 control_8_th_2 2
+1137 system_8_4 control_ancilla_9_th_4 2
+1138 control_3_th_29 control_3_th_13 2
+1139 system_1_5 control_ancilla_9_th_7 3
+1140 control_0_th_17 control_0_th_1 2
+1141 control_2_th_22 control_2_th_6 2
+1142 control_5_th_18 control_5_th_2 2
+1143 control_ancilla_8_th_7 control_8_th_7 7
+1144 control_4_th_12 control_4_th_4 2
+1145 control_3_th_18 control_3_th_2 2
+1146 control_2_th_4 control_2_th_0 2
+1147 control_ancilla_4_th_11 control_4_th_11 2
+1148 control_2_th_18 control_2_th_2 2
+1149 MAGIC_NODE control_ancilla_4_th_26 8
+1150 control_0_th_3 control_0_th_1 2
+1151 control_7_th_17 control_7_th_1 2
+1152 control_ancilla_5_th_11 control_5_th_11 1
+1153 control_3_th_23 control_3_th_7 2
+1154 control_5_th_6 control_5_th_2 2
+1155 control_ancilla_4_th_4 control_ancilla_3_th_4 4
+1156 control_ancilla_5_th_27 control_6_th_27 2
+1157 control_ancilla_9_th_12 control_ancilla_8_th_12 42
+1158 control_7_th_7 control_7_th_3 2
+1159 control_ancilla_5_th_9 control_6_th_9 2
+1160 system_3_2 control_ancilla_9_th_10 6
+1161 control_8_th_16 control_8_th_0 2
+1162 control_7_th_1 control_7_th_0 2
+1163 control_9_th_15 control_9_th_7 2
+1164 control_3_th_6 control_3_th_2 2
+1165 control_ancilla_7_th_27 control_ancilla_6_th_27 11
+1166 MAGIC_NODE control_ancilla_6_th_15 8
+1167 system_2_6 control_ancilla_9_th_9 3
+1168 control_ancilla_9_th_21 control_ancilla_8_th_21 42
+1169 control_5_th_11 control_5_th_3 2
+1170 control_ancilla_3_th_5 control_ancilla_3_th_4 2
+1171 control_5_th_16 control_5_th_0 2
+1172 control_ancilla_5_th_16 control_5_th_16 1
+1173 control_1_th_3 control_1_th_1 2
+1174 control_ancilla_2_th_20 control_ancilla_1_th_20 4
+1175 MAGIC_NODE control_ancilla_9_th_2 56
+1176 MAGIC_NODE control_ancilla_5_th_15 4
+1177 control_8_th_17 control_8_th_1 2
+1178 control_ancilla_6_th_31 control_6_th_31 2
+1179 control_ancilla_8_th_12 control_8_th_12 7
+1180 control_0_th_5 control_0_th_1 2
+1181 control_6_th_15 control_6_th_7 2
+1182 control_3_th_28 control_3_th_12 2
+1183 control_2_th_11 control_2_th_3 2
+1184 control_9_th_14 control_9_th_6 2
+1185 MAGIC_NODE control_ancilla_8_th_19 28
+1186 control_3_th_15 control_3_th_7 2
+1187 control_7_th_3 control_7_th_1 2
+1188 MAGIC_NODE control_ancilla_2_th_20 8
+1189 system_4_0 control_ancilla_9_th_13 6
+1190 control_ancilla_5_th_17 control_ancilla_4_th_17 3
+1191 MAGIC_NODE control_ancilla_6_th_16 8
+1192 control_0_th_15 control_0_th_7 2
+1193 control_6_th_21 control_6_th_5 2
+1194 control_ancilla_6_th_23 control_7_th_23 4
+1195 control_7_th_14 control_7_th_6 2
+1196 control_5_th_14 control_5_th_6 2
+1197 control_ancilla_5_th_3 control_6_th_3 2
+1198 control_ancilla_9_th_18 control_ancilla_8_th_18 42
+1199 control_2_th_14 control_2_th_6 2
+1200 control_6_th_14 control_6_th_6 2
+1201 control_3_th_8 control_3_th_0 2
+1202 system_7_2 control_ancilla_9_th_24 6
+1203 system_8_6 control_ancilla_9_th_5 3
+1204 control_0_th_14 control_0_th_6 2
+1205 control_ancilla_6_th_23 control_ancilla_5_th_23 6
+1206 MAGIC_NODE control_ancilla_2_th_12 8
+1207 system_7_2 control_ancilla_9_th_27 3
+1208 control_6_th_30 control_6_th_14 2
+1209 control_ancilla_4_th_2 control_5_th_2 1
+1210 control_2_th_20 control_2_th_4 2
+1211 MAGIC_NODE control_ancilla_8_th_2 28
+1212 control_5_th_15 control_5_th_7 2
+1213 control_ancilla_4_th_30 control_5_th_30 1
+1214 MAGIC_NODE control_ancilla_6_th_4 8
+1215 MAGIC_NODE control_ancilla_5_th_5 4
+1216 MAGIC_NODE control_ancilla_4_th_29 8
+1217 control_4_th_7 control_4_th_3 2
+1218 system_7_6 control_ancilla_9_th_29 3
+1219 MAGIC_NODE control_ancilla_7_th_26 16
+1220 control_1_th_16 control_1_th_0 2
+1221 control_0_th_16 control_0_th_0 2
+1222 control_ancilla_6_th_24 control_ancilla_5_th_24 6
+1223 control_ancilla_9_th_13 control_ancilla_8_th_13 42
+1224 control_6_th_13 control_6_th_5 2
+1225 control_5_th_13 control_5_th_5 2
+1226 control_ancilla_7_th_2 control_8_th_2 7
+1227 control_3_th_7 control_3_th_3 2
+1228 control_1_th_13 control_1_th_5 2
+1229 control_0_th_20 control_0_th_4 2
+1230 system_1_6 control_ancilla_9_th_4 3
+1231 control_8_th_12 control_8_th_4 2
+1232 control_7_th_12 control_7_th_4 2
+1233 control_ancilla_5_th_5 control_6_th_5 2
+1234 control_ancilla_5_th_26 control_ancilla_4_th_26 3
+1235 system_7_1 control_ancilla_9_th_28 6
+1236 control_ancilla_7_th_29 control_7_th_29 4
+1237 MAGIC_NODE control_ancilla_5_th_19 4
+1238 control_ancilla_3_th_2 control_ancilla_2_th_2 4
+1239 control_ancilla_2_th_18 control_ancilla_2_th_16 2
+1240 control_2_th_17 control_2_th_1 2
+1241 control_ancilla_7_th_25 control_7_th_25 4
+1242 control_ancilla_6_th_14 control_ancilla_5_th_14 6
+1243 control_1_th_15 control_1_th_7 2
+1244 control_ancilla_9_th_31 control_ancilla_8_th_31 42
+1245 control_5_th_12 control_5_th_4 2
+1246 control_ancilla_3_th_14 control_ancilla_2_th_14 4
+1247 control_ancilla_5_th_3 control_5_th_3 1
+1248 control_1_th_23 control_1_th_7 2
+1249 system_2_5 control_ancilla_9_th_11 9
+1250 control_ancilla_9_th_7 control_9_th_7 14
+1251 control_ancilla_3_th_27 control_ancilla_3_th_26 2
+1252 control_ancilla_4_th_18 control_5_th_18 1
+1253 control_5_th_10 control_5_th_2 2
+1254 control_ancilla_6_th_13 control_7_th_13 4
+1255 control_8_th_11 control_8_th_3 2
+1256 control_ancilla_9_th_25 control_ancilla_8_th_25 42
+1257 control_8_th_3 control_8_th_1 2
+1258 control_ancilla_3_th_7 control_ancilla_3_th_6 2
+1259 control_ancilla_4_th_7 control_ancilla_3_th_7 4
+1260 control_ancilla_4_th_20 control_4_th_20 2
+1261 control_4_th_10 control_4_th_2 2
+1262 control_1_th_26 control_1_th_10 2
+1263 MAGIC_NODE control_ancilla_7_th_28 16
+1264 control_4_th_9 control_4_th_1 2
+1265 control_1_th_11 control_1_th_3 2
+1266 system_7_7 control_ancilla_9_th_26 3
+1267 control_2_th_10 control_2_th_2 2
+1268 control_1_th_18 control_1_th_2 2
+1269 system_6_2 control_ancilla_9_th_24 13
+1270 control_ancilla_6_th_29 control_6_th_29 2
+1271 MAGIC_NODE control_ancilla_5_th_13 4
+1272 MAGIC_NODE control_ancilla_6_th_29 8
+1273 system_2_6 control_ancilla_9_th_11 3
+1274 control_ancilla_4_th_25 control_ancilla_3_th_25 4
+1275 system_7_2 control_ancilla_9_th_25 3
+1276 control_ancilla_5_th_22 control_5_th_22 1
+1277 control_ancilla_7_th_27 control_7_th_27 4
+1278 MAGIC_NODE control_ancilla_7_th_20 16
+1279 control_4_th_14 control_4_th_6 2
+1280 control_ancilla_1_th_24 control_1_th_24 2
+1281 MAGIC_NODE control_ancilla_3_th_30 8
+1282 control_0_th_4 control_0_th_0 2
+1283 control_ancilla_6_th_25 control_7_th_25 4
+1284 control_9_th_31 control_9_th_15 2
+1285 MAGIC_NODE control_ancilla_5_th_27 4
+1286 control_1_th_31 control_1_th_15 2
+1287 control_ancilla_6_th_7 control_7_th_7 4
+1288 control_1_th_30 control_1_th_14 2
+1289 control_ancilla_4_th_22 control_5_th_22 1
+1290 control_ancilla_8_th_8 control_8_th_8 7
+1291 control_4_th_27 control_4_th_11 2
+1292 system_1_6 control_ancilla_9_th_5 3
+1293 control_ancilla_4_th_10 control_4_th_10 2
+1294 system_3_0 control_ancilla_9_th_10 3
+1295 control_6_th_7 control_6_th_3 2
+1296 system_2_3 control_ancilla_9_th_8 1
+1297 control_5_th_8 control_5_th_0 2
+1298 control_3_th_1 control_3_th_0 2
+1299 control_ancilla_2_th_8 control_2_th_8 2
+1300 control_4_th_29 control_4_th_13 2
+1301 control_3_th_10 control_3_th_2 2
+1302 control_ancilla_5_th_20 control_ancilla_4_th_20 3
+1303 MAGIC_NODE control_ancilla_2_th_4 8
+1304 system_7_8 control_ancilla_9_th_30 6
+1305 MAGIC_NODE control_ancilla_1_th_0 8
+1306 control_1_th_8 control_1_th_0 2
+1307 system_0_6 control_ancilla_9_th_3 3
+1308 control_ancilla_8_th_1 control_ancilla_7_th_1 21
+1309 control_4_th_5 control_4_th_1 2
+1310 MAGIC_NODE control_ancilla_7_th_9 16
+1311 control_0_th_9 control_0_th_1 2
+1312 control_5_th_7 control_5_th_3 2
+1313 control_ancilla_7_th_9 control_8_th_9 7
+1314 control_9_th_1 control_9_th_0 2
+1315 control_2_th_7 control_2_th_3 2
+1316 MAGIC_NODE control_ancilla_8_th_6 28
+1317 control_1_th_14 control_1_th_6 2
+1318 MAGIC_NODE control_ancilla_8_th_3 28
+1319 control_ancilla_2_th_8 control_ancilla_1_th_8 4
+1320 control_7_th_9 control_7_th_1 2
+1321 system_2_2 control_ancilla_9_th_10 15
+1322 control_3_th_17 control_3_th_1 2
+1323 MAGIC_NODE control_ancilla_9_th_16 56
+1324 control_ancilla_6_th_26 control_6_th_26 2
+1325 control_9_th_24 control_9_th_8 2
+1326 control_ancilla_7_th_26 control_ancilla_6_th_26 11
+1327 system_5_2 control_ancilla_9_th_17 6
+1328 control_5_th_5 control_5_th_1 2
+1329 control_9_th_6 control_9_th_2 2
+1330 control_ancilla_7_th_8 control_8_th_8 7
+1331 control_4_th_13 control_4_th_5 2
+1332 control_9_th_19 control_9_th_3 2
+1333 control_ancilla_5_th_0 control_5_th_0 1
+1334 control_2_th_6 control_2_th_2 2
+1335 system_2_2 control_ancilla_9_th_7 6
+1336 control_6_th_16 control_6_th_0 2
+1337 control_ancilla_4_th_18 control_4_th_18 2
+1338 control_ancilla_8_th_3 control_8_th_3 7
+1339 control_ancilla_2_th_24 control_ancilla_1_th_24 4
+1340 control_1_th_6 control_1_th_2 2
+1341 control_3_th_5 control_3_th_1 2
+1342 control_ancilla_7_th_10 control_8_th_10 7
+1343 control_4_th_1 control_4_th_0 2
+1344 MAGIC_NODE control_ancilla_9_th_0 56
+1345 MAGIC_NODE control_ancilla_5_th_22 4
+1346 control_ancilla_5_th_24 control_5_th_24 1
+1347 control_ancilla_8_th_8 control_ancilla_7_th_8 21
+1348 control_ancilla_4_th_29 control_ancilla_3_th_29 4
+1349 control_ancilla_3_th_20 control_ancilla_2_th_20 4
+1350 MAGIC_NODE control_ancilla_7_th_17 16
+1351 control_ancilla_6_th_1 control_ancilla_5_th_1 6
+1352 control_ancilla_9_th_3 control_ancilla_8_th_3 42
+1353 control_ancilla_3_th_6 control_3_th_6 2
+1354 control_ancilla_8_th_11 control_8_th_11 7
+1355 control_ancilla_3_th_17 control_ancilla_3_th_16 2
+1356 system_4_1 control_ancilla_9_th_17 12
+1357 control_ancilla_8_th_30 control_ancilla_7_th_30 21
+1358 control_7_th_2 control_7_th_0 2
+1359 control_ancilla_4_th_17 control_5_th_17 1
+1360 control_ancilla_9_th_3 control_9_th_3 14
+1361 control_ancilla_3_th_0 control_3_th_0 2
+1362 MAGIC_NODE control_ancilla_6_th_25 8
+1363 control_ancilla_5_th_17 control_6_th_17 2
+1364 system_8_6 control_ancilla_9_th_30 6
+1365 control_0_th_2 control_0_th_0 2
+1366 control_9_th_11 control_9_th_3 2
+1367 MAGIC_NODE control_ancilla_4_th_23 8
+1368 control_6_th_3 control_6_th_1 2
+1369 control_1_th_20 control_1_th_4 2
+1370 control_ancilla_4_th_21 control_5_th_21 1
+1371 system_7_2 control_ancilla_9_th_28 12
+1372 MAGIC_NODE control_ancilla_7_th_15 16
+1373 control_ancilla_7_th_7 control_ancilla_6_th_7 11
+1374 control_ancilla_8_th_9 control_9_th_9 14
+1375 control_ancilla_8_th_10 control_8_th_10 7
+1376 control_9_th_7 control_9_th_3 2
+1377 control_3_th_16 control_3_th_0 2
+1378 control_3_th_3 control_3_th_1 2
+1379 control_ancilla_1_th_12 control_ancilla_1_th_8 2
+1380 control_2_th_23 control_2_th_7 2
+1381 system_5_6 control_ancilla_9_th_22 8
+1382 control_ancilla_8_th_27 control_ancilla_7_th_27 21
+1383 control_5_th_3 control_5_th_1 2
+1384 control_ancilla_9_th_9 control_ancilla_8_th_9 42
+1385 control_5_th_17 control_5_th_1 2
+1386 system_2_1 control_ancilla_9_th_10 12
+1387 control_ancilla_2_th_2 control_ancilla_2_th_0 2
+1388 control_3_th_4 control_3_th_0 2
+1389 control_ancilla_6_th_0 control_7_th_0 4
+1390 control_6_th_28 control_6_th_12 2
+1391 control_ancilla_4_th_17 control_4_th_17 2
+1392 MAGIC_NODE control_ancilla_8_th_26 28
+1393 control_6_th_25 control_6_th_9 2
+1394 control_ancilla_8_th_31 control_9_th_31 14
+1395 system_1_4 control_ancilla_9_th_8 7
+1396 control_0_th_19 control_0_th_3 2
+1397 MAGIC_NODE control_ancilla_8_th_9 28
+1398 control_ancilla_3_th_8 control_ancilla_2_th_8 4
+1399 control_0_th_1 control_0_th_0 2
+1400 system_3_4 control_ancilla_9_th_11 9
+1401 control_8_th_4 control_8_th_0 2
+1402 control_ancilla_9_th_15 control_ancilla_8_th_15 42
+1403 control_1_th_21 control_1_th_5 2
+1404 control_4_th_8 control_4_th_0 2
+1405 control_ancilla_7_th_26 control_8_th_26 7
+1406 control_7_th_11 control_7_th_3 2
+1407 control_6_th_2 control_6_th_0 2
+1408 control_7_th_18 control_7_th_2 2
+1409 control_8_th_2 control_8_th_0 2
+1410 control_ancilla_6_th_20 control_6_th_20 2
+1411 control_6_th_18 control_6_th_2 2
+1412 control_ancilla_6_th_17 control_ancilla_5_th_17 6
+1413 control_ancilla_8_th_5 control_9_th_5 14
+1414 control_4_th_6 control_4_th_2 2
+1415 control_4_th_3 control_4_th_1 2
+1416 system_5_2 control_ancilla_9_th_18 3
+1417 control_ancilla_7_th_11 control_ancilla_6_th_11 11
+1418 control_ancilla_7_th_14 control_ancilla_6_th_14 11
+1419 system_3_1 control_ancilla_9_th_13 14
+1420 control_ancilla_8_th_30 control_9_th_30 14
+1421 control_9_th_2 control_9_th_0 2
+1422 control_ancilla_4_th_16 control_4_th_16 2
+1423 control_2_th_21 control_2_th_5 2
+1424 control_ancilla_6_th_3 control_ancilla_5_th_3 6
+1425 control_5_th_22 control_5_th_6 2
+1426 control_1_th_7 control_1_th_3 2
+1427 control_1_th_2 control_1_th_0 2
+1428 control_6_th_24 control_6_th_8 2
+1429 control_ancilla_5_th_16 control_ancilla_4_th_16 3
+1430 control_7_th_23 control_7_th_7 2
+1431 system_1_3 control_ancilla_9_th_6 1
+1432 control_3_th_12 control_3_th_4 2
+1433 control_8_th_1 control_8_th_0 2
+1434 control_1_th_29 control_1_th_13 2
+1435 control_ancilla_7_th_10 control_7_th_10 4
+1436 control_ancilla_8_th_27 control_8_th_27 7
+1437 control_2_th_1 control_2_th_0 2
+1438 MAGIC_NODE control_ancilla_9_th_25 56
+1439 MAGIC_NODE control_ancilla_6_th_18 8
+1440 control_ancilla_3_th_15 control_ancilla_3_th_14 2

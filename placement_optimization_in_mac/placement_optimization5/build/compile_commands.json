@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/Users/hiraiyuuware/Desktop/placement_optimization5/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin22-g++-14   -g -std=gnu++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -o CMakeFiles/graph_app.dir/main.cpp.o -c /Users/hiraiyuuware/Desktop/placement_optimization5/main.cpp",
+  "file": "/Users/hiraiyuuware/Desktop/placement_optimization5/main.cpp",
+  "output": "CMakeFiles/graph_app.dir/main.cpp.o"
+}
+]

@@ -1,0 +1,17 @@
+\documentclass[a4paper,11pt]{ltjsarticle}
+\input{utility/SETTINGS.tex}
+\begin{document}
+\section{Results}\label{results}{
+    \ \ \ Firstly, we perform the numerical simulations of the pseudo-3D Surface Code, introduced in Section~\ref{pseudo_pseudo-three-dimensional_surface_code}, with the circuit that execute a 2D heisenberg model and compared it to the 2D Surface Code. The results are presented in Fig.~\ref{results_of_pseudo_3D}, where the horizontal and vertical axes represent the instruction number and distance, respectively. The distance refers to the number of patches required for routing operations. The graph illustrates that in the 2D Surface Code, a substantial number of operations exceeded a distance of 100. In contrast, in 3D lattice surgery, the longest operation distance remained below 100. Furthermore, the average distance per operation was significantly reduced from 21.02 in the 2D configuration to 8.43 in the 3D configuration. However, the total time required to execute the entire circuit did not change despite expanding the routing dimension to 3D. Therefore, the pseudo-3D Surface Code does not improve the parallelization of the circuit.
+
+    \begin{figure}[h]
+        \centering
+        \includegraphics[scale=0.5]{figure/results_pseudo_3D.eps}
+        \vspace{-20pt}\caption{}
+        \label{results_of_pseudo_3D}
+    \end{figure}
+    
+    \ \ \ Secondaly, we perform the numerical simulations of the placement optimization, introduced in Section\ref{placement_optimization}
+
+}
+\end{document}

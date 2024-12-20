@@ -1,0 +1,71 @@
+\documentclass[a4paper,11pt]{ltjsarticle}
+\input{utility/SETTINGS.tex}
+\begin{document}
+\section{Placement Optimization}\label{placement_optimization}{
+    \ \ \ In this section, we describe the placement optimization for the patches in the quantum processor. Numerical results are shown in Section~\ref{results}.
+
+    \subsection{Mapping the Circuit to the Graph}{
+        \ \ \ We consider placement optimization based on the number of surgery operations in the quantum circuit. Firstly, we count the number of surgery operations, e.g., multi-body Pauli measurements or CNOT gates, in the circuit. Then, we construct a graph $G(V, E)$ as follows:
+
+        \begin{definition}
+            Let $V$ represent the nodes and $E$ represent the edges in the graph $G(V, E)$. Each patch in the quantum processor and each two-qubit operation are mapped to $V$ and $E$, respectively. Additionally, each edge has a weight $w$, which corresponds to the number of operations associated with the edge.
+        \end{definition}
+
+        Particularly, we denote the patch used to implement T gates as \texttt{MAGIC\_NODE} in the graph. We assume that when performing a T gate on a qubit, we execute a two-qubit operation between the qubit and \texttt{MAGIC\_NODE} instead of performing the T gate directly on the qubit.
+        \ \ \ Now, we present an example of mapping a small circuit. In Table~\ref{circuit_to_be_optimized}, the names of the qubits are shown in the first column, and the instruction numbers, control qubits, target qubits, and weights are shown in the second column. And the result of the mapping Table \ref{circuit_to_be_optimized} is shown in Fig.\ref{mapped_circuit_graph}. The coordinates of the qubits are on the grid. \texttt{MAGIC\_NODE} is fixed at the certain place where magic state factories exists.
+
+        \begin{figure}[h]
+            \centering
+            \includegraphics[scale=0.40]{figure/initial_state.pdf}
+            \vspace{0pt}\caption{}
+            \label{mapped_circuit_graph}
+            \vspace{-10pt}
+        \end{figure}
+
+        \begin{table}[h]
+            \centering
+            \caption{}
+            \label{circuit_to_be_optimized}
+            \resizebox{\textwidth}{!}{
+            \begin{tabular}{|c|c|}
+                \hline
+                qubits (nodes) & instruction\_number control target weight (edges)\\ \hline
+                \begin{minipage}[t]{0.27\textwidth}
+                    \verbatiminput{data/nodes.txt}
+                \end{minipage}&
+                \hspace{0pt}\begin{minipage}[t]{0.60\textwidth}
+                    \verbatiminput{data/edges.txt}
+                \end{minipage}\\ 
+                &\\ \hline
+            \end{tabular}}
+        \end{table}
+        \clearpage
+    }
+
+    \subsection{Potential Energy Model}{
+        \ \ \ In this subsection, we introduce the potential model applied to the graph and allocate the qubits on the grid. Assume that there exists an edge between qubit 1 and qubit 2, with coordinates denoted as $(x_1, y_1)$ and $(x_2, y_2)$ on the grid. The distance between qubit 1 and qubit 2 is defined as $d = |x_1 - x_2| + |y_1 - y_2|$, representing the Manhattan distance. Thus, the potential energy $p(w, d)$ is defined using the weight of the edge and the distance.
+
+        \begin{definition}\label{potential_energy}
+            Assume that $w$ is the weight of an edge in the graph $G(V, E)$ and $d$ is the Manhattan distance between the two qubits. Thus, the potential energy $p(w, d)$ between the two qubits is defined as:
+            \begin{align}
+                p(w, d) = wd^2.
+            \end{align}
+        \end{definition}
+
+        From Definition~\ref{potential_energy}, we can calculate the total potential energy $P$ for all edges in the graph. Thus, the following equation holds:
+        \begin{align}\label{total_potential_energy}
+            P = \sum_{i\in \text{edges}}p_i(w, d).
+        \end{align}
+
+        The procedure for updating the allocation of qubits is as follows. First, select a qubit based on the descending order of the total weight of edges associated with each qubit. Second, randomly choose another qubit within a Manhattan distance of $l$ from the first qubit to consider for exchange. If the total potential energy decreases as a result of the exchange, perform the swap of these qubits. Otherwise, retain their current positions without exchanging them and return to the first step. This procedure continues until the potential energy becomes sufficiently small. In Fig.~\ref{final_state}, the results obtained by reordering the qubits as shown in Fig.~\ref{mapped_circuit_graph} and using the potential energy defined in Eq.~\ref{total_potential_energy} are presented.
+
+        \begin{figure}[h]
+            \centering
+            \includegraphics[scale=0.40]{figure/final_state.pdf}
+            \vspace{0pt}\caption{}
+            \label{final_state}
+            \vspace{-10pt}
+        \end{figure}
+    }
+}
+\end{document}

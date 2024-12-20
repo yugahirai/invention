@@ -1,0 +1,1 @@
+/opt/homebrew/bin/aarch64-apple-darwin22-g++-14 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/graph_app.dir/main.cpp.o -o graph_app

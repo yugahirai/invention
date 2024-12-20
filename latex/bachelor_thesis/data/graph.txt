@@ -1,0 +1,39 @@
+Node
+MAGIC_NODE
+control_0_th_0
+control_1_th_0
+control_2_th_0
+control_3_th_0
+control_4_th_0
+control_ancilla_0_th_0
+control_ancilla_1_th_0
+control_ancilla_2_th_0
+control_ancilla_3_th_0
+control_ancilla_4_th_0
+system_0_0
+system_0_1
+system_1_0
+system_1_1
+
+edge
+1 system_1_1 control_ancilla_4_th_0 9
+2 control_ancilla_0_th_0 control_1_th_0 2
+3 control_ancilla_2_th_0 control_3_th_0 5
+4 system_1_0 control_ancilla_4_th_0 9
+5 control_ancilla_3_th_0 control_4_th_0 9
+6 control_ancilla_4_th_0 control_4_th_0 9
+7 control_ancilla_1_th_0 control_1_th_0 2
+8 MAGIC_NODE control_ancilla_2_th_0 12
+9 control_ancilla_3_th_0 control_ancilla_2_th_0 14
+10 system_0_1 control_ancilla_4_th_0 9
+11 control_ancilla_2_th_0 control_2_th_0 3
+12 MAGIC_NODE control_ancilla_3_th_0 20
+13 system_0_0 control_ancilla_4_th_0 9
+14 control_ancilla_2_th_0 control_ancilla_1_th_0 8
+15 control_ancilla_1_th_0 control_2_th_0 3
+16 control_ancilla_4_th_0 control_ancilla_3_th_0 27
+17 control_ancilla_0_th_0 control_0_th_0 2
+18 control_ancilla_3_th_0 control_3_th_0 5
+19 control_ancilla_1_th_0 control_ancilla_0_th_0 5
+20 MAGIC_NODE control_ancilla_4_th_0 36
+21 MAGIC_NODE control_ancilla_1_th_0 8

@@ -1,0 +1,15 @@
+MAGIC_NODE
+control_0_th_0
+control_1_th_0
+control_2_th_0
+control_3_th_0
+control_4_th_0
+control_ancilla_0_th_0
+control_ancilla_1_th_0
+control_ancilla_2_th_0
+control_ancilla_3_th_0
+control_ancilla_4_th_0
+system_0_0
+system_0_1
+system_1_0
+system_1_1
