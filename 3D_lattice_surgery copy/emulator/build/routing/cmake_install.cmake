@@ -1,4 +1,4 @@
-# Install script for directory: /Users/hiraiyuuware/Desktop/3D_lattice_surgery copy/emulator/routing
+# Install script for directory: /Users/hiraiyuuware/Desktop/invention/3D_lattice_surgery copy/emulator/routing
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

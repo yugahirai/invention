@@ -7,11 +7,11 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "/Users/hiraiyuuware/Desktop/3D_lattice_surgery copy/emulator/CMakeLists.txt"
+  "/Users/hiraiyuuware/Desktop/invention/3D_lattice_surgery copy/emulator/CMakeLists.txt"
   "CMakeFiles/3.30.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.30.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.30.2/CMakeSystem.cmake"
-  "/Users/hiraiyuuware/Desktop/3D_lattice_surgery copy/emulator/routing/CMakeLists.txt"
+  "/Users/hiraiyuuware/Desktop/invention/3D_lattice_surgery copy/emulator/routing/CMakeLists.txt"
   "/opt/homebrew/Cellar/cmake/3.30.2/share/cmake/Modules/CMakeCCompiler.cmake.in"
   "/opt/homebrew/Cellar/cmake/3.30.2/share/cmake/Modules/CMakeCCompilerABI.c"
   "/opt/homebrew/Cellar/cmake/3.30.2/share/cmake/Modules/CMakeCInformation.cmake"

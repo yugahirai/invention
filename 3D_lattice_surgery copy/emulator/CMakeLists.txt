@@ -5,7 +5,7 @@ project(QuantumSimulatorPipeline)
 # Build and run routing
 add_subdirectory(routing)
 add_custom_target(run_routing
-    COMMAND ${CMAKE_BINARY_DIR}/routing/program2 ../../circuit_synth/circuit/result_SELECT_7_Heisenberg2D_cylinder_0.5_0.5_3.raw ../routing/placement.txt result.txt 20 100
+    COMMAND ${CMAKE_BINARY_DIR}/routing/program2 ../../circuit_synth/circuit/result_SELECT_6_Heisenberg2D_cylinder_0.5_0.5_6.raw ../routing/placement.txt result.txt 20 100
     #../../circuit_synth/circuit/result_SELECT_6_Heisenberg2D_cylinder_0.5_0.5_3.raw ../routing/placement.txt result.txt 13 100
     DEPENDS routing/program2
     WORKING_DIRECTORY ${CMAKE_SOURCE_DIR}/routing

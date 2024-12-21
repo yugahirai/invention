@@ -2,7 +2,7 @@
 \input{utility/SETTINGS.tex}
 \begin{document}
 \section{Results}\label{results}{
-    \ \ \ Firstly, we perform the numerical simulations of the pseudo-3D Surface Code, introduced in Section~\ref{pseudo_pseudo-three-dimensional_surface_code}, with the circuit that execute a 2D heisenberg model and compared it to the 2D Surface Code. The results are presented in Fig.~\ref{results_of_pseudo_3D}, where the horizontal and vertical axes represent the instruction number and distance, respectively. The distance refers to the number of patches required for routing operations. The graph illustrates that in the 2D Surface Code, a substantial number of operations exceeded a distance of 100. In contrast, in 3D lattice surgery, the longest operation distance remained below 100. Furthermore, the average distance per operation was significantly reduced from 21.02 in the 2D configuration to 8.43 in the 3D configuration. However, the total time required to execute the entire circuit did not change despite expanding the routing dimension to 3D. Therefore, the pseudo-3D Surface Code does not improve the parallelization of the circuit.
+    \ \ \ Firstly, we perform numerical simulations of the pseudo-3D Surface Code, introduced in Section~\ref{pseudo_pseudo-three-dimensional_surface_code}, using a circuit that executes a 2D Heisenberg model and compare it to the 2D Surface Code. The results are presented in Fig.~\ref{results_of_pseudo_3D}, and a more complex system is shown in Fig.~\ref{results_of_pseudo_3D_1}. In these figures, the horizontal and vertical axes represent the instruction number and distance, respectively, where distance refers to the number of patches required for routing operations.\\
 
     \begin{figure}[h]
         \centering
@@ -10,8 +10,44 @@
         \vspace{-20pt}\caption{}
         \label{results_of_pseudo_3D}
     \end{figure}
-    
-    \ \ \ Secondaly, we perform the numerical simulations of the placement optimization, introduced in Section\ref{placement_optimization}
 
+    \ \ \ In Fig.~\ref{results_of_pseudo_3D}, the graph illustrates that in the 2D Surface Code, a substantial number of operations exceeded a distance of 30. In contrast, in the 3D Surface Code, the longest operation distance remained below 30. Furthermore, the average distance per operation was significantly reduced from 8.18 in the 2D configuration to 5.36 in the 3D configuration, resulting in an approximately 66\% improvement in overall circuit distance. However, the total time required to execute the entire circuit did not change despite expanding the routing dimension to 3D.
+
+    \begin{figure}[h]
+        \centering
+        \includegraphics[scale=0.5]{figure/results_pseudo_3D_1.eps}
+        \vspace{-20pt}\caption{}
+        \label{results_of_pseudo_3D_1}
+    \end{figure}
+
+    In the more complex system shown in Fig.~\ref{results_of_pseudo_3D_1}, similar improvements are observed, further demonstrating the effectiveness of the pseudo-3D Surface Code in reducing operation distances. The average distance per operation was significantly reduced from 18.64 in the 2D configuration to 9.74 in the 3D configuration, resulting in an approximately 52\% improvement in overall circuit distance. However, the total time required to execute the entire circuit did not change in the more complex system. Therefore, the pseudo-3D Surface Code does not improve the parallelization of the circuit.
+    \clearpage
+
+    \ \ \ Secondly, we perform numerical simulations of the placement optimization method introduced in Section~\ref{placement_optimization}. The results are presented in Fig.~\ref{placement_optimization_2D} for the 2D case and Fig.~\ref{placement_optimization_3D} for the 3D case. Additionally, the graphs which are optimized by the potential energy model are shown in Fig.\ref{} and Fig.\ref{}.
+    \begin{figure}[h]
+        \centering
+        \includegraphics[scale=0.5]{figure/placement_optimization_2D.eps}
+        \vspace{-20pt}\caption{}
+        \label{placement_optimization_2D}
+    \end{figure}
+    
+    \begin{figure}[h]
+        \centering
+        \includegraphics[scale=0.5]{figure/placement_optimization_3D.eps}
+        \vspace{-20pt}\caption{}
+        \label{placement_optimization_3D}
+    \end{figure}
+    \clearpage
+
+    \begin{figure}[h]
+        \centering
+        \includegraphics[scale=0.60]{figure/graph_2D.eps}
+        \vspace{0pt}\caption{}
+        \label{graph_2D}
+        \includegraphics[scale=0.60]{figure/graph_3D.eps}
+        \vspace{0pt}\caption{}
+        \label{graph_3D}
+    \end{figure}
 }
+
 \end{document}

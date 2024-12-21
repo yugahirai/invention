@@ -9,7 +9,10 @@
 #include <cmath> // for std::sqrt, std::ceil
 
 // ノード（qubit）のペアをカウントする関数
-void countQubitPairs(const std::string& filename, std::unordered_map<std::string, int>& edgeCountMap, std::set<std::string>& nodes) {
+void countQubitPairs(const std::string& filename, 
+                     std::unordered_map<std::string, int>& edgeCountMap, 
+                     std::set<std::string>& nodes)
+{
     std::ifstream file(filename);
     std::string line;
 
@@ -23,8 +26,6 @@ void countQubitPairs(const std::string& filename, std::unordered_map<std::string
         if (gate == "CX") {
             // ペアを標準化して順序を統一
             std::string edge = qubit1 + "-" + qubit2;
-
-            // ペアの出現回数をカウント
             edgeCountMap[edge]++;
 
             // ノードをセットに追加
@@ -32,79 +33,105 @@ void countQubitPairs(const std::string& filename, std::unordered_map<std::string
             nodes.insert(qubit2);
         }
 
+        // MAGIC_MOVE, MAGIC_MZZ の場合 "MAGIC_NODE-xxx" というエッジとしてカウント
         if (gate == "MAGIC_MOVE" || gate == "MAGIC_MZZ") {
             std::string edge = "MAGIC_NODE-" + qubit1;
-
-            // ペアの出現回数をカウント
             edgeCountMap[edge]++;
-
-            // ノードをセットに追加
             nodes.insert("MAGIC_NODE");
         }
     }
-
     file.close();
 }
 
-// ノードとエッジをgraph.txtに書き出す関数（zが0～3に収まる3次元座標対応）
-void writeGraphToFile(const std::string& filename, const std::set<std::string>& nodes, const std::unordered_map<std::string, int>& edgeCountMap) {
+// ノードとエッジをgraph.txtに書き出す関数
+// (1) MAGIC_NODE は (-1,0,0) に固定
+// (2) 残りのノードを 4層(z=0,1,2,3)に均等割りして配置
+void writeGraphToFile(const std::string& filename,
+                      const std::set<std::string>& nodes,
+                      const std::unordered_map<std::string, int>& edgeCountMap)
+{
     std::ofstream file(filename);
-
     if (!file) {
         std::cerr << "Error: Could not open file for writing: " << filename << std::endl;
         return;
     }
 
-    // ノードベクトル化
+    // すべてのノードをベクトル化
     std::vector<std::string> nodeList(nodes.begin(), nodes.end());
-    int N = (int)nodeList.size();
+    int N = static_cast<int>(nodeList.size());
 
-    // z座標0～3(計4層)に収まるようにする
-    // 4層でNノードを配置するには、各層あたり約N/4個。
-    // 各層D×Dノード配置するとして 4*D^2 >= N を満たすDを求める。
-    // D >= sqrt(N/4) → D = ceil(sqrt((N+3)/4.0)) としておく（+3は余裕分）
-    int D = (int)std::ceil(std::sqrt((N + 3) / 4.0));
-
-    // ノードの出力 ("Node"ヘッダの後に x,y,z座標も出力)
-    file << "Node\n";
-    for (int i = 0; i < N; i++) {
-        int z = i / (D * D);
-        int layerIndex = i % (D * D);
-        int y = (layerIndex / D);
-        int x = (layerIndex % D);
-
-        // zが0～3の範囲に収まっているかチェック（理論上満たされるはず）
-        // if (z > 3) ... // 必要ならエラーチェック
-
-        file << nodeList[i] << " " << x << " " << y << " " << z << "\n";
+    // (A) MAGIC_NODE を取り除き、別で扱う
+    bool hasMagicNode = false;
+    {
+        auto it = std::find(nodeList.begin(), nodeList.end(), "MAGIC_NODE");
+        if (it != nodeList.end()) {
+            hasMagicNode = true;
+            nodeList.erase(it);  // レイヤリングから除外
+        }
     }
 
-    // エッジの出力
+    // Node出力開始
+    file << "Node\n";
+
+    // (B) 残りノード数を4層に均等割り
+    N = static_cast<int>(nodeList.size());
+    int base = N / 4;         // 各層に最低限入る数
+    int remainder = N % 4;    // 余ったものを上から順に足していく
+    int index = 0;            // nodeList 上の走査位置
+
+    for (int layer = 0; layer < 4; ++layer) {
+        // この層に割り当てるノード数
+        int layerSize = base + ((layer < remainder) ? 1 : 0);
+
+        // layerSize個のノードを置くための 2D グリッドサイズ Dk
+        int Dk = static_cast<int>(std::ceil(std::sqrt(layerSize)));
+
+        for (int i = 0; i < layerSize; ++i) {
+            if (index >= N) break; // 念のため
+
+            int x = i % Dk;
+            int y = i / Dk;
+            // ノード名, x, y, z
+            file << nodeList[index] << " " << x << " " << y << " " << layer << "\n";
+
+            index++;
+        }
+    }
+
+    // (C) MAGIC_NODEを (-1,0,0) に固定配置
+    if (hasMagicNode) {
+        file << "MAGIC_NODE -1 0 0\n";
+    }
+
+    // 空行を入れて edge セクションへ
     file << "\nedge\n";
     int edgeId = 1;
-    for (const auto& pair : edgeCountMap) {
-        std::string edge = pair.first;
+    for (const auto& kv : edgeCountMap) {
+        std::string edge = kv.first;
+        int weight = kv.second;
 
-        // エッジの "-" をスペースに置き換える
+        // '-' を空白に置き換える
         std::replace(edge.begin(), edge.end(), '-', ' ');
 
-        // ファイルにエッジを書き出す
-        file << edgeId << " " << edge << " " << pair.second << "\n";
+        // edgeId, node1, node2, weight
+        file << edgeId << " " << edge << " " << weight << "\n";
         edgeId++;
     }
 
     file.close();
-    std::cout << "Graph data with 3D coordinates (z in [0,3]) saved to " << filename << std::endl;
+    std::cout << "Graph data saved to " << filename 
+              << " (MAGIC_NODE at (-1,0,0), others in z=[0..3])" << std::endl;
 }
 
 int main() {
     std::unordered_map<std::string, int> edgeCountMap;
     std::set<std::string> nodes;
 
-    // ファイルからqubitのペアをカウント
-    countQubitPairs("circuit/result_SELECT_7_Heisenberg2D_cylinder_0.5_0.5_3.raw", edgeCountMap, nodes);
+    // ファイルから Qubit のペアをカウント
+    countQubitPairs("circuit/result_SELECT_6_Heisenberg2D_cylinder_0.5_0.5_6.raw",
+                    edgeCountMap, nodes);
 
-    // カウントされたノードとエッジをgraph.txtに書き出し（z=0~3に抑える）
+    // 各層のレイヤリング & MAGIC_NODE 固定
     writeGraphToFile("graph.txt", nodes, edgeCountMap);
 
     return 0;

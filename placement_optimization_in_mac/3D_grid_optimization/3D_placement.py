@@ -43,13 +43,15 @@ def main():
     with open(input_file, 'r', encoding='utf-8') as fin, open(output_file, 'w', encoding='utf-8') as fout:
         for line in fin:
             line = line.strip()
+
+            # ALLOCATE行の座標を変換して出力
             if line.startswith("ALLOCATE"):
                 parts = line.split()
                 name = parts[1]
                 x = int(parts[2])
                 y = int(parts[3])
 
-                # 象限判定と新座標計算
+                # 象限判定と新座標計算 (4分割)
                 if x < mid_x and y < mid_y:
                     z = 0
                     x_new = x - min_x
@@ -62,19 +64,24 @@ def main():
                     z = 2
                     x_new = x - min_x
                     y_new = y - mid_y
-                else: # x >= mid_x and y >= mid_y
+                else:  # x >= mid_x and y >= mid_y
                     z = 3
                     x_new = x - mid_x
                     y_new = y - mid_y
 
-                # X座標にオフセット3、Y座標にオフセット2を追加
+                # X座標オフセット +3、Y座標オフセット +1
                 x_new += 3
-                y_new += 2
+                y_new += 1
 
-                # 新しい3D座標で出力
                 fout.write(f"ALLOCATE {name} {x_new} {y_new} {z}\n")
+            
+            # MAGIC行については z=0 を付加して出力
+            elif line.startswith("MAGIC"):
+                # 例: "MAGIC magic0 0 0" -> "MAGIC magic0 0 0 0"
+                fout.write(line + " 0\n")
+            
+            # それ以外の行はそのまま出力
             else:
-                # その他行(MAGIC等)はそのまま
                 fout.write(line + "\n")
 
     print("3Dへの変換が完了しました。'placement_3d.txt'に出力しました。")

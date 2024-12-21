@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.30.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/hiraiyuuware/Desktop/3D_lattice_surgery copy/emulator"
+CMAKE_SOURCE_DIR = "/Users/hiraiyuuware/Desktop/invention/3D_lattice_surgery copy/emulator"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/hiraiyuuware/Desktop/3D_lattice_surgery copy/emulator/build"
+CMAKE_BINARY_DIR = "/Users/hiraiyuuware/Desktop/invention/3D_lattice_surgery copy/emulator/build"
 
 # Utility rule file for run_all.
 
@@ -81,6 +81,6 @@ CMakeFiles/run_all.dir/clean:
 .PHONY : CMakeFiles/run_all.dir/clean
 
 CMakeFiles/run_all.dir/depend:
-	cd "/Users/hiraiyuuware/Desktop/3D_lattice_surgery copy/emulator/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/hiraiyuuware/Desktop/3D_lattice_surgery copy/emulator" "/Users/hiraiyuuware/Desktop/3D_lattice_surgery copy/emulator" "/Users/hiraiyuuware/Desktop/3D_lattice_surgery copy/emulator/build" "/Users/hiraiyuuware/Desktop/3D_lattice_surgery copy/emulator/build" "/Users/hiraiyuuware/Desktop/3D_lattice_surgery copy/emulator/build/CMakeFiles/run_all.dir/DependInfo.cmake" "--color=$(COLOR)"
+	cd "/Users/hiraiyuuware/Desktop/invention/3D_lattice_surgery copy/emulator/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/hiraiyuuware/Desktop/invention/3D_lattice_surgery copy/emulator" "/Users/hiraiyuuware/Desktop/invention/3D_lattice_surgery copy/emulator" "/Users/hiraiyuuware/Desktop/invention/3D_lattice_surgery copy/emulator/build" "/Users/hiraiyuuware/Desktop/invention/3D_lattice_surgery copy/emulator/build" "/Users/hiraiyuuware/Desktop/invention/3D_lattice_surgery copy/emulator/build/CMakeFiles/run_all.dir/DependInfo.cmake" "--color=$(COLOR)"
 .PHONY : CMakeFiles/run_all.dir/depend
 

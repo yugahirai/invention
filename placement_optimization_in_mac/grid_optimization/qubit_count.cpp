@@ -82,7 +82,7 @@ int main() {
     std::set<std::string> nodes;
 
     // ファイルからqubitのペアをカウント
-    countQubitPairs("circuit/result_SELECT_7_Heisenberg2D_cylinder_0.5_0.5_6.raw", edgeCountMap, nodes);
+    countQubitPairs("circuit/result_SELECT_6_Heisenberg2D_cylinder_0.5_0.5_6.raw", edgeCountMap, nodes);
     //result_SELECT_10_Heisenberg2D_cylinder_0.5_0.5_6.raw
     // カウントされたノードとエッジをgraph.txtに書き出し
     writeGraphToFile("graph.txt", nodes, edgeCountMap);

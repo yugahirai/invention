@@ -85,7 +85,7 @@ We can check the routing and placement with `ftqc_routing_visualize`. The usage 
 The instruction queue is a maxmimum number of instruction distance that become the target of simultaneous execution.
 For example, the following codes will work for example.
 ```
-./bin/ftqc_routing_visualize ../circuit_synth/circuit/result_SELECT_6_Heisenberg2D_cylinder_0.5_0.5_6.raw placement.txt result.txt 20 100
+./bin/ftqc_routing_visualize ../circuit_synth/circuit/result_SELECT_6_Heisenberg2D_cylinder_0.5_0.5_2.raw placement.txt result.txt 20 100
 ```
 
 Animation will progress in each key push.

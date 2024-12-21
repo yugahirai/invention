@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.30.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/hiraiyuuware/Desktop/3D_lattice_surgery copy/emulator"
+CMAKE_SOURCE_DIR = "/Users/hiraiyuuware/Desktop/invention/3D_lattice_surgery copy/emulator"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/hiraiyuuware/Desktop/3D_lattice_surgery copy/emulator/build"
+CMAKE_BINARY_DIR = "/Users/hiraiyuuware/Desktop/invention/3D_lattice_surgery copy/emulator/build"
 
 # Utility rule file for run_routing.
 
@@ -67,7 +67,7 @@ include CMakeFiles/run_routing.dir/compiler_depend.make
 include CMakeFiles/run_routing.dir/progress.make
 
 CMakeFiles/run_routing: routing/program2
-	cd "/Users/hiraiyuuware/Desktop/3D_lattice_surgery copy/emulator/routing" && "/Users/hiraiyuuware/Desktop/3D_lattice_surgery copy/emulator/build/routing/program2" ../../circuit_synth/circuit/result_SELECT_7_Heisenberg2D_cylinder_0.5_0.5_3.raw ../routing/placement.txt result.txt 20 100
+	cd "/Users/hiraiyuuware/Desktop/invention/3D_lattice_surgery copy/emulator/routing" && "/Users/hiraiyuuware/Desktop/invention/3D_lattice_surgery copy/emulator/build/routing/program2" ../../circuit_synth/circuit/result_SELECT_6_Heisenberg2D_cylinder_0.5_0.5_6.raw ../routing/placement.txt result.txt 20 100
 
 run_routing: CMakeFiles/run_routing
 run_routing: CMakeFiles/run_routing.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/run_routing.dir/clean:
 .PHONY : CMakeFiles/run_routing.dir/clean
 
 CMakeFiles/run_routing.dir/depend:
-	cd "/Users/hiraiyuuware/Desktop/3D_lattice_surgery copy/emulator/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/hiraiyuuware/Desktop/3D_lattice_surgery copy/emulator" "/Users/hiraiyuuware/Desktop/3D_lattice_surgery copy/emulator" "/Users/hiraiyuuware/Desktop/3D_lattice_surgery copy/emulator/build" "/Users/hiraiyuuware/Desktop/3D_lattice_surgery copy/emulator/build" "/Users/hiraiyuuware/Desktop/3D_lattice_surgery copy/emulator/build/CMakeFiles/run_routing.dir/DependInfo.cmake" "--color=$(COLOR)"
+	cd "/Users/hiraiyuuware/Desktop/invention/3D_lattice_surgery copy/emulator/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/hiraiyuuware/Desktop/invention/3D_lattice_surgery copy/emulator" "/Users/hiraiyuuware/Desktop/invention/3D_lattice_surgery copy/emulator" "/Users/hiraiyuuware/Desktop/invention/3D_lattice_surgery copy/emulator/build" "/Users/hiraiyuuware/Desktop/invention/3D_lattice_surgery copy/emulator/build" "/Users/hiraiyuuware/Desktop/invention/3D_lattice_surgery copy/emulator/build/CMakeFiles/run_routing.dir/DependInfo.cmake" "--color=$(COLOR)"
 .PHONY : CMakeFiles/run_routing.dir/depend
 

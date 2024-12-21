@@ -141,7 +141,7 @@ SimulatorConfig load_config_file(string instruction_filename, string placement_f
     
     chip_width += 2;
     chip_depth = 4;
-    chip_height = 45;
+    chip_height = 26;
     
 
     for (const auto& inst : inst_list){

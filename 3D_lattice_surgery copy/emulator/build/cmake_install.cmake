@@ -1,4 +1,4 @@
-# Install script for directory: /Users/hiraiyuuware/Desktop/3D_lattice_surgery copy/emulator
+# Install script for directory: /Users/hiraiyuuware/Desktop/invention/3D_lattice_surgery copy/emulator
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/hiraiyuuware/Desktop/3D_lattice_surgery copy/emulator/build/routing/cmake_install.cmake")
+  include("/Users/hiraiyuuware/Desktop/invention/3D_lattice_surgery copy/emulator/build/routing/cmake_install.cmake")
 
 endif()
 
@@ -58,6 +58,6 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-  file(WRITE "/Users/hiraiyuuware/Desktop/3D_lattice_surgery copy/emulator/build/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "/Users/hiraiyuuware/Desktop/invention/3D_lattice_surgery copy/emulator/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

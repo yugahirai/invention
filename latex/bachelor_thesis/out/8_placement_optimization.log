@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.16.0 (TeX Live 2023)  (format=lualatex 2023.10.26)  20 DEC 2024 15:14
+This is LuaHBTeX, Version 1.16.0 (TeX Live 2023)  (format=lualatex 2023.10.26)  21 DEC 2024 19:17
  restricted system commands enabled.
 **/Users/hiraiyuuware/Desktop/invention/latex/bachelor_thesis/8_placement_optimization.tex
 (/Users/hiraiyuuware/Desktop/invention/latex/bachelor_thesis/8_placement_optimization.tex
@@ -1777,7 +1777,7 @@ warning  (file figure/final_state.pdf) (pdf inclusion): PDF inclusion: found PDF
 <figure/final_state.pdf, id=59, 583.17876pt x 482.80376pt>
 File: figure/final_state.pdf Graphic file (type pdf)
 <use figure/final_state.pdf>
-Package luatex.def Info: figure/final_state.pdf  used on input line 65.
+Package luatex.def Info: figure/final_state.pdf  used on input line 64.
 (luatex.def)             Requested size: 233.26736pt x 193.11807pt.
 \tf@thm=\write8
 
@@ -1800,12 +1800,12 @@ Here is how much of LuaTeX's memory you used:
  156562,1977958 words of node,token memory allocated
  1274 words of node memory still in use:
    11 hlist, 2 vlist, 5 rule, 2 glue, 4 kern, 1 glyph, 236 attribute, 81 glue_spec, 33 attribute_list, 2 write, 14 user_defined nodes
-   avail lists: 1:26,2:44360,3:355,4:305,5:377,6:87,7:6552,8:19,9:394,10:7,11:345
+   avail lists: 1:26,2:44360,3:355,4:305,5:377,6:87,7:6552,8:20,9:394,10:7,11:345
  59762 multiletter control sequences out of 65536+600000
  80 fonts using 54632551 bytes
  118i,12n,118p,1850b,1766s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman7-regular.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on 8_placement_optimization.pdf (3 pages, 145203 bytes).
+Output written on 8_placement_optimization.pdf (3 pages, 145859 bytes).
 
 PDF statistics: 150 PDF objects out of 1000 (max. 8388607)
  108 compressed objects within 2 object streams
