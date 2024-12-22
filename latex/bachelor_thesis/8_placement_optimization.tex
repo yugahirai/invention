@@ -47,16 +47,14 @@
 
         \begin{definition}\label{potential_energy}
             Assume that $w$ is the weight of an edge in the graph $G(V, E)$ and $d$ is the Manhattan distance between the two qubits. Thus, the potential energy $p(w, d)$ between the two qubits is defined as:
-            \begin{align}
+            \begin{align}\label{equation_of_potential_energy}
                 p(w, d) = wd^2.
             \end{align}
         \end{definition}
-
         From Definition~\ref{potential_energy}, we can calculate the total potential energy $P$ for all edges in the graph. Thus, the following equation holds:
         \begin{align}\label{total_potential_energy}
             P = \sum_{i\in \text{edges}}p_i(w, d).
         \end{align}
-
         The procedure for updating the allocation of qubits is as follows. First, select a qubit based on the descending order of the total weight of edges associated with each qubit. Second, randomly choose another qubit within a Manhattan distance of $l$ from the first qubit to consider for exchange. If the total potential energy decreases as a result of the exchange, perform the swap of these qubits. Otherwise, retain their current positions without exchanging them and return to the first step. This procedure continues until the potential energy becomes sufficiently small. In Fig.~\ref{final_state}, the results obtained by reordering the qubits as shown in Fig.~\ref{mapped_circuit_graph} and using the potential energy defined in Eq.~\ref{total_potential_energy} are presented.
 
         \begin{figure}[h]

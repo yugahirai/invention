@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.16.0 (TeX Live 2023)  (format=lualatex 2023.10.26)  21 DEC 2024 19:50
+This is LuaHBTeX, Version 1.16.0 (TeX Live 2023)  (format=lualatex 2023.10.26)  22 DEC 2024 10:58
  restricted system commands enabled.
 **/Users/hiraiyuuware/Desktop/invention/latex/bachelor_thesis/main.tex
 (/Users/hiraiyuuware/Desktop/invention/latex/bachelor_thesis/main.tex
@@ -1780,52 +1780,52 @@ Package hyperref Info: bookmark level for unknown definition defaults to 0 on in
 
 ]
 Package epstopdf Info: Output file is already uptodate.
-<figure/clifford_and_nonclifford-eps-converted-to.pdf, id=172, 551.05875pt x 829.0975pt>
+<figure/clifford_and_nonclifford-eps-converted-to.pdf, id=176, 551.05875pt x 829.0975pt>
 File: figure/clifford_and_nonclifford-eps-converted-to.pdf Graphic file (type pdf)
 <use figure/clifford_and_nonclifford-eps-converted-to.pdf>
 Package luatex.def Info: figure/clifford_and_nonclifford-eps-converted-to.pdf  used on input line 68.
 (luatex.def)             Requested size: 358.18393pt x 538.907pt.
  [5<./figure/clifford_and_nonclifford-eps-converted-to.pdf>]) (./3_stabilizer_formalism.tex
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
-(Font)              scaled to size 6.47295pt on input line 11.
+(Font)              scaled to size 6.47295pt on input line 10.
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
-(Font)              scaled to size 4.62357pt on input line 11.
+(Font)              scaled to size 4.62357pt on input line 10.
  [6
 
 ]
 Package epstopdf Info: Output file is already uptodate.
-<figure/encoding_repetition-eps-converted-to.pdf, id=213, 314.17375pt x 361.35pt>
+<figure/encoding_repetition-eps-converted-to.pdf, id=217, 314.17375pt x 361.35pt>
 File: figure/encoding_repetition-eps-converted-to.pdf Graphic file (type pdf)
 <use figure/encoding_repetition-eps-converted-to.pdf>
-Package luatex.def Info: figure/encoding_repetition-eps-converted-to.pdf  used on input line 42.
+Package luatex.def Info: figure/encoding_repetition-eps-converted-to.pdf  used on input line 41.
 (luatex.def)             Requested size: 125.66727pt x 144.53743pt.
- [7<./figure/encoding_repetition-eps-converted-to.pdf>] [8]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[9]
+ [7<./figure/encoding_repetition-eps-converted-to.pdf>] [8] [9]
 Package epstopdf Info: Output file is already uptodate.
-<figure/syndrome_measurement_circuit-eps-converted-to.pdf, id=248, 1358.07375pt x 874.26625pt>
+<figure/syndrome_measurement_circuit-eps-converted-to.pdf, id=252, 1358.07375pt x 874.26625pt>
 File: figure/syndrome_measurement_circuit-eps-converted-to.pdf Graphic file (type pdf)
 <use figure/syndrome_measurement_circuit-eps-converted-to.pdf>
-Package luatex.def Info: figure/syndrome_measurement_circuit-eps-converted-to.pdf  used on input line 151.
+Package luatex.def Info: figure/syndrome_measurement_circuit-eps-converted-to.pdf  used on input line 140.
 (luatex.def)             Requested size: 407.42526pt x 262.28189pt.
  [10<./figure/syndrome_measurement_circuit-eps-converted-to.pdf>]) (./4_surface_code.tex
 Package epstopdf Info: Output file is already uptodate.
-<figure/torus-eps-converted-to.pdf, id=270, 1741.50626pt x 1051.93pt>
+<figure/torus-eps-converted-to.pdf, id=274, 1741.50626pt x 1051.93pt>
 File: figure/torus-eps-converted-to.pdf Graphic file (type pdf)
 <use figure/torus-eps-converted-to.pdf>
 Package luatex.def Info: figure/torus-eps-converted-to.pdf  used on input line 11.
 (luatex.def)             Requested size: 348.29507pt x 210.38226pt.
- [11<./figure/torus-eps-converted-to.pdf>]
 Package epstopdf Info: Output file is already uptodate.
-<figure/local-eps-converted-to.pdf, id=288, 723.70375pt x 723.70375pt>
+<figure/local-eps-converted-to.pdf, id=279, 723.70375pt x 723.70375pt>
 File: figure/local-eps-converted-to.pdf Graphic file (type pdf)
 <use figure/local-eps-converted-to.pdf>
 Package luatex.def Info: figure/local-eps-converted-to.pdf  used on input line 27.
 (luatex.def)             Requested size: 289.47636pt x 289.47636pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[11<./figure/torus-eps-converted-to.pdf>]
 Package epstopdf Info: Output file is already uptodate.
-<figure/logical_operator-eps-converted-to.pdf, id=293, 841.1425pt x 855.195pt>
+<figure/logical_operator-eps-converted-to.pdf, id=299, 841.1425pt x 855.195pt>
 File: figure/logical_operator-eps-converted-to.pdf Graphic file (type pdf)
 <use figure/logical_operator-eps-converted-to.pdf>
 Package luatex.def Info: figure/logical_operator-eps-converted-to.pdf  used on input line 43.
@@ -1835,28 +1835,37 @@ Package luatex.def Info: figure/logical_operator-eps-converted-to.pdf  used on i
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 Package epstopdf Info: Output file is already uptodate.
-<figure/planar-eps-converted-to.pdf, id=295, 599.23875pt x 651.43375pt>
+<figure/planar-eps-converted-to.pdf, id=301, 599.23875pt x 651.43375pt>
 File: figure/planar-eps-converted-to.pdf Graphic file (type pdf)
 <use figure/planar-eps-converted-to.pdf>
 Package luatex.def Info: figure/planar-eps-converted-to.pdf  used on input line 56.
 (luatex.def)             Requested size: 179.77301pt x 195.43163pt.
-[12<./figure/local-eps-converted-to.pdf>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 Package epstopdf Info: Output file is already uptodate.
-<figure/logical_operator_planar-eps-converted-to.pdf, id=317, 770.88pt x 753.81625pt>
+<figure/logical_operator_planar-eps-converted-to.pdf, id=304, 770.88pt x 753.81625pt>
 File: figure/logical_operator_planar-eps-converted-to.pdf Graphic file (type pdf)
 <use figure/logical_operator_planar-eps-converted-to.pdf>
 Package luatex.def Info: figure/logical_operator_planar-eps-converted-to.pdf  used on input line 66.
 (luatex.def)             Requested size: 231.26578pt x 226.14662pt.
- [13<./figure/logical_operator-eps-converted-to.pdf><./figure/planar-eps-converted-to.pdf>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[12<./figure/local-eps-converted-to.pdf>]
 Package epstopdf Info: Output file is already uptodate.
-<figure/rotated_surface_code-eps-converted-to.pdf, id=344, 1906.12125pt x 806.01125pt>
+<figure/rotated_surface_code-eps-converted-to.pdf, id=326, 1906.12125pt x 806.01125pt>
 File: figure/rotated_surface_code-eps-converted-to.pdf Graphic file (type pdf)
 <use figure/rotated_surface_code-eps-converted-to.pdf>
 Package luatex.def Info: figure/rotated_surface_code-eps-converted-to.pdf  used on input line 77.
 (luatex.def)             Requested size: 476.52914pt x 201.50232pt.
-) [14<./figure/logical_operator_planar-eps-converted-to.pdf><./figure/rotated_surface_code-eps-converted-to.pdf>] (./5_lattice_surgery.tex
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [13<./figure/logical_operator-eps-converted-to.pdf><./figure/planar-eps-converted-to.pdf>] [14<./figure/logical_operator_planar-eps-converted-to.pdf><./figure/rotated_surface_code-eps-converted-to.pdf>] (./5_lattice_surgery.tex
 Package epstopdf Info: Output file is already uptodate.
-<figure/merging-eps-converted-to.pdf, id=371, 1772.6225pt x 966.61125pt>
+<figure/merging-eps-converted-to.pdf, id=373, 1772.6225pt x 966.61125pt>
 File: figure/merging-eps-converted-to.pdf Graphic file (type pdf)
 <use figure/merging-eps-converted-to.pdf>
 Package luatex.def Info: figure/merging-eps-converted-to.pdf  used on input line 12.
@@ -1865,20 +1874,20 @@ Package luatex.def Info: figure/merging-eps-converted-to.pdf  used on input line
 
 <./figure/merging-eps-converted-to.pdf>]
 Package epstopdf Info: Output file is already uptodate.
-<figure/splitting-eps-converted-to.pdf, id=397, 1791.69376pt x 1062.97125pt>
+<figure/splitting-eps-converted-to.pdf, id=399, 1791.69376pt x 1062.97125pt>
 File: figure/splitting-eps-converted-to.pdf Graphic file (type pdf)
 <use figure/splitting-eps-converted-to.pdf>
 Package luatex.def Info: figure/splitting-eps-converted-to.pdf  used on input line 31.
 (luatex.def)             Requested size: 447.92235pt x 265.74216pt.
  [16<./figure/splitting-eps-converted-to.pdf>]
 Package epstopdf Info: Output file is already uptodate.
-<figure/logical_cnot-eps-converted-to.pdf, id=421, 794.97pt x 399.4925pt>
+<figure/logical_cnot-eps-converted-to.pdf, id=423, 794.97pt x 399.4925pt>
 File: figure/logical_cnot-eps-converted-to.pdf Graphic file (type pdf)
 <use figure/logical_cnot-eps-converted-to.pdf>
 Package luatex.def Info: figure/logical_cnot-eps-converted-to.pdf  used on input line 46.
 (luatex.def)             Requested size: 238.49284pt x 119.84866pt.
 Package epstopdf Info: Output file is already uptodate.
-<figure/cnot_in_lattice_surgery-eps-converted-to.pdf, id=424, 1824.8175pt x 2773.36125pt>
+<figure/cnot_in_lattice_surgery-eps-converted-to.pdf, id=426, 1824.8175pt x 2773.36125pt>
 File: figure/cnot_in_lattice_surgery-eps-converted-to.pdf Graphic file (type pdf)
 <use figure/cnot_in_lattice_surgery-eps-converted-to.pdf>
 Package luatex.def Info: figure/cnot_in_lattice_surgery-eps-converted-to.pdf  used on input line 56.
@@ -1891,7 +1900,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 <./figure/logical_cnot-eps-converted-to.pdf>] [18<./figure/cnot_in_lattice_surgery-eps-converted-to.pdf>] (./6_looped_pipeline_architecture.tex
 Package epstopdf Info: Output file is already uptodate.
-<figure/classical_pipeline-eps-converted-to.pdf, id=465, 1034.86626pt x 394.47375pt>
+<figure/classical_pipeline-eps-converted-to.pdf, id=467, 1034.86626pt x 394.47375pt>
 File: figure/classical_pipeline-eps-converted-to.pdf Graphic file (type pdf)
 <use figure/classical_pipeline-eps-converted-to.pdf>
 Package luatex.def Info: figure/classical_pipeline-eps-converted-to.pdf  used on input line 11.
@@ -1900,21 +1909,21 @@ Package luatex.def Info: figure/classical_pipeline-eps-converted-to.pdf  used on
 
 <./figure/classical_pipeline-eps-converted-to.pdf>]
 Package epstopdf Info: Output file is already uptodate.
-<figure/shuttling_track-eps-converted-to.pdf, id=490, 611.28375pt x 557.08125pt>
+<figure/shuttling_track-eps-converted-to.pdf, id=492, 611.28375pt x 557.08125pt>
 File: figure/shuttling_track-eps-converted-to.pdf Graphic file (type pdf)
 <use figure/shuttling_track-eps-converted-to.pdf>
 Package luatex.def Info: figure/shuttling_track-eps-converted-to.pdf  used on input line 35.
 (luatex.def)             Requested size: 305.64113pt x 278.53995pt.
  [20<./figure/shuttling_track-eps-converted-to.pdf>]
 Package epstopdf Info: Output file is already uptodate.
-<figure/more_devices-eps-converted-to.pdf, id=516, 652.4375pt x 649.42625pt>
+<figure/more_devices-eps-converted-to.pdf, id=518, 652.4375pt x 649.42625pt>
 File: figure/more_devices-eps-converted-to.pdf Graphic file (type pdf)
 <use figure/more_devices-eps-converted-to.pdf>
 Package luatex.def Info: figure/more_devices-eps-converted-to.pdf  used on input line 61.
 (luatex.def)             Requested size: 130.48518pt x 129.88295pt.
 ) [21<./figure/more_devices-eps-converted-to.pdf>] (./7_pseudo_three_dimentional_surface_code.tex
 Package epstopdf Info: Output file is already uptodate.
-<figure/patch-eps-converted-to.pdf, id=538, 1375.1375pt x 1744.5175pt>
+<figure/patch-eps-converted-to.pdf, id=540, 1375.1375pt x 1744.5175pt>
 File: figure/patch-eps-converted-to.pdf Graphic file (type pdf)
 <use figure/patch-eps-converted-to.pdf>
 Package luatex.def Info: figure/patch-eps-converted-to.pdf  used on input line 13.
@@ -1923,7 +1932,7 @@ Package luatex.def Info: figure/patch-eps-converted-to.pdf  used on input line 1
 
 <./figure/patch-eps-converted-to.pdf>]
 Package epstopdf Info: Output file is already uptodate.
-<figure/patch_operation-eps-converted-to.pdf, id=561, 1375.1375pt x 1744.5175pt>
+<figure/patch_operation-eps-converted-to.pdf, id=563, 1375.1375pt x 1744.5175pt>
 File: figure/patch_operation-eps-converted-to.pdf Graphic file (type pdf)
 <use figure/patch_operation-eps-converted-to.pdf>
 Package luatex.def Info: figure/patch_operation-eps-converted-to.pdf  used on input line 25.
@@ -1932,13 +1941,13 @@ Package luatex.def Info: figure/patch_operation-eps-converted-to.pdf  used on in
 
 <./figure/patch_operation-eps-converted-to.pdf>]
 Package epstopdf Info: Output file is already uptodate.
-<figure/qubit_plane-eps-converted-to.pdf, id=586, 1011.78pt x 1011.78pt>
+<figure/qubit_plane-eps-converted-to.pdf, id=588, 1011.78pt x 1011.78pt>
 File: figure/qubit_plane-eps-converted-to.pdf Graphic file (type pdf)
 <use figure/qubit_plane-eps-converted-to.pdf>
 Package luatex.def Info: figure/qubit_plane-eps-converted-to.pdf  used on input line 36.
 (luatex.def)             Requested size: 202.35242pt x 202.35242pt.
 Package epstopdf Info: Output file is already uptodate.
-<figure/looped_pipeline_surface_code-eps-converted-to.pdf, id=589, 1086.0575pt x 435.6275pt>
+<figure/looped_pipeline_surface_code-eps-converted-to.pdf, id=591, 1086.0575pt x 435.6275pt>
 File: figure/looped_pipeline_surface_code-eps-converted-to.pdf Graphic file (type pdf)
 <use figure/looped_pipeline_surface_code-eps-converted-to.pdf>
 Package luatex.def Info: figure/looped_pipeline_surface_code-eps-converted-to.pdf  used on input line 49.
@@ -1947,13 +1956,13 @@ Package luatex.def Info: figure/looped_pipeline_surface_code-eps-converted-to.pd
 
 <./figure/qubit_plane-eps-converted-to.pdf><./figure/looped_pipeline_surface_code-eps-converted-to.pdf>]
 Package epstopdf Info: Output file is already uptodate.
-<figure/looped_pipeline_weak_surface_code-eps-converted-to.pdf, id=613, 1485.55pt x 907.39pt>
+<figure/looped_pipeline_weak_surface_code-eps-converted-to.pdf, id=615, 1485.55pt x 907.39pt>
 File: figure/looped_pipeline_weak_surface_code-eps-converted-to.pdf Graphic file (type pdf)
 <use figure/looped_pipeline_weak_surface_code-eps-converted-to.pdf>
 Package luatex.def Info: figure/looped_pipeline_weak_surface_code-eps-converted-to.pdf  used on input line 60.
 (luatex.def)             Requested size: 297.10474pt x 181.47478pt.
 Package epstopdf Info: Output file is already uptodate.
-<figure/intraloop_interaction-eps-converted-to.pdf, id=616, 146.5475pt x 154.5775pt>
+<figure/intraloop_interaction-eps-converted-to.pdf, id=618, 146.5475pt x 154.5775pt>
 File: figure/intraloop_interaction-eps-converted-to.pdf Graphic file (type pdf)
 <use figure/intraloop_interaction-eps-converted-to.pdf>
 Package luatex.def Info: figure/intraloop_interaction-eps-converted-to.pdf  used on input line 70.
@@ -1963,7 +1972,7 @@ Package luatex.def Info: figure/intraloop_interaction-eps-converted-to.pdf  used
 LaTeX Warning: Reference `stacked_surface_code' on page 25 undefined on input line 76.
 
 Package epstopdf Info: Output file is already uptodate.
-<figure/pipeline_to_surface-eps-converted-to.pdf, id=620, 1200.485pt x 531.9875pt>
+<figure/pipeline_to_surface-eps-converted-to.pdf, id=622, 1200.485pt x 531.9875pt>
 File: figure/pipeline_to_surface-eps-converted-to.pdf Graphic file (type pdf)
 <use figure/pipeline_to_surface-eps-converted-to.pdf>
 Package luatex.def Info: figure/pipeline_to_surface-eps-converted-to.pdf  used on input line 80.
@@ -1972,13 +1981,13 @@ Package luatex.def Info: figure/pipeline_to_surface-eps-converted-to.pdf  used o
 
 <./figure/looped_pipeline_weak_surface_code-eps-converted-to.pdf><./figure/intraloop_interaction-eps-converted-to.pdf><./figure/pipeline_to_surface-eps-converted-to.pdf>]
 Package epstopdf Info: Output file is already uptodate.
-<figure/3D_advantage_distance-eps-converted-to.pdf, id=648, 1377.145pt x 466.74374pt>
+<figure/3D_advantage_distance-eps-converted-to.pdf, id=650, 1377.145pt x 466.74374pt>
 File: figure/3D_advantage_distance-eps-converted-to.pdf Graphic file (type pdf)
 <use figure/3D_advantage_distance-eps-converted-to.pdf>
 Package luatex.def Info: figure/3D_advantage_distance-eps-converted-to.pdf  used on input line 94.
 (luatex.def)             Requested size: 413.14668pt x 140.0242pt.
 Package epstopdf Info: Output file is already uptodate.
-<figure/3D_advantage_parallel-eps-converted-to.pdf, id=651, 1394.20876pt x 466.74374pt>
+<figure/3D_advantage_parallel-eps-converted-to.pdf, id=653, 1394.20876pt x 466.74374pt>
 File: figure/3D_advantage_parallel-eps-converted-to.pdf Graphic file (type pdf)
 <use figure/3D_advantage_parallel-eps-converted-to.pdf>
 Package luatex.def Info: figure/3D_advantage_parallel-eps-converted-to.pdf  used on input line 104.
@@ -1988,7 +1997,7 @@ LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
 (Font)              scaled to size 9.24713pt on input line 14.
 
 warning  (file figure/initial_state.pdf) (pdf inclusion): PDF inclusion: found PDF version '1.7', but at most version '1.5' allowed
-<figure/initial_state.pdf, id=681, 583.17876pt x 482.80376pt>
+<figure/initial_state.pdf, id=683, 583.17876pt x 482.80376pt>
 File: figure/initial_state.pdf Graphic file (type pdf)
 <use figure/initial_state.pdf>
 Package luatex.def Info: figure/initial_state.pdf  used on input line 19.
@@ -2005,10 +2014,10 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [27<./figure/initial_state.pdf>] [28]
 warning  (file figure/final_state.pdf) (pdf inclusion): PDF inclusion: found PDF version '1.7', but at most version '1.5' allowed
-<figure/final_state.pdf, id=712, 583.17876pt x 482.80376pt>
+<figure/final_state.pdf, id=714, 583.17876pt x 482.80376pt>
 File: figure/final_state.pdf Graphic file (type pdf)
 <use figure/final_state.pdf>
-Package luatex.def Info: figure/final_state.pdf  used on input line 64.
+Package luatex.def Info: figure/final_state.pdf  used on input line 62.
 (luatex.def)             Requested size: 233.26736pt x 193.11807pt.
 ) [29
 
@@ -2017,7 +2026,7 @@ Package luatex.def Info: figure/final_state.pdf  used on input line 64.
 LaTeX Warning: Reference `pseudo_pseudo-three-dimensional_surface_code' on page 30 undefined on input line 5.
 
 Package epstopdf Info: Output file is already uptodate.
-<figure/results_pseudo_3D-eps-converted-to.pdf, id=736, 972.63374pt x 264.99pt>
+<figure/results_pseudo_3D-eps-converted-to.pdf, id=738, 972.63374pt x 264.99pt>
 File: figure/results_pseudo_3D-eps-converted-to.pdf Graphic file (type pdf)
 <use figure/results_pseudo_3D-eps-converted-to.pdf>
 Package luatex.def Info: figure/results_pseudo_3D-eps-converted-to.pdf  used on input line 9.
@@ -2028,7 +2037,7 @@ Overfull \hbox (2.6188pt too wide) in paragraph at lines 9--10
  []
 
 Package epstopdf Info: Output file is already uptodate.
-<figure/results_pseudo_3D_1-eps-converted-to.pdf, id=738, 989.6975pt x 273.02pt>
+<figure/results_pseudo_3D_1-eps-converted-to.pdf, id=740, 989.6975pt x 273.02pt>
 File: figure/results_pseudo_3D_1-eps-converted-to.pdf Graphic file (type pdf)
 <use figure/results_pseudo_3D_1-eps-converted-to.pdf>
 Package luatex.def Info: figure/results_pseudo_3D_1-eps-converted-to.pdf  used on input line 18.
@@ -2041,105 +2050,100 @@ Overfull \hbox (11.15067pt too wide) in paragraph at lines 18--19
 [30
 
 <./figure/results_pseudo_3D-eps-converted-to.pdf><./figure/results_pseudo_3D_1-eps-converted-to.pdf>]
-
-LaTeX Warning: Reference `' on page 31 undefined on input line 26.
-
-
-LaTeX Warning: Reference `' on page 31 undefined on input line 26.
-
 Package epstopdf Info: Output file is already uptodate.
-<figure/placement_optimization_2D-eps-converted-to.pdf, id=786, 986.68625pt x 576.1525pt>
+<figure/placement_optimization_2D-eps-converted-to.pdf, id=795, 986.68625pt x 576.1525pt>
 File: figure/placement_optimization_2D-eps-converted-to.pdf Graphic file (type pdf)
 <use figure/placement_optimization_2D-eps-converted-to.pdf>
-Package luatex.def Info: figure/placement_optimization_2D-eps-converted-to.pdf  used on input line 29.
+Package luatex.def Info: figure/placement_optimization_2D-eps-converted-to.pdf  used on input line 28.
 (luatex.def)             Requested size: 493.34192pt x 288.07553pt.
 
-Overfull \hbox (9.64505pt too wide) in paragraph at lines 29--30
+Overfull \hbox (9.64505pt too wide) in paragraph at lines 28--29
  [][] 
  []
 
+[31<./figure/placement_optimization_2D-eps-converted-to.pdf>]
 Package epstopdf Info: Output file is already uptodate.
-<figure/placement_optimization_3D-eps-converted-to.pdf, id=787, 984.67876pt x 576.1525pt>
+<figure/placement_optimization_3D-eps-converted-to.pdf, id=818, 984.67876pt x 576.1525pt>
 File: figure/placement_optimization_3D-eps-converted-to.pdf Graphic file (type pdf)
 <use figure/placement_optimization_3D-eps-converted-to.pdf>
-Package luatex.def Info: figure/placement_optimization_3D-eps-converted-to.pdf  used on input line 36.
+Package luatex.def Info: figure/placement_optimization_3D-eps-converted-to.pdf  used on input line 38.
 (luatex.def)             Requested size: 492.33817pt x 288.07553pt.
 
-Overfull \hbox (8.6413pt too wide) in paragraph at lines 36--37
+Overfull \hbox (8.6413pt too wide) in paragraph at lines 38--39
  [][] 
  []
 
+[32
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[31
-
-<./figure/placement_optimization_2D-eps-converted-to.pdf>] [32<./figure/placement_optimization_3D-eps-converted-to.pdf>]
+<./figure/placement_optimization_3D-eps-converted-to.pdf>]
 Package epstopdf Info: Output file is already uptodate.
-<figure/graph_2D-eps-converted-to.pdf, id=824, 750.805pt x 615.29875pt>
+<figure/graph_2D-eps-converted-to.pdf, id=838, 750.805pt x 615.29875pt>
 File: figure/graph_2D-eps-converted-to.pdf Graphic file (type pdf)
 <use figure/graph_2D-eps-converted-to.pdf>
-Package luatex.def Info: figure/graph_2D-eps-converted-to.pdf  used on input line 44.
-(luatex.def)             Requested size: 375.40158pt x 307.64862pt.
+Package luatex.def Info: figure/graph_2D-eps-converted-to.pdf  used on input line 49.
+(luatex.def)             Requested size: 450.48647pt x 369.1821pt.
 Package epstopdf Info: Output file is already uptodate.
-<figure/graph_3D-eps-converted-to.pdf, id=825, 733.74126pt x 518.93875pt>
+<figure/graph_3D-eps-converted-to.pdf, id=839, 746.79pt x 557.08125pt>
 File: figure/graph_3D-eps-converted-to.pdf Graphic file (type pdf)
 <use figure/graph_3D-eps-converted-to.pdf>
-Package luatex.def Info: figure/graph_3D-eps-converted-to.pdf  used on input line 51.
-(luatex.def)             Requested size: 440.24815pt x 311.36565pt.
+Package luatex.def Info: figure/graph_3D-eps-converted-to.pdf  used on input line 52.
+(luatex.def)             Requested size: 448.07745pt x 334.25133pt.
+
+
+LaTeX Warning: Float too large for page by 20.23262pt on input line 55.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [33
-
-<./figure/graph_2D-eps-converted-to.pdf>] [34<./figure/graph_3D-eps-converted-to.pdf>](load cache: extra_lmromancaps10-regular.luc)
+) [33<./figure/graph_2D-eps-converted-to.pdf><./figure/graph_3D-eps-converted-to.pdf>] (./10_conclusion_and_future_works.tex) (./acknowledgement.tex)(load cache: extra_lmromancaps10-regular.luc)
 LaTeX Font Info:    Font shape `JT3/mc/m/sc' in size <10> not available
-(Font)              Font shape `JT3/mc/m/n' tried instead on input line 40.
+(Font)              Font shape `JT3/mc/m/n' tried instead on input line 42.
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
-(Font)              scaled to size 8.44485pt on input line 40.
+(Font)              scaled to size 8.44485pt on input line 42.
 LaTeX Font Info:    Font shape `JY3/mc/m/sc' in size <10> not available
-(Font)              Font shape `JY3/mc/m/n' tried instead on input line 40.
+(Font)              Font shape `JY3/mc/m/n' tried instead on input line 42.
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 8.44485pt on input line 40.
+(Font)              scaled to size 8.44485pt on input line 42.
+ [34
+
+
+]
 LaTeX Font Info:    Font shape `JT3/gt/m/it' in size <10> not available
-(Font)              Font shape `JT3/gt/m/n' tried instead on input line 40.
+(Font)              Font shape `JT3/gt/m/n' tried instead on input line 42.
 LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
-(Font)              scaled to size 8.44485pt on input line 40.
+(Font)              scaled to size 8.44485pt on input line 42.
 LaTeX Font Info:    Font shape `JY3/gt/m/it' in size <10> not available
-(Font)              Font shape `JY3/gt/m/n' tried instead on input line 40.
+(Font)              Font shape `JY3/gt/m/n' tried instead on input line 42.
 LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
-(Font)              scaled to size 8.44485pt on input line 40.
+(Font)              scaled to size 8.44485pt on input line 42.
 \tf@thm=\write8
 
 \openout8 = main.thm
- [35
-
-] (./out/main.aux)
+ [35] (./out/main.aux)
 
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: E513BB4B23FDCCDDC841EC51EBA68D28;4378.
+(rerunfilecheck)             Checksum: A8FE9C25DB1F7A4FDD9D348422527098;4567.
 Package logreq Info: Writing requests to 'main.run.xml'.
 
 \openout1 = main.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 42064 strings out of 478285
- 244630,1977958 words of node,token memory allocated
- 1517 words of node memory still in use:
-   11 hlist, 2 vlist, 5 rule, 2 glue, 4 kern, 1 glyph, 332 attribute, 82 glue_spec, 41 attribute_list, 2 write, 14 user_defined, 5 pdf_action nodes
-   avail lists: 1:50,2:61255,3:518,4:508,5:480,6:80,7:8399,8:52,9:1017,10:24,11:648,12:1
- 60313 multiletter control sequences out of 65536+600000
+ 42083 strings out of 478285
+ 195703,1977958 words of node,token memory allocated
+ 1465 words of node memory still in use:
+   11 hlist, 2 vlist, 5 rule, 2 glue, 4 kern, 1 glyph, 308 attribute, 82 glue_spec, 39 attribute_list, 2 write, 14 user_defined, 5 pdf_action nodes
+   avail lists: 1:50,2:56824,3:333,4:544,5:457,6:80,7:7768,8:52,9:1080,10:24,11:648,12:1
+ 60318 multiletter control sequences out of 65536+600000
  89 fonts using 70422927 bytes
  118i,14n,118p,1830b,1766s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmromancaps10-regular.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman7-regular.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman17-regular.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/haranoaji/HaranoAjiMincho-Regular.otf></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on main.pdf (35 pages, 3294843 bytes).
+Output written on main.pdf (35 pages, 3246464 bytes).
 
-PDF statistics: 994 PDF objects out of 1000 (max. 8388607)
- 774 compressed objects within 8 object streams
+PDF statistics: 1007 PDF objects out of 1200 (max. 8388607)
+ 787 compressed objects within 8 object streams
  132 named destinations out of 1000 (max. 131072)
- 232 words of extra memory for PDF output out of 10000 (max. 100000000)
+ 240 words of extra memory for PDF output out of 10000 (max. 100000000)
 

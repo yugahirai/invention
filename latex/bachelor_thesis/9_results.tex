@@ -2,7 +2,7 @@
 \input{utility/SETTINGS.tex}
 \begin{document}
 \section{Results}\label{results}{
-    \ \ \ Firstly, we perform numerical simulations of the pseudo-3D Surface Code, introduced in Section~\ref{pseudo_pseudo-three-dimensional_surface_code}, using a circuit that executes a 2D Heisenberg model and compare it to the 2D Surface Code. The results are presented in Fig.~\ref{results_of_pseudo_3D}, and a more complex system is shown in Fig.~\ref{results_of_pseudo_3D_1}. In these figures, the horizontal and vertical axes represent the instruction number and distance, respectively, where distance refers to the number of patches required for routing operations.\\
+    \ \ \ Firstly, we perform numerical simulations of the pseudo-3D Surface Code, introduced in Section~\ref{pseudo_pseudo-three-dimensional_surface_code}, using a circuit that executes a 2D Heisenberg model and compare it to the 2D Surface Code. The results are presented in Fig.~\ref{results_of_pseudo_3D}, and a more complex system is shown in Fig.~\ref{results_of_pseudo_3D_1}. In these figures, the horizontal and vertical axes represent the instruction number and distance, respectively, where distance refers to the number of patches required for routing operations. Additionally, the 20 magic patches that produce T gates are aligned along $x = -1$, arranged from $y = 0$ to $y = 19$. The Breadth-First Search algorithm is used for routing in the following cases.
 
     \begin{figure}[h]
         \centering
@@ -11,7 +11,7 @@
         \label{results_of_pseudo_3D}
     \end{figure}
 
-    \ \ \ In Fig.~\ref{results_of_pseudo_3D}, the graph illustrates that in the 2D Surface Code, a substantial number of operations exceeded a distance of 30. In contrast, in the 3D Surface Code, the longest operation distance remained below 30. Furthermore, the average distance per operation was significantly reduced from 8.18 in the 2D configuration to 5.36 in the 3D configuration, resulting in an approximately 66\% improvement in overall circuit distance. However, the total time required to execute the entire circuit did not change despite expanding the routing dimension to 3D.
+    \ \ \ In Fig.~\ref{results_of_pseudo_3D}, the graph illustrates that in the 2D Surface Code, a substantial number of operations exceeded a distance of 30. In contrast, in the 3D Surface Code, the longest operation distance remained below 30. Furthermore, the average distance per operation was significantly reduced from 8.18 in the 2D configuration to 5.36 in the pseudo-3D configuration, resulting in an approximately 66\% improvement in overall circuit distance. However, the total time required to execute the entire circuit did not change despite expanding the routing dimension to pseudo-3D.
 
     \begin{figure}[h]
         \centering
@@ -20,16 +20,18 @@
         \label{results_of_pseudo_3D_1}
     \end{figure}
 
-    In the more complex system shown in Fig.~\ref{results_of_pseudo_3D_1}, similar improvements are observed, further demonstrating the effectiveness of the pseudo-3D Surface Code in reducing operation distances. The average distance per operation was significantly reduced from 18.64 in the 2D configuration to 9.74 in the 3D configuration, resulting in an approximately 52\% improvement in overall circuit distance. However, the total time required to execute the entire circuit did not change in the more complex system. Therefore, the pseudo-3D Surface Code does not improve the parallelization of the circuit.
-    \clearpage
+    In the more complex circuit, where the Heisenberg model system is the same as in the former case but is more parallelized and thus requires more ancilla qubits, similar improvements are observed, as shown in Fig.~\ref{results_of_pseudo_3D_1}. This further demonstrates the effectiveness of the pseudo-3D Surface Code in reducing operation distances. The average distance per operation was significantly reduced from 18.64 in the 2D configuration to 9.74 in the pseudo-3D configuration, resulting in an approximately 52\% improvement in overall circuit distance. However, the total time required to execute the entire circuit did not change in the more complex system. Therefore, the pseudo-3D Surface Code does not improve the parallelization of the circuit.\\
+    \ \ \ Secondly, we perform numerical simulations of the placement optimization method introduced in Section~\ref{placement_optimization}. The results are presented in Fig.~\ref{placement_optimization_2D} for the 2D case and Fig.~\ref{placement_optimization_3D} for the pseudo-3D case. Additionally, the graphs optimized by the potential energy model are shown in Fig.~\ref{graph_2D} and Fig.~\ref{graph_3D}. Each figure in Figs.~\ref{placement_optimization_2D}--\ref{graph_3D} displays the results of a smaller circuit in the top row and a larger circuit in the bottom row. The system for the Heisenberg model is the same as in the previous case; thus, the results on the left-hand side of Figs.~\ref{placement_optimization_2D}--\ref{graph_3D} have already been discussed in the preceding paragraph. The 20 magic patches that produce T gates are aligned along $x = -1$, arranged from $y = 0$ to $y = 19$, while logical patches are allocated in the range of $x \geq 0$ and $y \geq 0$. The parameter $l$, introduced in Section~\ref{placement_optimization}, was tuned to a value of 3 in all the following cases, and the Breadth-First Search (BFS) algorithm is used for routing in the following cases.
 
-    \ \ \ Secondly, we perform numerical simulations of the placement optimization method introduced in Section~\ref{placement_optimization}. The results are presented in Fig.~\ref{placement_optimization_2D} for the 2D case and Fig.~\ref{placement_optimization_3D} for the 3D case. Additionally, the graphs which are optimized by the potential energy model are shown in Fig.\ref{} and Fig.\ref{}.
     \begin{figure}[h]
         \centering
         \includegraphics[scale=0.5]{figure/placement_optimization_2D.eps}
         \vspace{-20pt}\caption{}
         \label{placement_optimization_2D}
     \end{figure}
+
+    \ \ \ In Fig.~\ref{placement_optimization_2D}, we obtained results showing that placement optimization decreases routing distances. Specifically, the average distance in the 2D optimized configuration was reduced to 5.18 for the smaller circuit and to 12.15 for the larger circuit, resulting in a 63\% improvement in the smaller circuit and a 65\% improvement in the larger circuit.
+    \clearpage
     
     \begin{figure}[h]
         \centering
@@ -37,6 +39,9 @@
         \vspace{-20pt}\caption{}
         \label{placement_optimization_3D}
     \end{figure}
+
+    \ \ \ Similarly, in Fig.~\ref{placement_optimization_3D}, we observed that placement optimization effectively decreases routing distances in the pseudo-3D configuration. Specifically, the average distance in the pseudo-3D optimized configuration was reduced to 3.93 for the smaller circuit and to 6.28 for the larger circuit, resulting in a 73\% improvement in the smaller circuit and a 64\% improvement in the larger circuit.\\
+    \ \ \ Throughout the all results, the distances needed to routing is more effectively reduced in the larger cicuit than that in smaller circuit. But there exists a trade-off that the BFS algorithm is more complicated in pseudo-3D, thus the routing time cannot be ignored in a larger circuit in the pseudo-3D. Moreover, placement optimization time in a graph also cannot be ignored in a larger circuit in the pseudo-3D.
     \clearpage
 
     \begin{figure}[h]
@@ -45,7 +50,7 @@
         \vspace{0pt}\caption{}
         \label{graph_2D}
         \includegraphics[scale=0.60]{figure/graph_3D.eps}
-        \vspace{0pt}\caption{}
+        \vspace{-10pt}\caption{}
         \label{graph_3D}
     \end{figure}
 }

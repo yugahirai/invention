@@ -1,0 +1,8 @@
+\documentclass[a4paper,11pt]{ltjsarticle}
+\input{utility/SETTINGS.tex}
+\begin{document}
+\section{Conclusion and Future Works}{
+    \ \ \ In this paper, we introduced the pseudo-three-dimensional surface code utilizing the looped pipeline architecture in semiconductor quantum computers. Additionally, we presented a placement optimization method based on the potential energy between logical qubits in the quantum processor. Our numerical results demonstrate an approximate 60\% improvement in routing distance, indicating that the looped pipeline can enhance computational efficiency despite the physical qubits being confined to two dimensions on the processor. Moreover, similar improvements are anticipated in ion-trapped quantum computers. By performing classical processing, such as placement optimization, we achieved approximately 63\% improvement in 2D configurations and 69\% improvement in pseudo-3D configurations. Since our placement optimization method imposes no restrictions regarding the type of quantum computer, this scheme can be applied to any quantum processor, and similar enhancements can be expected.\\
+    \ \ \ Throughout this paper, we have not been able to improve the time required to execute the circuit using the pseudo-three-dimensional surface code. Therefore, optimizing execution time remains an area for future work. Additionally, we introduced a new method for placement optimization based on potential energy. However, there is room for further improvement, such as refining the parameter $l$, adjusting the exponent of $d$ in Eq.~\ref{equation_of_potential_energy}, and exploring other related factors.
+}
+\end{document}

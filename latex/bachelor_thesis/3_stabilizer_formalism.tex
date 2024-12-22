@@ -5,7 +5,6 @@
     \ \ \ In this section, we describe the stabilizer formalism\cite{nielsen2010}, which forms the backbone of quantum error correction theory. Before delving into the main discussion, we provide a small case example of error correction and briefly introduce classical error correction theory.
     \subsection{Introduction to Error Correction}\label{introduction_to_error_correction}{
         \ \ \ Noise is a great bane of information systems. Whenever we build systems for computation or other purposes, we cannot avoid noise from outside the system. However, even in such environments, classical components perform reliable computation with a failure rate typically below one error in $10^{17}$ operations. The details of the techniques used to protect against noise in practice are sometimes rather complicated, but the basic principles are easily understood. For example, consider the case when Alice sends Bob a single bit of information through a noisy channel, where the error rate is $p$. If Alice sends a bit without protection, a bit-flip error, where $0$ flips to $1$ and vice versa, occurs with a probability of $p$. As a result, Bob will fail to receive the correct information from Alice with a probability of $p$. In such cases, we cannot communicate reliably through the noisy channel. Yet, there is a way to address this issue. If Alice introduces redundancy for a bit of information, a process called "encoding," such as:
-
         \begin{align}
             0 \rightarrow 000 \quad \text{or} \quad 1 \rightarrow 111,
         \end{align}      
@@ -46,7 +45,6 @@
             \end{figure}
 
             Using the encoded state, we can obtain syndromes that indicate where an error has occurred. In this code, these syndromes can be determined by performing Pauli measurements of $Z_1 Z_2$ and $Z_2 Z_3$. For example, when no error has occurred on \(\ket{\psi}\), we will obtain syndromes of $1$ and $1$ from $Z_1 Z_2$ and $Z_2 Z_3$, respectively, due to a straightforward calculation:
-            
             \begin{align*}
                 Z_1Z_2\ket{\psi} &= aZ_1Z_2\ket{000}+bZ_1Z_2\ket{111}\\
                 &= a\ket{000}+b\ket{111}\\
@@ -57,9 +55,7 @@
                 &= a\ket{000}+b\ket{111}\\
                 &= \ket{\psi}
             \end{align*}
-
             However, if an error has occurred on the first qubit of the three, we will obtain syndromes of $-1$ and $1$ from $Z_1 Z_2$ and $Z_2 Z_3$, respectively, due to a straightforward calculation:
-
             \begin{align*}
                 Z_1Z_2\ket{\psi} &= aZ_1Z_2\ket{100}+bZ_1Z_2\ket{011}\\
                 &= -a\ket{100}-b\ket{011}\\
@@ -70,9 +66,7 @@
                 &= a\ket{100}+b\ket{011}\\
                 &= \ket{\psi}.
             \end{align*}
-
             Thus, we can determine that a bit-flip error has occurred on the first qubit and correct the error. In this case, we can correct a single error on any qubit. However, we cannot correct two or three errors. For instance, in the case of two errors on the second and third qubits of the three, we will obtain the following syndromes:
-
             \begin{align*}
                 Z_1Z_2\ket{\psi} &= aZ_1Z_2\ket{011}+bZ_1Z_2\ket{100}\\
                 &= -a\ket{011}-b\ket{100}\\
@@ -83,9 +77,7 @@
                 &= a\ket{110}+b\ket{100}\\
                 &= \ket{\psi}.
             \end{align*}
-
             These syndromes are the same as in the former case, so we cannot determine whether a single error has occurred on the first qubit or two errors have occurred on the second and third qubits. in the case of three errors, we will obtain the following syndromes:
-
             \begin{align*}
                 Z_1Z_2\ket{\psi} &= aZ_1Z_2\ket{111}+bZ_1Z_2\ket{000}\\
                 &= a\ket{111}+b\ket{000}\\
@@ -96,7 +88,6 @@
                 &= a\ket{111}+b\ket{000}\\
                 &= \ket{\psi},
             \end{align*}
-
             which makes it appear as though no errors have occurred, even though errors have actually occurred. In summary, this code can detect and correct one error, can detect two errors but cannot correct them, and cannot detect or correct three errors.\\
             \ \ \ One may find that if a continuous error, such as $\ket{0} \rightarrow \ket{0} + \ket{1}$, occurs, we cannot obtain syndromes. Actually, when we obtain syndromes, we perform syndrome measurements using $Z_1 Z_2$ and $Z_2 Z_3$. As a result, the superposition state will be projected to either $\ket{0}$ or $\ket{1}$ with a probability proportional to the coefficients of the superposition state.\\
             \ \ \ In the following section, we refer to the minimum number of errors that cannot be detected as the code distance, often expressed as $d$, encoded qubits as logical qubits, and the number of them as $k$, and qubits used to encode logical qubits as physical qubits, with their number often expressed as $n$. The properties of the code are often denoted as $[[n, k, d]]$. In the case of the former repetition code, its properties are $[[3, 1, 1]]$, but this code cannot correct phase-flip errors. Therefore, we show how to correct both types of errors: bit-flip and phase-flip.
@@ -136,11 +127,9 @@
                 \ket{0}_L=\prod_{i}(I+s_i)\ket{0000000}
             \end{align*}
             where $s_i$ is a $Z$ stabilizer generator, and the state is post-selected to the $+1$ eigenstates, ignoring the normalization factor. In the same way, $\ket{1}_L$ can be encoded. Thus, if you want to encode an arbitrary state $\ket{\psi} = a\ket{0} + b\ket{1}$, first prepare the Bell state $a\ket{0000000} + b\ket{1111111}$ and perform projective measurements of the $Z$ stabilizer generators. The final states is:
-
             \begin{align*}
                 \ket{\psi_L}=a\prod_{i}(I+s_i)\ket{0000000}+b\prod_{i}(I+s_i)\ket{1111111}.
             \end{align*}
-
             From straightforward calculations, you can confirm that $L_X\ket{0}_L = \ket{1}_L$, $L_Z\ket{1}_L = -\ket{1}_L$, and $L_XL_Z = -L_ZL_X$. By definition, a logical operator cannot be expressed as the product of stabilizer generators.
 
             \ \ \ To perform syndrome measurements, we need to implement multi-body Pauli measurements, which are challenging to directly implement in experiments. Therefore, we require an ancilla qubit for each stabilizer. As shown in Fig.~\ref{syndrome_measurement_circuit}, (a) represents a 4-weight $Z$ stabilizer measurement circuit, and (b) represents a 4-weight $X$ stabilizer measurement circuit. The top four qubits are data qubits, and the bottom qubit is the ancilla qubit. In the following sections, we assume these circuits are used for syndrome measurements.
@@ -149,7 +138,7 @@
             \begin{figure}[h]
                 \centering
                 \includegraphics[scale=0.30]{figure/syndrome_measurement_circuit.eps}
-                \vspace{0pt}\caption{}
+                \vspace{-100pt}\caption{}
                 \label{syndrome_measurement_circuit}
                 \vspace{-10pt}
             \end{figure}
@@ -157,17 +146,13 @@
 
         \subsection{Error Detction}{
             \ \ \ In this subsection, we will describe how to detect errors using syndrome measurements. Let $\ket{\psi}^t$ be the state of the physical qubits at round $t$, where "round" indicates the sequence number of the error correction operation. After the round $t$ error correction, some logical operations are performed, followed by round $t+1$ error correction. Finally, this results in the round $t+1$ state $\ket{\psi}^{t+1}$. Assume there are no errors in $\ket{\psi}^t$, and that errors occur due to the logical operations between round $t$ and round $t+1$. In this case, we obtain a syndrome $m^t_j$ of $s_j \in \mathcal{S}$ at round $t$ as:
-            
             \begin{align*}
                 s_j\ket{\psi}^t=m_j^t\ket{\psi}^t.
             \end{align*}
-
             And at round $t+1$, we obtain a syndrome $m^{t+1}_j$ as:
-
             \begin{align*}
                 s_j\ket{\psi}^{t+1}=m_j^{t+1}\ket{\psi}^{t+1}.
             \end{align*}
-
             In the case where the errors can be detected by $s_j$, $m_j^{t+1}$ has the opposite sign of $m_j^t$, so $m_j^{t+1}m_j^t = -1$. On the other hand, if the errors cannot be detected by $s_j$, $m_j^{t+1}$ has the same sign as $m_j^t$, so $m_j^{t+1}m_j^t = 1$. From this discussion, we only need to know the product of the syndromes from round $t$ and round $t+1$.
 
 

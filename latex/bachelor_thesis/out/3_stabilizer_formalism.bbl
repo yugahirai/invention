@@ -1,0 +1,96 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{nielsen2010}{book}{}
+      \name{author}{2}{}{%
+        {{hash=afe17482fc813e497188aee3b3783879}{%
+           family={Nielsen},
+           familyi={N\bibinitperiod},
+           given={Michael\bibnamedelima A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=415ddff2f58b25977b1a2dedf18f4501}{%
+           family={Chuang},
+           familyi={C\bibinitperiod},
+           given={Isaac\bibnamedelima L.},
+           giveni={I\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cambridge, UK}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{456599bb4a61c2e997e2a7e1a21b25b4}
+      \strng{fullhash}{456599bb4a61c2e997e2a7e1a21b25b4}
+      \strng{bibnamehash}{456599bb4a61c2e997e2a7e1a21b25b4}
+      \strng{authorbibnamehash}{456599bb4a61c2e997e2a7e1a21b25b4}
+      \strng{authornamehash}{456599bb4a61c2e997e2a7e1a21b25b4}
+      \strng{authorfullhash}{456599bb4a61c2e997e2a7e1a21b25b4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{10th Anniversary Edition}
+      \field{isbn}{978-1-107-00217-3}
+      \field{title}{Quantum Computation and Quantum Information}
+      \field{year}{2010}
+      \verb{urlraw}
+      \verb https://www.cambridge.org/9781107002173
+      \endverb
+      \verb{url}
+      \verb https://www.cambridge.org/9781107002173
+      \endverb
+    \endentry
+    \entry{steane1996}{article}{}
+      \name{author}{1}{}{%
+        {{hash=0027259c9fcf3eda7aefa4519e0cd258}{%
+           family={Steane},
+           familyi={S\bibinitperiod},
+           given={A.\bibnamedelimi M.},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{0027259c9fcf3eda7aefa4519e0cd258}
+      \strng{fullhash}{0027259c9fcf3eda7aefa4519e0cd258}
+      \strng{bibnamehash}{0027259c9fcf3eda7aefa4519e0cd258}
+      \strng{authorbibnamehash}{0027259c9fcf3eda7aefa4519e0cd258}
+      \strng{authornamehash}{0027259c9fcf3eda7aefa4519e0cd258}
+      \strng{authorfullhash}{0027259c9fcf3eda7aefa4519e0cd258}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint}
+      \field{title}{Simple Quantum Error Correcting Codes}
+      \field{year}{1996}
+      \verb{eprint}
+      \verb quant-ph/9605021
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/quant-ph/9605021
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/quant-ph/9605021
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

@@ -766,6 +766,10 @@ INPUT ./figure/graph_2D-eps-converted-to.pdf
 INPUT ./figure/graph_3D.eps
 INPUT ./figure/graph_3D-eps-converted-to.pdf
 INPUT ./figure/graph_3D-eps-converted-to.pdf
+INPUT ./10_conclusion_and_future_works.tex
+INPUT ./10_conclusion_and_future_works.tex
+INPUT ./acknowledgement.tex
+INPUT ./acknowledgement.tex
 INPUT /Users/hiraiyuuware/Library/texlive/2023/texmf-var/luatex-cache/generic/fonts/otl/lmromancaps10-regular.luc
 INPUT /Users/hiraiyuuware/Library/texlive/2023/texmf-var/luatexja/extra_lmromancaps10-regular.luc
 OUTPUT out/main.thm

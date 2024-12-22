@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.16.0 (TeX Live 2023)  (format=lualatex 2023.10.26)  21 DEC 2024 19:57
+This is LuaHBTeX, Version 1.16.0 (TeX Live 2023)  (format=lualatex 2023.10.26)  22 DEC 2024 10:07
  restricted system commands enabled.
 **/Users/hiraiyuuware/Desktop/invention/latex/bachelor_thesis/9_results.tex
 (/Users/hiraiyuuware/Desktop/invention/latex/bachelor_thesis/9_results.tex
@@ -1703,6 +1703,26 @@ LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
 
 LaTeX Warning: Reference `pseudo_pseudo-three-dimensional_surface_code' on page 1 undefined on input line 5.
 
+LaTeX Font Info:    Calculating math sizes for size <10.95001> on input line 5.
+(load cache: extra_lmroman7-regular.luc)(load cache: extra_lmroman5-regular.luc)
+LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
+(Font)              scaled to size 6.47295pt on input line 5.
+LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
+(Font)              scaled to size 4.62357pt on input line 5.
+LaTeX Font Info:    Trying loading font information for U+msa on input line 5.
+(/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying loading font information for U+msb on input line 5.
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
+(Font)              scaled to size 9.24713pt on input line 5.
+LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
+(Font)              scaled to size 6.47295pt on input line 5.
+LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
+(Font)              scaled to size 4.62357pt on input line 5.
 Package epstopdf Info: Output file is already uptodate.
 <figure/results_pseudo_3D-eps-converted-to.pdf, id=13, 972.63374pt x 264.99pt>
 File: figure/results_pseudo_3D-eps-converted-to.pdf Graphic file (type pdf)
@@ -1725,61 +1745,56 @@ Overfull \hbox (11.15067pt too wide) in paragraph at lines 18--19
  [][] 
  []
 
+
+LaTeX Warning: Reference `placement_optimization' on page 1 undefined on input line 24.
+
+
+LaTeX Warning: Reference `placement_optimization' on page 1 undefined on input line 24.
+
 [1
 
 {/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}<./figure/results_pseudo_3D-eps-converted-to.pdf><./figure/results_pseudo_3D_1-eps-converted-to.pdf>]
-
-LaTeX Warning: Reference `placement_optimization' on page 2 undefined on input line 26.
-
-
-LaTeX Warning: Reference `' on page 2 undefined on input line 26.
-
-
-LaTeX Warning: Reference `' on page 2 undefined on input line 26.
-
 Package epstopdf Info: Output file is already uptodate.
-<figure/placement_optimization_2D-eps-converted-to.pdf, id=66, 986.68625pt x 576.1525pt>
+<figure/placement_optimization_2D-eps-converted-to.pdf, id=75, 986.68625pt x 576.1525pt>
 File: figure/placement_optimization_2D-eps-converted-to.pdf Graphic file (type pdf)
 <use figure/placement_optimization_2D-eps-converted-to.pdf>
-Package luatex.def Info: figure/placement_optimization_2D-eps-converted-to.pdf  used on input line 29.
+Package luatex.def Info: figure/placement_optimization_2D-eps-converted-to.pdf  used on input line 28.
 (luatex.def)             Requested size: 493.34192pt x 288.07553pt.
 
-Overfull \hbox (9.64505pt too wide) in paragraph at lines 29--30
+Overfull \hbox (9.64505pt too wide) in paragraph at lines 28--29
  [][] 
  []
 
+[2<./figure/placement_optimization_2D-eps-converted-to.pdf>]
 Package epstopdf Info: Output file is already uptodate.
-<figure/placement_optimization_3D-eps-converted-to.pdf, id=67, 984.67876pt x 576.1525pt>
+<figure/placement_optimization_3D-eps-converted-to.pdf, id=97, 984.67876pt x 576.1525pt>
 File: figure/placement_optimization_3D-eps-converted-to.pdf Graphic file (type pdf)
 <use figure/placement_optimization_3D-eps-converted-to.pdf>
-Package luatex.def Info: figure/placement_optimization_3D-eps-converted-to.pdf  used on input line 36.
+Package luatex.def Info: figure/placement_optimization_3D-eps-converted-to.pdf  used on input line 38.
 (luatex.def)             Requested size: 492.33817pt x 288.07553pt.
 
-Overfull \hbox (8.6413pt too wide) in paragraph at lines 36--37
+Overfull \hbox (8.6413pt too wide) in paragraph at lines 38--39
  [][] 
  []
 
+[3
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[2
-
-<./figure/placement_optimization_2D-eps-converted-to.pdf>] [3<./figure/placement_optimization_3D-eps-converted-to.pdf>]
+<./figure/placement_optimization_3D-eps-converted-to.pdf>]
 Package epstopdf Info: Output file is already uptodate.
-<figure/graph_2D-eps-converted-to.pdf, id=103, 750.805pt x 615.29875pt>
+<figure/graph_2D-eps-converted-to.pdf, id=116, 750.805pt x 615.29875pt>
 File: figure/graph_2D-eps-converted-to.pdf Graphic file (type pdf)
 <use figure/graph_2D-eps-converted-to.pdf>
-Package luatex.def Info: figure/graph_2D-eps-converted-to.pdf  used on input line 44.
+Package luatex.def Info: figure/graph_2D-eps-converted-to.pdf  used on input line 49.
 (luatex.def)             Requested size: 450.48647pt x 369.1821pt.
 Package epstopdf Info: Output file is already uptodate.
-<figure/graph_3D-eps-converted-to.pdf, id=104, 722.7pt x 516.93124pt>
+<figure/graph_3D-eps-converted-to.pdf, id=117, 746.79pt x 557.08125pt>
 File: figure/graph_3D-eps-converted-to.pdf Graphic file (type pdf)
 <use figure/graph_3D-eps-converted-to.pdf>
-Package luatex.def Info: figure/graph_3D-eps-converted-to.pdf  used on input line 47.
-(luatex.def)             Requested size: 433.62334pt x 310.16113pt.
+Package luatex.def Info: figure/graph_3D-eps-converted-to.pdf  used on input line 52.
+(luatex.def)             Requested size: 448.07745pt x 334.25133pt.
 
 
-LaTeX Warning: Float too large for page by 6.14243pt on input line 50.
+LaTeX Warning: Float too large for page by 20.23262pt on input line 55.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1803,19 +1818,19 @@ Package logreq Info: Writing requests to '9_results.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 41066 strings out of 478285
- 125244,1977958 words of node,token memory allocated
- 1220 words of node memory still in use:
-   10 hlist, 2 vlist, 5 rule, 2 glue, 4 kern, 1 glyph, 217 attribute, 81 glue_spec, 30 attribute_list, 3 write, 13 user_defined nodes
-   avail lists: 1:7,2:26255,3:223,4:242,5:313,6:34,7:5883,8:3,9:296,10:8,11:528
- 59701 multiletter control sequences out of 65536+600000
- 38 fonts using 29291423 bytes
- 118i,8n,118p,1835b,1764s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf>
-Output written on 9_results.pdf (4 pages, 2159925 bytes).
+ 41131 strings out of 478285
+ 195713,1977958 words of node,token memory allocated
+ 1200 words of node memory still in use:
+   10 hlist, 2 vlist, 5 rule, 2 glue, 4 kern, 1 glyph, 208 attribute, 81 glue_spec, 29 attribute_list, 3 write, 13 user_defined nodes
+   avail lists: 1:32,2:45280,3:244,4:257,5:383,6:42,7:7747,8:5,9:319,10:10,11:629
+ 59752 multiletter control sequences out of 65536+600000
+ 74 fonts using 46544439 bytes
+ 118i,7n,118p,1835b,1764s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on 9_results.pdf (4 pages, 2136844 bytes).
 
-PDF statistics: 161 PDF objects out of 1000 (max. 8388607)
- 112 compressed objects within 2 object streams
+PDF statistics: 182 PDF objects out of 1000 (max. 8388607)
+ 130 compressed objects within 2 object streams
  11 named destinations out of 1000 (max. 131072)
  24 words of extra memory for PDF output out of 10000 (max. 100000000)
 
