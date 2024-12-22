@@ -9,12 +9,11 @@
         \begin{figure}[h]
             \centering
             \includegraphics[scale=0.20]{figure/torus.eps}
-            \vspace{0pt}\caption{}
+            \vspace{0pt}\caption{Physical qubits are located on the edges, while X-stabilizers and Z-stabilizers are placed on the vertices of the lattice.}
             \label{torus}
-            \vspace{-15pt}
         \end{figure}
 
-        Usually, the Surface Code is defined on a 1-genus torus, but it can also be defined on an $n$-genus torus in the same way. The lattice on the torus, shown in Fig.~\ref{torus}, has the following property:
+        \ \ \ Usually, the Surface Code is defined on a 1-genus torus, but it can also be defined on an $n$-genus torus in the same way. The lattice on the torus, shown in Fig.~\ref{torus}, has the following property:
 
         \begin{align}\label{euler_genus}
             V-E+F=2-2g
@@ -25,9 +24,8 @@
         \begin{figure}[h]
             \centering
             \includegraphics[scale=0.40]{figure/local.eps}
-            \vspace{0pt}\caption{}
+            \vspace{0pt}\caption{Physical qubits, X-stabilizer generators and Z-stabilizer generators on the torus. The right and left sides of the lattice are identical, and the top and bottom sides of the lattice are identical.}
             \label{local}
-            \vspace{-10pt}
         \end{figure}
     
         In Fig.~\ref{local}, we show some of the stabilizers of the Surface Code, but others exist in the remaining parts of the lattice. Thus, we have $V - 1$ X stabilizer generators because the product of all X stabilizers on the vertices is the identity. From the same discussion, we have $F - 1$ Z stabilizer generators. Therefore, the number of logical qubits $k$ that can be encoded in the Surface Code is:
@@ -41,9 +39,8 @@
     \begin{figure}[h]
         \centering
         \includegraphics[scale=0.40]{figure/logical_operator.eps}
-        \vspace{0pt}\caption{}
+        \vspace{0pt}\caption{Logical operators of the surface code on the torus, which encode logical qubits. Purple lines represent logical X operators, and green lines represent logical Z operators.}
         \label{logical_operator}
-        \vspace{-10pt}
     \end{figure}
     }
 
@@ -54,9 +51,8 @@
         \begin{figure}[h]
             \centering
             \includegraphics[scale=0.30]{figure/planar.eps}
-            \vspace{0pt}\caption{}
+            \vspace{0pt}\caption{Surface code on the plane. Orange shapes are X-stabilizers, and blue shapes are Z-stabilizers.}
             \label{planar}
-            \vspace{-10pt}
         \end{figure}
 
         Additionally, the Surface Code on the planar can encode one logical qubit (Fig.~\ref{logical_operator_planar}). In the same way of the torus, one can confirm that code distance of the surface code in Fig.~\ref{logical_operator_planar} is $\sqrt{n}$ where there exists $n$ qubits. The two boundaries that are connected to each other by the logical Z operator are called rough boundaries, while the remaining boundaries are called smooth boundaries.
@@ -64,9 +60,8 @@
         \begin{figure}[h]
             \centering
             \includegraphics[scale=0.30]{figure/logical_operator_planar.eps}
-            \vspace{0pt}\caption{}
+            \vspace{0pt}\caption{A horizontal boundary, which consists of 3-weight Z-stabilizers, is called a rough boundary, and a vertical boundary, which consists of 3-weight X-stabilizers, is called a smooth boundary.}
             \label{logical_operator_planar}
-            \vspace{-10pt}
         \end{figure}
 
         \ \ \ There exist excess qubits in the previous Surface Code. As shown in Fig.~\ref{rotated_surface_code}, we can cut along the green line, which contains both data qubits and ancilla qubits, trim off the excess parts, and rotate the lattice by 45 degrees to obtain the rotated Surface Code. With this modification, the code distance of the Surface Code is preserved by defining new logical operators on the rotated Surface Code that connect the rough boundaries or the smooth boundaries.
@@ -75,9 +70,8 @@
         \begin{figure}[h]
             \centering
             \includegraphics[scale=0.25]{figure/rotated_surface_code.eps}
-            \caption{}
+            \caption{By trimming the excess parts of the previous surface code, we obtained a new surface code while preserving its distance.}
             \label{rotated_surface_code}
-            \vspace{-10pt}
         \end{figure}
 
         

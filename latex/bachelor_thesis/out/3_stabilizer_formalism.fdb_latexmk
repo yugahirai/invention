@@ -1,13 +1,13 @@
 # Fdb version 4
-["biber out/3_stabilizer_formalism"] 1734827431 "out/3_stabilizer_formalism.bcf" "out/3_stabilizer_formalism.bbl" "out/3_stabilizer_formalism" 1734827604 0
+["biber out/3_stabilizer_formalism"] 1734827431 "out/3_stabilizer_formalism.bcf" "out/3_stabilizer_formalism.bbl" "out/3_stabilizer_formalism" 1734839965 0
   "./utility/REFERENCES.bib" 1734171384 3666 b71fc559600c2e8fa068d1b65a51233c ""
-  "out/3_stabilizer_formalism.bcf" 1734827603 106756 73541b164f9b904cb4eb4edee88718c0 "lualatex"
+  "out/3_stabilizer_formalism.bcf" 1734839964 106756 73541b164f9b904cb4eb4edee88718c0 "lualatex"
   (generated)
   "out/3_stabilizer_formalism.bbl"
   "out/3_stabilizer_formalism.blg"
   (rewritten before read)
-["lualatex"] 1734827599 "/Users/hiraiyuuware/Desktop/invention/latex/bachelor_thesis/3_stabilizer_formalism.tex" "out/3_stabilizer_formalism.pdf" "3_stabilizer_formalism" 1734827604 0
-  "/Users/hiraiyuuware/Desktop/invention/latex/bachelor_thesis/3_stabilizer_formalism.tex" 1734827597 16430 d3bd4a3d5c2d858288fe34e87acc8185 ""
+["lualatex"] 1734839959 "/Users/hiraiyuuware/Desktop/invention/latex/bachelor_thesis/3_stabilizer_formalism.tex" "out/3_stabilizer_formalism.pdf" "3_stabilizer_formalism" 1734839965 0
+  "/Users/hiraiyuuware/Desktop/invention/latex/bachelor_thesis/3_stabilizer_formalism.tex" 1734839954 16575 69300de16c1e3d24c054231089fafb3e ""
   "/Users/hiraiyuuware/Library/texlive/2023/texmf-var/luatex-cache/generic/fonts/otl/haranoajigothic-medium.luc" 1698365046 1875369 563a49d56453118cc2bc098475a23186 ""
   "/Users/hiraiyuuware/Library/texlive/2023/texmf-var/luatex-cache/generic/fonts/otl/haranoajimincho-regular.luc" 1698365044 1961878 305e540f3545673854903467c3d18712 ""
   "/Users/hiraiyuuware/Library/texlive/2023/texmf-var/luatex-cache/generic/fonts/otl/lmmono9-regular.luc" 1698365044 81875 4186f491346ae8e27e9de854d6400326 ""
@@ -266,6 +266,7 @@
   "/usr/local/texlive/2023/texmf-dist/tex/latex/sttools/stfloats.sty" 1633983922 24057 ff20efb65b128d27c08eac20ec07f540 ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/svn-prov/svn-prov.sty" 1272330018 6852 44ea8d7e58290cde708a34ebf3953571 ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/titlesec/titlesec.sty" 1625518490 48833 3b7b4cfab1a3d15596bfd3772a77ab65 ""
+  "/usr/local/texlive/2023/texmf-dist/tex/latex/tocloft/tocloft.sty" 1578692495 36103 3e78d14f0f4b1a30560fea5e04de805d ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/tools/array.sty" 1667332637 12691 5b542990fe866f3d772f71346cf85b95 ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/tools/bm.sty" 1654720880 13231 b52297489a0e9d929aae403417d92a02 ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/tools/calc.sty" 1654720880 10214 de3e21cfc0eccc98ca7f8dac0ef263d2 ""
@@ -359,16 +360,16 @@
   "/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1698315186 4623355 b8cad38412faebe1ce5b780a45db67bd ""
   "/usr/local/texlive/2023/texmf-var/tex/generic/config/language.dat" 1678822458 6627 dc320a7c13e00300e5a0f696ef4294be ""
   "/usr/local/texlive/2023/texmf-var/web2c/luahbtex/lualatex.fmt" 1698315181 11879313 a5bc16eb0711a3492ea5fb8532ba3b3d ""
-  "3_stabilizer_formalism.tex" 1734827597 16430 d3bd4a3d5c2d858288fe34e87acc8185 ""
-  "figure/encoding_repetition-eps-converted-to.pdf" 1734250007 13216 054742cba437b88ec847cf4ff9e82aa5 ""
-  "figure/encoding_repetition.eps" 1734082082 698258 e3ee5d89ba15005a7e198d3f4dae367c ""
+  "3_stabilizer_formalism.tex" 1734839954 16575 69300de16c1e3d24c054231089fafb3e ""
+  "figure/encoding_repetition-eps-converted-to.pdf" 1734839714 13257 63738331e13af44bc2306ca105aecb0c ""
+  "figure/encoding_repetition.eps" 1734839707 698970 b001fcc8a42f3c38ee12d636c710066e ""
   "figure/syndrome_measurement_circuit-eps-converted-to.pdf" 1734250008 15086 5e96e49d6f6a5a1abe34c6a6626ca9b0 ""
   "figure/syndrome_measurement_circuit.eps" 1734171384 2859446 dbfd9942325ce0e8a74027cbae0f9376 ""
-  "out/3_stabilizer_formalism.aux" 1734827603 2417 5bc7b1aa8336b611afa5249e3d228c15 "lualatex"
+  "out/3_stabilizer_formalism.aux" 1734839964 2708 d043e2bb08b3aad7f84ed6b2f41e3f82 "lualatex"
   "out/3_stabilizer_formalism.bbl" 1734827465 3306 496940b7f82660df5b705e41441cd1e2 "biber out/3_stabilizer_formalism"
-  "out/3_stabilizer_formalism.out" 1734827603 876 4434fbc1ccd223460460054ad049d82d "lualatex"
-  "out/3_stabilizer_formalism.run.xml" 1734827603 2474 4b4831a1b43be7e33e156d0951d436d6 "lualatex"
-  "utility/SETTINGS.tex" 1734654398 3285 94bcd6e85e12326eee56800b33738245 ""
+  "out/3_stabilizer_formalism.out" 1734839964 876 4434fbc1ccd223460460054ad049d82d "lualatex"
+  "out/3_stabilizer_formalism.run.xml" 1734839964 2474 4b4831a1b43be7e33e156d0951d436d6 "lualatex"
+  "utility/SETTINGS.tex" 1734833689 3406 61c241449b3af34221e4c99cabf4b9a3 ""
   (generated)
   "out/3_stabilizer_formalism.aux"
   "out/3_stabilizer_formalism.auxlock"

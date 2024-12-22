@@ -568,6 +568,9 @@ INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/docmute/docmute.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/setspace/setspace.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/setspace/setspace.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/setspace/setspace.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/tocloft/tocloft.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/tocloft/tocloft.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/tocloft/tocloft.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/luatex/luatexja/patches/lltjp-array.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/luatex/luatexja/patches/lltjp-array.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/luatex/luatexja/patches/lltjp-array.sty

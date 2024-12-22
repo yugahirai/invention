@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.16.0 (TeX Live 2023)  (format=lualatex 2023.10.26)  22 DEC 2024 09:33
+This is LuaHBTeX, Version 1.16.0 (TeX Live 2023)  (format=lualatex 2023.10.26)  22 DEC 2024 12:59
  restricted system commands enabled.
 **/Users/hiraiyuuware/Desktop/invention/latex/bachelor_thesis/3_stabilizer_formalism.tex
 (/Users/hiraiyuuware/Desktop/invention/latex/bachelor_thesis/3_stabilizer_formalism.tex
@@ -1510,15 +1510,51 @@ Package: setspace 2022/12/04 v6.7b set line spacing
 Package grfext Info: Graphics extension search list:
 (grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 96.
-) (/usr/local/texlive/2023/texmf-dist/tex/luatex/luatexja/patches/lltjp-array.sty
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/tocloft/tocloft.sty
+Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
+Package tocloft Info: The document has section divisions on input line 51.
+\cftparskip=\skip116
+\cftbeforetoctitleskip=\skip117
+\cftaftertoctitleskip=\skip118
+\cftbeforepartskip=\skip119
+\cftpartnumwidth=\skip120
+\cftpartindent=\skip121
+\cftbeforesecskip=\skip122
+\cftsecindent=\skip123
+\cftsecnumwidth=\skip124
+\cftbeforesubsecskip=\skip125
+\cftsubsecindent=\skip126
+\cftsubsecnumwidth=\skip127
+\cftbeforesubsubsecskip=\skip128
+\cftsubsubsecindent=\skip129
+\cftsubsubsecnumwidth=\skip130
+\cftbeforeparaskip=\skip131
+\cftparaindent=\skip132
+\cftparanumwidth=\skip133
+\cftbeforesubparaskip=\skip134
+\cftsubparaindent=\skip135
+\cftsubparanumwidth=\skip136
+\cftbeforeloftitleskip=\skip137
+\cftafterloftitleskip=\skip138
+\cftbeforefigskip=\skip139
+\cftfigindent=\skip140
+\cftfignumwidth=\skip141
+\c@lofdepth=\count520
+\c@lotdepth=\count521
+\cftbeforelottitleskip=\skip142
+\cftafterlottitleskip=\skip143
+\cftbeforetabskip=\skip144
+\cfttabindent=\skip145
+\cfttabnumwidth=\skip146
+)) (/usr/local/texlive/2023/texmf-dist/tex/luatex/luatexja/patches/lltjp-array.sty
 Package: lltjp-array 2019-07-18 Patch to array for LuaTeX-ja
 )
 
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (biblatex)                Loading 'csquotes' recommended.
 
-\@quotelevel=\count520
-\@quotereset=\count521
+\@quotelevel=\count522
+\@quotereset=\count523
 (./out/3_stabilizer_formalism.aux)
 \openout1 = 3_stabilizer_formalism.aux
 
@@ -1552,16 +1588,16 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
  (/usr/local/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count522
+\scratchcounter=\count524
 \scratchdimen=\dimen350
 \scratchbox=\box139
-\nofMPsegments=\count523
-\nofMParguments=\count524
+\nofMPsegments=\count525
+\nofMParguments=\count526
 \everyMPshowfont=\toks69
-\MPscratchCnt=\count525
+\MPscratchCnt=\count527
 \MPscratchDim=\dimen351
-\MPnumerator=\count526
-\makeMPintoPDFobject=\count527
+\MPnumerator=\count528
+\makeMPintoPDFobject=\count529
 \everyMPtoPDFconversion=\toks70
 )
 
@@ -1659,7 +1695,7 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c@lstlisting=\count528
+\c@lstlisting=\count530
 
 Package chemgreek Info: Activating mapping `default' on line 3.
 
@@ -1684,7 +1720,7 @@ Package hyperref Info: Link coloring OFF on input line 3.
 \@outlinefile=\write7
 
 \openout7 = 3_stabilizer_formalism.out
-\docmute@nestinglevel=\count529
+\docmute@nestinglevel=\count531
 (load cache: extra_lmroman12-regular.luc)
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
 (Font)              scaled to size 13.31584pt on input line 4.
@@ -1771,12 +1807,12 @@ Package logreq Info: Writing requests to '3_stabilizer_formalism.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 41326 strings out of 478285
- 244642,1977958 words of node,token memory allocated
- 1305 words of node memory still in use:
-   11 hlist, 2 vlist, 5 rule, 2 glue, 4 kern, 1 glyph, 248 attribute, 82 glue_spec, 34 attribute_list, 2 write, 14 user_defined nodes
-   avail lists: 1:48,2:52219,3:248,4:485,5:513,6:39,7:10812,8:46,9:950,10:12,11:903
- 59963 multiletter control sequences out of 65536+600000
+ 41604 strings out of 478285
+ 244637,1977958 words of node,token memory allocated
+ 1460 words of node memory still in use:
+   11 hlist, 2 vlist, 5 rule, 2 glue, 4 kern, 1 glyph, 248 attribute, 113 glue_spec, 34 attribute_list, 2 write, 14 user_defined nodes
+   avail lists: 1:51,2:53142,3:248,4:485,5:513,6:39,7:10812,8:46,9:950,10:12,11:903
+ 60232 multiletter control sequences out of 65536+600000
  79 fonts using 54506463 bytes
  118i,14n,118p,1848b,1764s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
@@ -1784,7 +1820,7 @@ warning  (pdf backend): unreferenced destination with name 'cite.0@steane1996'
 
 warning  (pdf backend): unreferenced destination with name 'cite.0@nielsen2010'
 </usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on 3_stabilizer_formalism.pdf (6 pages, 117492 bytes).
+Output written on 3_stabilizer_formalism.pdf (6 pages, 117628 bytes).
 
 PDF statistics: 157 PDF objects out of 1000 (max. 8388607)
  120 compressed objects within 2 object streams

@@ -10,9 +10,8 @@
     \begin{figure}[h]
         \centering
         \includegraphics[scale=0.25]{figure/merging.eps}
-        \vspace{0pt}\caption{}
+        \vspace{0pt}\caption{Lattice surgery protocol for smooth boundaries. (1) Two logical qubits, $\ket{\psi_1}$ and $\ket{\psi_2}$, are prepared on the surface codes. (2) The unused data qubits are placed between the two logical qubits and initialized to the $\ket{+}$ state. (3) The stabilizer group is rewritten to include the unused data qubits. (4) 2-weight and 4-weight Pauli measurements are performed for the Z-stabilizers.}
         \label{merging}
-        \vspace{-10pt}
     \end{figure}
 
     In the following description of the smooth merging operation, the notations (1), (2), (3), and (4) correspond to (1), (2), (3), and (4) in Fig.~\ref{merging}. In step (1), two arbitrary logical states, $\ket{\psi_1}$ and $\ket{\psi_2}$, encoded by the surface codes, are placed adjacent to each other. In step (2), new data qubits are introduced and initialized in the $\ket{+}$ state between the two logical qubits. By this initialization, 4-weight $X$ stabilizers that connect the two logical states are already established in step (3), so no additional operations are required in step (3). Then, in step (4), we perform the syndrome measurements of $Z$ stabilizers that connect the two logical qubits. The product of all $Z$ stabilizers added in step (4) equals $Z_1Z_2$, where $Z_i$ is the logical operator of the state $\ket{\psi_i}$. Thus, we can obtain a measurement result $m_{Z_1Z_2}$ for $Z_1Z_2$. This operation can be written as:
