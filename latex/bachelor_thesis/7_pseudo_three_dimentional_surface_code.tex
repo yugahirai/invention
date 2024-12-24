@@ -7,11 +7,11 @@
     \subsection{Quantum Processor}{
         \ \ \ In fault-tolerant quantum computation, the Surface Code, introduced in Section~\ref{surface_code}, is the most promising error correction code for the calculations required in many quantum algorithms. On the other hand, quantum low-density parity-check codes (qLDPC) are often considered more suitable for quantum memory due to their high encoding rate. However, while a single Surface Code can encode only one logical qubit, it offers many advantages, such as a simple approach for universal logical operations using lattice surgery combined with magic state distillation.
 
-        \ \ \ When designing the processor for computation, we simplify a single Surface Code into a "patch," which features dashed and solid lines. Simply put, a patch represents a logical qubit. In Fig.~\ref{patch}(a), three patches are allocated on the processor, and the corresponding Surface Codes are shown in Fig.~\ref{patch}(b), which are numbered. The rest of the qubits in Fig.~\ref{patch}(b) are unused data qubits for lattice surgery, as introduced in Section~\ref{lattice_surgery}.
+        \ \ \ When designing the processor for computation, we simplify a single Surface Code into a "patch," which features dashed and solid lines \cite{litinski2019-2}. Simply put, a patch represents a logical qubit. In Fig.~\ref{patch}(a), three patches are allocated on the processor, and the corresponding Surface Codes are shown in Fig.~\ref{patch}(b), which are numbered. The rest of the qubits in Fig.~\ref{patch}(b) are unused data qubits for lattice surgery, as introduced in Section~\ref{lattice_surgery}.
         \begin{figure}[h]
             \centering
-            \includegraphics[scale=0.20]{figure/patch.eps}
-            \vspace{0pt}\caption{}
+            \includegraphics[scale=0.18]{figure/patch.eps}
+            \vspace{0pt}\caption{(a) Gray squares represent patches aligned in a quantum processor, with ancilla qubits located in the blank spaces. (b) Surface codes aligned in the quantum processor. The indices of the patches correspond to those of the surface codes.}
             \label{patch}
             \vspace{-10pt}
         \end{figure}
@@ -22,19 +22,18 @@
 
         \begin{figure}[h]
             \centering
-            \includegraphics[scale=0.20]{figure/patch_operation.eps}
-            \vspace{0pt}\caption{}
+            \includegraphics[scale=0.18]{figure/patch_operation.eps}
+            \vspace{0pt}\caption{(a) A 2-qubit operation on logical qubits 2 and 3. (b) Surface code correspondence of the logical 2-qubit operation.}
             \label{patch_operation}
             \vspace{-10pt}
         \end{figure}
         
         In Fig.~\ref{qubit_plane}, some logical operations performed in parallel are illustrated with blue routes, while the orange route is prohibited since it intersects with an existing blue route at their intersection.
-        \clearpage
 
         \begin{figure}[h]
             \centering
-            \includegraphics[scale=0.20]{figure/qubit_plane.eps}
-            \vspace{0pt}\caption{}
+            \includegraphics[scale=0.13]{figure/qubit_plane.eps}
+            \vspace{0pt}\caption{Several 2-qubit operations running in parallel within a quantum processor are represented by bold blue lines. A transparent bold orange line indicates that an operation is prohibited until the blue line operations are completed.}
             \label{qubit_plane}
             \vspace{-10pt}
         \end{figure}
@@ -47,18 +46,17 @@
         \begin{figure}[h]
             \centering
             \includegraphics[scale=0.30]{figure/looped_pipeline_surface_code.eps}
-            \vspace{0pt}\caption{}
+            \vspace{0pt}\caption{Interactions within layers are enabled by interloop(dashed red line) interactions.}
             \label{looped_pipeline_surface_code}
             \vspace{-10pt}
         \end{figure}
 
         Considering the looped pipeline in the middle of the five pipelines as the ancilla qubit for syndrome measurement, and the looped pipelines surrounding the ancilla qubit as the data qubits, we can see that the allocation of looped pipelines corresponds to the Surface Code, as shown in Fig.~\ref{looped_pipeline_weak_surface_code}. There exist synchronized qubits with the same color in the looped pipeline.
 
-        \clearpage
         \begin{figure}[h]
             \centering
             \includegraphics[scale=0.20]{figure/looped_pipeline_weak_surface_code.eps}
-            \vspace{0pt}\caption{}
+            \vspace{0pt}\caption{Correspondence between the allocation of pipelines and the surface code.}
             \label{looped_pipeline_weak_surface_code}
             \vspace{-10pt}
         \end{figure} 
@@ -68,7 +66,7 @@
         \begin{figure}[h]
             \centering
             \includegraphics[scale=0.50]{figure/intraloop_interaction.eps}
-            \vspace{0pt}\caption{}
+            \vspace{0pt}\caption{Intra-loop interaction (dashed red line) in the pipeline.}
             \label{intraloop_interaction}
             \vspace{-10pt}
         \end{figure}

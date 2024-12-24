@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.16.0 (TeX Live 2023)  (format=lualatex 2023.10.26)  22 DEC 2024 13:28
+This is LuaHBTeX, Version 1.16.0 (TeX Live 2023)  (format=lualatex 2023.10.26)  24 DEC 2024 18:57
  restricted system commands enabled.
 **/Users/hiraiyuuware/Desktop/invention/latex/bachelor_thesis/4_surface_code.tex
 (/Users/hiraiyuuware/Desktop/invention/latex/bachelor_thesis/4_surface_code.tex
@@ -1785,43 +1785,34 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [1
 
-{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}<./figure/torus-eps-converted-to.pdf>]
+{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}<./figure/torus-eps-converted-to.pdf>] [2<./figure/local-eps-converted-to.pdf>]
 Package epstopdf Info: Output file is already uptodate.
-<figure/logical_operator-eps-converted-to.pdf, id=52, 841.1425pt x 855.195pt>
+<figure/logical_operator-eps-converted-to.pdf, id=68, 841.1425pt x 855.195pt>
 File: figure/logical_operator-eps-converted-to.pdf Graphic file (type pdf)
 <use figure/logical_operator-eps-converted-to.pdf>
-Package luatex.def Info: figure/logical_operator-eps-converted-to.pdf  used on input line 41.
+Package luatex.def Info: figure/logical_operator-eps-converted-to.pdf  used on input line 42.
 (luatex.def)             Requested size: 336.45103pt x 342.07195pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 Package epstopdf Info: Output file is already uptodate.
-<figure/planar-eps-converted-to.pdf, id=54, 599.23875pt x 651.43375pt>
+<figure/planar-eps-converted-to.pdf, id=70, 599.23875pt x 651.43375pt>
 File: figure/planar-eps-converted-to.pdf Graphic file (type pdf)
 <use figure/planar-eps-converted-to.pdf>
-Package luatex.def Info: figure/planar-eps-converted-to.pdf  used on input line 53.
+Package luatex.def Info: figure/planar-eps-converted-to.pdf  used on input line 54.
 (luatex.def)             Requested size: 179.77301pt x 195.43163pt.
+ [3
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
+<./figure/logical_operator-eps-converted-to.pdf><./figure/planar-eps-converted-to.pdf>]
 Package epstopdf Info: Output file is already uptodate.
-<figure/logical_operator_planar-eps-converted-to.pdf, id=57, 770.88pt x 753.81625pt>
+<figure/logical_operator_planar-eps-converted-to.pdf, id=97, 770.88pt x 753.81625pt>
 File: figure/logical_operator_planar-eps-converted-to.pdf Graphic file (type pdf)
 <use figure/logical_operator_planar-eps-converted-to.pdf>
-Package luatex.def Info: figure/logical_operator_planar-eps-converted-to.pdf  used on input line 62.
+Package luatex.def Info: figure/logical_operator_planar-eps-converted-to.pdf  used on input line 63.
 (luatex.def)             Requested size: 231.26578pt x 226.14662pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 Package epstopdf Info: Output file is already uptodate.
-<figure/rotated_surface_code-eps-converted-to.pdf, id=59, 1906.12125pt x 806.01125pt>
+<figure/rotated_surface_code-eps-converted-to.pdf, id=99, 1906.12125pt x 806.01125pt>
 File: figure/rotated_surface_code-eps-converted-to.pdf Graphic file (type pdf)
 <use figure/rotated_surface_code-eps-converted-to.pdf>
-Package luatex.def Info: figure/rotated_surface_code-eps-converted-to.pdf  used on input line 72.
+Package luatex.def Info: figure/rotated_surface_code-eps-converted-to.pdf  used on input line 73.
 (luatex.def)             Requested size: 476.52914pt x 201.50232pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 Package caption Warning: Unused \captionsetup[table] on input line 42.
@@ -1830,7 +1821,7 @@ See the caption package documentation for explanation.
 \tf@thm=\write8
 
 \openout8 = 4_surface_code.thm
-[2<./figure/local-eps-converted-to.pdf>] [3<./figure/logical_operator-eps-converted-to.pdf><./figure/planar-eps-converted-to.pdf>] [4<./figure/logical_operator_planar-eps-converted-to.pdf><./figure/rotated_surface_code-eps-converted-to.pdf>] (./out/4_surface_code.aux)
+[4<./figure/logical_operator_planar-eps-converted-to.pdf><./figure/rotated_surface_code-eps-converted-to.pdf>] (./out/4_surface_code.aux)
 Package rerunfilecheck Info: File `4_surface_code.out' has not changed.
 (rerunfilecheck)             Checksum: 3FAB5CB595068AEE8D9963958101EED6;499.
 Package logreq Info: Writing requests to '4_surface_code.run.xml'.
@@ -1850,10 +1841,10 @@ Here is how much of LuaTeX's memory you used:
 
 warning  (pdf backend): unreferenced destination with name 'cite.0@kitaev1997'
 </usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on 4_surface_code.pdf (4 pages, 360824 bytes).
+Output written on 4_surface_code.pdf (4 pages, 360942 bytes).
 
-PDF statistics: 160 PDF objects out of 1000 (max. 8388607)
- 122 compressed objects within 2 object streams
+PDF statistics: 162 PDF objects out of 1000 (max. 8388607)
+ 124 compressed objects within 2 object streams
  17 named destinations out of 1000 (max. 131072)
  40 words of extra memory for PDF output out of 10000 (max. 100000000)
 

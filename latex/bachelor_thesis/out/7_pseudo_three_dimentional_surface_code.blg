@@ -1,9 +1,15 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'out/7_pseudo_three_dimentional_surface_code.blg'
-[61] biber-darwin:340> INFO - === Fri Dec 20, 2024, 11:16:37
-[74] Biber.pm:419> INFO - Reading 'out/7_pseudo_three_dimentional_surface_code.bcf'
-[148] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
-[161] bbl.pm:660> INFO - Writing 'out/7_pseudo_three_dimentional_surface_code.bbl' with encoding 'UTF-8'
-[161] bbl.pm:763> INFO - Output to out/7_pseudo_three_dimentional_surface_code.bbl
-[161] Biber.pm:131> WARN - The file 'out/7_pseudo_three_dimentional_surface_code.bcf' does not contain any citations!
-[161] Biber.pm:133> INFO - WARNINGS: 1
+[59] biber-darwin:340> INFO - === Tue Dec 24, 2024, 19:22:39
+[72] Biber.pm:419> INFO - Reading 'out/7_pseudo_three_dimentional_surface_code.bcf'
+[143] Biber.pm:979> INFO - Found 1 citekeys in bib section 0
+[155] Biber.pm:4419> INFO - Processing section 0
+[163] Biber.pm:4610> INFO - Looking for bibtex file 'utility/REFERENCES.bib' for section 0
+[164] bibtex.pm:1713> INFO - LaTeX decoding ...
+[173] bibtex.pm:1519> INFO - Found BibTeX data source 'utility/REFERENCES.bib'
+[202] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[202] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[203] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[203] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[208] bbl.pm:660> INFO - Writing 'out/7_pseudo_three_dimentional_surface_code.bbl' with encoding 'UTF-8'
+[209] bbl.pm:763> INFO - Output to out/7_pseudo_three_dimentional_surface_code.bbl

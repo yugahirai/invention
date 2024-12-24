@@ -1,7 +1,7 @@
-This is LuaHBTeX, Version 1.16.0 (TeX Live 2023)  (format=lualatex 2023.10.26)  24 DEC 2024 19:49
+This is LuaHBTeX, Version 1.16.0 (TeX Live 2023)  (format=lualatex 2023.10.26)  24 DEC 2024 19:17
  restricted system commands enabled.
-**/Users/hiraiyuuware/Desktop/invention/latex/bachelor_thesis/7_pseudo_three_dimentional_surface_code.tex
-(/Users/hiraiyuuware/Desktop/invention/latex/bachelor_thesis/7_pseudo_three_dimentional_surface_code.tex
+**/Users/hiraiyuuware/Desktop/invention/latex/bachelor_thesis/6_looped_pipeline_architecture.tex
+(/Users/hiraiyuuware/Desktop/invention/latex/bachelor_thesis/6_looped_pipeline_architecture.tex
 LaTeX2e <2022-11-01> patch level 1
 Lua module: luaotfload 2022-10-03 3.23 Lua based OpenType font support
 Lua module: lualibs 2022-10-04 2.75 ConTeXt Lua standard libraries.
@@ -1164,7 +1164,7 @@ Package: chemgreek 2020/01/16 v1.1a interface for upright Greek letters for use 
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
 with kernel methods
 ) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzexternalshared.code.tex))
-\openout5 = 7_pseudo_three_dimentional_surface_code.auxlock
+\openout5 = 6_looped_pipeline_architecture.auxlock
  (/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2023/03/05 v3.19 programmable bibliographies (PK/MW)
  (/usr/local/texlive/2023/texmf-dist/tex/latex/logreq/logreq.sty
@@ -1555,8 +1555,8 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 
 \@quotelevel=\count522
 \@quotereset=\count523
-(./out/7_pseudo_three_dimentional_surface_code.aux)
-\openout1 = 7_pseudo_three_dimentional_surface_code.aux
+(./out/6_looped_pipeline_architecture.aux)
+\openout1 = 6_looped_pipeline_architecture.aux
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
@@ -1709,17 +1709,17 @@ Package biblatex Info: LuaTeX detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
 
-\openout6 = 7_pseudo_three_dimentional_surface_code.bcf
+\openout6 = 6_looped_pipeline_architecture.bcf
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file '7_pseudo_three_dimentional_surface_code.bbl' found.
- (./out/7_pseudo_three_dimentional_surface_code.bbl)
+Package biblatex Info: ... file '6_looped_pipeline_architecture.bbl' found.
+ (./out/6_looped_pipeline_architecture.bbl)
 Package biblatex Info: Reference section=0 on input line 3.
 Package biblatex Info: Reference segment=0 on input line 3.
 Package hyperref Info: Link coloring OFF on input line 3.
- (./out/7_pseudo_three_dimentional_surface_code.out) (./out/7_pseudo_three_dimentional_surface_code.out)
+ (./out/6_looped_pipeline_architecture.out) (./out/6_looped_pipeline_architecture.out)
 \@outlinefile=\write7
 
-\openout7 = 7_pseudo_three_dimentional_surface_code.out
+\openout7 = 6_looped_pipeline_architecture.out
 \docmute@nestinglevel=\count531
 (load cache: extra_lmroman12-regular.luc)
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
@@ -1735,10 +1735,6 @@ LaTeX Font Info:    Font shape `JY3/mc/b/n' in size <14.39998> not available
 (Font)              Font shape `JY3/gt/m/n' tried instead on input line 4.
 LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
 (Font)              scaled to size 12.16057pt on input line 4.
-
-
-LaTeX Warning: Reference `looped_pipeline' on page 1 undefined on input line 5.
-
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
 (Font)              scaled to size 11.09656pt on input line 7.
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
@@ -1751,84 +1747,52 @@ LaTeX Font Info:    Font shape `JY3/mc/b/n' in size <12> not available
 (Font)              Font shape `JY3/gt/m/n' tried instead on input line 7.
 LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
 (Font)              scaled to size 10.13382pt on input line 7.
-
-LaTeX Warning: Reference `surface_code' on page 1 undefined on input line 8.
-
-
-LaTeX Warning: Reference `lattice_surgery' on page 1 undefined on input line 10.
-
 Package epstopdf Info: Output file is already uptodate.
-<figure/patch-eps-converted-to.pdf, id=27, 1375.1375pt x 1744.5175pt>
-File: figure/patch-eps-converted-to.pdf Graphic file (type pdf)
-<use figure/patch-eps-converted-to.pdf>
-Package luatex.def Info: figure/patch-eps-converted-to.pdf  used on input line 13.
-(luatex.def)             Requested size: 247.51407pt x 313.9996pt.
-[1
+<figure/classical_pipeline-eps-converted-to.pdf, id=20, 1034.86626pt x 394.47375pt>
+File: figure/classical_pipeline-eps-converted-to.pdf Graphic file (type pdf)
+<use figure/classical_pipeline-eps-converted-to.pdf>
+Package luatex.def Info: figure/classical_pipeline-eps-converted-to.pdf  used on input line 11.
+(luatex.def)             Requested size: 413.93916pt x 157.7867pt.
+LaTeX Font Info:    Calculating math sizes for size <10.95001> on input line 12.
+(load cache: extra_lmroman7-regular.luc)(load cache: extra_lmroman5-regular.luc)
+LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
+(Font)              scaled to size 6.47295pt on input line 12.
+LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
+(Font)              scaled to size 4.62357pt on input line 12.
+LaTeX Font Info:    Trying loading font information for U+msa on input line 12.
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying loading font information for U+msb on input line 12.
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
+(Font)              scaled to size 9.24713pt on input line 12.
+LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
+(Font)              scaled to size 6.47295pt on input line 12.
+LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
+(Font)              scaled to size 4.62357pt on input line 12.
+LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
+(Font)              scaled to size 6.47295pt on input line 18.
+LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
+(Font)              scaled to size 4.62357pt on input line 18.
+ [1
 
-{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}<./figure/patch-eps-converted-to.pdf>]
+{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}<./figure/classical_pipeline-eps-converted-to.pdf>]
 Package epstopdf Info: Output file is already uptodate.
-<figure/patch_operation-eps-converted-to.pdf, id=55, 1375.1375pt x 1744.5175pt>
-File: figure/patch_operation-eps-converted-to.pdf Graphic file (type pdf)
-<use figure/patch_operation-eps-converted-to.pdf>
-Package luatex.def Info: figure/patch_operation-eps-converted-to.pdf  used on input line 25.
-(luatex.def)             Requested size: 247.51407pt x 313.9996pt.
+<figure/shuttling_track-eps-converted-to.pdf, id=57, 611.28375pt x 557.08125pt>
+File: figure/shuttling_track-eps-converted-to.pdf Graphic file (type pdf)
+<use figure/shuttling_track-eps-converted-to.pdf>
+Package luatex.def Info: figure/shuttling_track-eps-converted-to.pdf  used on input line 35.
+(luatex.def)             Requested size: 305.64113pt x 278.53995pt.
+ [2<./figure/shuttling_track-eps-converted-to.pdf>]
 Package epstopdf Info: Output file is already uptodate.
-<figure/qubit_plane-eps-converted-to.pdf, id=57, 1011.78pt x 1011.78pt>
-File: figure/qubit_plane-eps-converted-to.pdf Graphic file (type pdf)
-<use figure/qubit_plane-eps-converted-to.pdf>
-Package luatex.def Info: figure/qubit_plane-eps-converted-to.pdf  used on input line 35.
-(luatex.def)             Requested size: 131.53601pt x 131.53601pt.
- [2
-
-<./figure/patch_operation-eps-converted-to.pdf><./figure/qubit_plane-eps-converted-to.pdf>]
-
-LaTeX Warning: Reference `looped_pipeline' on page 3 undefined on input line 44.
-
-Package epstopdf Info: Output file is already uptodate.
-<figure/looped_pipeline_surface_code-eps-converted-to.pdf, id=91, 1086.0575pt x 435.6275pt>
-File: figure/looped_pipeline_surface_code-eps-converted-to.pdf Graphic file (type pdf)
-<use figure/looped_pipeline_surface_code-eps-converted-to.pdf>
-Package luatex.def Info: figure/looped_pipeline_surface_code-eps-converted-to.pdf  used on input line 48.
-(luatex.def)             Requested size: 325.81976pt x 130.68925pt.
-Package epstopdf Info: Output file is already uptodate.
-<figure/looped_pipeline_weak_surface_code-eps-converted-to.pdf, id=93, 1485.55pt x 907.39pt>
-File: figure/looped_pipeline_weak_surface_code-eps-converted-to.pdf Graphic file (type pdf)
-<use figure/looped_pipeline_weak_surface_code-eps-converted-to.pdf>
-Package luatex.def Info: figure/looped_pipeline_weak_surface_code-eps-converted-to.pdf  used on input line 58.
-(luatex.def)             Requested size: 297.10474pt x 181.47478pt.
-Package epstopdf Info: Output file is already uptodate.
-<figure/intraloop_interaction-eps-converted-to.pdf, id=96, 146.5475pt x 154.5775pt>
-File: figure/intraloop_interaction-eps-converted-to.pdf Graphic file (type pdf)
-<use figure/intraloop_interaction-eps-converted-to.pdf>
-Package luatex.def Info: figure/intraloop_interaction-eps-converted-to.pdf  used on input line 68.
-(luatex.def)             Requested size: 73.27356pt x 77.28854pt.
-
-LaTeX Warning: Reference `stacked_surface_code' on page 3 undefined on input line 74.
-
-[3<./figure/looped_pipeline_surface_code-eps-converted-to.pdf><./figure/looped_pipeline_weak_surface_code-eps-converted-to.pdf><./figure/intraloop_interaction-eps-converted-to.pdf>]
-Package epstopdf Info: Output file is already uptodate.
-<figure/pipeline_to_surface-eps-converted-to.pdf, id=121, 1200.485pt x 531.9875pt>
-File: figure/pipeline_to_surface-eps-converted-to.pdf Graphic file (type pdf)
-<use figure/pipeline_to_surface-eps-converted-to.pdf>
-Package luatex.def Info: figure/pipeline_to_surface-eps-converted-to.pdf  used on input line 78.
-(luatex.def)             Requested size: 360.14828pt x 159.59747pt.
-
-
-LaTeX Warning: Reference `results' on page 4 undefined on input line 87.
-
-Package epstopdf Info: Output file is already uptodate.
-<figure/3D_advantage_distance-eps-converted-to.pdf, id=124, 1377.145pt x 466.74374pt>
-File: figure/3D_advantage_distance-eps-converted-to.pdf Graphic file (type pdf)
-<use figure/3D_advantage_distance-eps-converted-to.pdf>
-Package luatex.def Info: figure/3D_advantage_distance-eps-converted-to.pdf  used on input line 92.
-(luatex.def)             Requested size: 413.14668pt x 140.0242pt.
-[4<./figure/pipeline_to_surface-eps-converted-to.pdf><./figure/3D_advantage_distance-eps-converted-to.pdf>]
-Package epstopdf Info: Output file is already uptodate.
-<figure/3D_advantage_parallel-eps-converted-to.pdf, id=152, 1394.20876pt x 466.74374pt>
-File: figure/3D_advantage_parallel-eps-converted-to.pdf Graphic file (type pdf)
-<use figure/3D_advantage_parallel-eps-converted-to.pdf>
-Package luatex.def Info: figure/3D_advantage_parallel-eps-converted-to.pdf  used on input line 102.
-(luatex.def)             Requested size: 418.26585pt x 140.0242pt.
+<figure/more_devices-eps-converted-to.pdf, id=82, 652.4375pt x 649.42625pt>
+File: figure/more_devices-eps-converted-to.pdf Graphic file (type pdf)
+<use figure/more_devices-eps-converted-to.pdf>
+Package luatex.def Info: figure/more_devices-eps-converted-to.pdf  used on input line 61.
+(luatex.def)             Requested size: 130.48518pt x 129.88295pt.
 
 
 Package caption Warning: Unused \captionsetup[table] on input line 42.
@@ -1836,34 +1800,31 @@ See the caption package documentation for explanation.
 
 \tf@thm=\write8
 
-\openout8 = 7_pseudo_three_dimentional_surface_code.thm
-[5<./figure/3D_advantage_parallel-eps-converted-to.pdf>] (./out/7_pseudo_three_dimentional_surface_code.aux)
+\openout8 = 6_looped_pipeline_architecture.thm
+[3<./figure/more_devices-eps-converted-to.pdf>] (./out/6_looped_pipeline_architecture.aux)
+Package rerunfilecheck Info: File `6_looped_pipeline_architecture.out' has not changed.
+(rerunfilecheck)             Checksum: D9F729C17514F7065201EA601B49E31C;545.
+Package logreq Info: Writing requests to '6_looped_pipeline_architecture.run.xml'.
 
-LaTeX Warning: There were undefined references.
-
-Package rerunfilecheck Info: File `7_pseudo_three_dimentional_surface_code.out' has not changed.
-(rerunfilecheck)             Checksum: 6071138839D15A8D697183EC45997F34;811.
-Package logreq Info: Writing requests to '7_pseudo_three_dimentional_surface_code.run.xml'.
-
-\openout1 = 7_pseudo_three_dimentional_surface_code.run.xml
+\openout1 = 6_looped_pipeline_architecture.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 41618 strings out of 478285
- 125244,1977958 words of node,token memory allocated
- 1351 words of node memory still in use:
-   10 hlist, 2 vlist, 5 rule, 2 glue, 4 kern, 1 glyph, 205 attribute, 113 glue_spec, 29 attribute_list, 2 write, 13 user_defined nodes
-   avail lists: 1:8,2:32050,3:203,4:197,5:319,6:34,7:5792,8:3,9:239,10:10,11:419
- 60217 multiletter control sequences out of 65536+600000
- 42 fonts using 37121439 bytes
- 118i,8n,118p,1865b,1764s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 41603 strings out of 478285
+ 156562,1977958 words of node,token memory allocated
+ 1434 words of node memory still in use:
+   11 hlist, 2 vlist, 5 rule, 2 glue, 4 kern, 1 glyph, 236 attribute, 113 glue_spec, 33 attribute_list, 2 write, 14 user_defined nodes
+   avail lists: 1:21,2:35628,3:235,4:374,5:464,6:33,7:7567,8:26,9:502,10:12,11:402
+ 60226 multiletter control sequences out of 65536+600000
+ 78 fonts using 54374391 bytes
+ 118i,10n,118p,1856b,1764s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-warning  (pdf backend): unreferenced destination with name 'cite.0@litinski2019-2'
-</usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf>
-Output written on 7_pseudo_three_dimentional_surface_code.pdf (5 pages, 262208 bytes).
+warning  (pdf backend): unreferenced destination with name 'cite.0@cai2023'
+</usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman7-regular.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on 6_looped_pipeline_architecture.pdf (3 pages, 147527 bytes).
 
-PDF statistics: 191 PDF objects out of 1000 (max. 8388607)
- 143 compressed objects within 2 object streams
- 20 named destinations out of 1000 (max. 131072)
- 48 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 146 PDF objects out of 1000 (max. 8388607)
+ 109 compressed objects within 2 object streams
+ 18 named destinations out of 1000 (max. 131072)
+ 40 words of extra memory for PDF output out of 10000 (max. 100000000)
 

@@ -236,7 +236,7 @@
       \verb https://doi.org/10.1088/1367-2630/14/12/123011
       \endverb
     \endentry
-    \entry{litinski2019}{article}{}
+    \entry{litinski2019-2}{article}{}
       \name{author}{1}{}{%
         {{hash=d837952f6e1a3c6b778bfffa0ff0f161}{%
            family={Litinski},
@@ -255,16 +255,16 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Quantum}
-      \field{title}{Magic State Distillation: Not as Costly as You Think}
+      \field{title}{A Game of Surface Codes: Large-Scale Quantum Computing with Lattice Surgery}
       \field{volume}{3}
       \field{year}{2019}
       \field{pages}{128}
       \range{pages}{1}
       \verb{urlraw}
-      \verb https://quantum-journal.org/papers/q-2019-12-02-205/
+      \verb https://quantum-journal.org/papers/q-2019-03-05-128/
       \endverb
       \verb{url}
-      \verb https://quantum-journal.org/papers/q-2019-12-02-205/
+      \verb https://quantum-journal.org/papers/q-2019-03-05-128/
       \endverb
     \endentry
     \entry{gidney2024}{article}{}
@@ -527,6 +527,7 @@
       \endverb
     \endentry
   \enddatalist
+  \missing{litinski2019}
 \endrefsection
 \endinput
 

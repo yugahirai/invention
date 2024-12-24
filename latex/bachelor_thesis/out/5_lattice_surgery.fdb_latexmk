@@ -1,13 +1,13 @@
 # Fdb version 4
-["biber out/5_lattice_surgery"] 1734842287 "out/5_lattice_surgery.bcf" "out/5_lattice_surgery.bbl" "out/5_lattice_surgery" 1734842301 0
+["biber out/5_lattice_surgery"] 1734842287 "out/5_lattice_surgery.bcf" "out/5_lattice_surgery.bbl" "out/5_lattice_surgery" 1735035329 0
   "./utility/REFERENCES.bib" 1734171384 3666 b71fc559600c2e8fa068d1b65a51233c ""
-  "out/5_lattice_surgery.bcf" 1734842301 106625 279e24d77fb6e8673f2660e987730d9a "lualatex"
+  "out/5_lattice_surgery.bcf" 1735035328 106625 279e24d77fb6e8673f2660e987730d9a "lualatex"
   (generated)
   "out/5_lattice_surgery.bbl"
   "out/5_lattice_surgery.blg"
   (rewritten before read)
-["lualatex"] 1734842296 "/Users/hiraiyuuware/Desktop/invention/latex/bachelor_thesis/5_lattice_surgery.tex" "out/5_lattice_surgery.pdf" "5_lattice_surgery" 1734842301 0
-  "/Users/hiraiyuuware/Desktop/invention/latex/bachelor_thesis/5_lattice_surgery.tex" 1734842277 6351 2de8fa337d85f52f1f6c6981bfe3942e ""
+["lualatex"] 1735035324 "/Users/hiraiyuuware/Desktop/invention/latex/bachelor_thesis/5_lattice_surgery.tex" "out/5_lattice_surgery.pdf" "5_lattice_surgery" 1735035329 0
+  "/Users/hiraiyuuware/Desktop/invention/latex/bachelor_thesis/5_lattice_surgery.tex" 1735035300 6648 d096dbf17c05ef694e1a4d689e8a8d0c ""
   "/Users/hiraiyuuware/Library/texlive/2023/texmf-var/luatex-cache/generic/fonts/otl/haranoajigothic-medium.luc" 1698365046 1875369 563a49d56453118cc2bc098475a23186 ""
   "/Users/hiraiyuuware/Library/texlive/2023/texmf-var/luatex-cache/generic/fonts/otl/haranoajimincho-regular.luc" 1698365044 1961878 305e540f3545673854903467c3d18712 ""
   "/Users/hiraiyuuware/Library/texlive/2023/texmf-var/luatex-cache/generic/fonts/otl/lmmono9-regular.luc" 1698365044 81875 4186f491346ae8e27e9de854d6400326 ""
@@ -360,7 +360,7 @@
   "/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1698315186 4623355 b8cad38412faebe1ce5b780a45db67bd ""
   "/usr/local/texlive/2023/texmf-var/tex/generic/config/language.dat" 1678822458 6627 dc320a7c13e00300e5a0f696ef4294be ""
   "/usr/local/texlive/2023/texmf-var/web2c/luahbtex/lualatex.fmt" 1698315181 11879313 a5bc16eb0711a3492ea5fb8532ba3b3d ""
-  "5_lattice_surgery.tex" 1734842277 6351 2de8fa337d85f52f1f6c6981bfe3942e ""
+  "5_lattice_surgery.tex" 1735035300 6648 d096dbf17c05ef694e1a4d689e8a8d0c ""
   "figure/cnot_in_lattice_surgery-eps-converted-to.pdf" 1734250015 79332 d6bc9908645578eea92165adf23ecdb5 ""
   "figure/cnot_in_lattice_surgery.eps" 1734225720 6440290 00622cb1f0be886163dd2ef726028a9d ""
   "figure/logical_cnot-eps-converted-to.pdf" 1734250015 14827 afdf42125f322254356296fa84774c7a ""
@@ -369,10 +369,10 @@
   "figure/merging.eps" 1734171384 4227738 e997db0bf7c3092d451c298aee298fc6 ""
   "figure/splitting-eps-converted-to.pdf" 1734250014 52614 ed80891b74ab3f89b611703181368d53 ""
   "figure/splitting.eps" 1734177250 4606322 5d8814d6d90678962e1523981172d951 ""
-  "out/5_lattice_surgery.aux" 1734842301 3024 c70dcfa261543b8c2c2d1c3b25058fd6 "lualatex"
+  "out/5_lattice_surgery.aux" 1735035328 3620 3333b3728718d1efa56cabe0c3df2817 "lualatex"
   "out/5_lattice_surgery.bbl" 1734842291 2470 efcb80688bcdd3031cd6979514a7f6b4 "biber out/5_lattice_surgery"
-  "out/5_lattice_surgery.out" 1734842301 463 0219504925c041e20974b003112fe058 "lualatex"
-  "out/5_lattice_surgery.run.xml" 1734842301 2439 707ee784867f08e9e989546adaf9e638 "lualatex"
+  "out/5_lattice_surgery.out" 1735035328 463 0219504925c041e20974b003112fe058 "lualatex"
+  "out/5_lattice_surgery.run.xml" 1735035328 2439 707ee784867f08e9e989546adaf9e638 "lualatex"
   "utility/SETTINGS.tex" 1734833689 3406 61c241449b3af34221e4c99cabf4b9a3 ""
   (generated)
   "out/5_lattice_surgery.aux"

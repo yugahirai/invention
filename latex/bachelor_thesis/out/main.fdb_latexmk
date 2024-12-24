@@ -1,13 +1,13 @@
 # Fdb version 4
-["biber out/main"] 1734833703 "out/main.bcf" "out/main.bbl" "out/main" 1734842361 0
-  "./utility/REFERENCES.bib" 1734171384 3666 b71fc559600c2e8fa068d1b65a51233c ""
-  "out/main.bcf" 1734842360 107901 c8e638e2cf48faaa815b1d9835d2fffd "lualatex"
+["biber out/main"] 1735037434 "out/main.bcf" "out/main.bbl" "out/main" 1735037459 0
+  "./utility/REFERENCES.bib" 1735035743 3966 fb3dc96db17f93d7ddb0d067ba19cc4a ""
+  "out/main.bcf" 1735037458 107973 64b981531bc222a04f0e8546c22e9575 "lualatex"
   (generated)
   "out/main.bbl"
   "out/main.blg"
   (rewritten before read)
-["lualatex"] 1734842351 "/Users/hiraiyuuware/Desktop/invention/latex/bachelor_thesis/main.tex" "out/main.pdf" "main" 1734842361 0
-  "/Users/hiraiyuuware/Desktop/invention/latex/bachelor_thesis/main.tex" 1734842343 698 bff4fbf548c75078c3dc1700bf802eff ""
+["lualatex"] 1735037452 "/Users/hiraiyuuware/Desktop/invention/latex/bachelor_thesis/main.tex" "out/main.pdf" "main" 1735037459 0
+  "/Users/hiraiyuuware/Desktop/invention/latex/bachelor_thesis/main.tex" 1735037423 698 bff4fbf548c75078c3dc1700bf802eff ""
   "/Users/hiraiyuuware/Library/texlive/2023/texmf-var/luatex-cache/generic/fonts/otl/haranoajigothic-medium.luc" 1698365046 1875369 563a49d56453118cc2bc098475a23186 ""
   "/Users/hiraiyuuware/Library/texlive/2023/texmf-var/luatex-cache/generic/fonts/otl/haranoajimincho-regular.luc" 1698365044 1961878 305e540f3545673854903467c3d18712 ""
   "/Users/hiraiyuuware/Library/texlive/2023/texmf-var/luatex-cache/generic/fonts/otl/lmmono10-regular.luc" 1698424751 81837 4defb7a479a5fd058bb0732d84253c7a ""
@@ -376,13 +376,13 @@
   "/usr/local/texlive/2023/texmf-var/tex/generic/config/language.dat" 1678822458 6627 dc320a7c13e00300e5a0f696ef4294be ""
   "/usr/local/texlive/2023/texmf-var/web2c/luahbtex/lualatex.fmt" 1698315181 11879313 a5bc16eb0711a3492ea5fb8532ba3b3d ""
   "10_conclusion_and_future_works.tex" 1734831745 1659 67fa0c8be177e8e79b3d354190135d89 ""
-  "1_introduction.tex" 1734327852 3452 ffe99e53505777d2c1e21f7991b5c5b8 ""
+  "1_introduction.tex" 1735035783 3454 1dd1aace4ac43ffea706d3dcf866cff7 ""
   "2_basics_of_quantum_computation.tex" 1734839963 5286 adb3943c4592657c7acaceb3dd03c066 ""
   "3_stabilizer_formalism.tex" 1734839954 16575 69300de16c1e3d24c054231089fafb3e ""
-  "4_surface_code.tex" 1734841715 5837 d6cc70d9f7d7582edb0c970532cdf0c4 ""
-  "5_lattice_surgery.tex" 1734842277 6351 2de8fa337d85f52f1f6c6981bfe3942e ""
-  "6_looped_pipeline_architecture.tex" 1734327852 7029 46db9a8fc40c9939832badf21b312983 ""
-  "7_pseudo_three_dimentional_surface_code.tex" 1734661010 8383 f104190921ab00762d8f8b59ecb0cace ""
+  "4_surface_code.tex" 1735034258 5852 1bb58043913318beb727634e1c7a21af ""
+  "5_lattice_surgery.tex" 1735035300 6648 d096dbf17c05ef694e1a4d689e8a8d0c ""
+  "6_looped_pipeline_architecture.tex" 1735035466 7362 1bcd066b31451865195c31eafa9e0358 ""
+  "7_pseudo_three_dimentional_surface_code.tex" 1735037376 9158 00cb8cc4a9a394bd9daa69635320f633 ""
   "8_placement_optimization.tex" 1734831541 5201 462db37a61b869f48cd23fcd3d40a139 ""
   "9_results.tex" 1734829667 5861 a2a0391f023690baec24b0be04c312b7 ""
   "acknowledgments.tex" 1734833551 377 088b3736a59593a1c9cbce51d54a3147 ""
@@ -452,12 +452,12 @@
   "figure/syndrome_measurement_circuit.eps" 1734171384 2859446 dbfd9942325ce0e8a74027cbae0f9376 ""
   "figure/torus-eps-converted-to.pdf" 1734840396 27664 eeb50cebd6e9be0cdb73a0960b327c5a ""
   "figure/torus.eps" 1734840187 4480106 405b4e93a519b20cf4b8f5ccd1f0d384 ""
-  "main.tex" 1734842343 698 bff4fbf548c75078c3dc1700bf802eff ""
-  "out/main.aux" 1734842360 17526 0eb5e950b61f462d663868fd5ce54520 "lualatex"
-  "out/main.bbl" 1734833707 20209 f422d2ca7ad9c1b1369379a34663d771 "biber out/main"
-  "out/main.out" 1734842360 4567 a8fe9c25db1f7a4fdd9d348422527098 "lualatex"
-  "out/main.run.xml" 1734842360 2348 1ff596827b9961727087fabd78eb7c8f "lualatex"
-  "out/main.toc" 1734842360 2418 445ef52c0403e30bf1e6b792fa3b8dcb "lualatex"
+  "main.tex" 1735037423 698 bff4fbf548c75078c3dc1700bf802eff ""
+  "out/main.aux" 1735037458 20425 65701f875893462fd1f9f32c3013c786 "lualatex"
+  "out/main.bbl" 1735037438 20259 61149133b1de2c69c3b054e7d635f0b3 "biber out/main"
+  "out/main.out" 1735037458 4567 a8fe9c25db1f7a4fdd9d348422527098 "lualatex"
+  "out/main.run.xml" 1735037458 2348 1ff596827b9961727087fabd78eb7c8f "lualatex"
+  "out/main.toc" 1735037458 2418 16d171a45ae7c6d3918febc76a5457ef "lualatex"
   "title.tex" 1734832670 852 1734a9164a54b8c871e7d39bd792c9b1 ""
   "utility/SETTINGS.tex" 1734833689 3406 61c241449b3af34221e4c99cabf4b9a3 ""
   (generated)

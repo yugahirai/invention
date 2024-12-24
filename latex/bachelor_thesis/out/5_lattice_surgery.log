@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.16.0 (TeX Live 2023)  (format=lualatex 2023.10.26)  22 DEC 2024 13:38
+This is LuaHBTeX, Version 1.16.0 (TeX Live 2023)  (format=lualatex 2023.10.26)  24 DEC 2024 19:15
  restricted system commands enabled.
 **/Users/hiraiyuuware/Desktop/invention/latex/bachelor_thesis/5_lattice_surgery.tex
 (/Users/hiraiyuuware/Desktop/invention/latex/bachelor_thesis/5_lattice_surgery.tex
@@ -1832,10 +1832,10 @@ Here is how much of LuaTeX's memory you used:
 
 warning  (pdf backend): unreferenced destination with name 'cite.0@horsman2012'
 </usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman7-regular.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on 5_lattice_surgery.pdf (4 pages, 277118 bytes).
+Output written on 5_lattice_surgery.pdf (4 pages, 277466 bytes).
 
-PDF statistics: 182 PDF objects out of 1000 (max. 8388607)
- 134 compressed objects within 2 object streams
+PDF statistics: 185 PDF objects out of 1000 (max. 8388607)
+ 136 compressed objects within 2 object streams
  15 named destinations out of 1000 (max. 131072)
  48 words of extra memory for PDF output out of 10000 (max. 100000000)
 

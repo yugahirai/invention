@@ -1,15 +1,17 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'out/main.blg'
-[58] biber-darwin:340> INFO - === Sun Dec 22, 2024, 11:15:07
+[57] biber-darwin:340> INFO - === Tue Dec 24, 2024, 19:50:38
 [70] Biber.pm:419> INFO - Reading 'out/main.bcf'
-[144] Biber.pm:979> INFO - Found 11 citekeys in bib section 0
-[155] Biber.pm:4419> INFO - Processing section 0
-[165] Biber.pm:4610> INFO - Looking for bibtex file 'utility/REFERENCES.bib' for section 0
-[167] bibtex.pm:1713> INFO - LaTeX decoding ...
-[175] bibtex.pm:1519> INFO - Found BibTeX data source 'utility/REFERENCES.bib'
-[289] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[289] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[289] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[289] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
-[302] bbl.pm:660> INFO - Writing 'out/main.bbl' with encoding 'UTF-8'
-[313] bbl.pm:763> INFO - Output to out/main.bbl
+[172] Biber.pm:979> INFO - Found 12 citekeys in bib section 0
+[183] Biber.pm:4419> INFO - Processing section 0
+[191] Biber.pm:4610> INFO - Looking for bibtex file 'utility/REFERENCES.bib' for section 0
+[193] bibtex.pm:1713> INFO - LaTeX decoding ...
+[201] bibtex.pm:1519> INFO - Found BibTeX data source 'utility/REFERENCES.bib'
+[298] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[299] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[299] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[299] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[309] bbl.pm:660> INFO - Writing 'out/main.bbl' with encoding 'UTF-8'
+[319] bbl.pm:763> INFO - Output to out/main.bbl
+[319] Biber.pm:131> WARN - I didn't find a database entry for 'litinski2019' (section 0)
+[319] Biber.pm:133> INFO - WARNINGS: 1

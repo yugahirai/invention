@@ -16,5 +16,41 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{litinski2019-2}{article}{}
+      \name{author}{1}{}{%
+        {{hash=d837952f6e1a3c6b778bfffa0ff0f161}{%
+           family={Litinski},
+           familyi={L\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{d837952f6e1a3c6b778bfffa0ff0f161}
+      \strng{fullhash}{d837952f6e1a3c6b778bfffa0ff0f161}
+      \strng{bibnamehash}{d837952f6e1a3c6b778bfffa0ff0f161}
+      \strng{authorbibnamehash}{d837952f6e1a3c6b778bfffa0ff0f161}
+      \strng{authornamehash}{d837952f6e1a3c6b778bfffa0ff0f161}
+      \strng{authorfullhash}{d837952f6e1a3c6b778bfffa0ff0f161}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Quantum}
+      \field{title}{A Game of Surface Codes: Large-Scale Quantum Computing with Lattice Surgery}
+      \field{volume}{3}
+      \field{year}{2019}
+      \field{pages}{128}
+      \range{pages}{1}
+      \verb{urlraw}
+      \verb https://quantum-journal.org/papers/q-2019-03-05-128/
+      \endverb
+      \verb{url}
+      \verb https://quantum-journal.org/papers/q-2019-03-05-128/
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 

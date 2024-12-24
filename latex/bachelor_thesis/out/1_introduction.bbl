@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 3.3 $
+% $ biblatex bbl format version 3.2 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -18,8 +18,8 @@
 
 
 \refsection{0}
-  \datalist[entry]{none/global//global/global/global}
-    \entry{bluvstein2024}{article}{}{}
+  \datalist[entry]{none/global//global/global}
+    \entry{bluvstein2024}{article}{}
       \name{author}{21}{}{%
         {{hash=19f3e92397a12fdf21c4d824ebe1eb20}{%
            family={Bluvstein},
@@ -129,12 +129,10 @@
       }
       \strng{namehash}{68e874b2e6c169b0039b6560100367e4}
       \strng{fullhash}{68e874b2e6c169b0039b6560100367e4}
-      \strng{fullhashraw}{68e874b2e6c169b0039b6560100367e4}
       \strng{bibnamehash}{68e874b2e6c169b0039b6560100367e4}
       \strng{authorbibnamehash}{68e874b2e6c169b0039b6560100367e4}
       \strng{authornamehash}{68e874b2e6c169b0039b6560100367e4}
       \strng{authorfullhash}{68e874b2e6c169b0039b6560100367e4}
-      \strng{authorfullhashraw}{68e874b2e6c169b0039b6560100367e4}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
@@ -155,7 +153,7 @@
       \verb https://doi.org/10.1038/s41586-023-06927-3
       \endverb
     \endentry
-    \entry{google2024}{article}{}{}
+    \entry{google2024}{article}{}
       \name{author}{2}{}{%
         {{hash=22c32e8c6cc1bfe3a964c42055a9eac5}{%
            family={AI},
@@ -168,12 +166,10 @@
       }
       \strng{namehash}{8aa2a1d40bc4ba520c7954b9cf16b434}
       \strng{fullhash}{8aa2a1d40bc4ba520c7954b9cf16b434}
-      \strng{fullhashraw}{8aa2a1d40bc4ba520c7954b9cf16b434}
       \strng{bibnamehash}{8aa2a1d40bc4ba520c7954b9cf16b434}
       \strng{authorbibnamehash}{8aa2a1d40bc4ba520c7954b9cf16b434}
       \strng{authornamehash}{8aa2a1d40bc4ba520c7954b9cf16b434}
       \strng{authorfullhash}{8aa2a1d40bc4ba520c7954b9cf16b434}
-      \strng{authorfullhashraw}{8aa2a1d40bc4ba520c7954b9cf16b434}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -191,7 +187,7 @@
       \verb https://arxiv.org/abs/2408.13687
       \endverb
     \endentry
-    \entry{horsman2012}{article}{}{}
+    \entry{horsman2012}{article}{}
       \name{author}{4}{}{%
         {{hash=71fa14996d0e66e018d607154b5136e8}{%
            family={Horsman},
@@ -216,12 +212,10 @@
       }
       \strng{namehash}{b6654bee1eb03eafdf4a62ccfd7503bc}
       \strng{fullhash}{b6654bee1eb03eafdf4a62ccfd7503bc}
-      \strng{fullhashraw}{b6654bee1eb03eafdf4a62ccfd7503bc}
       \strng{bibnamehash}{b6654bee1eb03eafdf4a62ccfd7503bc}
       \strng{authorbibnamehash}{b6654bee1eb03eafdf4a62ccfd7503bc}
       \strng{authornamehash}{b6654bee1eb03eafdf4a62ccfd7503bc}
       \strng{authorfullhash}{b6654bee1eb03eafdf4a62ccfd7503bc}
-      \strng{authorfullhashraw}{b6654bee1eb03eafdf4a62ccfd7503bc}
       \field{sortinit}{3}
       \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
@@ -242,7 +236,7 @@
       \verb https://doi.org/10.1088/1367-2630/14/12/123011
       \endverb
     \endentry
-    \entry{litinski2019}{article}{}{}
+    \entry{litinski2019-2}{article}{}
       \name{author}{1}{}{%
         {{hash=d837952f6e1a3c6b778bfffa0ff0f161}{%
            family={Litinski},
@@ -252,30 +246,28 @@
       }
       \strng{namehash}{d837952f6e1a3c6b778bfffa0ff0f161}
       \strng{fullhash}{d837952f6e1a3c6b778bfffa0ff0f161}
-      \strng{fullhashraw}{d837952f6e1a3c6b778bfffa0ff0f161}
       \strng{bibnamehash}{d837952f6e1a3c6b778bfffa0ff0f161}
       \strng{authorbibnamehash}{d837952f6e1a3c6b778bfffa0ff0f161}
       \strng{authornamehash}{d837952f6e1a3c6b778bfffa0ff0f161}
       \strng{authorfullhash}{d837952f6e1a3c6b778bfffa0ff0f161}
-      \strng{authorfullhashraw}{d837952f6e1a3c6b778bfffa0ff0f161}
       \field{sortinit}{4}
       \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Quantum}
-      \field{title}{Magic State Distillation: Not as Costly as You Think}
+      \field{title}{A Game of Surface Codes: Large-Scale Quantum Computing with Lattice Surgery}
       \field{volume}{3}
       \field{year}{2019}
       \field{pages}{128}
       \range{pages}{1}
       \verb{urlraw}
-      \verb https://quantum-journal.org/papers/q-2019-12-02-205/
+      \verb https://quantum-journal.org/papers/q-2019-03-05-128/
       \endverb
       \verb{url}
-      \verb https://quantum-journal.org/papers/q-2019-12-02-205/
+      \verb https://quantum-journal.org/papers/q-2019-03-05-128/
       \endverb
     \endentry
-    \entry{gidney2024}{article}{}{}
+    \entry{gidney2024}{article}{}
       \name{author}{3}{}{%
         {{hash=0101a428978c8ddc038880b7a77afd98}{%
            family={Gidney},
@@ -295,12 +287,10 @@
       }
       \strng{namehash}{c678532385fc78c31cf4f4c368419363}
       \strng{fullhash}{c678532385fc78c31cf4f4c368419363}
-      \strng{fullhashraw}{c678532385fc78c31cf4f4c368419363}
       \strng{bibnamehash}{c678532385fc78c31cf4f4c368419363}
       \strng{authorbibnamehash}{c678532385fc78c31cf4f4c368419363}
       \strng{authornamehash}{c678532385fc78c31cf4f4c368419363}
       \strng{authorfullhash}{c678532385fc78c31cf4f4c368419363}
-      \strng{authorfullhashraw}{c678532385fc78c31cf4f4c368419363}
       \field{sortinit}{5}
       \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
@@ -318,7 +308,7 @@
       \verb https://arxiv.org/abs/2409.17595
       \endverb
     \endentry
-    \entry{cai2023}{article}{}{}
+    \entry{cai2023}{article}{}
       \name{author}{3}{}{%
         {{hash=8ea41cf3838b8cbd7dfef5c651f8c244}{%
            family={Cai},
@@ -338,12 +328,10 @@
       }
       \strng{namehash}{9312a92b012f0aa32ee0e93aec4fcd90}
       \strng{fullhash}{9312a92b012f0aa32ee0e93aec4fcd90}
-      \strng{fullhashraw}{9312a92b012f0aa32ee0e93aec4fcd90}
       \strng{bibnamehash}{9312a92b012f0aa32ee0e93aec4fcd90}
       \strng{authorbibnamehash}{9312a92b012f0aa32ee0e93aec4fcd90}
       \strng{authornamehash}{9312a92b012f0aa32ee0e93aec4fcd90}
       \strng{authorfullhash}{9312a92b012f0aa32ee0e93aec4fcd90}
-      \strng{authorfullhashraw}{9312a92b012f0aa32ee0e93aec4fcd90}
       \field{sortinit}{6}
       \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
