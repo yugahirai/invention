@@ -78,8 +78,8 @@
 <path d="M1065.6,1558.4 C1072 1526.4,1072 1526.4,1065.6 1494.4 C1081.6 1497.6,1081.6 1497.6,1097.6 1494.4 C1113.6 1497.6,1113.6 1497.6,1129.6 1494.4 C1123.2 1526.4,1123.2 1526.4,1129.6 1558.4 C1126.4 1574.4,1126.4 1574.4,1129.6 1590.4 L1161.6,1622.4 C1145.6 1619.2,1145.6 1619.2,1129.6 1622.4 C1097.6 1616,1097.6 1616,1065.6 1622.4 C1068.8 1606.4,1068.8 1606.4,1065.6 1590.4 C1068.8 1574.4,1068.8 1574.4,1065.6 1558.4" stroke="black" fill="none"/>
 </g>
 <g id="slice:12:20">
-<path d="M1065.6,572.8 L1065.6,508.8 L1129.6,508.8 L1097.6,572.8 L1129.6,540.8 C1126.4 556.8,1126.4 556.8,1129.6 572.8 C1123.2 604.8,1123.2 604.8,1129.6 636.8 C1097.6 630.4,1097.6 630.4,1065.6 636.8 C1049.6 633.6,1049.6 633.6,1033.6 636.8 L1065.6,572.8" stroke="none" fill-opacity="0.75" fill="#4DA6FF"/>
-<path d="M1065.6,572.8 L1065.6,508.8 L1129.6,508.8 L1097.6,572.8 L1129.6,540.8 C1126.4 556.8,1126.4 556.8,1129.6 572.8 C1123.2 604.8,1123.2 604.8,1129.6 636.8 C1097.6 630.4,1097.6 630.4,1065.6 636.8 C1049.6 633.6,1049.6 633.6,1033.6 636.8 L1065.6,572.8" stroke="black" fill="none"/>
+<path d="M1065.6,572.8 L1065.6,508.8 L1129.6,508.8 L1129.6,540.8 L1097.6,572.8 L1129.6,572.8 L1129.6,636.8 C1097.6 630.4,1097.6 630.4,1065.6 636.8 C1049.6 633.6,1049.6 633.6,1033.6 636.8 L1065.6,572.8" stroke="none" fill-opacity="0.75" fill="#4DA6FF"/>
+<path d="M1065.6,572.8 L1065.6,508.8 L1129.6,508.8 L1129.6,540.8 L1097.6,572.8 L1129.6,572.8 L1129.6,636.8 C1097.6 630.4,1097.6 630.4,1065.6 636.8 C1049.6 633.6,1049.6 633.6,1033.6 636.8 L1065.6,572.8" stroke="black" fill="none"/>
 </g>
 <g id="slice:16:28">
 <path d="M1065.6,819.2 L1097.6,819.2 L1065.6,755.2 C1097.6 761.6,1097.6 761.6,1129.6 755.2 C1145.6 758.4,1145.6 758.4,1161.6 755.2 L1129.6,819.2 L1129.6,883.2 L1097.6,947.2 L1065.6,883.2 L1065.6,819.2" stroke="none" fill-opacity="0.75" fill="#FF4040"/>
@@ -551,15 +551,15 @@
 <path d="M819.2,326.4 C825.6 294.4,825.6 294.4,819.2 262.4 L851.2,326.4 L883.2,294.4 L883.2,390.4 L819.2,390.4 C825.6 358.4,825.6 358.4,819.2 326.4" stroke="black" fill="none"/>
 </g>
 <g id="slice:7:12">
-<path d="M1065.6,326.4 C1072 294.4,1072 294.4,1065.6 262.4 L1097.6,326.4 L1129.6,294.4 L1129.6,390.4 L1065.6,390.4 C1072 358.4,1072 358.4,1065.6 326.4" stroke="none" fill-opacity="0.75" fill="#AAAAAA"/>
-<clipPath id="clip19"><path d="M1065.6,326.4 C1072 294.4,1072 294.4,1065.6 262.4 L1097.6,326.4 L1129.6,294.4 L1129.6,390.4 L1065.6,390.4 C1072 358.4,1072 358.4,1065.6 326.4"/></clipPath>
+<path d="M1065.6,326.4 C1072 294.4,1072 294.4,1065.6 262.4 L1129.6,294.4 L1097.6,326.4 L1129.6,390.4 L1065.6,390.4 C1072 358.4,1072 358.4,1065.6 326.4" stroke="none" fill-opacity="0.75" fill="#AAAAAA"/>
+<clipPath id="clip19"><path d="M1065.6,326.4 C1072 294.4,1072 294.4,1065.6 262.4 L1129.6,294.4 L1097.6,326.4 L1129.6,390.4 L1065.6,390.4 C1072 358.4,1072 358.4,1065.6 326.4"/></clipPath>
 <circle clip-path="url(#clip19)" cx="1065.6" cy="262.4" r="20" stroke="none" fill="url('#xgrad')"/>
 <circle clip-path="url(#clip19)" cx="1065.6" cy="326.4" r="20" stroke="none" fill="url('#xgrad')"/>
 <circle clip-path="url(#clip19)" cx="1065.6" cy="390.4" r="20" stroke="none" fill="url('#xgrad')"/>
 <circle clip-path="url(#clip19)" cx="1129.6" cy="390.4" r="20" stroke="none" fill="url('#xgrad')"/>
 <circle clip-path="url(#clip19)" cx="1097.6" cy="326.4" r="20" stroke="none" fill="url('#zgrad')"/>
 <circle clip-path="url(#clip19)" cx="1129.6" cy="294.4" r="20" stroke="none" fill="url('#zgrad')"/>
-<path d="M1065.6,326.4 C1072 294.4,1072 294.4,1065.6 262.4 L1097.6,326.4 L1129.6,294.4 L1129.6,390.4 L1065.6,390.4 C1072 358.4,1072 358.4,1065.6 326.4" stroke="black" fill="none"/>
+<path d="M1065.6,326.4 C1072 294.4,1072 294.4,1065.6 262.4 L1129.6,294.4 L1097.6,326.4 L1129.6,390.4 L1065.6,390.4 C1072 358.4,1072 358.4,1065.6 326.4" stroke="black" fill="none"/>
 </g>
 <g id="slice:6:14">
 <path d="M1526.4,390.4 C1548.8 361.6,1548.8 361.6,1558.4 326.4 L1558.4,390.4 L1590.4,454.4 C1574.4 451.2,1574.4 451.2,1558.4 454.4 C1526.4 448,1526.4 448,1494.4 454.4 C1516.8 425.6,1516.8 425.6,1526.4 390.4" stroke="none" fill-opacity="0.75" fill="#FF4040"/>
@@ -570,15 +570,15 @@
 <path d="M1804.8,326.4 L1804.8,390.4 L1836.8,326.4 L1836.8,454.4 C1820.8 451.2,1820.8 451.2,1804.8 454.4 C1772.8 448,1772.8 448,1740.8 454.4 L1804.8,326.4" stroke="black" fill="none"/>
 </g>
 <g id="slice:7:16">
-<path d="M80,572.8 C86.4 540.8,86.4 540.8,80 508.8 L112,572.8 L144,540.8 L144,636.8 L80,636.8 C86.4 604.8,86.4 604.8,80 572.8" stroke="none" fill-opacity="0.75" fill="#AAAAAA"/>
-<clipPath id="clip20"><path d="M80,572.8 C86.4 540.8,86.4 540.8,80 508.8 L112,572.8 L144,540.8 L144,636.8 L80,636.8 C86.4 604.8,86.4 604.8,80 572.8"/></clipPath>
+<path d="M80,572.8 C86.4 540.8,86.4 540.8,80 508.8 L144,540.8 L112,572.8 L144,636.8 L80,636.8 C86.4 604.8,86.4 604.8,80 572.8" stroke="none" fill-opacity="0.75" fill="#AAAAAA"/>
+<clipPath id="clip20"><path d="M80,572.8 C86.4 540.8,86.4 540.8,80 508.8 L144,540.8 L112,572.8 L144,636.8 L80,636.8 C86.4 604.8,86.4 604.8,80 572.8"/></clipPath>
 <circle clip-path="url(#clip20)" cx="80" cy="508.8" r="20" stroke="none" fill="url('#xgrad')"/>
 <circle clip-path="url(#clip20)" cx="80" cy="572.8" r="20" stroke="none" fill="url('#xgrad')"/>
 <circle clip-path="url(#clip20)" cx="80" cy="636.8" r="20" stroke="none" fill="url('#xgrad')"/>
 <circle clip-path="url(#clip20)" cx="144" cy="636.8" r="20" stroke="none" fill="url('#xgrad')"/>
 <circle clip-path="url(#clip20)" cx="112" cy="572.8" r="20" stroke="none" fill="url('#xgrad')"/>
 <circle clip-path="url(#clip20)" cx="144" cy="540.8" r="20" stroke="none" fill="url('#zgrad')"/>
-<path d="M80,572.8 C86.4 540.8,86.4 540.8,80 508.8 L112,572.8 L144,540.8 L144,636.8 L80,636.8 C86.4 604.8,86.4 604.8,80 572.8" stroke="black" fill="none"/>
+<path d="M80,572.8 C86.4 540.8,86.4 540.8,80 508.8 L144,540.8 L112,572.8 L144,636.8 L80,636.8 C86.4 604.8,86.4 604.8,80 572.8" stroke="black" fill="none"/>
 </g>
 <g id="slice:12:16">
 <path d="M80,508.8 L144,508.8 L144,572.8 L112,572.8 L80,636.8 C86.4 604.8,86.4 604.8,80 572.8 C86.4 540.8,86.4 540.8,80 508.8" stroke="none" fill-opacity="0.75" fill="#4DA6FF"/>
@@ -5035,7 +5035,6 @@
 <radialGradient id="zgrad"><stop offset="50%" stop-color="#4DA6FF" stop-opacity="1"/><stop offset="100%" stop-color="#AAAAAA" stop-opacity="0"/></radialGradient>
 </defs>
 <g id="qubit_dots">
-<circle id="qubit_dot:0:0" cx="16" cy="16" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:1:2_0:0" cx="80" cy="16" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:2:2_2:0" cx="80" cy="80" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:3:2_4:0" cx="80" cy="144" r="2" stroke="none" fill="black"/>
@@ -5062,7 +5061,6 @@
 <circle id="qubit_dot:24:3_4:0" cx="112" cy="144" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:25:1_3:0" cx="48" cy="112" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:26:3_5:0" cx="112" cy="176" r="2" stroke="none" fill="black"/>
-<circle id="qubit_dot:0:1" cx="262.4" cy="16" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:1:2_0:1" cx="326.4" cy="16" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:2:2_2:1" cx="326.4" cy="80" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:3:2_4:1" cx="326.4" cy="144" r="2" stroke="none" fill="black"/>
@@ -5089,7 +5087,6 @@
 <circle id="qubit_dot:24:3_4:1" cx="358.4" cy="144" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:25:1_3:1" cx="294.4" cy="112" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:26:3_5:1" cx="358.4" cy="176" r="2" stroke="none" fill="black"/>
-<circle id="qubit_dot:0:2" cx="508.8" cy="16" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:1:2_0:2" cx="572.8" cy="16" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:2:2_2:2" cx="572.8" cy="80" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:3:2_4:2" cx="572.8" cy="144" r="2" stroke="none" fill="black"/>
@@ -5116,7 +5113,6 @@
 <circle id="qubit_dot:24:3_4:2" cx="604.8" cy="144" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:25:1_3:2" cx="540.8" cy="112" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:26:3_5:2" cx="604.8" cy="176" r="2" stroke="none" fill="black"/>
-<circle id="qubit_dot:0:3" cx="755.2" cy="16" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:1:2_0:3" cx="819.2" cy="16" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:2:2_2:3" cx="819.2" cy="80" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:3:2_4:3" cx="819.2" cy="144" r="2" stroke="none" fill="black"/>
@@ -5143,7 +5139,6 @@
 <circle id="qubit_dot:24:3_4:3" cx="851.2" cy="144" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:25:1_3:3" cx="787.2" cy="112" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:26:3_5:3" cx="851.2" cy="176" r="2" stroke="none" fill="black"/>
-<circle id="qubit_dot:0:4" cx="1001.6" cy="16" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:1:2_0:4" cx="1065.6" cy="16" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:2:2_2:4" cx="1065.6" cy="80" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:3:2_4:4" cx="1065.6" cy="144" r="2" stroke="none" fill="black"/>
@@ -5170,7 +5165,6 @@
 <circle id="qubit_dot:24:3_4:4" cx="1097.6" cy="144" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:25:1_3:4" cx="1033.6" cy="112" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:26:3_5:4" cx="1097.6" cy="176" r="2" stroke="none" fill="black"/>
-<circle id="qubit_dot:0:5" cx="1248" cy="16" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:1:2_0:5" cx="1312" cy="16" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:2:2_2:5" cx="1312" cy="80" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:3:2_4:5" cx="1312" cy="144" r="2" stroke="none" fill="black"/>
@@ -5197,7 +5191,6 @@
 <circle id="qubit_dot:24:3_4:5" cx="1344" cy="144" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:25:1_3:5" cx="1280" cy="112" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:26:3_5:5" cx="1344" cy="176" r="2" stroke="none" fill="black"/>
-<circle id="qubit_dot:0:6" cx="1494.4" cy="16" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:1:2_0:6" cx="1558.4" cy="16" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:2:2_2:6" cx="1558.4" cy="80" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:3:2_4:6" cx="1558.4" cy="144" r="2" stroke="none" fill="black"/>
@@ -5224,7 +5217,6 @@
 <circle id="qubit_dot:24:3_4:6" cx="1590.4" cy="144" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:25:1_3:6" cx="1526.4" cy="112" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:26:3_5:6" cx="1590.4" cy="176" r="2" stroke="none" fill="black"/>
-<circle id="qubit_dot:0:7" cx="1740.8" cy="16" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:1:2_0:7" cx="1804.8" cy="16" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:2:2_2:7" cx="1804.8" cy="80" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:3:2_4:7" cx="1804.8" cy="144" r="2" stroke="none" fill="black"/>
@@ -5251,7 +5243,6 @@
 <circle id="qubit_dot:24:3_4:7" cx="1836.8" cy="144" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:25:1_3:7" cx="1772.8" cy="112" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:26:3_5:7" cx="1836.8" cy="176" r="2" stroke="none" fill="black"/>
-<circle id="qubit_dot:0:8" cx="16" cy="262.4" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:1:2_0:8" cx="80" cy="262.4" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:2:2_2:8" cx="80" cy="326.4" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:3:2_4:8" cx="80" cy="390.4" r="2" stroke="none" fill="black"/>
@@ -5278,7 +5269,6 @@
 <circle id="qubit_dot:24:3_4:8" cx="112" cy="390.4" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:25:1_3:8" cx="48" cy="358.4" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:26:3_5:8" cx="112" cy="422.4" r="2" stroke="none" fill="black"/>
-<circle id="qubit_dot:0:9" cx="262.4" cy="262.4" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:1:2_0:9" cx="326.4" cy="262.4" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:2:2_2:9" cx="326.4" cy="326.4" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:3:2_4:9" cx="326.4" cy="390.4" r="2" stroke="none" fill="black"/>
@@ -5305,7 +5295,6 @@
 <circle id="qubit_dot:24:3_4:9" cx="358.4" cy="390.4" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:25:1_3:9" cx="294.4" cy="358.4" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:26:3_5:9" cx="358.4" cy="422.4" r="2" stroke="none" fill="black"/>
-<circle id="qubit_dot:0:10" cx="508.8" cy="262.4" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:1:2_0:10" cx="572.8" cy="262.4" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:2:2_2:10" cx="572.8" cy="326.4" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:3:2_4:10" cx="572.8" cy="390.4" r="2" stroke="none" fill="black"/>
@@ -5332,7 +5321,6 @@
 <circle id="qubit_dot:24:3_4:10" cx="604.8" cy="390.4" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:25:1_3:10" cx="540.8" cy="358.4" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:26:3_5:10" cx="604.8" cy="422.4" r="2" stroke="none" fill="black"/>
-<circle id="qubit_dot:0:11" cx="755.2" cy="262.4" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:1:2_0:11" cx="819.2" cy="262.4" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:2:2_2:11" cx="819.2" cy="326.4" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:3:2_4:11" cx="819.2" cy="390.4" r="2" stroke="none" fill="black"/>
@@ -5359,7 +5347,6 @@
 <circle id="qubit_dot:24:3_4:11" cx="851.2" cy="390.4" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:25:1_3:11" cx="787.2" cy="358.4" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:26:3_5:11" cx="851.2" cy="422.4" r="2" stroke="none" fill="black"/>
-<circle id="qubit_dot:0:12" cx="1001.6" cy="262.4" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:1:2_0:12" cx="1065.6" cy="262.4" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:2:2_2:12" cx="1065.6" cy="326.4" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:3:2_4:12" cx="1065.6" cy="390.4" r="2" stroke="none" fill="black"/>
@@ -5386,7 +5373,6 @@
 <circle id="qubit_dot:24:3_4:12" cx="1097.6" cy="390.4" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:25:1_3:12" cx="1033.6" cy="358.4" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:26:3_5:12" cx="1097.6" cy="422.4" r="2" stroke="none" fill="black"/>
-<circle id="qubit_dot:0:13" cx="1248" cy="262.4" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:1:2_0:13" cx="1312" cy="262.4" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:2:2_2:13" cx="1312" cy="326.4" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:3:2_4:13" cx="1312" cy="390.4" r="2" stroke="none" fill="black"/>
@@ -5413,7 +5399,6 @@
 <circle id="qubit_dot:24:3_4:13" cx="1344" cy="390.4" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:25:1_3:13" cx="1280" cy="358.4" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:26:3_5:13" cx="1344" cy="422.4" r="2" stroke="none" fill="black"/>
-<circle id="qubit_dot:0:14" cx="1494.4" cy="262.4" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:1:2_0:14" cx="1558.4" cy="262.4" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:2:2_2:14" cx="1558.4" cy="326.4" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:3:2_4:14" cx="1558.4" cy="390.4" r="2" stroke="none" fill="black"/>
@@ -5440,7 +5425,6 @@
 <circle id="qubit_dot:24:3_4:14" cx="1590.4" cy="390.4" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:25:1_3:14" cx="1526.4" cy="358.4" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:26:3_5:14" cx="1590.4" cy="422.4" r="2" stroke="none" fill="black"/>
-<circle id="qubit_dot:0:15" cx="1740.8" cy="262.4" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:1:2_0:15" cx="1804.8" cy="262.4" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:2:2_2:15" cx="1804.8" cy="326.4" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:3:2_4:15" cx="1804.8" cy="390.4" r="2" stroke="none" fill="black"/>
@@ -5467,7 +5451,6 @@
 <circle id="qubit_dot:24:3_4:15" cx="1836.8" cy="390.4" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:25:1_3:15" cx="1772.8" cy="358.4" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:26:3_5:15" cx="1836.8" cy="422.4" r="2" stroke="none" fill="black"/>
-<circle id="qubit_dot:0:16" cx="16" cy="508.8" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:1:2_0:16" cx="80" cy="508.8" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:2:2_2:16" cx="80" cy="572.8" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:3:2_4:16" cx="80" cy="636.8" r="2" stroke="none" fill="black"/>
@@ -5494,7 +5477,6 @@
 <circle id="qubit_dot:24:3_4:16" cx="112" cy="636.8" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:25:1_3:16" cx="48" cy="604.8" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:26:3_5:16" cx="112" cy="668.8" r="2" stroke="none" fill="black"/>
-<circle id="qubit_dot:0:17" cx="262.4" cy="508.8" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:1:2_0:17" cx="326.4" cy="508.8" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:2:2_2:17" cx="326.4" cy="572.8" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:3:2_4:17" cx="326.4" cy="636.8" r="2" stroke="none" fill="black"/>
@@ -5521,7 +5503,6 @@
 <circle id="qubit_dot:24:3_4:17" cx="358.4" cy="636.8" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:25:1_3:17" cx="294.4" cy="604.8" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:26:3_5:17" cx="358.4" cy="668.8" r="2" stroke="none" fill="black"/>
-<circle id="qubit_dot:0:18" cx="508.8" cy="508.8" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:1:2_0:18" cx="572.8" cy="508.8" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:2:2_2:18" cx="572.8" cy="572.8" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:3:2_4:18" cx="572.8" cy="636.8" r="2" stroke="none" fill="black"/>
@@ -5548,7 +5529,6 @@
 <circle id="qubit_dot:24:3_4:18" cx="604.8" cy="636.8" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:25:1_3:18" cx="540.8" cy="604.8" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:26:3_5:18" cx="604.8" cy="668.8" r="2" stroke="none" fill="black"/>
-<circle id="qubit_dot:0:19" cx="755.2" cy="508.8" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:1:2_0:19" cx="819.2" cy="508.8" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:2:2_2:19" cx="819.2" cy="572.8" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:3:2_4:19" cx="819.2" cy="636.8" r="2" stroke="none" fill="black"/>
@@ -5575,7 +5555,6 @@
 <circle id="qubit_dot:24:3_4:19" cx="851.2" cy="636.8" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:25:1_3:19" cx="787.2" cy="604.8" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:26:3_5:19" cx="851.2" cy="668.8" r="2" stroke="none" fill="black"/>
-<circle id="qubit_dot:0:20" cx="1001.6" cy="508.8" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:1:2_0:20" cx="1065.6" cy="508.8" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:2:2_2:20" cx="1065.6" cy="572.8" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:3:2_4:20" cx="1065.6" cy="636.8" r="2" stroke="none" fill="black"/>
@@ -5602,7 +5581,6 @@
 <circle id="qubit_dot:24:3_4:20" cx="1097.6" cy="636.8" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:25:1_3:20" cx="1033.6" cy="604.8" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:26:3_5:20" cx="1097.6" cy="668.8" r="2" stroke="none" fill="black"/>
-<circle id="qubit_dot:0:21" cx="1248" cy="508.8" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:1:2_0:21" cx="1312" cy="508.8" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:2:2_2:21" cx="1312" cy="572.8" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:3:2_4:21" cx="1312" cy="636.8" r="2" stroke="none" fill="black"/>
@@ -5629,7 +5607,6 @@
 <circle id="qubit_dot:24:3_4:21" cx="1344" cy="636.8" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:25:1_3:21" cx="1280" cy="604.8" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:26:3_5:21" cx="1344" cy="668.8" r="2" stroke="none" fill="black"/>
-<circle id="qubit_dot:0:22" cx="1494.4" cy="508.8" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:1:2_0:22" cx="1558.4" cy="508.8" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:2:2_2:22" cx="1558.4" cy="572.8" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:3:2_4:22" cx="1558.4" cy="636.8" r="2" stroke="none" fill="black"/>
@@ -5656,7 +5633,6 @@
 <circle id="qubit_dot:24:3_4:22" cx="1590.4" cy="636.8" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:25:1_3:22" cx="1526.4" cy="604.8" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:26:3_5:22" cx="1590.4" cy="668.8" r="2" stroke="none" fill="black"/>
-<circle id="qubit_dot:0:23" cx="1740.8" cy="508.8" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:1:2_0:23" cx="1804.8" cy="508.8" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:2:2_2:23" cx="1804.8" cy="572.8" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:3:2_4:23" cx="1804.8" cy="636.8" r="2" stroke="none" fill="black"/>
@@ -5683,7 +5659,6 @@
 <circle id="qubit_dot:24:3_4:23" cx="1836.8" cy="636.8" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:25:1_3:23" cx="1772.8" cy="604.8" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:26:3_5:23" cx="1836.8" cy="668.8" r="2" stroke="none" fill="black"/>
-<circle id="qubit_dot:0:24" cx="16" cy="755.2" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:1:2_0:24" cx="80" cy="755.2" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:2:2_2:24" cx="80" cy="819.2" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:3:2_4:24" cx="80" cy="883.2" r="2" stroke="none" fill="black"/>
@@ -5710,7 +5685,6 @@
 <circle id="qubit_dot:24:3_4:24" cx="112" cy="883.2" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:25:1_3:24" cx="48" cy="851.2" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:26:3_5:24" cx="112" cy="915.2" r="2" stroke="none" fill="black"/>
-<circle id="qubit_dot:0:25" cx="262.4" cy="755.2" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:1:2_0:25" cx="326.4" cy="755.2" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:2:2_2:25" cx="326.4" cy="819.2" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:3:2_4:25" cx="326.4" cy="883.2" r="2" stroke="none" fill="black"/>
@@ -5737,7 +5711,6 @@
 <circle id="qubit_dot:24:3_4:25" cx="358.4" cy="883.2" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:25:1_3:25" cx="294.4" cy="851.2" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:26:3_5:25" cx="358.4" cy="915.2" r="2" stroke="none" fill="black"/>
-<circle id="qubit_dot:0:26" cx="508.8" cy="755.2" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:1:2_0:26" cx="572.8" cy="755.2" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:2:2_2:26" cx="572.8" cy="819.2" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:3:2_4:26" cx="572.8" cy="883.2" r="2" stroke="none" fill="black"/>
@@ -5764,7 +5737,6 @@
 <circle id="qubit_dot:24:3_4:26" cx="604.8" cy="883.2" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:25:1_3:26" cx="540.8" cy="851.2" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:26:3_5:26" cx="604.8" cy="915.2" r="2" stroke="none" fill="black"/>
-<circle id="qubit_dot:0:27" cx="755.2" cy="755.2" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:1:2_0:27" cx="819.2" cy="755.2" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:2:2_2:27" cx="819.2" cy="819.2" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:3:2_4:27" cx="819.2" cy="883.2" r="2" stroke="none" fill="black"/>
@@ -5791,7 +5763,6 @@
 <circle id="qubit_dot:24:3_4:27" cx="851.2" cy="883.2" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:25:1_3:27" cx="787.2" cy="851.2" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:26:3_5:27" cx="851.2" cy="915.2" r="2" stroke="none" fill="black"/>
-<circle id="qubit_dot:0:28" cx="1001.6" cy="755.2" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:1:2_0:28" cx="1065.6" cy="755.2" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:2:2_2:28" cx="1065.6" cy="819.2" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:3:2_4:28" cx="1065.6" cy="883.2" r="2" stroke="none" fill="black"/>
@@ -5818,7 +5789,6 @@
 <circle id="qubit_dot:24:3_4:28" cx="1097.6" cy="883.2" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:25:1_3:28" cx="1033.6" cy="851.2" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:26:3_5:28" cx="1097.6" cy="915.2" r="2" stroke="none" fill="black"/>
-<circle id="qubit_dot:0:29" cx="1248" cy="755.2" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:1:2_0:29" cx="1312" cy="755.2" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:2:2_2:29" cx="1312" cy="819.2" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:3:2_4:29" cx="1312" cy="883.2" r="2" stroke="none" fill="black"/>
@@ -5845,7 +5815,6 @@
 <circle id="qubit_dot:24:3_4:29" cx="1344" cy="883.2" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:25:1_3:29" cx="1280" cy="851.2" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:26:3_5:29" cx="1344" cy="915.2" r="2" stroke="none" fill="black"/>
-<circle id="qubit_dot:0:30" cx="1494.4" cy="755.2" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:1:2_0:30" cx="1558.4" cy="755.2" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:2:2_2:30" cx="1558.4" cy="819.2" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:3:2_4:30" cx="1558.4" cy="883.2" r="2" stroke="none" fill="black"/>
@@ -5872,7 +5841,6 @@
 <circle id="qubit_dot:24:3_4:30" cx="1590.4" cy="883.2" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:25:1_3:30" cx="1526.4" cy="851.2" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:26:3_5:30" cx="1590.4" cy="915.2" r="2" stroke="none" fill="black"/>
-<circle id="qubit_dot:0:31" cx="1740.8" cy="755.2" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:1:2_0:31" cx="1804.8" cy="755.2" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:2:2_2:31" cx="1804.8" cy="819.2" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:3:2_4:31" cx="1804.8" cy="883.2" r="2" stroke="none" fill="black"/>
@@ -5899,7 +5867,6 @@
 <circle id="qubit_dot:24:3_4:31" cx="1836.8" cy="883.2" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:25:1_3:31" cx="1772.8" cy="851.2" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:26:3_5:31" cx="1836.8" cy="915.2" r="2" stroke="none" fill="black"/>
-<circle id="qubit_dot:0:32" cx="16" cy="1001.6" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:1:2_0:32" cx="80" cy="1001.6" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:2:2_2:32" cx="80" cy="1065.6" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:3:2_4:32" cx="80" cy="1129.6" r="2" stroke="none" fill="black"/>
@@ -5926,7 +5893,6 @@
 <circle id="qubit_dot:24:3_4:32" cx="112" cy="1129.6" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:25:1_3:32" cx="48" cy="1097.6" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:26:3_5:32" cx="112" cy="1161.6" r="2" stroke="none" fill="black"/>
-<circle id="qubit_dot:0:33" cx="262.4" cy="1001.6" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:1:2_0:33" cx="326.4" cy="1001.6" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:2:2_2:33" cx="326.4" cy="1065.6" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:3:2_4:33" cx="326.4" cy="1129.6" r="2" stroke="none" fill="black"/>
@@ -5953,7 +5919,6 @@
 <circle id="qubit_dot:24:3_4:33" cx="358.4" cy="1129.6" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:25:1_3:33" cx="294.4" cy="1097.6" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:26:3_5:33" cx="358.4" cy="1161.6" r="2" stroke="none" fill="black"/>
-<circle id="qubit_dot:0:34" cx="508.8" cy="1001.6" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:1:2_0:34" cx="572.8" cy="1001.6" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:2:2_2:34" cx="572.8" cy="1065.6" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:3:2_4:34" cx="572.8" cy="1129.6" r="2" stroke="none" fill="black"/>
@@ -5980,7 +5945,6 @@
 <circle id="qubit_dot:24:3_4:34" cx="604.8" cy="1129.6" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:25:1_3:34" cx="540.8" cy="1097.6" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:26:3_5:34" cx="604.8" cy="1161.6" r="2" stroke="none" fill="black"/>
-<circle id="qubit_dot:0:35" cx="755.2" cy="1001.6" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:1:2_0:35" cx="819.2" cy="1001.6" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:2:2_2:35" cx="819.2" cy="1065.6" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:3:2_4:35" cx="819.2" cy="1129.6" r="2" stroke="none" fill="black"/>
@@ -6007,7 +5971,6 @@
 <circle id="qubit_dot:24:3_4:35" cx="851.2" cy="1129.6" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:25:1_3:35" cx="787.2" cy="1097.6" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:26:3_5:35" cx="851.2" cy="1161.6" r="2" stroke="none" fill="black"/>
-<circle id="qubit_dot:0:36" cx="1001.6" cy="1001.6" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:1:2_0:36" cx="1065.6" cy="1001.6" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:2:2_2:36" cx="1065.6" cy="1065.6" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:3:2_4:36" cx="1065.6" cy="1129.6" r="2" stroke="none" fill="black"/>
@@ -6034,7 +5997,6 @@
 <circle id="qubit_dot:24:3_4:36" cx="1097.6" cy="1129.6" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:25:1_3:36" cx="1033.6" cy="1097.6" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:26:3_5:36" cx="1097.6" cy="1161.6" r="2" stroke="none" fill="black"/>
-<circle id="qubit_dot:0:37" cx="1248" cy="1001.6" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:1:2_0:37" cx="1312" cy="1001.6" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:2:2_2:37" cx="1312" cy="1065.6" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:3:2_4:37" cx="1312" cy="1129.6" r="2" stroke="none" fill="black"/>
@@ -6061,7 +6023,6 @@
 <circle id="qubit_dot:24:3_4:37" cx="1344" cy="1129.6" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:25:1_3:37" cx="1280" cy="1097.6" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:26:3_5:37" cx="1344" cy="1161.6" r="2" stroke="none" fill="black"/>
-<circle id="qubit_dot:0:38" cx="1494.4" cy="1001.6" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:1:2_0:38" cx="1558.4" cy="1001.6" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:2:2_2:38" cx="1558.4" cy="1065.6" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:3:2_4:38" cx="1558.4" cy="1129.6" r="2" stroke="none" fill="black"/>
@@ -6088,7 +6049,6 @@
 <circle id="qubit_dot:24:3_4:38" cx="1590.4" cy="1129.6" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:25:1_3:38" cx="1526.4" cy="1097.6" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:26:3_5:38" cx="1590.4" cy="1161.6" r="2" stroke="none" fill="black"/>
-<circle id="qubit_dot:0:39" cx="1740.8" cy="1001.6" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:1:2_0:39" cx="1804.8" cy="1001.6" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:2:2_2:39" cx="1804.8" cy="1065.6" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:3:2_4:39" cx="1804.8" cy="1129.6" r="2" stroke="none" fill="black"/>
@@ -6115,7 +6075,6 @@
 <circle id="qubit_dot:24:3_4:39" cx="1836.8" cy="1129.6" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:25:1_3:39" cx="1772.8" cy="1097.6" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:26:3_5:39" cx="1836.8" cy="1161.6" r="2" stroke="none" fill="black"/>
-<circle id="qubit_dot:0:40" cx="16" cy="1248" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:1:2_0:40" cx="80" cy="1248" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:2:2_2:40" cx="80" cy="1312" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:3:2_4:40" cx="80" cy="1376" r="2" stroke="none" fill="black"/>
@@ -6142,7 +6101,6 @@
 <circle id="qubit_dot:24:3_4:40" cx="112" cy="1376" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:25:1_3:40" cx="48" cy="1344" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:26:3_5:40" cx="112" cy="1408" r="2" stroke="none" fill="black"/>
-<circle id="qubit_dot:0:41" cx="262.4" cy="1248" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:1:2_0:41" cx="326.4" cy="1248" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:2:2_2:41" cx="326.4" cy="1312" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:3:2_4:41" cx="326.4" cy="1376" r="2" stroke="none" fill="black"/>
@@ -6169,7 +6127,6 @@
 <circle id="qubit_dot:24:3_4:41" cx="358.4" cy="1376" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:25:1_3:41" cx="294.4" cy="1344" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:26:3_5:41" cx="358.4" cy="1408" r="2" stroke="none" fill="black"/>
-<circle id="qubit_dot:0:42" cx="508.8" cy="1248" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:1:2_0:42" cx="572.8" cy="1248" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:2:2_2:42" cx="572.8" cy="1312" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:3:2_4:42" cx="572.8" cy="1376" r="2" stroke="none" fill="black"/>
@@ -6196,7 +6153,6 @@
 <circle id="qubit_dot:24:3_4:42" cx="604.8" cy="1376" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:25:1_3:42" cx="540.8" cy="1344" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:26:3_5:42" cx="604.8" cy="1408" r="2" stroke="none" fill="black"/>
-<circle id="qubit_dot:0:43" cx="755.2" cy="1248" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:1:2_0:43" cx="819.2" cy="1248" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:2:2_2:43" cx="819.2" cy="1312" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:3:2_4:43" cx="819.2" cy="1376" r="2" stroke="none" fill="black"/>
@@ -6223,7 +6179,6 @@
 <circle id="qubit_dot:24:3_4:43" cx="851.2" cy="1376" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:25:1_3:43" cx="787.2" cy="1344" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:26:3_5:43" cx="851.2" cy="1408" r="2" stroke="none" fill="black"/>
-<circle id="qubit_dot:0:44" cx="1001.6" cy="1248" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:1:2_0:44" cx="1065.6" cy="1248" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:2:2_2:44" cx="1065.6" cy="1312" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:3:2_4:44" cx="1065.6" cy="1376" r="2" stroke="none" fill="black"/>
@@ -6250,7 +6205,6 @@
 <circle id="qubit_dot:24:3_4:44" cx="1097.6" cy="1376" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:25:1_3:44" cx="1033.6" cy="1344" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:26:3_5:44" cx="1097.6" cy="1408" r="2" stroke="none" fill="black"/>
-<circle id="qubit_dot:0:45" cx="1248" cy="1248" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:1:2_0:45" cx="1312" cy="1248" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:2:2_2:45" cx="1312" cy="1312" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:3:2_4:45" cx="1312" cy="1376" r="2" stroke="none" fill="black"/>
@@ -6277,7 +6231,6 @@
 <circle id="qubit_dot:24:3_4:45" cx="1344" cy="1376" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:25:1_3:45" cx="1280" cy="1344" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:26:3_5:45" cx="1344" cy="1408" r="2" stroke="none" fill="black"/>
-<circle id="qubit_dot:0:46" cx="1494.4" cy="1248" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:1:2_0:46" cx="1558.4" cy="1248" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:2:2_2:46" cx="1558.4" cy="1312" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:3:2_4:46" cx="1558.4" cy="1376" r="2" stroke="none" fill="black"/>
@@ -6304,7 +6257,6 @@
 <circle id="qubit_dot:24:3_4:46" cx="1590.4" cy="1376" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:25:1_3:46" cx="1526.4" cy="1344" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:26:3_5:46" cx="1590.4" cy="1408" r="2" stroke="none" fill="black"/>
-<circle id="qubit_dot:0:47" cx="1740.8" cy="1248" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:1:2_0:47" cx="1804.8" cy="1248" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:2:2_2:47" cx="1804.8" cy="1312" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:3:2_4:47" cx="1804.8" cy="1376" r="2" stroke="none" fill="black"/>
@@ -6331,7 +6283,6 @@
 <circle id="qubit_dot:24:3_4:47" cx="1836.8" cy="1376" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:25:1_3:47" cx="1772.8" cy="1344" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:26:3_5:47" cx="1836.8" cy="1408" r="2" stroke="none" fill="black"/>
-<circle id="qubit_dot:0:48" cx="16" cy="1494.4" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:1:2_0:48" cx="80" cy="1494.4" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:2:2_2:48" cx="80" cy="1558.4" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:3:2_4:48" cx="80" cy="1622.4" r="2" stroke="none" fill="black"/>
@@ -6358,7 +6309,6 @@
 <circle id="qubit_dot:24:3_4:48" cx="112" cy="1622.4" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:25:1_3:48" cx="48" cy="1590.4" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:26:3_5:48" cx="112" cy="1654.4" r="2" stroke="none" fill="black"/>
-<circle id="qubit_dot:0:49" cx="262.4" cy="1494.4" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:1:2_0:49" cx="326.4" cy="1494.4" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:2:2_2:49" cx="326.4" cy="1558.4" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:3:2_4:49" cx="326.4" cy="1622.4" r="2" stroke="none" fill="black"/>
@@ -6385,7 +6335,6 @@
 <circle id="qubit_dot:24:3_4:49" cx="358.4" cy="1622.4" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:25:1_3:49" cx="294.4" cy="1590.4" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:26:3_5:49" cx="358.4" cy="1654.4" r="2" stroke="none" fill="black"/>
-<circle id="qubit_dot:0:50" cx="508.8" cy="1494.4" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:1:2_0:50" cx="572.8" cy="1494.4" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:2:2_2:50" cx="572.8" cy="1558.4" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:3:2_4:50" cx="572.8" cy="1622.4" r="2" stroke="none" fill="black"/>
@@ -6412,7 +6361,6 @@
 <circle id="qubit_dot:24:3_4:50" cx="604.8" cy="1622.4" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:25:1_3:50" cx="540.8" cy="1590.4" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:26:3_5:50" cx="604.8" cy="1654.4" r="2" stroke="none" fill="black"/>
-<circle id="qubit_dot:0:51" cx="755.2" cy="1494.4" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:1:2_0:51" cx="819.2" cy="1494.4" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:2:2_2:51" cx="819.2" cy="1558.4" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:3:2_4:51" cx="819.2" cy="1622.4" r="2" stroke="none" fill="black"/>
@@ -6439,7 +6387,6 @@
 <circle id="qubit_dot:24:3_4:51" cx="851.2" cy="1622.4" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:25:1_3:51" cx="787.2" cy="1590.4" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:26:3_5:51" cx="851.2" cy="1654.4" r="2" stroke="none" fill="black"/>
-<circle id="qubit_dot:0:52" cx="1001.6" cy="1494.4" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:1:2_0:52" cx="1065.6" cy="1494.4" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:2:2_2:52" cx="1065.6" cy="1558.4" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:3:2_4:52" cx="1065.6" cy="1622.4" r="2" stroke="none" fill="black"/>
@@ -6466,7 +6413,6 @@
 <circle id="qubit_dot:24:3_4:52" cx="1097.6" cy="1622.4" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:25:1_3:52" cx="1033.6" cy="1590.4" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:26:3_5:52" cx="1097.6" cy="1654.4" r="2" stroke="none" fill="black"/>
-<circle id="qubit_dot:0:53" cx="1248" cy="1494.4" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:1:2_0:53" cx="1312" cy="1494.4" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:2:2_2:53" cx="1312" cy="1558.4" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:3:2_4:53" cx="1312" cy="1622.4" r="2" stroke="none" fill="black"/>
@@ -6493,7 +6439,6 @@
 <circle id="qubit_dot:24:3_4:53" cx="1344" cy="1622.4" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:25:1_3:53" cx="1280" cy="1590.4" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:26:3_5:53" cx="1344" cy="1654.4" r="2" stroke="none" fill="black"/>
-<circle id="qubit_dot:0:54" cx="1494.4" cy="1494.4" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:1:2_0:54" cx="1558.4" cy="1494.4" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:2:2_2:54" cx="1558.4" cy="1558.4" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:3:2_4:54" cx="1558.4" cy="1622.4" r="2" stroke="none" fill="black"/>
@@ -6520,7 +6465,6 @@
 <circle id="qubit_dot:24:3_4:54" cx="1590.4" cy="1622.4" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:25:1_3:54" cx="1526.4" cy="1590.4" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:26:3_5:54" cx="1590.4" cy="1654.4" r="2" stroke="none" fill="black"/>
-<circle id="qubit_dot:0:55" cx="1740.8" cy="1494.4" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:1:2_0:55" cx="1804.8" cy="1494.4" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:2:2_2:55" cx="1804.8" cy="1558.4" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:3:2_4:55" cx="1804.8" cy="1622.4" r="2" stroke="none" fill="black"/>
@@ -6547,7 +6491,6 @@
 <circle id="qubit_dot:24:3_4:55" cx="1836.8" cy="1622.4" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:25:1_3:55" cx="1772.8" cy="1590.4" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:26:3_5:55" cx="1836.8" cy="1654.4" r="2" stroke="none" fill="black"/>
-<circle id="qubit_dot:0:56" cx="16" cy="1740.8" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:1:2_0:56" cx="80" cy="1740.8" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:2:2_2:56" cx="80" cy="1804.8" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:3:2_4:56" cx="80" cy="1868.8" r="2" stroke="none" fill="black"/>
@@ -6574,7 +6517,6 @@
 <circle id="qubit_dot:24:3_4:56" cx="112" cy="1868.8" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:25:1_3:56" cx="48" cy="1836.8" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:26:3_5:56" cx="112" cy="1900.8" r="2" stroke="none" fill="black"/>
-<circle id="qubit_dot:0:57" cx="262.4" cy="1740.8" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:1:2_0:57" cx="326.4" cy="1740.8" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:2:2_2:57" cx="326.4" cy="1804.8" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:3:2_4:57" cx="326.4" cy="1868.8" r="2" stroke="none" fill="black"/>
@@ -6601,7 +6543,6 @@
 <circle id="qubit_dot:24:3_4:57" cx="358.4" cy="1868.8" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:25:1_3:57" cx="294.4" cy="1836.8" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:26:3_5:57" cx="358.4" cy="1900.8" r="2" stroke="none" fill="black"/>
-<circle id="qubit_dot:0:58" cx="508.8" cy="1740.8" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:1:2_0:58" cx="572.8" cy="1740.8" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:2:2_2:58" cx="572.8" cy="1804.8" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:3:2_4:58" cx="572.8" cy="1868.8" r="2" stroke="none" fill="black"/>
@@ -6628,7 +6569,6 @@
 <circle id="qubit_dot:24:3_4:58" cx="604.8" cy="1868.8" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:25:1_3:58" cx="540.8" cy="1836.8" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:26:3_5:58" cx="604.8" cy="1900.8" r="2" stroke="none" fill="black"/>
-<circle id="qubit_dot:0:59" cx="755.2" cy="1740.8" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:1:2_0:59" cx="819.2" cy="1740.8" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:2:2_2:59" cx="819.2" cy="1804.8" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:3:2_4:59" cx="819.2" cy="1868.8" r="2" stroke="none" fill="black"/>
@@ -6655,7 +6595,6 @@
 <circle id="qubit_dot:24:3_4:59" cx="851.2" cy="1868.8" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:25:1_3:59" cx="787.2" cy="1836.8" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:26:3_5:59" cx="851.2" cy="1900.8" r="2" stroke="none" fill="black"/>
-<circle id="qubit_dot:0:60" cx="1001.6" cy="1740.8" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:1:2_0:60" cx="1065.6" cy="1740.8" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:2:2_2:60" cx="1065.6" cy="1804.8" r="2" stroke="none" fill="black"/>
 <circle id="qubit_dot:3:2_4:60" cx="1065.6" cy="1868.8" r="2" stroke="none" fill="black"/>
