@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber out/unfolding_color_code_3"] 1735368292.76595 "out/unfolding_color_code_3.bcf" "out/unfolding_color_code_3.bbl" "out/unfolding_color_code_3" 1735368942.4692 0
-  "out/unfolding_color_code_3.bcf" 1735368942 108570 d9e8f0eaaa06e800298dfbb85fbe63b7 "lualatex"
+["biber out/unfolding_color_code_3"] 1735368292.76595 "out/unfolding_color_code_3.bcf" "out/unfolding_color_code_3.bbl" "out/unfolding_color_code_3" 1735370009.42943 0
+  "out/unfolding_color_code_3.bcf" 1735370009 108570 d9e8f0eaaa06e800298dfbb85fbe63b7 "lualatex"
   "utility/REFERENCES.bib" 1735367820 8353 2ed0f50cc0f46fc954de8bc13d92a10f ""
   (generated)
   "out/unfolding_color_code_3.bbl"
   "out/unfolding_color_code_3.blg"
   (rewritten before read)
-["lualatex"] 1735368938.97303 "c:/Users/Yuga Hirai/Documents/GitHub/invention/latex/unfolding_color_code_4/unfolding_color_code_3.tex" "out/unfolding_color_code_3.pdf" "unfolding_color_code_3" 1735368942.46977 0
+["lualatex"] 1735370005.97831 "c:/Users/Yuga Hirai/Documents/GitHub/invention/latex/unfolding_color_code_4/unfolding_color_code_3.tex" "out/unfolding_color_code_3.pdf" "unfolding_color_code_3" 1735370009.43001 0
   "C:/texlive/2024/texmf-var/luatex-cache/generic/fonts/otl/haranoajigothic-medium.luc" 1729047395 1924607 b146243e13fddba75af792cd627ad133 ""
   "C:/texlive/2024/texmf-var/luatex-cache/generic/fonts/otl/haranoajimincho-regular.luc" 1729047393 2011205 2df283c0c767f3dd83e40059403ccfd7 ""
   "C:/texlive/2024/texmf-var/luatex-cache/generic/fonts/otl/hgrme-3.luc" 1715403646 1167604 f06d982c97b46b2d46f6c935a7edeb1c ""
@@ -48,7 +48,7 @@
   "C:/texlive/2024/texmf-var/luatexja/ltj-cid-auto-adobe-japan1.luc" 1729047372 1643739 b61d7d34d624314e1dfb8f0d02636f25 ""
   "C:/texlive/2024/texmf-var/luatexja/ltj-jisx0208.luc" 1715403644 93919 3545f967e0ab307c2cc8c3e8cb314d7c ""
   "C:/texlive/2024/texmf-var/luatexja/ltj-kinsoku_default.luc" 1715403636 17654 bbcb9edafee384e2db436fe71e2bf5a1 ""
-  "c:/Users/Yuga Hirai/Documents/GitHub/invention/latex/unfolding_color_code_4/unfolding_color_code_3.tex" 1735368938 5600 0405dc79ea67fe59a6c27c071d55b4db ""
+  "c:/Users/Yuga Hirai/Documents/GitHub/invention/latex/unfolding_color_code_4/unfolding_color_code_3.tex" 1735370005 5653 1955ae3f64d26e234281b1e842f8073e ""
   "c:/Windows/Fonts/HGRME.TTC" 1714279836 7111816 d1f4bc0eb9a8cc6110e3071c3bcb66fb ""
   "c:/Windows/Fonts/msmincho.ttc" 1651871400 9900400 9ee4d1a16d62d50490966c8ccc8f56e3 ""
   "c:/Windows/Fonts/timesbd.ttf" 1651900759 1185876 d34f6a4606c0b4456cc2cc45caf8e123 ""
@@ -359,11 +359,11 @@
   "c:/texlive/2024/texmf-var/tex/generic/config/language.dat" 1715402952 7124 918befb0e26b6db2c897d34f61fe5be7 ""
   "c:/texlive/2024/texmf-var/web2c/luahbtex/lualatex.fmt" 1715403061 12259471 b0d15979625b6a7c5f5f5e1ed568f46b ""
   "figure/figure1.eps" 1735362178 3232770 d423c02b28faa683aed1c781f5cc34e6 ""
-  "out/unfolding_color_code_3.aux" 1735368942 1002 c599e1ca21e5f40941d691cc166ad71c "lualatex"
+  "out/unfolding_color_code_3.aux" 1735370009 1002 c599e1ca21e5f40941d691cc166ad71c "lualatex"
   "out/unfolding_color_code_3.bbl" 1735368294 44343 0e622f91b0c29ba09d1bd83ac9545202 "biber out/unfolding_color_code_3"
-  "out/unfolding_color_code_3.out" 1735368942 211 6a05e4095346143a8f2c0abfdb74283d "lualatex"
-  "out/unfolding_color_code_3.run.xml" 1735368942 2474 b7fd612e147edec7763434cc1fb176c4 "lualatex"
-  "unfolding_color_code_3.tex" 1735368938 5600 0405dc79ea67fe59a6c27c071d55b4db ""
+  "out/unfolding_color_code_3.out" 1735370009 211 6a05e4095346143a8f2c0abfdb74283d "lualatex"
+  "out/unfolding_color_code_3.run.xml" 1735370009 2474 b7fd612e147edec7763434cc1fb176c4 "lualatex"
+  "unfolding_color_code_3.tex" 1735370005 5653 1955ae3f64d26e234281b1e842f8073e ""
   "utility/SETTINGS.tex" 1733638374 2657 0b39c656bf47b82e02b2580147ea7dd9 ""
   (generated)
   "out/unfolding_color_code_3.aux"
