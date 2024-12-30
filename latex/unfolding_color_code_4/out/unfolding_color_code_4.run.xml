@@ -44,10 +44,10 @@
   <internal package="biblatex" priority="9" active="0">
     <generic>latex</generic>
     <provides type="dynamic">
-      <file>unfolding_color_code_3.bcf</file>
+      <file>unfolding_color_code_4.bcf</file>
     </provides>
     <requires type="dynamic">
-      <file>unfolding_color_code_3.bbl</file>
+      <file>unfolding_color_code_4.bbl</file>
     </requires>
     <requires type="static">
       <file>blx-dm.def</file>
@@ -65,19 +65,19 @@
     <generic>biber</generic>
     <cmdline>
       <binary>biber</binary>
-      <infile>unfolding_color_code_3</infile>
+      <infile>unfolding_color_code_4</infile>
     </cmdline>
     <input>
-      <file>unfolding_color_code_3.bcf</file>
+      <file>unfolding_color_code_4.bcf</file>
     </input>
     <output>
-      <file>unfolding_color_code_3.bbl</file>
+      <file>unfolding_color_code_4.bbl</file>
     </output>
     <provides type="dynamic">
-      <file>unfolding_color_code_3.bbl</file>
+      <file>unfolding_color_code_4.bbl</file>
     </provides>
     <requires type="dynamic">
-      <file>unfolding_color_code_3.bcf</file>
+      <file>unfolding_color_code_4.bcf</file>
     </requires>
     <requires type="editable">
       <file>utility/REFERENCES.bib</file>

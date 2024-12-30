@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.16.0 (TeX Live 2023)  (format=lualatex 2023.10.26)  24 DEC 2024 19:49
+This is LuaHBTeX, Version 1.16.0 (TeX Live 2023)  (format=lualatex 2023.10.26)  30 DEC 2024 13:21
  restricted system commands enabled.
 **/Users/hiraiyuuware/Desktop/invention/latex/bachelor_thesis/7_pseudo_three_dimentional_surface_code.tex
 (/Users/hiraiyuuware/Desktop/invention/latex/bachelor_thesis/7_pseudo_three_dimentional_surface_code.tex
@@ -1789,7 +1789,7 @@ Package epstopdf Info: Output file is already uptodate.
 File: figure/looped_pipeline_surface_code-eps-converted-to.pdf Graphic file (type pdf)
 <use figure/looped_pipeline_surface_code-eps-converted-to.pdf>
 Package luatex.def Info: figure/looped_pipeline_surface_code-eps-converted-to.pdf  used on input line 48.
-(luatex.def)             Requested size: 325.81976pt x 130.68925pt.
+(luatex.def)             Requested size: 271.5137pt x 108.9066pt.
 Package epstopdf Info: Output file is already uptodate.
 <figure/looped_pipeline_weak_surface_code-eps-converted-to.pdf, id=93, 1485.55pt x 907.39pt>
 File: figure/looped_pipeline_weak_surface_code-eps-converted-to.pdf Graphic file (type pdf)
@@ -1801,7 +1801,7 @@ Package epstopdf Info: Output file is already uptodate.
 File: figure/intraloop_interaction-eps-converted-to.pdf Graphic file (type pdf)
 <use figure/intraloop_interaction-eps-converted-to.pdf>
 Package luatex.def Info: figure/intraloop_interaction-eps-converted-to.pdf  used on input line 68.
-(luatex.def)             Requested size: 73.27356pt x 77.28854pt.
+(luatex.def)             Requested size: 65.94576pt x 69.55922pt.
 
 LaTeX Warning: Reference `stacked_surface_code' on page 3 undefined on input line 74.
 
@@ -1811,7 +1811,7 @@ Package epstopdf Info: Output file is already uptodate.
 File: figure/pipeline_to_surface-eps-converted-to.pdf Graphic file (type pdf)
 <use figure/pipeline_to_surface-eps-converted-to.pdf>
 Package luatex.def Info: figure/pipeline_to_surface-eps-converted-to.pdf  used on input line 78.
-(luatex.def)             Requested size: 360.14828pt x 159.59747pt.
+(luatex.def)             Requested size: 300.12051pt x 132.99655pt.
 
 
 LaTeX Warning: Reference `results' on page 4 undefined on input line 87.
@@ -1821,14 +1821,14 @@ Package epstopdf Info: Output file is already uptodate.
 File: figure/3D_advantage_distance-eps-converted-to.pdf Graphic file (type pdf)
 <use figure/3D_advantage_distance-eps-converted-to.pdf>
 Package luatex.def Info: figure/3D_advantage_distance-eps-converted-to.pdf  used on input line 92.
-(luatex.def)             Requested size: 413.14668pt x 140.0242pt.
+(luatex.def)             Requested size: 344.2854pt x 116.68564pt.
 [4<./figure/pipeline_to_surface-eps-converted-to.pdf><./figure/3D_advantage_distance-eps-converted-to.pdf>]
 Package epstopdf Info: Output file is already uptodate.
-<figure/3D_advantage_parallel-eps-converted-to.pdf, id=152, 1394.20876pt x 466.74374pt>
+<figure/3D_advantage_parallel-eps-converted-to.pdf, id=151, 1394.20876pt x 466.74374pt>
 File: figure/3D_advantage_parallel-eps-converted-to.pdf Graphic file (type pdf)
 <use figure/3D_advantage_parallel-eps-converted-to.pdf>
 Package luatex.def Info: figure/3D_advantage_parallel-eps-converted-to.pdf  used on input line 102.
-(luatex.def)             Requested size: 418.26585pt x 140.0242pt.
+(luatex.def)             Requested size: 348.55133pt x 116.68564pt.
 
 
 Package caption Warning: Unused \captionsetup[table] on input line 42.
@@ -1837,7 +1837,9 @@ See the caption package documentation for explanation.
 \tf@thm=\write8
 
 \openout8 = 7_pseudo_three_dimentional_surface_code.thm
-[5<./figure/3D_advantage_parallel-eps-converted-to.pdf>] (./out/7_pseudo_three_dimentional_surface_code.aux)
+[5
+
+<./figure/3D_advantage_parallel-eps-converted-to.pdf>] (./out/7_pseudo_three_dimentional_surface_code.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -1853,17 +1855,17 @@ Here is how much of LuaTeX's memory you used:
  125244,1977958 words of node,token memory allocated
  1351 words of node memory still in use:
    10 hlist, 2 vlist, 5 rule, 2 glue, 4 kern, 1 glyph, 205 attribute, 113 glue_spec, 29 attribute_list, 2 write, 13 user_defined nodes
-   avail lists: 1:8,2:32050,3:203,4:197,5:319,6:34,7:5792,8:3,9:239,10:10,11:419
+   avail lists: 1:8,2:32050,3:203,4:197,5:319,6:35,7:5792,8:3,9:239,10:10,11:419
  60217 multiletter control sequences out of 65536+600000
  42 fonts using 37121439 bytes
  118i,8n,118p,1865b,1764s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 warning  (pdf backend): unreferenced destination with name 'cite.0@litinski2019-2'
 </usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf>
-Output written on 7_pseudo_three_dimentional_surface_code.pdf (5 pages, 262208 bytes).
+Output written on 7_pseudo_three_dimentional_surface_code.pdf (5 pages, 262942 bytes).
 
-PDF statistics: 191 PDF objects out of 1000 (max. 8388607)
- 143 compressed objects within 2 object streams
+PDF statistics: 192 PDF objects out of 1000 (max. 8388607)
+ 144 compressed objects within 2 object streams
  20 named destinations out of 1000 (max. 131072)
  48 words of extra memory for PDF output out of 10000 (max. 100000000)
 

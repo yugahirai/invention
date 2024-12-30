@@ -17,19 +17,19 @@
         \begin{figure}[h]
             \centering
             \includegraphics[scale=0.40]{figure/initial_state.pdf}
-            \vspace{0pt}\caption{}
+            \vspace{0pt}\caption{Graph representation of the placement of patches. The \texttt{MAGIC\_NODE} is fixed at the bottom left. The names within the nodes correspond to the logical qubits in the circuit.}
             \label{mapped_circuit_graph}
             \vspace{-10pt}
         \end{figure}
 
         \begin{table}[h]
             \centering
-            \caption{}
+            \caption{(Left column) Names of the logical qubits (nodes). (Right column) Each entry consists of the instruction number, qubit 1, qubit 2, and the weight of the edges, separated by spaces.}
             \label{circuit_to_be_optimized}
             \resizebox{\textwidth}{!}{
             \begin{tabular}{|c|c|}
                 \hline
-                qubits (nodes) & instruction\_number control target weight (edges)\\ \hline
+                qubits (nodes) & instruction number, qubit 1, qubit 2, weight (edges)\\ \hline
                 \begin{minipage}[t]{0.27\textwidth}
                     \verbatiminput{data/nodes.txt}
                 \end{minipage}&
@@ -60,7 +60,7 @@
         \begin{figure}[h]
             \centering
             \includegraphics[scale=0.40]{figure/final_state.pdf}
-            \vspace{0pt}\caption{}
+            \vspace{0pt}\caption{Optimized placement based on the circuit presented in Table~\ref{circuit_to_be_optimized}.}
             \label{final_state}
             \vspace{-10pt}
         \end{figure}

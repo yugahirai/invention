@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.16.0 (TeX Live 2023)  (format=lualatex 2023.10.26)  22 DEC 2024 10:39
+This is LuaHBTeX, Version 1.16.0 (TeX Live 2023)  (format=lualatex 2023.10.26)  30 DEC 2024 13:40
  restricted system commands enabled.
 **/Users/hiraiyuuware/Desktop/invention/latex/bachelor_thesis/8_placement_optimization.tex
 (/Users/hiraiyuuware/Desktop/invention/latex/bachelor_thesis/8_placement_optimization.tex
@@ -1510,15 +1510,51 @@ Package: setspace 2022/12/04 v6.7b set line spacing
 Package grfext Info: Graphics extension search list:
 (grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 96.
-) (/usr/local/texlive/2023/texmf-dist/tex/luatex/luatexja/patches/lltjp-array.sty
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/tocloft/tocloft.sty
+Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
+Package tocloft Info: The document has section divisions on input line 51.
+\cftparskip=\skip116
+\cftbeforetoctitleskip=\skip117
+\cftaftertoctitleskip=\skip118
+\cftbeforepartskip=\skip119
+\cftpartnumwidth=\skip120
+\cftpartindent=\skip121
+\cftbeforesecskip=\skip122
+\cftsecindent=\skip123
+\cftsecnumwidth=\skip124
+\cftbeforesubsecskip=\skip125
+\cftsubsecindent=\skip126
+\cftsubsecnumwidth=\skip127
+\cftbeforesubsubsecskip=\skip128
+\cftsubsubsecindent=\skip129
+\cftsubsubsecnumwidth=\skip130
+\cftbeforeparaskip=\skip131
+\cftparaindent=\skip132
+\cftparanumwidth=\skip133
+\cftbeforesubparaskip=\skip134
+\cftsubparaindent=\skip135
+\cftsubparanumwidth=\skip136
+\cftbeforeloftitleskip=\skip137
+\cftafterloftitleskip=\skip138
+\cftbeforefigskip=\skip139
+\cftfigindent=\skip140
+\cftfignumwidth=\skip141
+\c@lofdepth=\count520
+\c@lotdepth=\count521
+\cftbeforelottitleskip=\skip142
+\cftafterlottitleskip=\skip143
+\cftbeforetabskip=\skip144
+\cfttabindent=\skip145
+\cfttabnumwidth=\skip146
+)) (/usr/local/texlive/2023/texmf-dist/tex/luatex/luatexja/patches/lltjp-array.sty
 Package: lltjp-array 2019-07-18 Patch to array for LuaTeX-ja
 )
 
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (biblatex)                Loading 'csquotes' recommended.
 
-\@quotelevel=\count520
-\@quotereset=\count521
+\@quotelevel=\count522
+\@quotereset=\count523
 (./out/8_placement_optimization.aux)
 \openout1 = 8_placement_optimization.aux
 
@@ -1552,16 +1588,16 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
  (/usr/local/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count522
+\scratchcounter=\count524
 \scratchdimen=\dimen350
 \scratchbox=\box139
-\nofMPsegments=\count523
-\nofMParguments=\count524
+\nofMPsegments=\count525
+\nofMParguments=\count526
 \everyMPshowfont=\toks69
-\MPscratchCnt=\count525
+\MPscratchCnt=\count527
 \MPscratchDim=\dimen351
-\MPnumerator=\count526
-\makeMPintoPDFobject=\count527
+\MPnumerator=\count528
+\makeMPintoPDFobject=\count529
 \everyMPtoPDFconversion=\toks70
 )
 
@@ -1659,7 +1695,7 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c@lstlisting=\count528
+\c@lstlisting=\count530
 
 Package chemgreek Info: Activating mapping `default' on line 3.
 
@@ -1684,7 +1720,7 @@ Package hyperref Info: Link coloring OFF on input line 3.
 \@outlinefile=\write7
 
 \openout7 = 8_placement_optimization.out
-\docmute@nestinglevel=\count529
+\docmute@nestinglevel=\count531
 (load cache: extra_lmroman12-regular.luc)
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
 (Font)              scaled to size 13.31584pt on input line 4.
@@ -1796,19 +1832,19 @@ Package logreq Info: Writing requests to '8_placement_optimization.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 41133 strings out of 478285
- 156562,1977958 words of node,token memory allocated
- 1274 words of node memory still in use:
-   11 hlist, 2 vlist, 5 rule, 2 glue, 4 kern, 1 glyph, 236 attribute, 81 glue_spec, 33 attribute_list, 2 write, 14 user_defined nodes
-   avail lists: 1:26,2:44360,3:355,4:305,5:377,6:87,7:6552,8:20,9:394,10:7,11:345
- 59763 multiletter control sequences out of 65536+600000
+ 41411 strings out of 478285
+ 195703,1977958 words of node,token memory allocated
+ 1429 words of node memory still in use:
+   11 hlist, 2 vlist, 5 rule, 2 glue, 4 kern, 1 glyph, 236 attribute, 112 glue_spec, 33 attribute_list, 2 write, 14 user_defined nodes
+   avail lists: 1:47,2:49267,3:359,4:309,5:404,6:87,7:7296,8:20,9:398,10:9,11:387
+ 60032 multiletter control sequences out of 65536+600000
  80 fonts using 54632551 bytes
  118i,12n,118p,1850b,1766s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman7-regular.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on 8_placement_optimization.pdf (3 pages, 145859 bytes).
+Output written on 8_placement_optimization.pdf (3 pages, 146662 bytes).
 
-PDF statistics: 150 PDF objects out of 1000 (max. 8388607)
- 108 compressed objects within 2 object streams
+PDF statistics: 152 PDF objects out of 1000 (max. 8388607)
+ 109 compressed objects within 2 object streams
  14 named destinations out of 1000 (max. 131072)
  40 words of extra memory for PDF output out of 10000 (max. 100000000)
 

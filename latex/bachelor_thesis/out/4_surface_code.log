@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.16.0 (TeX Live 2023)  (format=lualatex 2023.10.26)  24 DEC 2024 18:57
+This is LuaHBTeX, Version 1.16.0 (TeX Live 2023)  (format=lualatex 2023.10.26)  30 DEC 2024 13:26
  restricted system commands enabled.
 **/Users/hiraiyuuware/Desktop/invention/latex/bachelor_thesis/4_surface_code.tex
 (/Users/hiraiyuuware/Desktop/invention/latex/bachelor_thesis/4_surface_code.tex
@@ -1778,7 +1778,7 @@ Package epstopdf Info: Output file is already uptodate.
 File: figure/local-eps-converted-to.pdf Graphic file (type pdf)
 <use figure/local-eps-converted-to.pdf>
 Package luatex.def Info: figure/local-eps-converted-to.pdf  used on input line 26.
-(luatex.def)             Requested size: 289.47636pt x 289.47636pt.
+(luatex.def)             Requested size: 217.1128pt x 217.1128pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1790,28 +1790,32 @@ Package epstopdf Info: Output file is already uptodate.
 <figure/logical_operator-eps-converted-to.pdf, id=68, 841.1425pt x 855.195pt>
 File: figure/logical_operator-eps-converted-to.pdf Graphic file (type pdf)
 <use figure/logical_operator-eps-converted-to.pdf>
-Package luatex.def Info: figure/logical_operator-eps-converted-to.pdf  used on input line 42.
-(luatex.def)             Requested size: 336.45103pt x 342.07195pt.
+Package luatex.def Info: figure/logical_operator-eps-converted-to.pdf  used on input line 43.
+(luatex.def)             Requested size: 210.28511pt x 213.79823pt.
 Package epstopdf Info: Output file is already uptodate.
 <figure/planar-eps-converted-to.pdf, id=70, 599.23875pt x 651.43375pt>
 File: figure/planar-eps-converted-to.pdf Graphic file (type pdf)
 <use figure/planar-eps-converted-to.pdf>
-Package luatex.def Info: figure/planar-eps-converted-to.pdf  used on input line 54.
+Package luatex.def Info: figure/planar-eps-converted-to.pdf  used on input line 55.
 (luatex.def)             Requested size: 179.77301pt x 195.43163pt.
- [3
+Package epstopdf Info: Output file is already uptodate.
+<figure/logical_operator_planar-eps-converted-to.pdf, id=73, 770.88pt x 753.81625pt>
+File: figure/logical_operator_planar-eps-converted-to.pdf Graphic file (type pdf)
+<use figure/logical_operator_planar-eps-converted-to.pdf>
+Package luatex.def Info: figure/logical_operator_planar-eps-converted-to.pdf  used on input line 64.
+(luatex.def)             Requested size: 231.26578pt x 226.14662pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[3
 
 <./figure/logical_operator-eps-converted-to.pdf><./figure/planar-eps-converted-to.pdf>]
 Package epstopdf Info: Output file is already uptodate.
-<figure/logical_operator_planar-eps-converted-to.pdf, id=97, 770.88pt x 753.81625pt>
-File: figure/logical_operator_planar-eps-converted-to.pdf Graphic file (type pdf)
-<use figure/logical_operator_planar-eps-converted-to.pdf>
-Package luatex.def Info: figure/logical_operator_planar-eps-converted-to.pdf  used on input line 63.
-(luatex.def)             Requested size: 231.26578pt x 226.14662pt.
-Package epstopdf Info: Output file is already uptodate.
-<figure/rotated_surface_code-eps-converted-to.pdf, id=99, 1906.12125pt x 806.01125pt>
+<figure/rotated_surface_code-eps-converted-to.pdf, id=101, 1906.12125pt x 806.01125pt>
 File: figure/rotated_surface_code-eps-converted-to.pdf Graphic file (type pdf)
 <use figure/rotated_surface_code-eps-converted-to.pdf>
-Package luatex.def Info: figure/rotated_surface_code-eps-converted-to.pdf  used on input line 73.
+Package luatex.def Info: figure/rotated_surface_code-eps-converted-to.pdf  used on input line 74.
 (luatex.def)             Requested size: 476.52914pt x 201.50232pt.
 
 
@@ -1841,10 +1845,10 @@ Here is how much of LuaTeX's memory you used:
 
 warning  (pdf backend): unreferenced destination with name 'cite.0@kitaev1997'
 </usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on 4_surface_code.pdf (4 pages, 360942 bytes).
+Output written on 4_surface_code.pdf (4 pages, 360965 bytes).
 
-PDF statistics: 162 PDF objects out of 1000 (max. 8388607)
- 124 compressed objects within 2 object streams
+PDF statistics: 161 PDF objects out of 1000 (max. 8388607)
+ 123 compressed objects within 2 object streams
  17 named destinations out of 1000 (max. 131072)
  40 words of extra memory for PDF output out of 10000 (max. 100000000)
 

@@ -45,7 +45,7 @@
 
         \begin{figure}[h]
             \centering
-            \includegraphics[scale=0.30]{figure/looped_pipeline_surface_code.eps}
+            \includegraphics[scale=0.25]{figure/looped_pipeline_surface_code.eps}
             \vspace{0pt}\caption{Interactions within layers are enabled by interloop(dashed red line) interactions.}
             \label{looped_pipeline_surface_code}
             \vspace{-10pt}
@@ -65,7 +65,7 @@
 
         \begin{figure}[h]
             \centering
-            \includegraphics[scale=0.50]{figure/intraloop_interaction.eps}
+            \includegraphics[scale=0.45]{figure/intraloop_interaction.eps}
             \vspace{0pt}\caption{Intra-loop interaction (dashed red line) in the pipeline.}
             \label{intraloop_interaction}
             \vspace{-10pt}
@@ -75,8 +75,8 @@
 
         \begin{figure}[h]
             \centering
-            \includegraphics[scale=0.30]{figure/pipeline_to_surface.eps}
-            \vspace{0pt}\caption{}
+            \includegraphics[scale=0.25]{figure/pipeline_to_surface.eps}
+            \vspace{0pt}\caption{Looped pipelines can realize periodic stacks of surface codes, which we call pseudo-3D surface codes. The colors of qubits in the pipelines correspond to those of the pseudo-3D surface code.}
             \label{pipeline_to_surface}
             \vspace{-10pt}
         \end{figure}
@@ -89,18 +89,18 @@
 
         \begin{figure}[h]
             \centering
-            \includegraphics[scale=0.30]{figure/3D_advantage_distance.eps}
-            \vspace{10pt}\caption{}
+            \includegraphics[scale=0.25]{figure/3D_advantage_distance.eps}
+            \vspace{10pt}\caption{Comparison between 2D surface code routing and pseudo-3D surface code routing. The blue and orange lines represent lattice surgery operations. The pseudo-3D surface code uses fewer patches for the orange line than the 2D surface code.}
             \label{3D_advantage_distance}
             \vspace{-10pt}
         \end{figure}
-
+        \clearpage
         In Fig.~\ref{3D_advantage_parallel}, we are showing the parallelization advantage of the pseudo-3D Surface Code. When the blue operation in Fig.~\ref{3D_advantage_parallel} is being processed, the orange operation cannot be executed in the 2D Surface Code because there is no available route for the orange operation. However, in the pseudo-3D Surface Code, the orange operation can bypass the blue operation by utilizing the upper layer. Thus, the total time for executing the blue and orange operations is reduced in the pseudo-3D Surface Code compared to the 2D Surface Code.
 
         \begin{figure}[h]
             \centering
-            \includegraphics[scale=0.30]{figure/3D_advantage_parallel.eps}
-            \vspace{10pt}\caption{}
+            \includegraphics[scale=0.25]{figure/3D_advantage_parallel.eps}
+            \vspace{10pt}\caption{Comparison between 2D and pseudo-3D surface code routing. Blue and orange lines represent lattice surgery operations. In the pseudo-3D surface code, orange lines can operate in parallel with blue lines, whereas parallel operation is not possible in the 2D surface code. }
             \label{3D_advantage_parallel}
             \vspace{-10pt}
         \end{figure}

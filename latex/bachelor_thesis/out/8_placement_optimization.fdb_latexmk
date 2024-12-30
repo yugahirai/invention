@@ -1,13 +1,13 @@
 # Fdb version 4
-["biber out/8_placement_optimization"] 1734656662 "out/8_placement_optimization.bcf" "out/8_placement_optimization.bbl" "out/8_placement_optimization" 1734831552 0
-  "./utility/REFERENCES.bib" 1734171384 3666 b71fc559600c2e8fa068d1b65a51233c ""
-  "out/8_placement_optimization.bcf" 1734831551 106559 d297a74eb533a33b1f9ff3a3e2a95da9 "lualatex"
+["biber out/8_placement_optimization"] 1735533020 "out/8_placement_optimization.bcf" "out/8_placement_optimization.bbl" "out/8_placement_optimization" 1735533636 0
+  "./utility/REFERENCES.bib" 1735035743 3966 fb3dc96db17f93d7ddb0d067ba19cc4a ""
+  "out/8_placement_optimization.bcf" 1735533635 106559 d297a74eb533a33b1f9ff3a3e2a95da9 "lualatex"
   (generated)
   "out/8_placement_optimization.bbl"
   "out/8_placement_optimization.blg"
   (rewritten before read)
-["lualatex"] 1734831547 "/Users/hiraiyuuware/Desktop/invention/latex/bachelor_thesis/8_placement_optimization.tex" "out/8_placement_optimization.pdf" "8_placement_optimization" 1734831552 0
-  "/Users/hiraiyuuware/Desktop/invention/latex/bachelor_thesis/8_placement_optimization.tex" 1734831541 5201 462db37a61b869f48cd23fcd3d40a139 ""
+["lualatex"] 1735533630 "/Users/hiraiyuuware/Desktop/invention/latex/bachelor_thesis/8_placement_optimization.tex" "out/8_placement_optimization.pdf" "8_placement_optimization" 1735533636 0
+  "/Users/hiraiyuuware/Desktop/invention/latex/bachelor_thesis/8_placement_optimization.tex" 1735533625 5653 6f488a5159b102e8be5debdfdb3f3860 ""
   "/Users/hiraiyuuware/Library/texlive/2023/texmf-var/luatex-cache/generic/fonts/otl/haranoajigothic-medium.luc" 1698365046 1875369 563a49d56453118cc2bc098475a23186 ""
   "/Users/hiraiyuuware/Library/texlive/2023/texmf-var/luatex-cache/generic/fonts/otl/haranoajimincho-regular.luc" 1698365044 1961878 305e540f3545673854903467c3d18712 ""
   "/Users/hiraiyuuware/Library/texlive/2023/texmf-var/luatex-cache/generic/fonts/otl/lmmono10-regular.luc" 1698424751 81837 4defb7a479a5fd058bb0732d84253c7a ""
@@ -25,7 +25,7 @@
   "/Users/hiraiyuuware/Library/texlive/2023/texmf-var/luatex-cache/generic/fonts/otl/times-new-roman-bold.luc" 1726792380 530645 dc8e521bfba2ac9f69bfd264d90ad17b ""
   "/Users/hiraiyuuware/Library/texlive/2023/texmf-var/luatex-cache/generic/fonts/otl/times-new-roman-italic.luc" 1726792380 417865 0d45510be2f3aeb04e7dc0d12aab0948 ""
   "/Users/hiraiyuuware/Library/texlive/2023/texmf-var/luatex-cache/generic/fonts/otl/times-new-roman.luc" 1726792380 528748 4fecf6c10f8d63b755d5f5b76e8c6419 ""
-  "/Users/hiraiyuuware/Library/texlive/2023/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc" 1733545006 6813 ee1e647a4ee636a2b735e18fc806a731 ""
+  "/Users/hiraiyuuware/Library/texlive/2023/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc" 1735531575 3355 c6b8f23a6d066baba1d765ac895403c8 ""
   "/Users/hiraiyuuware/Library/texlive/2023/texmf-var/luatex-cache/generic/names/luaotfload-names.luc.gz" 1733459500 374882 77ca5cd310a275e9a326da5a5c6e0314 ""
   "/Users/hiraiyuuware/Library/texlive/2023/texmf-var/luatexja/extra_haranoajigothic-medium.luc" 1698365047 315734 82d8c2e10a3881160acaef05b987a71e ""
   "/Users/hiraiyuuware/Library/texlive/2023/texmf-var/luatexja/extra_haranoajimincho-regular.luc" 1698365044 316486 3b099056621ba8e72fc0c7fca02f108c ""
@@ -271,6 +271,7 @@
   "/usr/local/texlive/2023/texmf-dist/tex/latex/sttools/stfloats.sty" 1633983922 24057 ff20efb65b128d27c08eac20ec07f540 ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/svn-prov/svn-prov.sty" 1272330018 6852 44ea8d7e58290cde708a34ebf3953571 ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/titlesec/titlesec.sty" 1625518490 48833 3b7b4cfab1a3d15596bfd3772a77ab65 ""
+  "/usr/local/texlive/2023/texmf-dist/tex/latex/tocloft/tocloft.sty" 1578692495 36103 3e78d14f0f4b1a30560fea5e04de805d ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/tools/array.sty" 1667332637 12691 5b542990fe866f3d772f71346cf85b95 ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/tools/bm.sty" 1654720880 13231 b52297489a0e9d929aae403417d92a02 ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/tools/calc.sty" 1654720880 10214 de3e21cfc0eccc98ca7f8dac0ef263d2 ""
@@ -364,16 +365,16 @@
   "/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1698315186 4623355 b8cad38412faebe1ce5b780a45db67bd ""
   "/usr/local/texlive/2023/texmf-var/tex/generic/config/language.dat" 1678822458 6627 dc320a7c13e00300e5a0f696ef4294be ""
   "/usr/local/texlive/2023/texmf-var/web2c/luahbtex/lualatex.fmt" 1698315181 11879313 a5bc16eb0711a3492ea5fb8532ba3b3d ""
-  "8_placement_optimization.tex" 1734831541 5201 462db37a61b869f48cd23fcd3d40a139 ""
+  "8_placement_optimization.tex" 1735533625 5653 6f488a5159b102e8be5debdfdb3f3860 ""
   "data/edges.txt" 1734654128 898 ff0dd7080849c7372d9777b9c652fd31 ""
   "data/nodes.txt" 1734653500 244 7314c6d371a00732242732dd72dc42dd ""
   "figure/final_state.pdf" 1734658372 31709 060281587e15d1ea8ae8276400c1affe ""
   "figure/initial_state.pdf" 1734655993 31809 ff608bdb679f13573cc2033e4257d03d ""
-  "out/8_placement_optimization.aux" 1734831551 2306 df15a84ee9dcebeb99a604ca533f35ef "lualatex"
-  "out/8_placement_optimization.bbl" 1734656666 466 ee04f40f768daeed26442158e95aba61 "biber out/8_placement_optimization"
-  "out/8_placement_optimization.out" 1734831551 561 7a3052a1112cb4a60fab13aaef028a25 "lualatex"
-  "out/8_placement_optimization.run.xml" 1734831551 2488 9cfea08c7f5ced0ec0f3d86b94a86ce3 "lualatex"
-  "utility/SETTINGS.tex" 1734654398 3285 94bcd6e85e12326eee56800b33738245 ""
+  "out/8_placement_optimization.aux" 1735533635 3209 d9e3e00c9ca36a778a952800f9edc019 "lualatex"
+  "out/8_placement_optimization.bbl" 1735533024 466 ee04f40f768daeed26442158e95aba61 "biber out/8_placement_optimization"
+  "out/8_placement_optimization.out" 1735533635 561 7a3052a1112cb4a60fab13aaef028a25 "lualatex"
+  "out/8_placement_optimization.run.xml" 1735533635 2488 9cfea08c7f5ced0ec0f3d86b94a86ce3 "lualatex"
+  "utility/SETTINGS.tex" 1734833689 3406 61c241449b3af34221e4c99cabf4b9a3 ""
   (generated)
   "out/8_placement_optimization.aux"
   "out/8_placement_optimization.auxlock"
