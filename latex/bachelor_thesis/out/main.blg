@@ -1,17 +1,30 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'out/main.blg'
-[57] biber-darwin:340> INFO - === Tue Dec 24, 2024, 19:50:38
-[70] Biber.pm:419> INFO - Reading 'out/main.bcf'
-[172] Biber.pm:979> INFO - Found 12 citekeys in bib section 0
-[183] Biber.pm:4419> INFO - Processing section 0
-[191] Biber.pm:4610> INFO - Looking for bibtex file 'utility/REFERENCES.bib' for section 0
-[193] bibtex.pm:1713> INFO - LaTeX decoding ...
-[201] bibtex.pm:1519> INFO - Found BibTeX data source 'utility/REFERENCES.bib'
-[298] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[299] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[299] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[299] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
-[309] bbl.pm:660> INFO - Writing 'out/main.bbl' with encoding 'UTF-8'
-[319] bbl.pm:763> INFO - Output to out/main.bbl
-[319] Biber.pm:131> WARN - I didn't find a database entry for 'litinski2019' (section 0)
-[319] Biber.pm:133> INFO - WARNINGS: 1
+[70] biber-darwin:340> INFO - === Tue Dec 31, 2024, 17:50:15
+[88] Biber.pm:419> INFO - Reading 'out/main.bcf'
+[178] Biber.pm:979> INFO - Found 14 citekeys in bib section 0
+[194] Biber.pm:4419> INFO - Processing section 0
+[207] Biber.pm:4610> INFO - Looking for bibtex file 'utility/REFERENCES.bib' for section 0
+[209] bibtex.pm:1713> INFO - LaTeX decoding ...
+[225] bibtex.pm:1519> INFO - Found BibTeX data source 'utility/REFERENCES.bib'
+[492] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[492] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[492] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[492] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[512] bbl.pm:660> INFO - Writing 'out/main.bbl' with encoding 'UTF-8'
+[574] bbl.pm:763> INFO - Output to out/main.bbl
+[575] Biber.pm:131> WARN - legacy year field '(2024)' in entry 'bluvstein2024' is not an integer - this will probably not sort properly.
+[575] Biber.pm:131> WARN - legacy year field '(2024)' in entry 'google2024' is not an integer - this will probably not sort properly.
+[575] Biber.pm:131> WARN - legacy year field '(2012)' in entry 'horsman2012' is not an integer - this will probably not sort properly.
+[575] Biber.pm:131> WARN - legacy year field '(2019)' in entry 'litinski2019-2' is not an integer - this will probably not sort properly.
+[575] Biber.pm:131> WARN - legacy year field '(2024)' in entry 'gidney2024' is not an integer - this will probably not sort properly.
+[575] Biber.pm:131> WARN - legacy year field '(2023)' in entry 'cai2023' is not an integer - this will probably not sort properly.
+[575] Biber.pm:131> WARN - legacy year field '(2024)' in entry 'reichardt2024' is not an integer - this will probably not sort properly.
+[575] Biber.pm:131> WARN - legacy year field '(2013)' in entry 'devitt2013' is not an integer - this will probably not sort properly.
+[575] Biber.pm:131> WARN - legacy year field '(1998)' in entry 'gottesman1998' is not an integer - this will probably not sort properly.
+[575] Biber.pm:131> WARN - legacy year field '(2012)' in entry 'bravyi2012' is not an integer - this will probably not sort properly.
+[575] Biber.pm:131> WARN - legacy year field '(2019)' in entry 'litinski2019' is not an integer - this will probably not sort properly.
+[575] Biber.pm:131> WARN - legacy year field '(2010)' in entry 'nielsen2010' is not an integer - this will probably not sort properly.
+[575] Biber.pm:131> WARN - legacy year field '(1996)' in entry 'steane1996' is not an integer - this will probably not sort properly.
+[575] Biber.pm:131> WARN - I didn't find a database entry for 'kitaev1997' (section 0)
+[575] Biber.pm:133> INFO - WARNINGS: 14

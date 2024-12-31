@@ -47,12 +47,9 @@
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{arXiv preprint}
+      \field{journaltitle}{preprint arXiv:0905.2794}
       \field{title}{Quantum Error Correction for Beginners}
-      \field{year}{2013}
-      \verb{eprint}
-      \verb 0905.2794
-      \endverb
+      \field{year}{(2013)}
       \verb{urlraw}
       \verb https://arxiv.org/abs/0905.2794
       \endverb
@@ -78,17 +75,47 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{arXiv preprint}
+      \field{journaltitle}{preprint arXiv:quant-ph/9807006}
       \field{title}{The Heisenberg Representation of Quantum Computers}
-      \field{year}{1998}
-      \verb{eprint}
-      \verb quant-ph/9807006
-      \endverb
+      \field{year}{(1998)}
       \verb{urlraw}
       \verb https://arxiv.org/abs/quant-ph/9807006
       \endverb
       \verb{url}
       \verb https://arxiv.org/abs/quant-ph/9807006
+      \endverb
+    \endentry
+    \entry{bravyi2012}{article}{}
+      \name{author}{2}{}{%
+        {{hash=964ccce884d5c27e980e285b18d587cd}{%
+           family={Bravyi},
+           familyi={B\bibinitperiod},
+           given={Sergey},
+           giveni={S\bibinitperiod}}}%
+        {{hash=845f999abb01eff57f6c976b4c2c108c}{%
+           family={König},
+           familyi={K\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{4b0ffc3d7a98678903517edcd3fbafa2}
+      \strng{fullhash}{4b0ffc3d7a98678903517edcd3fbafa2}
+      \strng{bibnamehash}{4b0ffc3d7a98678903517edcd3fbafa2}
+      \strng{authorbibnamehash}{4b0ffc3d7a98678903517edcd3fbafa2}
+      \strng{authornamehash}{4b0ffc3d7a98678903517edcd3fbafa2}
+      \strng{authorfullhash}{4b0ffc3d7a98678903517edcd3fbafa2}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{preprint arXiv:1206.1609}
+      \field{title}{Classification of Topologically Protected Gates for Local Stabilizer Codes}
+      \field{year}{(2012)}
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/1206.1609
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/1206.1609
       \endverb
     \endentry
     \entry{litinski2019}{article}{}
@@ -105,14 +132,14 @@
       \strng{authorbibnamehash}{d837952f6e1a3c6b778bfffa0ff0f161}
       \strng{authornamehash}{d837952f6e1a3c6b778bfffa0ff0f161}
       \strng{authorfullhash}{d837952f6e1a3c6b778bfffa0ff0f161}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Quantum}
       \field{title}{Magic State Distillation: Not as Costly as You Think}
-      \field{volume}{3}
-      \field{year}{2019}
+      \field{volume}{\textbf{3}}
+      \field{year}{(2019)}
       \field{pages}{128}
       \range{pages}{1}
       \verb{urlraw}

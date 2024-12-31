@@ -49,9 +49,8 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{edition}{10th Anniversary Edition}
-      \field{isbn}{978-1-107-00217-3}
       \field{title}{Quantum Computation and Quantum Information}
-      \field{year}{2010}
+      \field{year}{(2010)}
       \verb{urlraw}
       \verb https://www.cambridge.org/9781107002173
       \endverb
@@ -77,12 +76,9 @@
       \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{arXiv preprint}
+      \field{journaltitle}{preprint arXiv:quant-ph/9605021}
       \field{title}{Simple Quantum Error Correcting Codes}
-      \field{year}{1996}
-      \verb{eprint}
-      \verb quant-ph/9605021
-      \endverb
+      \field{year}{(1996)}
       \verb{urlraw}
       \verb https://arxiv.org/abs/quant-ph/9605021
       \endverb

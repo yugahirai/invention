@@ -1,9 +1,0 @@
-[0] Config.pm:307> INFO - This is Biber 2.19
-[0] Config.pm:310> INFO - Logfile is 'out/acknowledgment.blg'
-[59] biber-darwin:340> INFO - === Sun Dec 22, 2024, 11:12:40
-[72] Biber.pm:419> INFO - Reading 'out/acknowledgment.bcf'
-[145] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
-[157] bbl.pm:660> INFO - Writing 'out/acknowledgment.bbl' with encoding 'UTF-8'
-[157] bbl.pm:763> INFO - Output to out/acknowledgment.bbl
-[157] Biber.pm:131> WARN - The file 'out/acknowledgment.bcf' does not contain any citations!
-[157] Biber.pm:133> INFO - WARNINGS: 1

@@ -2,12 +2,12 @@
 \input{utility/SETTINGS.tex}
 \begin{document}
 \section{Basics of Quantum Computation}{
-    \subsection{Qubits \cite{devitt2013}}\label{qubits}{
-        \ \ \ The fundamental unit of quantum information is the qubit. Unlike a classical bit, a qubit can exist in a coherent superposition of its two states, denoted as $\ket{0}$ and $\ket{1}$. These fundamental states are physically realized as charge states in superconducting circuits, the spin of an electron in quantum dots, or atomic spin states. An arbitrary state$\ket{\psi}$ for qubits are expressed as:
+    \subsection{Qubits}\label{qubits}{
+        \ \ \ In this section, we follow the definitions provided by \cite{devitt2013}. The fundamental unit of quantum information is the qubit. Unlike a classical bit, a qubit can exist in a coherent superposition of its two states, denoted as $\ket{0}$ and $\ket{1}$. These fundamental states are physically realized as charge states in superconducting circuits, the spin of an electron in quantum dots, or atomic spin states. An arbitrary state $\ket{\psi}$ for a qubit is expressed as:
         \begin{align}
             \ket{\psi}=\alpha\ket{0}+\beta\ket{1}
         \end{align}
-        where $\ket{0}$ and $\ket{1}$ are two orthogonal basis states in hilbert space $\mathcal{H}$ and $|\alpha|^2+|\beta|^2=1$. In the state vector representation, $\ket{0}$ and $\ket{1}$ are commonly expressed as:
+        where $\ket{0}$ and $\ket{1}$ are two orthogonal basis states in the Hilbert space $\mathcal{H}$, and $\alpha$ and $\beta$ are arbitrary complex numbers that satisfy $|\alpha|^2 + |\beta|^2 = 1$. In the state vector representation, $\ket{0}$ and $\ket{1}$ are commonly expressed as:
         \begin{align}
             \ket{0} =\left(\begin{array}{c}
                 1\\
@@ -18,7 +18,7 @@
                 1
             \end{array}\right).
         \end{align}
-        \ \ \ Unlike classical processing, quantum gates acting on the Hilbert space of qubits must conserve the probability of the qubit states and are therefore unitary. we can define individual qubit gate $I, X, Y$ and $Z$ called Pauli gate. These gates have the following properties:
+        \ \ \ Unlike classical processing, quantum gates acting on the Hilbert space of qubits must conserve the probability of the qubit states and are therefore unitary. We can define individual qubit gates $I$, $X$, $Y$, and $Z$ called Pauli gates. These gates have the following properties:
         \begin{align}
             &I\ket{0}=\ket{0},\ \ \ I\ket{1}=\ket{1},\nonumber\\
             &X\ket{0}=\ket{1},\ \ \ X\ket{1}=\ket{0},\\
@@ -65,13 +65,13 @@
         \begin{table}[h]
             \centering
             \caption{Representation of operators, gates, and matrices.}
-            \includegraphics[scale=0.65]{figure/clifford_and_nonclifford.eps}
+            \includegraphics[scale=0.60]{figure/clifford_and_nonclifford.eps}
             \label{clifford_and_nonclifford}
         \end{table}
 
         \clearpage
 
-        \ \ \ When we use only Clifford gates, we perform only Clifford operations. However, it has been proven that Clifford operations can be efficiently simulated on a classical computer, as stated in the Gottesman-Knill theorem \cite{gottesman1998}. To achieve quantum supremacy, we must use non-Clifford operations for universal computation. However, such non-Clifford operations are very costly because they cannot be error-corrected in quantum error correction theory. To implement non-Clifford operations, we must perform magic state distillation \cite{litinski2019}.
+        \ \ \ When only Clifford gates are used, only Clifford operations are performed. However, it has been proven that Clifford operations can be efficiently simulated on a classical computer, as stated in the Gottesman-Knill theorem \cite{gottesman1998}. To achieve quantum supremacy, non-Clifford operations are necessary for universal computation. However, such non-Clifford operations are very costly because they cannot be implemented solely through local operations in a 2D structure \cite{bravyi2012}. Therefore, magic state distillation \cite{litinski2019} must be performed to implement non-Clifford operations.\\
     }
 }
 

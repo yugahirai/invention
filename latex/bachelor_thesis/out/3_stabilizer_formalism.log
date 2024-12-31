@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.16.0 (TeX Live 2023)  (format=lualatex 2023.10.26)  22 DEC 2024 12:59
+This is LuaHBTeX, Version 1.16.0 (TeX Live 2023)  (format=lualatex 2023.10.26)  31 DEC 2024 18:02
  restricted system commands enabled.
 **/Users/hiraiyuuware/Desktop/invention/latex/bachelor_thesis/3_stabilizer_formalism.tex
 (/Users/hiraiyuuware/Desktop/invention/latex/bachelor_thesis/3_stabilizer_formalism.tex
@@ -1509,7 +1509,7 @@ Package: setspace 2022/12/04 v6.7b set line spacing
 \c@definition=\count519
 Package grfext Info: Graphics extension search list:
 (grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 96.
+(grfext)             \AppendGraphicsExtensions on input line 98.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/tocloft/tocloft.sty
 Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
 Package tocloft Info: The document has section divisions on input line 51.
@@ -1767,33 +1767,34 @@ LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
 (Font)              scaled to size 6.47295pt on input line 7.
 LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
 (Font)              scaled to size 4.62357pt on input line 7.
+(load cache: extra_lmroman10-italic.luc)
+LaTeX Font Info:    Font shape `JT3/mc/m/it' in size <10> not available
+(Font)              Font shape `JT3/mc/m/n' tried instead on input line 7.
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
-(Font)              scaled to size 6.47295pt on input line 10.
+(Font)              scaled to size 8.44485pt on input line 7.
+LaTeX Font Info:    Font shape `JY3/mc/m/it' in size <10> not available
+(Font)              Font shape `JY3/mc/m/n' tried instead on input line 7.
+LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
+(Font)              scaled to size 8.44485pt on input line 7.
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
-(Font)              scaled to size 4.62357pt on input line 10.
+(Font)              scaled to size 6.47295pt on input line 11.
+LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
+(Font)              scaled to size 4.62357pt on input line 11.
  [1
 
-{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}](load cache: extra_lmroman10-italic.luc)
-LaTeX Font Info:    Font shape `JT3/mc/m/it' in size <10> not available
-(Font)              Font shape `JT3/mc/m/n' tried instead on input line 24.
-LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
-(Font)              scaled to size 8.44485pt on input line 24.
-LaTeX Font Info:    Font shape `JY3/mc/m/it' in size <10> not available
-(Font)              Font shape `JY3/mc/m/n' tried instead on input line 24.
-LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 8.44485pt on input line 24.
+{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 Package epstopdf Info: Output file is already uptodate.
-<figure/encoding_repetition-eps-converted-to.pdf, id=45, 314.17375pt x 361.35pt>
+<figure/encoding_repetition-eps-converted-to.pdf, id=46, 314.17375pt x 361.35pt>
 File: figure/encoding_repetition-eps-converted-to.pdf Graphic file (type pdf)
 <use figure/encoding_repetition-eps-converted-to.pdf>
-Package luatex.def Info: figure/encoding_repetition-eps-converted-to.pdf  used on input line 41.
+Package luatex.def Info: figure/encoding_repetition-eps-converted-to.pdf  used on input line 42.
 (luatex.def)             Requested size: 125.66727pt x 144.53743pt.
  [2<./figure/encoding_repetition-eps-converted-to.pdf>] [3] [4]
 Package epstopdf Info: Output file is already uptodate.
 <figure/syndrome_measurement_circuit-eps-converted-to.pdf, id=84, 1358.07375pt x 874.26625pt>
 File: figure/syndrome_measurement_circuit-eps-converted-to.pdf Graphic file (type pdf)
 <use figure/syndrome_measurement_circuit-eps-converted-to.pdf>
-Package luatex.def Info: figure/syndrome_measurement_circuit-eps-converted-to.pdf  used on input line 140.
+Package luatex.def Info: figure/syndrome_measurement_circuit-eps-converted-to.pdf  used on input line 141.
 (luatex.def)             Requested size: 407.42526pt x 262.28189pt.
 \tf@thm=\write8
 
@@ -1807,12 +1808,12 @@ Package logreq Info: Writing requests to '3_stabilizer_formalism.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 41604 strings out of 478285
+ 41603 strings out of 478285
  244637,1977958 words of node,token memory allocated
  1460 words of node memory still in use:
    11 hlist, 2 vlist, 5 rule, 2 glue, 4 kern, 1 glyph, 248 attribute, 113 glue_spec, 34 attribute_list, 2 write, 14 user_defined nodes
-   avail lists: 1:51,2:53142,3:248,4:485,5:513,6:39,7:10812,8:46,9:950,10:12,11:903
- 60232 multiletter control sequences out of 65536+600000
+   avail lists: 1:51,2:53142,3:255,4:485,5:514,6:42,7:10660,8:46,9:950,10:12,11:880
+ 60231 multiletter control sequences out of 65536+600000
  79 fonts using 54506463 bytes
  118i,14n,118p,1848b,1764s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
@@ -1820,7 +1821,7 @@ warning  (pdf backend): unreferenced destination with name 'cite.0@steane1996'
 
 warning  (pdf backend): unreferenced destination with name 'cite.0@nielsen2010'
 </usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on 3_stabilizer_formalism.pdf (6 pages, 117628 bytes).
+Output written on 3_stabilizer_formalism.pdf (6 pages, 117757 bytes).
 
 PDF statistics: 157 PDF objects out of 1000 (max. 8388607)
  120 compressed objects within 2 object streams

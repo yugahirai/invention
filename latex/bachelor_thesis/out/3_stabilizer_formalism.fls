@@ -637,9 +637,9 @@ INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/euler/eurm5.t
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr7.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr5.tfm
-INPUT /usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT /Users/hiraiyuuware/Library/texlive/2023/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-italic.luc
 INPUT /Users/hiraiyuuware/Library/texlive/2023/texmf-var/luatexja/extra_lmroman10-italic.luc
+INPUT /usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT ./figure/encoding_repetition.eps
 INPUT ./figure/encoding_repetition-eps-converted-to.pdf
 INPUT ./figure/encoding_repetition-eps-converted-to.pdf

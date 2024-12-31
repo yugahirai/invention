@@ -2,12 +2,12 @@
 \input{utility/SETTINGS.tex}
 \begin{document}
 \section{Results}\label{results}{
-    \ \ \ Firstly, we perform numerical simulations of the pseudo-3D Surface Code, introduced in Section~\ref{pseudo_pseudo-three-dimensional_surface_code}, using a circuit that executes a 2D Heisenberg model and compare it to the 2D Surface Code. The results are presented in Fig.~\ref{results_of_pseudo_3D}, and a more complex system is shown in Fig.~\ref{results_of_pseudo_3D_1}. In these figures, the horizontal and vertical axes represent the instruction number and distance, respectively, where distance refers to the number of patches required for routing operations. Additionally, the 20 magic patches that produce T gates are aligned along $x = -1$, arranged from $y = 0$ to $y = 19$. The Breadth-First Search algorithm is used for routing in the following cases.
+    \ \ \ Firstly, we perform numerical simulations of the pseudo-3D Surface Code, introduced in Section~\ref{pseudo-three-dimensional_surface_code}, using a circuit that executes a 2D Heisenberg model and compare it to the 2D Surface Code. The results are presented in Fig.~\ref{results_of_pseudo_3D}, and a more complex system is shown in Fig.~\ref{results_of_pseudo_3D_1}. In these figures, the horizontal and vertical axes represent the instruction number and distance, respectively, where distance refers to the number of patches required for routing operations. Additionally, the 20 magic patches that produce T gates are aligned along $x = -1$, arranged from $y = 0$ to $y = 19$. The Breadth-First Search algorithm is used for routing in the following cases.
 
     \begin{figure}[h]
         \centering
         \includegraphics[scale=0.5]{figure/results_pseudo_3D.eps}
-        \vspace{-20pt}\caption{}
+        \vspace{-20pt}\caption{Results of executing the 2D Heisenberg model circuit in (left) a 2D surface code and (right) a pseudo-3D surface code. The averages are 8.18 for the 2D surface code and 5.36 for the pseudo-3D surface code.}
         \label{results_of_pseudo_3D}
     \end{figure}
 
@@ -16,7 +16,7 @@
     \begin{figure}[h]
         \centering
         \includegraphics[scale=0.5]{figure/results_pseudo_3D_1.eps}
-        \vspace{-20pt}\caption{}
+        \vspace{-20pt}\caption{Results of executing a more complex 2D Heisenberg model circuit in (left) a 2D surface code and (right) a pseudo-3D surface code. The averages are 18.64 for the 2D surface code and 9.74 for the pseudo-3D surface code.}
         \label{results_of_pseudo_3D_1}
     \end{figure}
 
@@ -26,17 +26,17 @@
     \begin{figure}[h]
         \centering
         \includegraphics[scale=0.5]{figure/placement_optimization_2D.eps}
-        \vspace{-20pt}\caption{}
+        \vspace{-20pt}\caption{Results of placement optimization for executing the 2D Heisenberg model circuit. (Left) Unoptimized cases in 2D surface codes. (Right) Optimized cases in 2D surface codes. Additionally, the bottom rows present results for more complex circuits compared to the top rows. The average values are 8.18 (left top), 5.18 (right top), 18.64 (left bottom), and 12.15 (right bottom).}
         \label{placement_optimization_2D}
     \end{figure}
 
+    \vspace{-5pt}
     \ \ \ In Fig.~\ref{placement_optimization_2D}, we obtained results showing that placement optimization decreases routing distances. Specifically, the average distance in the 2D optimized configuration was reduced to 5.18 for the smaller circuit and to 12.15 for the larger circuit, resulting in a 63\% improvement in the smaller circuit and a 65\% improvement in the larger circuit.
-    \clearpage
     
     \begin{figure}[h]
         \centering
         \includegraphics[scale=0.5]{figure/placement_optimization_3D.eps}
-        \vspace{-20pt}\caption{}
+        \vspace{-20pt}\caption{Results of placement optimization for executing the 2D Heisenberg model circuit. (Left) Unoptimized cases in pseudo-3D surface codes. (Right) Optimized cases in pseudo-3D surface codes. Additionally, the bottom rows present results for more complex circuits compared to the top rows. The average values are 5.36 (left top), 3.93 (right top), 9.74 (left bottom), and 6.28 (right bottom).}
         \label{placement_optimization_3D}
     \end{figure}
 
@@ -46,11 +46,11 @@
 
     \begin{figure}[h]
         \centering
-        \includegraphics[scale=0.60]{figure/graph_2D.eps}
-        \vspace{0pt}\caption{}
+        \includegraphics[scale=0.50]{figure/graph_2D.eps}
+        \vspace{0pt}\caption{Graph representation of patch placement for the 2D Heisenberg circuit within a 2D surface code. The lower graph illustrates a more complex circuit compared to the upper graph. The \texttt{MAGIC\_NODE} is fixed at the bottom left corner. Node labels correspond to the logical qubits in the circuit.}
         \label{graph_2D}
-        \includegraphics[scale=0.60]{figure/graph_3D.eps}
-        \vspace{-10pt}\caption{}
+        \includegraphics[scale=0.50]{figure/graph_3D.eps}
+        \vspace{-10pt}\caption{Graph representation of the placement of patches for the 2D Heisenberg circuit in a pseudo-3D surface code. The bottom graph depicts a more complex circuit than the top graph. The \texttt{MAGIC\_NODE} is fixed at coordinates $(-1, 0, 0)$. The names within the nodes correspond to the logical qubits in the circuit.}
         \label{graph_3D}
     \end{figure}
 }

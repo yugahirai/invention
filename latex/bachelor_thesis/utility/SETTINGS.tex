@@ -49,30 +49,32 @@
   \section*{REFERENCES}%
   \vspace{-7pt}  % ここで空白を調整。お好みの値に変更してください。
 }
+\DeclareFieldFormat[article]{title}{\mkbibemph{#1}} 
+\DeclareFieldFormat{pages}{#1}
+\renewcommand*{\newunitpunct}{\addcomma\space} % スペースを手動で追加
+\DeclareBibliographyDriver{article}{%
+  \usebibmacro{author/translator}%
+  \newunit
+  \printfield{title}%
+  \newunit
+  \usebibmacro{journal}%
+  \newunit
+  \printfield[volume]{volume}%
+  \newunit
+  \printfield{pages}%
+  \newunit
+  \usebibmacro{date}%
+  .
+}
+\AtEveryBibitem{%
+  \clearfield{doi}% DOIをクリア
+  \clearfield{url}% URLをクリア
+}
+
 \newfontfamily\subsectionfont{Times New Roman} % サブセクション用フォント
 \titleformat{\subsection}
   {\normalfont\large\bfseries} % サブセクションのフォントを指定
   {\thesubsection}{1em}{}
-\renewbibmacro{in:}{}
-\renewbibmacro*{journal+issuetitle}{%
-  \addcomma\space% カンマとスペースを追加
-  \usebibmacro{journal}%
-  \setunit*{\addspace}%
-  \usebibmacro{volume+number+eid}%
-  \setunit{\addspace}%
-  \printfield{note}%
-  \newunit
-}
-\renewbibmacro*{volume+number+eid}{
-  \printfield{volume}%
-  \setunit*{\addnbspace}%
-  \printfield{number}%
-  \setunit{\addcomma\space}%
-  \printfield{eid}
-}
-\DeclareFieldFormat[article]{volume}{\textbf{#1}}
-\DeclareFieldFormat[article]{pages}{#1}
-\DeclareFieldFormat{journaltitle}{#1}
 \usepackage{hyperref}
 \renewenvironment{abstract}{\par\noindent}{\par}
 %\pagenumbering{gobble}

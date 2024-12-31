@@ -1,9 +1,0 @@
-[0] Config.pm:307> INFO - This is Biber 2.19
-[0] Config.pm:310> INFO - Logfile is 'out/0_contents.blg'
-[62] biber-darwin:340> INFO - === Fri Dec 20, 2024, 11:12:38
-[77] Biber.pm:419> INFO - Reading 'out/0_contents.bcf'
-[150] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
-[162] bbl.pm:660> INFO - Writing 'out/0_contents.bbl' with encoding 'UTF-8'
-[162] bbl.pm:763> INFO - Output to out/0_contents.bbl
-[163] Biber.pm:131> WARN - The file 'out/0_contents.bcf' does not contain any citations!
-[163] Biber.pm:133> INFO - WARNINGS: 1
